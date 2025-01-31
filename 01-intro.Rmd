@@ -1,0 +1,57 @@
+# Introduction 
+
+The world is changing fast as we know that we enter a digital world 
+in a quick pace. For someone who wants to purse a career in 
+digital world as a programmer or software developer in web application
+understanding about the mechanism of how the web is running is crucial.
+
+According to StackOverflow, JavaScript is the most used programming
+language for creating web applications
+
+Salary
+
+The backbone of the webpage is HTML, CSS, and JavaScript
+
+The future of Javascript will be replaced by TypeScript?
+
+## Structured programming
+
+Classification of structured programming compare to another paradigm.
+
+## Motivation 
+
+Need for a new course plan. 
+The students in Information Systems needs a comprehensive book
+that mostly cover the fundamental of web programming.
+
+## How to learn
+
+Learning to code for someone who never to code before is hard.
+In my short suggestion, you need to immersive yourself such
+that your brain will try to find a pattern how to learn. 
+[Provide with fact about brain plasticity]
+
+You can use ChatGPT but there is a caveat. If you do not know
+the correct things, you will be dragged into oblivion of not knowing
+anything. But you can try the small things first and built on the top
+of it.
+Try to stick to the plan. If your plan does not work, try another plan.
+Learning programming is similar to learning arts, but you 
+heavily used logic than your muscle.
+
+## Short tips
+
+I think this short tips are not for everyone, but this is from
+my experience when dealing with my students who always complain
+that learn programming language is difficult, boring, and not rewarding.
+
+- It is never to be late to learn programming. JavaScript is not 
+  a best programming language, but pick one master it and after
+  that you can pick another programming language with ease. 
+  (except C or the family of low-level programming language, :D)
+- Please do not compare yourself to others, just compare yourself 
+  with your past time. Make a note, logbook, or any summary of your
+  work or study. This will be enhance your writing skills and
+  sharpen your mind to write something missing from the tutorial, books
+  or any resources. Your personal notes is your spell book.
+- 

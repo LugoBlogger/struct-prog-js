@@ -1,0 +1,16 @@
+# Functions
+
+## Some basics terminology in JavaScript\'s function
+
+## Function declaration
+
+## Function invocation
+
+## Function arguments and parameters
+
+## Function as values
+
+## Functional programming
+
+## Exercises {-}
+

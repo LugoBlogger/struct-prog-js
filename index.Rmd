@@ -1,0 +1,56 @@
+--- 
+title: "Structured Programming with JavaScript"
+author: "Henokh Lugo Hariyanto<br>Arif Wicaksono Septyanto"
+date: "2024/Aug/01"
+site: bookdown::bookdown_site
+documentclass: book
+bibliography: [book.bib, packages.bib]
+# url: your book url like https://bookdown.org/yihui/bookdown
+# cover-image: path to the social sharing image like images/cover.jpg
+description: |
+  This is a minimal example of using the bookdown package to write a book.
+  The HTML output format for this example is bookdown::gitbook,
+  set in the _output.yml file.
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+---
+
+# Prelude {-}
+
+```{r fig.align='center', echo=FALSE, include=identical(knitr:::pandoc_to(), 'html'), out.width="40%"}
+knitr::include_graphics('images/cover.png', dpi = NA)
+```
+
+This book will serve as a module for a course \"Structured Programming\"
+of Information System Study Program at Institut Teknologi Kalimantan.
+
+This book is mostly inspired by \"JavaScript Definitive Guide\".
+I can say that this book is very terse and hard to read but
+in the end it is very rewarding.
+
+I am also inspired by Eloquent JavaScript. This book shapes me
+to find out a practical example to think about subtle concepts
+of asynchronous. Thanks to the auhtor for his example of crow communication
+
+## Colophone {-}
+
+The cover image is downloaded from [\@jemberlandshape](https://www.instagram.com/p/B7Ad0_jAnz9/). 
+This image is the historical landmark of Jember Regency, 
+*Regentschap Water Leiding Bedrijf te Djember*.
+A water tower that had been built by the Dutch
+during the collonialism.
+
+
+<!-- :::: {style="display: flex;"}
+
+::: {.column width="100%"}
+
+:::
+
+::: {width="20%"}
+<img src=./images/cover.png width=500>
+:::
+
+:::: -->
+
+

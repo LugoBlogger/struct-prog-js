@@ -1,0 +1,15 @@
+# Your first time with JavaScript
+
+## A brief story about JavaScript
+
+## How to run JavaScript in the web browser
+
+## VSCode installation
+
+## `Node.js` installation
+
+## Running Javascript program in `Node.js`
+
+## Short tutorial of using Markdown
+
+## Exercise {-}

@@ -1,0 +1,23 @@
+# Arrays
+
+## Creating an array
+
+## Reading and writing elements of an array
+
+## Creating a sparse array
+
+## Determining the length of an array
+
+## Adding and removing elements of an array
+
+## Performing iteration to an array
+
+## Multidimensional array
+
+## Some useful methods in an array
+
+## Objects that is similar to array
+
+## Thinking a string as an array
+
+## Exercises {-}

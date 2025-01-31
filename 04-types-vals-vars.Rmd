@@ -1,0 +1,23 @@
+# Types, Values and Variables
+
+## Some important terms in types
+
+## Types: Number
+
+## Type: Text
+
+## Type: Boolean
+
+## Special type: `null` and `undefined`
+
+## Type: Symbols
+
+## Value: Global object
+
+## Type conversions
+
+## Variable declaration and assignment
+
+## Exercises {-}
+
+

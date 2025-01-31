@@ -1,0 +1,11 @@
+# JavaScript in Web Browser: Learning animation
+
+In this last chapter, we will learn to do animation of slot machine.
+
+I have inspired to write this chapter after hearing a lot about
+issue of online gambling in my country. Most of the game to be played
+is slot machine.
+
+The modified version of this program will be used as a sample
+of student ID number for selecting a participant in an activity
+during any of my lectures.

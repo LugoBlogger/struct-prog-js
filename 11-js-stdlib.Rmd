@@ -1,0 +1,11 @@
+# JavaScript Standard Library
+
+## Sets and Maps
+
+## Pattern Matching with Regular Expression
+
+## Dates and Times
+
+## Timers
+
+## Exercises {-}

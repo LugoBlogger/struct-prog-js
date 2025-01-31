@@ -1,0 +1,22 @@
+# Lexical Structures
+
+
+## Case sensitivity, spaces, and line breaks
+
+
+## Comments
+
+
+## Literals
+
+
+## Identifiers and Reserved Words
+
+
+## Unicode
+
+
+## Optional semicolons
+
+
+## Exercises {-}

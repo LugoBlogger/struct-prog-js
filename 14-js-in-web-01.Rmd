@@ -1,0 +1,11 @@
+# JavaScript in Web Browser: Tic-Tac-Toe and React
+
+## Setup environment
+
+## Short overview of Tic-Tac-Toe program and React
+
+## Finishing the base program of Tic-Tac-Toe
+
+## Additional features: "Time travel" for player's steps
+
+## Exercises {-}

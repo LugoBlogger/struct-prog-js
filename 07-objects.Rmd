@@ -1,0 +1,21 @@
+# Objects 
+
+## Creating an object
+
+## Querying and setting of a property 
+
+## Deleting a property
+
+## Testing the existence of a property
+
+## Enumerating object
+
+## Extending objects
+
+## Serializing objects
+
+## Built-in object methods
+
+## Additional syntaxes for literal objects
+
+## Exercises {-}
