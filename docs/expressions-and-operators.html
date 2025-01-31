@@ -12,7 +12,7 @@ set in the _output.yml file.</p>" />
 
   <meta property="og:title" content="5 Expressions and Operators | Structured Programming with JavaScript" />
   <meta property="og:type" content="book" />
-  
+  <meta property="og:image" content="https://github.com/LugoBlogger/struct-prog-js/blob/main/images/cover.png" />
   <meta property="og:description" content="<p>This is a minimal example of using the bookdown package to write a book.
 The HTML output format for this example is bookdown::gitbook,
 set in the _output.yml file.</p>" />
@@ -24,7 +24,7 @@ set in the _output.yml file.</p>" />
   <meta name="twitter:description" content="<p>This is a minimal example of using the bookdown package to write a book.
 The HTML output format for this example is bookdown::gitbook,
 set in the _output.yml file.</p>" />
-  
+  <meta name="twitter:image" content="https://github.com/LugoBlogger/struct-prog-js/blob/main/images/cover.png" />
 
 <meta name="author" content="Henokh Lugo Hariyanto Arif Wicaksono Septyanto" />
 
@@ -59,6 +59,71 @@ set in the _output.yml file.</p>" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
+<style type="text/css">
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
 
 <style type="text/css">
   
@@ -83,13 +148,14 @@ set in the _output.yml file.</p>" />
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Prelude</a>
 <ul>
-<li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#intended-reader"><i class="fa fa-check"></i><b>0.1</b> Intended reader</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#intended-reader"><i class="fa fa-check"></i>Intended reader</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#how-to-read-and-code"><i class="fa fa-check"></i>How to read (and code)</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#colophon"><i class="fa fa-check"></i>Colophon</a></li>
 </ul></li>
 <li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
 <ul>
 <li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#structured-programming"><i class="fa fa-check"></i><b>1.1</b> Structured programming</a></li>
-<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#motivation"><i class="fa fa-check"></i><b>1.2</b> Motivation</a></li>
+<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#the-goal-of-this-book"><i class="fa fa-check"></i><b>1.2</b> The goal of this book</a></li>
 <li class="chapter" data-level="1.3" data-path="introduction.html"><a href="introduction.html#how-to-learn"><i class="fa fa-check"></i><b>1.3</b> How to learn</a></li>
 <li class="chapter" data-level="1.4" data-path="introduction.html"><a href="introduction.html#short-tips"><i class="fa fa-check"></i><b>1.4</b> Short tips</a></li>
 </ul></li>
@@ -130,10 +196,11 @@ set in the _output.yml file.</p>" />
 <ul>
 <li class="chapter" data-level="5.1" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#primary-expression"><i class="fa fa-check"></i><b>5.1</b> Primary expression</a></li>
 <li class="chapter" data-level="5.2" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#operators"><i class="fa fa-check"></i><b>5.2</b> Operators</a></li>
-<li class="chapter" data-level="5.3" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#relational-expression"><i class="fa fa-check"></i><b>5.3</b> Relational expression</a></li>
-<li class="chapter" data-level="5.4" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#logical-expression"><i class="fa fa-check"></i><b>5.4</b> Logical expression</a></li>
-<li class="chapter" data-level="5.5" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#assignment-expression"><i class="fa fa-check"></i><b>5.5</b> Assignment expression</a></li>
-<li class="chapter" data-level="5.6" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#miscellaneous-operators"><i class="fa fa-check"></i><b>5.6</b> Miscellaneous operators</a></li>
+<li class="chapter" data-level="5.3" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#arithmetic-expression"><i class="fa fa-check"></i><b>5.3</b> Arithmetic expression</a></li>
+<li class="chapter" data-level="5.4" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#relational-expression"><i class="fa fa-check"></i><b>5.4</b> Relational expression</a></li>
+<li class="chapter" data-level="5.5" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#logical-expression"><i class="fa fa-check"></i><b>5.5</b> Logical expression</a></li>
+<li class="chapter" data-level="5.6" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#assignment-expression"><i class="fa fa-check"></i><b>5.6</b> Assignment expression</a></li>
+<li class="chapter" data-level="5.7" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#miscellaneous-operators"><i class="fa fa-check"></i><b>5.7</b> Miscellaneous operators</a></li>
 <li class="chapter" data-level="" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#exercises-2"><i class="fa fa-check"></i>Exercises</a></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="statements.html"><a href="statements.html"><i class="fa fa-check"></i><b>6</b> Statements</a>
@@ -217,9 +284,6 @@ set in the _output.yml file.</p>" />
 </ul></li>
 <li class="chapter" data-level="15" data-path="javascript-in-web-browser-learning-animation.html"><a href="javascript-in-web-browser-learning-animation.html"><i class="fa fa-check"></i><b>15</b> JavaScript in Web Browser: Learning animation</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
-<li class="divider"></li>
-<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-
 </ul>
 
       </nav>
@@ -239,23 +303,290 @@ set in the _output.yml file.</p>" />
             <section class="normal" id="section-">
 <div id="expressions-and-operators" class="section level1 hasAnchor" number="5">
 <h1><span class="header-section-number">5</span> Expressions and Operators<a href="expressions-and-operators.html#expressions-and-operators" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Ekspresi adalah suatu frasa (kumpulan kata-kata) JavaScript yang dapat
+<strong>dievaluasi</strong> (program JavaScript dapat diterjemahkan ke dalam bahasa mesin)
+untuk menghasilkan <strong>nilai dan/atau <em>side effects</em></strong>. Kata-kata dalam
+hal ini adalah sintaks (struktur leksikal) yang telah kita pelajari di
+pertemuan sebelumnya. Untuk <em>side effect</em> akan kita jelaskan pada bagian
+terakhir.</p>
+<p>Operator merupakan karakter atau kata kunci (<em>keyword</em>) yang digunakan
+untuk melakukan operasi antara satu, dua atau tiga <em>operand</em>.
+<em>Operand</em> bisa berupa <em>variables</em>, <em>values</em>, ataupun ekspresi</p>
+<p>Operator tidak bisa berdiri sendiri tanpa <em>operands</em> (ekspresi yang
+ingin kita operasikan), namun ekspresi dapat berdiri sendiri tanpa operator.</p>
+<p>Contoh ekspresi:
+- Nilai-nilai konstan. Contoh: <code>2</code>, <code>3.4</code>, <code>"hello"</code>, <code>true</code>
+- Nama dari suatu variabel
+- Akses array dengan indeks integers (kita akan pelajari di pertemuan
+berikutnya). Contoh: <code>a[0]</code>
+- Function invocation (pemanggilan fungsi; kita akan pelajari di
+pertemuan berikutnya). Contoh: <code>console.log("hello")</code>
+- Gabungan ekspresi dan operator menjadi ekspresi yang lebih kompleks</p>
+<p>Berikut adalah topik yang akan kita pelajari:
+- Ekspresi utama (<em>primary expressions</em>)
+- Operator dalam JavaScript
+- Ekspresi aritmatik
+- Ekspresi relasional
+- Ekspresi logika
+- Ekspresi pemberian nilai (<em>assignment expressions</em>)
+- Operator-operator yang lain</p>
 <div id="primary-expression" class="section level2 hasAnchor" number="5.1">
 <h2><span class="header-section-number">5.1</span> Primary expression<a href="expressions-and-operators.html#primary-expression" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Merupakan ekspresi yang paling sederhana dari semua ekspresi dan hanya
+memuat dirinya sendiri tanpa pendefinisian variable atau struktur lain.</p>
+<p><strong>primary-express-literals.js</strong></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb1-1"><a href="expressions-and-operators.html#cb1-1" tabindex="-1"></a><span class="co">// Tulis perintah berikut di console browser, atau node.js interactive </span></span>
+<span id="cb1-2"><a href="expressions-and-operators.html#cb1-2" tabindex="-1"></a><span class="fl">1.23</span>        <span class="co">// Sebuah literal bilangan</span></span>
+<span id="cb1-3"><a href="expressions-and-operators.html#cb1-3" tabindex="-1"></a><span class="st">&quot;hello&quot;</span>     <span class="co">// Sebuah literal string</span></span>
+<span id="cb1-4"><a href="expressions-and-operators.html#cb1-4" tabindex="-1"></a><span class="ss">/pattern/</span>   <span class="co">// Sebuah literal regular expression</span></span></code></pre></div>
+<p>Ekspresi utama untuk <em>regular expression</em> akan kita pelajari di pertemuan
+tentang JavaScript Standard Library.</p>
+<p><strong>primary-express-reserved-words.js</strong></p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb2-1"><a href="expressions-and-operators.html#cb2-1" tabindex="-1"></a><span class="co">// Tulis perintah berikut di console browser, atau node.js interactive </span></span>
+<span id="cb2-2"><a href="expressions-and-operators.html#cb2-2" tabindex="-1"></a><span class="kw">true</span><span class="op">;</span>       <span class="co">// Akan terevaluasi sebagai boolean bernilai true</span></span>
+<span id="cb2-3"><a href="expressions-and-operators.html#cb2-3" tabindex="-1"></a><span class="kw">false</span><span class="op">;</span>      <span class="co">// Akan terevaluasi sebagai boolean bernilai false</span></span>
+<span id="cb2-4"><a href="expressions-and-operators.html#cb2-4" tabindex="-1"></a><span class="kw">null</span><span class="op">;</span>       <span class="co">// Akan terevaluasi sebagai null</span></span>
+<span id="cb2-5"><a href="expressions-and-operators.html#cb2-5" tabindex="-1"></a><span class="kw">this</span><span class="op">;</span>       <span class="co">// Akan terevaluasi sebagai object yang didefinisikan saat itu </span></span></code></pre></div>
+<p><em>reserved word</em> <code>this</code> merupakan kata kunci khusus yang mengacu pada
+object dimana <code>this</code> itu dipanggil. Kita akan kembali mempelajari tentang
+<code>this</code> di pertemuan tentang <code>type</code>: <code>object</code>. Lebih dalam lagi akan
+dibahas di kuliah Pemrograman Berbasis Objek (SI-201-410).</p>
+<p><strong>primary-express-ref-to-var</strong></p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb3-1"><a href="expressions-and-operators.html#cb3-1" tabindex="-1"></a><span class="co">// Tulis perintah berikut di console browser, atau node.js interactive </span></span>
+<span id="cb3-2"><a href="expressions-and-operators.html#cb3-2" tabindex="-1"></a><span class="kw">let</span> i <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb3-3"><a href="expressions-and-operators.html#cb3-3" tabindex="-1"></a><span class="kw">let</span> sum <span class="op">=</span> <span class="dv">100</span><span class="op">;</span></span>
+<span id="cb3-4"><a href="expressions-and-operators.html#cb3-4" tabindex="-1"></a></span>
+<span id="cb3-5"><a href="expressions-and-operators.html#cb3-5" tabindex="-1"></a>i<span class="op">;</span></span>
+<span id="cb3-6"><a href="expressions-and-operators.html#cb3-6" tabindex="-1"></a>sum<span class="op">;</span></span>
+<span id="cb3-7"><a href="expressions-and-operators.html#cb3-7" tabindex="-1"></a><span class="kw">undefined</span><span class="op">;</span></span></code></pre></div>
 </div>
 <div id="operators" class="section level2 hasAnchor" number="5.2">
 <h2><span class="header-section-number">5.2</span> Operators<a href="expressions-and-operators.html#operators" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Di dalam JavaScript, operator umumnya diwakili oleh karakter tanda baca
+seperti <code>+</code>, <code>-</code>, <code>*</code>, <code>/</code>. Beberapa juga diwakili oleh kata kunci seperti
+<code>delete</code> dan <code>typeof</code>. Pada pertemuan sebelumnya kita sudah seringkali
+menggunakan <code>typeof</code> yang dipanggil sebagai fungsi <code>typeof()</code>.
+Sebagai operator, <code>typeof</code> juga bisa dipanggil dengan cara: <code>typeof arg</code>.
+<code>arg</code> dapat diganti dengan primitive values atau object.</p>
 </div>
-<div id="relational-expression" class="section level2 hasAnchor" number="5.3">
-<h2><span class="header-section-number">5.3</span> Relational expression<a href="expressions-and-operators.html#relational-expression" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="arithmetic-expression" class="section level2 hasAnchor" number="5.3">
+<h2><span class="header-section-number">5.3</span> Arithmetic expression<a href="expressions-and-operators.html#arithmetic-expression" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Ekspresi aritmatika yang umum seperti penjumlahan, penguarang, perkalian,
+dan pembagian diwakili oleh <code>+</code>, <code>-</code>, <code>*</code>, dan <code>/</code>, berturut-turut.
+Dua tambahan lagi adalah pemangkatan <code>**</code> dan perhitungan nilai sisa
+(modulo) <code>%</code></p>
+<ul>
+<li><p>Operator dapat dikategorikan dari jumlah <em>operands</em>: <em>unary</em>, <em>binary</em>,
+dan <em>ternary operator</em></p></li>
+<li><p>Khusus operator unary operator increment (++) dan decrement (–)
+memiliki side effect terhadap evaluasi kode di baris berikutnya.
+Side effect merupakan akibat yang terjadi diluar hasil yang diberikan
+oleh program.</p></li>
+<li><p>Setiap operator memiliki level <em>precedence</em>. Level ini menunjukkan
+operator manakah yang akan dievaluasi terlebih dahulu. Seperti
+perkalian dievaluasi terlebih dari daripada penjumlahan.</p></li>
+<li><p>Operator juga memiliki sifat asosiatif. Artinya apabila dua operator
+yang sama digunakan berturut-turut maka sifat asosiatif menentukan
+bagian manakah yang dievaluasi terlebih dahulu;</p>
+<p><strong>associative.js</strong></p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb4-1"><a href="expressions-and-operators.html#cb4-1" tabindex="-1"></a><span class="kw">let</span> x <span class="op">=</span> <span class="dv">1</span><span class="op">,</span> y <span class="op">=</span> <span class="dv">2</span><span class="op">,</span> z <span class="op">=</span> <span class="dv">3</span><span class="op">;</span></span>
+<span id="cb4-2"><a href="expressions-and-operators.html#cb4-2" tabindex="-1"></a><span class="kw">let</span> w1 <span class="op">=</span> x <span class="op">-</span> y <span class="op">-</span> z<span class="op">;</span></span>
+<span id="cb4-3"><a href="expressions-and-operators.html#cb4-3" tabindex="-1"></a><span class="kw">let</span> w2 <span class="op">=</span> ((x <span class="op">-</span> y) <span class="op">-</span> z)<span class="op">;</span></span>
+<span id="cb4-4"><a href="expressions-and-operators.html#cb4-4" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(w1<span class="op">,</span> w2)</span></code></pre></div>
+<p><strong>arithmetic-js</strong></p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb5-1"><a href="expressions-and-operators.html#cb5-1" tabindex="-1"></a><span class="co">// Perintah berikut dijalankan di browser console atau node.js mode interactive</span></span>
+<span id="cb5-2"><a href="expressions-and-operators.html#cb5-2" tabindex="-1"></a><span class="dv">1</span> <span class="op">+</span> <span class="dv">2</span><span class="op">;</span></span>
+<span id="cb5-3"><a href="expressions-and-operators.html#cb5-3" tabindex="-1"></a><span class="st">&quot;hello&quot;</span> <span class="op">+</span> <span class="st">&quot; &quot;</span> <span class="op">+</span> <span class="st">&quot;there&quot;</span></span>
+<span id="cb5-4"><a href="expressions-and-operators.html#cb5-4" tabindex="-1"></a><span class="st">&quot;1&quot;</span> <span class="op">+</span> <span class="st">&quot;2&quot;</span><span class="op">;</span></span>
+<span id="cb5-5"><a href="expressions-and-operators.html#cb5-5" tabindex="-1"></a><span class="dv">2</span><span class="op">**</span><span class="dv">3</span><span class="op">;</span></span>
+<span id="cb5-6"><a href="expressions-and-operators.html#cb5-6" tabindex="-1"></a><span class="dv">5</span> <span class="op">%</span> <span class="dv">2</span></span>
+<span id="cb5-7"><a href="expressions-and-operators.html#cb5-7" tabindex="-1"></a><span class="op">-</span><span class="dv">5</span> <span class="op">%</span> <span class="dv">2</span></span>
+<span id="cb5-8"><a href="expressions-and-operators.html#cb5-8" tabindex="-1"></a><span class="fl">6.5</span> <span class="op">%</span> <span class="fl">2.1</span></span></code></pre></div></li>
+<li><p><em>Unary arithmetic operators</em>
+Merupakan operator aritmatik yang memiliki satu operand (<em>unary</em>).
+<strong>unary-arithmetic.js</strong></p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb6-1"><a href="expressions-and-operators.html#cb6-1" tabindex="-1"></a><span class="co">// Jalankan program berikut di browser console atau node.js mode interactive</span></span>
+<span id="cb6-2"><a href="expressions-and-operators.html#cb6-2" tabindex="-1"></a><span class="op">+</span><span class="dv">2</span><span class="op">;</span></span>
+<span id="cb6-3"><a href="expressions-and-operators.html#cb6-3" tabindex="-1"></a><span class="op">-</span><span class="dv">2</span><span class="op">;</span></span>
+<span id="cb6-4"><a href="expressions-and-operators.html#cb6-4" tabindex="-1"></a></span>
+<span id="cb6-5"><a href="expressions-and-operators.html#cb6-5" tabindex="-1"></a><span class="kw">let</span> i <span class="op">=</span> <span class="dv">1</span><span class="op">,</span> j <span class="op">=</span> <span class="op">++</span>i<span class="op">;</span></span>
+<span id="cb6-6"><a href="expressions-and-operators.html#cb6-6" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(i<span class="op">,</span> j)<span class="op">;</span></span>
+<span id="cb6-7"><a href="expressions-and-operators.html#cb6-7" tabindex="-1"></a></span>
+<span id="cb6-8"><a href="expressions-and-operators.html#cb6-8" tabindex="-1"></a><span class="kw">let</span> n <span class="op">=</span> <span class="dv">1</span><span class="op">,</span> m <span class="op">=</span> n<span class="op">++;</span></span>
+<span id="cb6-9"><a href="expressions-and-operators.html#cb6-9" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(n<span class="op">,</span> m)<span class="op">;</span></span></code></pre></div></li>
+<li><p><em>Bitwise operators</em>
+Merupakan operator yang melakukan manipulasi bits dari representasi
+bilangan di komputer. Bilangan yang dikenai operator ini akan berubah
+menjadi bilangan baru, yang hasilnya bilangan baru ini dapat kita
+telusuri setelah kita memecah proses <em>bitwise operator</em>.</p>
+<p><strong>bitwise-op.js</strong></p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb7-1"><a href="expressions-and-operators.html#cb7-1" tabindex="-1"></a><span class="co">// Jalankan program berikut di browser console atau node.js mode interaktif</span></span>
+<span id="cb7-2"><a href="expressions-and-operators.html#cb7-2" tabindex="-1"></a><span class="bn">0x1234</span> <span class="op">&amp;</span> <span class="bn">0x00FF</span><span class="op">;</span>    <span class="co">// =&gt; 0x0034  (Bitwise AND)</span></span>
+<span id="cb7-3"><a href="expressions-and-operators.html#cb7-3" tabindex="-1"></a><span class="bn">0x1234</span> <span class="op">|</span> <span class="bn">0x00FF</span><span class="op">;</span>    <span class="co">// =&gt; 0x12FF  (Bitwise OR)</span></span>
+<span id="cb7-4"><a href="expressions-and-operators.html#cb7-4" tabindex="-1"></a><span class="bn">0xFF00</span> <span class="op">^</span> <span class="bn">0xF0F0</span><span class="op">;</span>    <span class="co">// =&gt; 0x0FF0  (Bitwise XOR)</span></span>
+<span id="cb7-5"><a href="expressions-and-operators.html#cb7-5" tabindex="-1"></a><span class="op">~</span><span class="bn">0x0F</span><span class="op">;</span>              <span class="co">// =&gt; 0xFFFFFFF0   (Bitwise NOT)</span></span>
+<span id="cb7-6"><a href="expressions-and-operators.html#cb7-6" tabindex="-1"></a><span class="dv">3</span> <span class="op">&lt;&lt;</span> <span class="dv">1</span><span class="op">;</span>             <span class="co">// =&gt; 6: 011 &lt;&lt; 1 === 110 = 1*4 + 1*2 + 1*1 = 6</span></span>
+<span id="cb7-7"><a href="expressions-and-operators.html#cb7-7" tabindex="-1"></a><span class="dv">7</span> <span class="op">&gt;&gt;</span> <span class="dv">1</span><span class="op">;</span>             <span class="co">// =&gt; 3: 111 &gt;&gt; 1 === 011 = 0*4 + 1*2 + 1*1 = 3</span></span></code></pre></div>
+<p>Untuk memahami proses Bitwise NOT perlu pembahasan lebih lanjut terkait
+Two’s complement yang merupakan topik di luar jangkauan mata kuliah ini.</p></li>
+</ul>
 </div>
-<div id="logical-expression" class="section level2 hasAnchor" number="5.4">
-<h2><span class="header-section-number">5.4</span> Logical expression<a href="expressions-and-operators.html#logical-expression" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="relational-expression" class="section level2 hasAnchor" number="5.4">
+<h2><span class="header-section-number">5.4</span> Relational expression<a href="expressions-and-operators.html#relational-expression" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Merupakan ekspresi yang menguji relasi antara dua nilai dan menghasilkan
+nilai Boolean <code>true</code> atau <code>false</code>
+- <em>equality</em> dan <em>inequality operators</em>
+Ada dua operator kesamaan di dalam JavaScript: <code>==</code> and <code>===</code>.
+Yang pertama <code>==</code> (dua tanda sama dengan ) memperbolehkan adanya
+type conversion. Yang kedua <code>===</code> (tiga tanda sama dengan)
+tidak memperbolehkan adanya type conversion.
+Demikian pula untuk operator ketidaksamaan: <code>!=</code> dan <code>!==</code>.</p>
+<p><strong>equality-and-strict-equal.js</strong>
+<code>js   // Jalankan program berikut di browser console atau node.js mode interaktif   "1" == true;   "1" === true;</code></p>
+<ul>
+<li><p><em>comparsion operator</em>
+Merupakan operator yang yang membandingkan dua buah nilai.
+Ada 4 operator komparasi: <em>less than</em> (<code>&lt;</code>), <em>greater than</em> (<code>&gt;</code>),
+<em>less than or equal</em> (<code>&lt;=</code>), dan <em>greater than or equal</em> (<code>&gt;=</code>)</p>
+<p><strong>comparison-op.js</strong></p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb8-1"><a href="expressions-and-operators.html#cb8-1" tabindex="-1"></a><span class="co">// Jalankan program berikut di browser console atau node.js mode interaktif</span></span>
+<span id="cb8-2"><a href="expressions-and-operators.html#cb8-2" tabindex="-1"></a><span class="dv">11</span> <span class="op">&lt;</span> <span class="dv">3</span><span class="op">;</span>         <span class="co">// =&gt; false; perbandingan numerik </span></span>
+<span id="cb8-3"><a href="expressions-and-operators.html#cb8-3" tabindex="-1"></a><span class="st">&quot;11&quot;</span> <span class="op">&lt;</span> <span class="st">&quot;3&quot;</span><span class="op">;</span>     <span class="co">// =&gt; true; perbandingan string </span></span>
+<span id="cb8-4"><a href="expressions-and-operators.html#cb8-4" tabindex="-1"></a><span class="st">&quot;11&quot;</span> <span class="op">&lt;</span> <span class="dv">3</span><span class="op">;</span>       <span class="co">// =&gt; false; perbandingan numerik; &quot;11&quot; -&gt; 11</span></span>
+<span id="cb8-5"><a href="expressions-and-operators.html#cb8-5" tabindex="-1"></a><span class="st">&quot;one&quot;</span> <span class="op">&lt;</span> <span class="dv">3</span><span class="op">;</span>      <span class="co">// =&gt; false; perbandingan numerik; &quot;one&quot; -&gt; NaN</span></span></code></pre></div></li>
+<li><p>operator <code>in</code> dan <code>instanceof</code></p>
+<p>Operator <code>in</code> digunakan untuk menguji apakah suatu nilai
+terdapat pada objek lain.</p>
+<p><strong>in-operator.js</strong></p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb9-1"><a href="expressions-and-operators.html#cb9-1" tabindex="-1"></a><span class="kw">let</span> point <span class="op">=</span> {<span class="dt">x</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="dv">1</span>}<span class="op">;</span>   <span class="co">// Mendefinisikan objek </span></span>
+<span id="cb9-2"><a href="expressions-and-operators.html#cb9-2" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;x&quot;</span> <span class="kw">in</span> point)<span class="op">;</span></span>
+<span id="cb9-3"><a href="expressions-and-operators.html#cb9-3" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;z&quot;</span> <span class="kw">in</span> point)</span>
+<span id="cb9-4"><a href="expressions-and-operators.html#cb9-4" tabindex="-1"></a></span>
+<span id="cb9-5"><a href="expressions-and-operators.html#cb9-5" tabindex="-1"></a><span class="kw">let</span> data <span class="op">=</span> [<span class="dv">7</span><span class="op">,</span> <span class="dv">8</span><span class="op">,</span> <span class="dv">9</span>]<span class="op">;</span>       <span class="co">// Mendefinisikan array</span></span>
+<span id="cb9-6"><a href="expressions-and-operators.html#cb9-6" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;0&quot;</span> <span class="kw">in</span> data)<span class="op">;</span></span>
+<span id="cb9-7"><a href="expressions-and-operators.html#cb9-7" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="dv">1</span> <span class="kw">in</span> data)<span class="op">;</span></span>
+<span id="cb9-8"><a href="expressions-and-operators.html#cb9-8" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="dv">3</span> <span class="kw">in</span> data)<span class="op">;</span></span></code></pre></div>
+<p>Operator <code>instanceof</code> merupakan operator untuk menguji apakah
+suat variable yang memiliki nilai merupakan instance class
+dari suatu class prototype. Bahasan ini diluar jangkauan mata kuliah
+ini dan akan dipelajari dalam mata kuliah Pemrograman Berbasis Objek.</p></li>
+</ul>
 </div>
-<div id="assignment-expression" class="section level2 hasAnchor" number="5.5">
-<h2><span class="header-section-number">5.5</span> Assignment expression<a href="expressions-and-operators.html#assignment-expression" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="logical-expression" class="section level2 hasAnchor" number="5.5">
+<h2><span class="header-section-number">5.5</span> Logical expression<a href="expressions-and-operators.html#logical-expression" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Merupakan ekspresi untuk mewakili aljabar Boolean (ingat kembali
+pembahasan aljabar Boolean di kelas Matematika Diskrit)</p>
+<ul>
+<li><p>Logika AND (<code>&amp;&amp;</code>)<br />
+Operator logika yang memberikan nilai <code>true</code> jika dan hanya jika
+<em>operand</em> pertama <strong>dan</strong> kedua bernilai <code>true</code>,
+selain itu memberikan nilai <code>false</code></p></li>
+<li><p>Logika OR (<code>||</code>)<br />
+Operator logika yang memberikan nilai <code>true</code> jika dan hanya jika
+<em>operand</em> pertama <strong>atau</strong> kedua bernilai <code>true</code> (dan kedua-duanya
+<code>true</code>). Selain itu memberikan nilai <code>false</code>.`</p></li>
+<li><p>Logika NOT (<code>!</code>)<br />
+Operator logika yang memberikan nilai sebaliknya dari nilai yang
+dimilikinya. <code>true</code> menjadi <code>false</code>, <code>false</code> menjadi <code>true</code>.</p></li>
+</ul>
 </div>
-<div id="miscellaneous-operators" class="section level2 hasAnchor" number="5.6">
-<h2><span class="header-section-number">5.6</span> Miscellaneous operators<a href="expressions-and-operators.html#miscellaneous-operators" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="assignment-expression" class="section level2 hasAnchor" number="5.6">
+<h2><span class="header-section-number">5.6</span> Assignment expression<a href="expressions-and-operators.html#assignment-expression" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Di dalam JavaScript, pemberian nilai ke suatu variable atau <em>property</em>
+(property akan dibahas lebih lanjut di pertemuan tentangn Objek)
+menggunakan tanda sama dengan (<code>=</code>). Tanda sama dengan ini berbeda makna
+secara matematis bahwa sama dengan mewakili kesamaan nilai ruas kanan
+dan ruas kiri. Di dalam <em>pseudocode</em> atau bahasa pemrograman lainnya
+(F#, OCaml, R, S) biasanya diwakili dengan tanda panah ke kiri (<code>&lt;--</code>)</p>
+<p><strong>assignment-op.js</strong></p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb10-1"><a href="expressions-and-operators.html#cb10-1" tabindex="-1"></a><span class="kw">let</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span>          <span class="co">// Memberi nilai variable i dengan bilangan bulat 0</span></span>
+<span id="cb10-2"><a href="expressions-and-operators.html#cb10-2" tabindex="-1"></a><span class="kw">let</span> j <span class="op">=</span> k <span class="op">=</span> l <span class="op">=</span> <span class="dv">1</span><span class="op">;</span>  <span class="co">// Memberi nilai ke tiga variables j, k, l dengan </span></span>
+<span id="cb10-3"><a href="expressions-and-operators.html#cb10-3" tabindex="-1"></a>                    <span class="co">// bilangan bulat 1</span></span>
+<span id="cb10-4"><a href="expressions-and-operators.html#cb10-4" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(i<span class="op">,</span> j<span class="op">,</span> k<span class="op">,</span> l)<span class="op">;</span></span></code></pre></div>
+<p>Kita juga dapat melakukan pengabungan <em>assignment operator</em> dengan
+<em>strict equality operator</em></p>
+<p><strong>compound-assign-op.js</strong></p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb11-1"><a href="expressions-and-operators.html#cb11-1" tabindex="-1"></a><span class="kw">let</span> a <span class="op">=</span> <span class="dv">1</span><span class="op">;</span></span>
+<span id="cb11-2"><a href="expressions-and-operators.html#cb11-2" tabindex="-1"></a><span class="kw">let</span> b <span class="op">=</span> <span class="dv">2</span><span class="op">;</span></span>
+<span id="cb11-3"><a href="expressions-and-operators.html#cb11-3" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>((a <span class="op">=</span> b) <span class="op">===</span> <span class="dv">2</span>)<span class="op">;</span>   <span class="co">// (a = b) akan memberikan keluaran akhir 2</span></span>
+<span id="cb11-4"><a href="expressions-and-operators.html#cb11-4" tabindex="-1"></a>                              <span class="co">// sehingga yang tercetak di console adalah `true`</span></span></code></pre></div>
+<p>Operator pemberian nilai dapat dikombinasikan dengan beberapa operator
+untuk menghemat penulisan
+- <code>a += b</code> setara dengan <code>a = a + b</code>;
+- <code>a -= b</code> setara dengan <code>a = a - b</code>;
+- <code>a *= b</code> setara dengan <code>a = a * b</code>;
+- <code>a /= b</code> setara dengan <code>a = a / b</code>;
+- <code>a **= b</code> setara dengan <code>a = a ** b</code>;
+- <code>a %=</code> setara dengan <code>a = a % b</code>;</p>
+</div>
+<div id="miscellaneous-operators" class="section level2 hasAnchor" number="5.7">
+<h2><span class="header-section-number">5.7</span> Miscellaneous operators<a href="expressions-and-operators.html#miscellaneous-operators" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Ada beberapa operator-operator yang lain yang perlu kita ketahui.
+- <em>Conditional operator</em> (<code>?:</code>)<br />
+Operator ini termasuk ke dalam kategori <code>ternary operatory</code> karena
+memerlukan tiga <em>operands</em>. Operator ini adalah operator lain
+yang mewakili struktur kendali (<em>control flow</em>) untuk <code>if-else</code>.</p>
+<p><strong>conditional-op.js</strong>
+```js
+let username = “Anastashia”; // change to empty string to se the effect</p>
+<p>let greeting1 = “hello” + (username ? username : “there”);</p>
+<p>// Coding di atas setara dengan
+let greeting2 = “hello”;
+if (username) {
+greeting2 += username;
+} else {
+greeting2 += “there”;
+}
+```</p>
+<ul>
+<li><p><em>First-Defined operator</em> (<code>??</code>)<br />
+Merupakan <code>binary operator</code> yang akan mengevaluasi <em>operands</em> manakah
+yang terdefinisi (memiliki nilai boolean truthy).</p>
+<p><strong>first-defined-op.js</strong></p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb12-1"><a href="expressions-and-operators.html#cb12-1" tabindex="-1"></a><span class="kw">let</span> a <span class="op">=</span> <span class="dv">1</span><span class="op">,</span> b <span class="op">=</span> <span class="dv">2</span><span class="op">,</span> c <span class="op">=</span> <span class="dv">3</span><span class="op">,</span> d <span class="op">=</span> <span class="dv">4</span><span class="op">;</span></span>
+<span id="cb12-2"><a href="expressions-and-operators.html#cb12-2" tabindex="-1"></a><span class="kw">let</span> min <span class="op">=</span> a <span class="op">??</span> b <span class="op">??</span> c <span class="op">??</span> d<span class="op">;</span></span>
+<span id="cb12-3"><a href="expressions-and-operators.html#cb12-3" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(min)<span class="op">;</span>     <span class="co">// =&gt; 1</span></span>
+<span id="cb12-4"><a href="expressions-and-operators.html#cb12-4" tabindex="-1"></a></span>
+<span id="cb12-5"><a href="expressions-and-operators.html#cb12-5" tabindex="-1"></a>a <span class="op">=</span> <span class="kw">undefined</span><span class="op">;</span></span>
+<span id="cb12-6"><a href="expressions-and-operators.html#cb12-6" tabindex="-1"></a>min <span class="op">=</span> a <span class="op">??</span> b <span class="op">??</span> c <span class="op">??</span> d<span class="op">;</span></span>
+<span id="cb12-7"><a href="expressions-and-operators.html#cb12-7" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(min)<span class="op">;</span>     <span class="co">// =&gt; 2; undefined </span></span></code></pre></div>
+<p>Contoh penggunaan untuk pengaturan ukuran</p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb13-1"><a href="expressions-and-operators.html#cb13-1" tabindex="-1"></a><span class="co">// Jika maxWidth telah didefinisikan, gunakan pengaturan itu</span></span>
+<span id="cb13-2"><a href="expressions-and-operators.html#cb13-2" tabindex="-1"></a><span class="co">// Jika tidak gunakan pengaturan di objek preferences</span></span>
+<span id="cb13-3"><a href="expressions-and-operators.html#cb13-3" tabindex="-1"></a><span class="co">// Jika keduanya tidak terpenuhi gunakan pengaturan default</span></span>
+<span id="cb13-4"><a href="expressions-and-operators.html#cb13-4" tabindex="-1"></a><span class="kw">let</span> max <span class="op">=</span> maxWidth <span class="op">??</span> preferences<span class="op">.</span><span class="at">maxWidth</span> <span class="op">??</span> <span class="dv">500</span><span class="op">;</span></span></code></pre></div></li>
+<li><p><code>typeof</code> dan <code>delete</code> operator
+Operator <code>typeof</code> merupakan <em>unary operatory</em> dan diletakkan
+sebelum <em>operand</em> dan akan menghasilkan tipe dari <em>operand</em></p>
+<p>Sedangkan operator <code>delete</code> digunakan untuk menghapus suatu <em>property</em>
+di objek atau menghapus elemen di suatu array</p>
+<p><strong>typeof-and-delete.js</strong></p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb14-1"><a href="expressions-and-operators.html#cb14-1" tabindex="-1"></a><span class="kw">let</span> o <span class="op">=</span> {<span class="dt">x</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">;</span></span>
+<span id="cb14-2"><a href="expressions-and-operators.html#cb14-2" tabindex="-1"></a><span class="kw">delete</span> o<span class="op">.</span><span class="at">x</span><span class="op">;</span></span>
+<span id="cb14-3"><a href="expressions-and-operators.html#cb14-3" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;x&quot;</span> <span class="kw">in</span> o)<span class="op">;</span></span>
+<span id="cb14-4"><a href="expressions-and-operators.html#cb14-4" tabindex="-1"></a></span>
+<span id="cb14-5"><a href="expressions-and-operators.html#cb14-5" tabindex="-1"></a><span class="kw">let</span> a <span class="op">=</span> [<span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">3</span>]<span class="op">;</span></span>
+<span id="cb14-6"><a href="expressions-and-operators.html#cb14-6" tabindex="-1"></a><span class="kw">delete</span> a[<span class="dv">2</span>]<span class="op">;</span></span>
+<span id="cb14-7"><a href="expressions-and-operators.html#cb14-7" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="dv">2</span> <span class="kw">in</span> a)<span class="op">;</span></span>
+<span id="cb14-8"><a href="expressions-and-operators.html#cb14-8" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(a<span class="op">.</span><span class="at">length</span>)<span class="op">;</span>   <span class="co">// Penghapusan elemen tidak serta merta mengurangi</span></span>
+<span id="cb14-9"><a href="expressions-and-operators.html#cb14-9" tabindex="-1"></a>                         <span class="co">// Ukuran arrat</span></span></code></pre></div>
+<p>Kita akan mempelajari lebih lanjut terkait objek dan array di pertemuan
+kemudian.</p></li>
+<li><p>operator koma (<code>,</code>)
+Operator koma adalah suatu <em>binary operator</em> yang mengevaluasi nilai
+operand sebelah kiri operator, kemudian mengevaluasi nilai operand
+sebelah kanan operator, kemudian memberikan hasil dari operand sebelah
+kanan</p>
+<p><strong>comma-op.js</strong></p>
+<div class="sourceCode" id="cb15"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb15-1"><a href="expressions-and-operators.html#cb15-1" tabindex="-1"></a><span class="kw">let</span> i<span class="op">,</span> j<span class="op">,</span> k<span class="op">;</span></span>
+<span id="cb15-2"><a href="expressions-and-operators.html#cb15-2" tabindex="-1"></a><span class="kw">let</span> final <span class="op">=</span> (i <span class="op">=</span> <span class="dv">0</span><span class="op">,</span> j <span class="op">=</span> <span class="dv">1</span><span class="op">,</span> k <span class="op">=</span> <span class="dv">2</span>)<span class="op">;</span></span>
+<span id="cb15-3"><a href="expressions-and-operators.html#cb15-3" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(final)<span class="op">;</span></span></code></pre></div>
+<p>Operator koma ini tanpa sadar kita gunakan dalam sintaks perulangan
+<code>for-loop</code></p>
+<div class="sourceCode" id="cb16"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb16-1"><a href="expressions-and-operators.html#cb16-1" tabindex="-1"></a><span class="cf">for</span> (<span class="kw">let</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">,</span> j <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> j<span class="op">;</span> i<span class="op">++,</span> j<span class="op">--</span>) {</span>
+<span id="cb16-2"><a href="expressions-and-operators.html#cb16-2" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(i <span class="op">+</span> j)<span class="op">;</span></span>
+<span id="cb16-3"><a href="expressions-and-operators.html#cb16-3" tabindex="-1"></a>}</span></code></pre></div></li>
+</ul>
 </div>
 <div id="exercises-2" class="section level2 unnumbered hasAnchor">
 <h2>Exercises<a href="expressions-and-operators.html#exercises-2" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -299,7 +630,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/USERNAME/REPO/edit/BRANCH/05-expr-operators.Rmd",
+"link": "https://github.com/LugoBlogger/struct-prog-js/edit/main/05-expr-operators.Rmd",
 "text": "Edit"
 },
 "history": {

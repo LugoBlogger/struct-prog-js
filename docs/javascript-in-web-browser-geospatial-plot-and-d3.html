@@ -12,7 +12,7 @@ set in the _output.yml file.</p>" />
 
   <meta property="og:title" content="14 JavaScript in Web Browser: Geospatial plot and D3.js | Structured Programming with JavaScript" />
   <meta property="og:type" content="book" />
-  
+  <meta property="og:image" content="https://github.com/LugoBlogger/struct-prog-js/blob/main/images/cover.png" />
   <meta property="og:description" content="<p>This is a minimal example of using the bookdown package to write a book.
 The HTML output format for this example is bookdown::gitbook,
 set in the _output.yml file.</p>" />
@@ -24,7 +24,7 @@ set in the _output.yml file.</p>" />
   <meta name="twitter:description" content="<p>This is a minimal example of using the bookdown package to write a book.
 The HTML output format for this example is bookdown::gitbook,
 set in the _output.yml file.</p>" />
-  
+  <meta name="twitter:image" content="https://github.com/LugoBlogger/struct-prog-js/blob/main/images/cover.png" />
 
 <meta name="author" content="Henokh Lugo Hariyanto Arif Wicaksono Septyanto" />
 
@@ -59,6 +59,71 @@ set in the _output.yml file.</p>" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
+<style type="text/css">
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
 
 <style type="text/css">
   
@@ -83,13 +148,14 @@ set in the _output.yml file.</p>" />
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Prelude</a>
 <ul>
-<li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#intended-reader"><i class="fa fa-check"></i><b>0.1</b> Intended reader</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#intended-reader"><i class="fa fa-check"></i>Intended reader</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#how-to-read-and-code"><i class="fa fa-check"></i>How to read (and code)</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#colophon"><i class="fa fa-check"></i>Colophon</a></li>
 </ul></li>
 <li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
 <ul>
 <li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#structured-programming"><i class="fa fa-check"></i><b>1.1</b> Structured programming</a></li>
-<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#motivation"><i class="fa fa-check"></i><b>1.2</b> Motivation</a></li>
+<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#the-goal-of-this-book"><i class="fa fa-check"></i><b>1.2</b> The goal of this book</a></li>
 <li class="chapter" data-level="1.3" data-path="introduction.html"><a href="introduction.html#how-to-learn"><i class="fa fa-check"></i><b>1.3</b> How to learn</a></li>
 <li class="chapter" data-level="1.4" data-path="introduction.html"><a href="introduction.html#short-tips"><i class="fa fa-check"></i><b>1.4</b> Short tips</a></li>
 </ul></li>
@@ -130,10 +196,11 @@ set in the _output.yml file.</p>" />
 <ul>
 <li class="chapter" data-level="5.1" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#primary-expression"><i class="fa fa-check"></i><b>5.1</b> Primary expression</a></li>
 <li class="chapter" data-level="5.2" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#operators"><i class="fa fa-check"></i><b>5.2</b> Operators</a></li>
-<li class="chapter" data-level="5.3" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#relational-expression"><i class="fa fa-check"></i><b>5.3</b> Relational expression</a></li>
-<li class="chapter" data-level="5.4" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#logical-expression"><i class="fa fa-check"></i><b>5.4</b> Logical expression</a></li>
-<li class="chapter" data-level="5.5" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#assignment-expression"><i class="fa fa-check"></i><b>5.5</b> Assignment expression</a></li>
-<li class="chapter" data-level="5.6" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#miscellaneous-operators"><i class="fa fa-check"></i><b>5.6</b> Miscellaneous operators</a></li>
+<li class="chapter" data-level="5.3" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#arithmetic-expression"><i class="fa fa-check"></i><b>5.3</b> Arithmetic expression</a></li>
+<li class="chapter" data-level="5.4" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#relational-expression"><i class="fa fa-check"></i><b>5.4</b> Relational expression</a></li>
+<li class="chapter" data-level="5.5" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#logical-expression"><i class="fa fa-check"></i><b>5.5</b> Logical expression</a></li>
+<li class="chapter" data-level="5.6" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#assignment-expression"><i class="fa fa-check"></i><b>5.6</b> Assignment expression</a></li>
+<li class="chapter" data-level="5.7" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#miscellaneous-operators"><i class="fa fa-check"></i><b>5.7</b> Miscellaneous operators</a></li>
 <li class="chapter" data-level="" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#exercises-2"><i class="fa fa-check"></i>Exercises</a></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="statements.html"><a href="statements.html"><i class="fa fa-check"></i><b>6</b> Statements</a>
@@ -141,8 +208,9 @@ set in the _output.yml file.</p>" />
 <li class="chapter" data-level="6.1" data-path="statements.html"><a href="statements.html#expression-statements"><i class="fa fa-check"></i><b>6.1</b> Expression statements</a></li>
 <li class="chapter" data-level="6.2" data-path="statements.html"><a href="statements.html#compound-and-empty-statements"><i class="fa fa-check"></i><b>6.2</b> Compound and empty statements</a></li>
 <li class="chapter" data-level="6.3" data-path="statements.html"><a href="statements.html#conditionals"><i class="fa fa-check"></i><b>6.3</b> Conditionals</a></li>
-<li class="chapter" data-level="6.4" data-path="statements.html"><a href="statements.html#jumps"><i class="fa fa-check"></i><b>6.4</b> Jumps</a></li>
-<li class="chapter" data-level="6.5" data-path="statements.html"><a href="statements.html#miscellaneous-statements"><i class="fa fa-check"></i><b>6.5</b> Miscellaneous statements</a></li>
+<li class="chapter" data-level="6.4" data-path="statements.html"><a href="statements.html#iteration-loops"><i class="fa fa-check"></i><b>6.4</b> Iteration (loops)</a></li>
+<li class="chapter" data-level="6.5" data-path="statements.html"><a href="statements.html#jumps"><i class="fa fa-check"></i><b>6.5</b> Jumps</a></li>
+<li class="chapter" data-level="6.6" data-path="statements.html"><a href="statements.html#miscellaneous-statements"><i class="fa fa-check"></i><b>6.6</b> Miscellaneous statements</a></li>
 <li class="chapter" data-level="" data-path="statements.html"><a href="statements.html#exercises-3"><i class="fa fa-check"></i>Exercises</a></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="objects.html"><a href="objects.html"><i class="fa fa-check"></i><b>7</b> Objects</a>
@@ -168,7 +236,13 @@ set in the _output.yml file.</p>" />
 <li class="chapter" data-level="9.5" data-path="arrays.html"><a href="arrays.html#adding-and-removing-elements-of-an-array"><i class="fa fa-check"></i><b>9.5</b> Adding and removing elements of an array</a></li>
 <li class="chapter" data-level="9.6" data-path="arrays.html"><a href="arrays.html#performing-iteration-to-an-array"><i class="fa fa-check"></i><b>9.6</b> Performing iteration to an array</a></li>
 <li class="chapter" data-level="9.7" data-path="arrays.html"><a href="arrays.html#multidimensional-array"><i class="fa fa-check"></i><b>9.7</b> Multidimensional array</a></li>
-<li class="chapter" data-level="9.8" data-path="arrays.html"><a href="arrays.html#some-useful-methods-in-an-array"><i class="fa fa-check"></i><b>9.8</b> Some useful methods in an array</a></li>
+<li class="chapter" data-level="9.8" data-path="arrays.html"><a href="arrays.html#some-useful-methods-in-an-array"><i class="fa fa-check"></i><b>9.8</b> Some useful methods in an array</a>
+<ul>
+<li class="chapter" data-level="9.8.1" data-path="arrays.html"><a href="arrays.html#array-iterator-methods"><i class="fa fa-check"></i><b>9.8.1</b> Array iterator methods</a></li>
+<li class="chapter" data-level="9.8.2" data-path="arrays.html"><a href="arrays.html#methods-for-creating-stacks-and-queues"><i class="fa fa-check"></i><b>9.8.2</b> Methods for creating stacks and queues</a></li>
+<li class="chapter" data-level="9.8.3" data-path="arrays.html"><a href="arrays.html#methods-on-subarrays"><i class="fa fa-check"></i><b>9.8.3</b> Methods on subarrays</a></li>
+<li class="chapter" data-level="9.8.4" data-path="arrays.html"><a href="arrays.html#array-searching-and-sorting-methods"><i class="fa fa-check"></i><b>9.8.4</b> Array searching and sorting methods</a></li>
+</ul></li>
 <li class="chapter" data-level="9.9" data-path="arrays.html"><a href="arrays.html#objects-that-is-similar-to-array"><i class="fa fa-check"></i><b>9.9</b> Objects that is similar to array</a></li>
 <li class="chapter" data-level="9.10" data-path="arrays.html"><a href="arrays.html#thinking-a-string-as-an-array"><i class="fa fa-check"></i><b>9.10</b> Thinking a string as an array</a></li>
 <li class="chapter" data-level="" data-path="arrays.html"><a href="arrays.html#exercises-5"><i class="fa fa-check"></i>Exercises</a></li>
@@ -197,13 +271,25 @@ set in the _output.yml file.</p>" />
 <li class="chapter" data-level="12.2" data-path="asynchronous-programming-in-javascript.html"><a href="asynchronous-programming-in-javascript.html#an-example-of-asynchronous-program"><i class="fa fa-check"></i><b>12.2</b> An example of asynchronous program</a></li>
 <li class="chapter" data-level="12.3" data-path="asynchronous-programming-in-javascript.html"><a href="asynchronous-programming-in-javascript.html#introduction-to-promise-object"><i class="fa fa-check"></i><b>12.3</b> Introduction to Promise object</a></li>
 <li class="chapter" data-level="12.4" data-path="asynchronous-programming-in-javascript.html"><a href="asynchronous-programming-in-javascript.html#some-practical-use-of-promise-object"><i class="fa fa-check"></i><b>12.4</b> Some practical use of Promise object</a></li>
+<li class="chapter" data-level="12.5" data-path="asynchronous-programming-in-javascript.html"><a href="asynchronous-programming-in-javascript.html#await-and-async"><i class="fa fa-check"></i><b>12.5</b> <code>await</code> and <code>async</code></a></li>
 <li class="chapter" data-level="" data-path="asynchronous-programming-in-javascript.html"><a href="asynchronous-programming-in-javascript.html#exercises-8"><i class="fa fa-check"></i>Exercises</a></li>
 </ul></li>
 <li class="chapter" data-level="13" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html"><i class="fa fa-check"></i><b>13</b> JavaScript in Web Browser: Tic-Tac-Toe and React</a>
 <ul>
 <li class="chapter" data-level="13.1" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#setup-environment"><i class="fa fa-check"></i><b>13.1</b> Setup environment</a></li>
-<li class="chapter" data-level="13.2" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#short-overview-of-tic-tac-toe-program-and-react"><i class="fa fa-check"></i><b>13.2</b> Short overview of Tic-Tac-Toe program and React</a></li>
-<li class="chapter" data-level="13.3" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#finishing-the-base-program-of-tic-tac-toe"><i class="fa fa-check"></i><b>13.3</b> Finishing the base program of Tic-Tac-Toe</a></li>
+<li class="chapter" data-level="13.2" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#short-overview-of-tic-tac-toe-program-and-react"><i class="fa fa-check"></i><b>13.2</b> Short overview of Tic-Tac-Toe program and React</a>
+<ul>
+<li class="chapter" data-level="13.2.1" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#isi-folder-pages-dan-styles."><i class="fa fa-check"></i><b>13.2.1</b> Isi folder <code>pages</code> dan <code>styles</code>.</a></li>
+<li class="chapter" data-level="13.2.2" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#membuat-papan-permainan-tic-tac-toe"><i class="fa fa-check"></i><b>13.2.2</b> Membuat papan permainan Tic-Tac-Toe</a></li>
+<li class="chapter" data-level="13.2.3" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#react-props-untuk-data-manipulasi-komponen-square"><i class="fa fa-check"></i><b>13.2.3</b> React <code>props</code> untuk data manipulasi komponen <code>Square</code></a></li>
+<li class="chapter" data-level="13.2.4" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#menambahkan-interactivity"><i class="fa fa-check"></i><b>13.2.4</b> Menambahkan <em>interactivity</em></a></li>
+</ul></li>
+<li class="chapter" data-level="13.3" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#finishing-the-base-program-of-tic-tac-toe"><i class="fa fa-check"></i><b>13.3</b> Finishing the base program of Tic-Tac-Toe</a>
+<ul>
+<li class="chapter" data-level="13.3.1" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#memindahkan-usestate-dari-square-ke-board-lifted-up"><i class="fa fa-check"></i><b>13.3.1</b> Memindahkan <code>useState</code> dari <code>Square()</code> ke <code>Board()</code> (lifted up)</a></li>
+<li class="chapter" data-level="13.3.2" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#kondisi-untuk-menambahkan-pergantian-pemain"><i class="fa fa-check"></i><b>13.3.2</b> Kondisi untuk menambahkan pergantian pemain</a></li>
+<li class="chapter" data-level="13.3.3" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#menambahkan-fitur-pemberitahuan-untuk-pemenang"><i class="fa fa-check"></i><b>13.3.3</b> Menambahkan fitur pemberitahuan untuk pemenang</a></li>
+</ul></li>
 <li class="chapter" data-level="13.4" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#additional-features-time-travel-for-players-steps"><i class="fa fa-check"></i><b>13.4</b> Additional features: “Time travel” for player’s steps</a></li>
 <li class="chapter" data-level="" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#exercises-9"><i class="fa fa-check"></i>Exercises</a></li>
 </ul></li>
@@ -217,9 +303,6 @@ set in the _output.yml file.</p>" />
 </ul></li>
 <li class="chapter" data-level="15" data-path="javascript-in-web-browser-learning-animation.html"><a href="javascript-in-web-browser-learning-animation.html"><i class="fa fa-check"></i><b>15</b> JavaScript in Web Browser: Learning animation</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
-<li class="divider"></li>
-<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-
 </ul>
 
       </nav>
@@ -239,20 +322,533 @@ set in the _output.yml file.</p>" />
             <section class="normal" id="section-">
 <div id="javascript-in-web-browser-geospatial-plot-and-d3.js" class="section level1 hasAnchor" number="14">
 <h1><span class="header-section-number">14</span> JavaScript in Web Browser: Geospatial plot and D3.js<a href="javascript-in-web-browser-geospatial-plot-and-d3.html#javascript-in-web-browser-geospatial-plot-and-d3.js" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>In this chapter, we are going to learn one of the interesting topic in
+data visualization using a avaScript library, <code>d3.js</code>.
+Kita akan belajar dan memahami penggunaan <code>d3.js</code> berdasarkan
+referensi <a href="https://www.oreilly.com/library/view/interactive-data-visualization/9781491921296/">(Murray, 2017) - Interactive Data Visualization for the Web</a>.<br />
+Referensi ini merupakan referensi standar dalam
+pembelajaran terkait visualisasi (lihat online course
+<a href="https://www.cs171.org/2022/resources/#">CS 171 - Visualization</a>
+dari Harvard University)</p>
+<p>Sedikit penjelasan tentang <code>d3.js</code> adalah merupakan <em>JavaScript</em>
+library yang merupakan singkatan dari <em>Data-Driven Documents</em>.
+Library ini dibangun oleh Mike Bostock (dan beberapa kontributor
+lainnya) yang dapat dilihat di dalam repositori berikut
+<a href="https://github.com/d3/d3/wiki">GitHub: D3.js</a></p>
+<p>Di akhir tutorial ini kita akan mencoba membuat plot batas administrasi
+kecamatan kota Balikpapan. Ada banyak manfaat dari penerapan plot ini
+terutama untuk <em>programmer</em> yang bekerja di dunia GIS (Geospatial Information
+System). GIS ini bisa dikatakan merupakan cabang ilmu dari Information System.</p>
 <div id="d3.js-installation" class="section level2 hasAnchor" number="14.1">
 <h2><span class="header-section-number">14.1</span> D3.js installation<a href="javascript-in-web-browser-geospatial-plot-and-d3.html#d3.js-installation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Pertama-tama siapkan tiga buah files (.html, .css, .js). Untuk file .html
+akan berperan sebagai <em>viewer</em> (atau interface antara file .js dengan
+web browser). Untuk file .css akan berperan sebagai <em>styling</em> document .html.</p>
+<p>Berikut isi standard untuk ketiga berkas tersebut:</p>
+<ul>
+<li><p><strong><code>main.html</code></strong></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb1-1"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb1-1" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">html</span><span class="dt">&gt;</span></span>
+<span id="cb1-2"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb1-2" tabindex="-1"></a>  <span class="dt">&lt;</span><span class="kw">head</span><span class="dt">&gt;</span></span>
+<span id="cb1-3"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb1-3" tabindex="-1"></a>    <span class="dt">&lt;</span><span class="kw">link</span><span class="ot"> rel</span><span class="op">=</span><span class="st">&quot;stylesheet&quot;</span><span class="ot"> href</span><span class="op">=</span><span class="st">&quot;./styles.css&quot;</span><span class="dt">&gt;</span></span>
+<span id="cb1-4"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb1-4" tabindex="-1"></a>    <span class="dt">&lt;</span><span class="kw">script</span><span class="ot"> src</span><span class="op">=</span><span class="st">&quot;../lib/d3.v7.min.js&quot;</span><span class="dt">&gt;&lt;/</span><span class="kw">script</span><span class="dt">&gt;</span> </span>
+<span id="cb1-5"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb1-5" tabindex="-1"></a>  <span class="dt">&lt;/</span><span class="kw">head</span><span class="dt">&gt;</span></span>
+<span id="cb1-6"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb1-6" tabindex="-1"></a>  <span class="dt">&lt;</span><span class="kw">body</span><span class="dt">&gt;</span></span>
+<span id="cb1-7"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb1-7" tabindex="-1"></a>    <span class="dt">&lt;</span><span class="kw">script</span><span class="ot"> src</span><span class="op">=</span><span class="st">&quot;./plotd3.js&quot;</span><span class="dt">&gt;&lt;/</span><span class="kw">script</span><span class="dt">&gt;</span></span>
+<span id="cb1-8"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb1-8" tabindex="-1"></a>  <span class="dt">&lt;/</span><span class="kw">body</span><span class="dt">&gt;</span></span>
+<span id="cb1-9"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb1-9" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">html</span><span class="dt">&gt;</span></span></code></pre></div></li>
+<li><p><strong><code>styles.css</code></strong></p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode css"><code class="sourceCode css"><span id="cb2-1"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb2-1" tabindex="-1"></a><span class="op">*</span> {</span>
+<span id="cb2-2"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb2-2" tabindex="-1"></a>  <span class="kw">font-family</span><span class="ch">:</span> <span class="st">&quot;IBM Plex Sans&quot;</span><span class="op">,</span> <span class="st">&quot;Helvetica Neue&quot;</span><span class="op">,</span> </span>
+<span id="cb2-3"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb2-3" tabindex="-1"></a>            <span class="dv">Arial</span><span class="op">,</span> <span class="dv">sans-serif</span><span class="op">;</span></span>
+<span id="cb2-4"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb2-4" tabindex="-1"></a>}</span></code></pre></div></li>
+<li><p><strong><code>plotd3.js</code></strong></p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb3-1"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb3-1" tabindex="-1"></a><span class="co">// Akan kita isi dengan fungsi plot dari d3.js</span></span></code></pre></div></li>
+</ul>
+<p>Ketiga file tersebut harus di taruh di tempat yang sama. Sebagai contoh
+kita menggunakan <em>working directory</em>: <code>d3-hello-world</code>. Maka direktori kita
+akan terlihat seperti berikut:</p>
+<pre><code>...
+├─ d3-hello-world/
+│  ├─ main.html
+│  ├─ plotd3.js
+│  ╰─ styles.css
+├─ lib/
+│  ╰─ d3.v7.min.js
+...</code></pre>
+<p>Pada contoh di atas terdapat tambahan folder <code>lib</code> yang merupakan tempat
+<em>library</em> d3.js. File <code>d3.v7.min.js</code> dapat didownload di
+<a href="https://d3js.org/d3.v7.min.js">link berikut</a> (Klik kanan lalu pilih “Save as…”)</p>
+<p>Berikutnya kita akan membuat versi “Hello World!” untuk d3.js
+(file keseluruhan dapat dilihat di dalam direktori
+<a href="./week-15-scripts/d3-hello-world/"><code>d3-hello-world</code></a>).
+Perintah berikut kita tambahkan ke dalam <code>plotd3.js</code></p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb5-1"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb5-1" tabindex="-1"></a>d3<span class="op">.</span><span class="fu">select</span>(<span class="st">&quot;body&quot;</span>)<span class="op">.</span><span class="fu">append</span>(<span class="st">&quot;p&quot;</span>)<span class="op">.</span><span class="fu">text</span>(<span class="st">&quot;Hello World!&quot;</span>)<span class="op">;</span></span></code></pre></div>
+<p>Perintah diatas mengatakan bahwa menggunakan library d3.js,
+kita memanggil fungsi <code>.select()</code> untuk memilih HTML element <code>&lt;body&gt;</code>.
+Lalu di dalam HTML element <code>&lt;body&gt;</code> ini kita tambahkan (<em>append</em>)
+dengan HTML element <code>&lt;p&gt;</code>. Dan terakhir di dalam HTML element
+paragraph <code>&lt;p&gt;</code>, kita isi dengan text “Hello World!”.</p>
+<p>Jika prosedur yang diikut benar, maka kita akan mendapatkan hasil
+berikut di <em>web browser</em> (setelah menjalankan VSCode extension:
+Preview on Web Server)</p>
+<p><img src="images/d3-js-hello-world.png"></p>
 </div>
 <div id="working-with-data" class="section level2 hasAnchor" number="14.2">
 <h2><span class="header-section-number">14.2</span> Working with data<a href="javascript-in-web-browser-geospatial-plot-and-d3.html#working-with-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Berikutnya kita akan melakukan pembacaan data dari file berformat
+<code>.csv</code>. Dalam tutorial ini kita akan menggunakan file <code>food.csv</code>
+(yang didapat didownload <a href="./week-15-scripts/datasets/food.csv">disini</a>)
+yang berisi data berikut:</p>
+<p><strong>food.csv</strong></p>
+<pre class="csv"><code>Food,Deliciousness
+Apples,9
+Green Beans,5
+Egg Salad Sandwich,4
+Cookies,10
+Liver,0.2
+Burrito,7</code></pre>
+<p>Kemudian kita buat <em>working directory</em> baru, dan kita namakan
+<code>d3-binding-data</code> dengan isi <code>plotd3.js</code> sebagai berikut:</p>
+<p><strong>plotd3.js</strong></p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb7-1"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb7-1" tabindex="-1"></a><span class="kw">function</span> <span class="fu">readData</span>(data) {</span>
+<span id="cb7-2"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb7-2" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(data)<span class="op">;</span></span>
+<span id="cb7-3"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb7-3" tabindex="-1"></a>}</span>
+<span id="cb7-4"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb7-4" tabindex="-1"></a></span>
+<span id="cb7-5"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb7-5" tabindex="-1"></a>d3<span class="op">.</span><span class="fu">csv</span>(<span class="st">&quot;../datasets/food.csv&quot;</span>)</span>
+<span id="cb7-6"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb7-6" tabindex="-1"></a>  <span class="op">.</span><span class="fu">then</span>(readData)<span class="op">;</span></span></code></pre></div>
+<p>File .html dan .css masih sama seperti pada bagian sebelumnya (<code>main.html</code>
+dan <code>styles.css</code>). Berikut kenampakan folder <code>d3-binding-data</code></p>
+<pre><code>...
+├─ d3-binding-data/
+│  ├─ main.html
+│  ├─ plotd3.js
+│  ╰─ styles.css
+├─ datasets/
+│  ╰─ food.csv
+├─ lib/
+│  ╰─ d3.v7.min.js
+...</code></pre>
+<p>Program di atas melakukan pembacaan file <code>.csv</code> dengan fungsi <code>.csv</code>
+dari d3.js. Keluaran dari <code>d3.csv()</code> adalah suatu <em>Promise object</em>
+maka kita dapat sisipkan <em>callback function</em> dengan method <code>.then()</code>
+Fungsi <em>callback</em> ini akan membaca data dan hasilnya ditampilkan
+di console. Selengkapnya lihat direktori
+<a href="./week-15-scripts/d3-binding-data">d3-binding-data</a></p>
+<p>Jika prosedur dijalankan dengan benar maka akan didapatkan data
+yang tercetak di bagian Console Web Browser seperti gambar
+di bawah ini</p>
+<p><img src="images/d3-js-load-csv.png"></p>
+<p>Terlihat di sebelah kanan, enam buah Arrays berisikan object.
+Di halaman browser sebelah kiri belum terdapat output apapun,
+karena kita belum menghubungkan hasil pembacaan <code>.csv</code> dengan
+web browser.</p>
 </div>
 <div id="drawing-with-data" class="section level2 hasAnchor" number="14.3">
 <h2><span class="header-section-number">14.3</span> Drawing with data<a href="javascript-in-web-browser-geospatial-plot-and-d3.html#drawing-with-data" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Pada bagian ini kita akan menggambar data yang dibaca dari <code>.csv</code>.
+Kita siapkan dulu <em>working directory</em> seperti berikut:</p>
+<pre><code>...
+├─ d3-drawing-data/
+│  ├─ main.html
+│  ├─ plotd3.js
+│  ╰─ styles.css
+├─ datasets/
+│  ╰─ food.csv
+├─ lib/
+│  ╰─ d3.v7.min.js
+...</code></pre>
+<p>Disini kita hanya melakukan <em>editing</em> di file <code>plotd3.js</code>.
+Sehingga untuk file <code>main.html</code> dan <code>styles.css</code> masih sama seperti
+sebelumnya. Folder <code>datasets</code> dan <code>lib</code> dapat menggunakan folder
+sebelumnya dengan cara menaruh folder <code>d3-drawing-data</code> bersandingan
+dengan <code>d3-binding-data</code>.</p>
+<p>Pertama kita buat kerangka awal pembacaan data dan pendefinisian
+beberapa <em>layout</em> seperti lebar dan tinggi grafik, HTML element SVG
+sebagai <em>plot container</em></p>
+<p><strong>plotd3.js</strong></p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb10-1"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb10-1" tabindex="-1"></a><span class="co">// Set the dimensions and margins of the graph</span></span>
+<span id="cb10-2"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb10-2" tabindex="-1"></a><span class="kw">let</span> margin <span class="op">=</span> { <span class="dt">top</span><span class="op">:</span> <span class="dv">30</span><span class="op">,</span> <span class="dt">right</span><span class="op">:</span> <span class="dv">30</span><span class="op">,</span> <span class="dt">bottom</span><span class="op">:</span> <span class="dv">100</span><span class="op">,</span> <span class="dt">left</span><span class="op">:</span> <span class="dv">60</span> }<span class="op">;</span></span>
+<span id="cb10-3"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb10-3" tabindex="-1"></a><span class="kw">let</span> width <span class="op">=</span> <span class="dv">460</span> <span class="op">-</span> margin<span class="op">.</span><span class="at">left</span> <span class="op">-</span> margin<span class="op">.</span><span class="at">right</span><span class="op">;</span></span>
+<span id="cb10-4"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb10-4" tabindex="-1"></a><span class="kw">let</span> height <span class="op">=</span> <span class="dv">400</span> <span class="op">-</span> margin<span class="op">.</span><span class="at">top</span> <span class="op">-</span> margin<span class="op">.</span><span class="at">bottom</span><span class="op">;</span></span>
+<span id="cb10-5"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb10-5" tabindex="-1"></a></span>
+<span id="cb10-6"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb10-6" tabindex="-1"></a><span class="co">// Append the svg object to the body of the page</span></span>
+<span id="cb10-7"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb10-7" tabindex="-1"></a><span class="kw">let</span> svg <span class="op">=</span> d3<span class="op">.</span><span class="fu">select</span>(<span class="st">&quot;body&quot;</span>)</span>
+<span id="cb10-8"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb10-8" tabindex="-1"></a>  <span class="op">.</span><span class="fu">append</span>(<span class="st">&quot;svg&quot;</span>)</span>
+<span id="cb10-9"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb10-9" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">&quot;width&quot;</span><span class="op">,</span> width <span class="op">+</span> margin<span class="op">.</span><span class="at">left</span> <span class="op">+</span> margin<span class="op">.</span><span class="at">right</span>)</span>
+<span id="cb10-10"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb10-10" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">&quot;height&quot;</span><span class="op">,</span> height <span class="op">+</span> margin<span class="op">.</span><span class="at">top</span> <span class="op">+</span> margin<span class="op">.</span><span class="at">bottom</span>)</span>
+<span id="cb10-11"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb10-11" tabindex="-1"></a>  <span class="op">.</span><span class="fu">append</span>(<span class="st">&quot;g&quot;</span>)</span>
+<span id="cb10-12"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb10-12" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">&quot;transform&quot;</span><span class="op">,</span></span>
+<span id="cb10-13"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb10-13" tabindex="-1"></a>          <span class="st">&quot;translate(&quot;</span> <span class="op">+</span> margin<span class="op">.</span><span class="at">left</span> <span class="op">+</span> <span class="st">&quot;, &quot;</span> <span class="op">+</span> margin<span class="op">.</span><span class="at">top</span> <span class="op">+</span><span class="st">&quot;)&quot;</span>)<span class="op">;</span></span>
+<span id="cb10-14"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb10-14" tabindex="-1"></a></span>
+<span id="cb10-15"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb10-15" tabindex="-1"></a><span class="co">// Function declaration for making bar chart</span></span>
+<span id="cb10-16"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb10-16" tabindex="-1"></a><span class="kw">function</span> <span class="fu">plotBarChart</span>(data) {</span>
+<span id="cb10-17"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb10-17" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(data)<span class="op">;</span></span>
+<span id="cb10-18"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb10-18" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="bu">document</span><span class="op">.</span><span class="fu">querySelector</span>(<span class="st">&quot;svg&quot;</span>))<span class="op">;</span></span>
+<span id="cb10-19"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb10-19" tabindex="-1"></a>}</span>
+<span id="cb10-20"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb10-20" tabindex="-1"></a></span>
+<span id="cb10-21"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb10-21" tabindex="-1"></a>d3<span class="op">.</span><span class="fu">csv</span>(<span class="st">&quot;../datasets/food.csv&quot;</span>)</span>
+<span id="cb10-22"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb10-22" tabindex="-1"></a>  <span class="op">.</span><span class="fu">then</span>(plotBarChart)<span class="op">;</span></span></code></pre></div>
+<p>Baris kode JavaScript di atas akan memberikan inisialisasi SVG element
+yang dibuktikan dengan mencetak hasil inisialisasi SVG element
+di jendela console sebelah kanan terdapat HTML element <code>&lt;svg&gt;...&lt;/svg&gt;</code>.</p>
+<p><img src="images/d3-js-svg-initialization.png"></p>
+<p>Langkah berikutnya adalah membuat sumbu-x dan y untuk gambar
+<em>Bar Chart</em> yang akan kita buat. Tambahkan kode berikut di dalam
+fungsi <code>plotBarChart()</code></p>
+<p><strong>plotd3.js</strong></p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb11-1"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb11-1" tabindex="-1"></a><span class="co">// Some lines omitted</span></span>
+<span id="cb11-2"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb11-2" tabindex="-1"></a></span>
+<span id="cb11-3"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb11-3" tabindex="-1"></a><span class="kw">function</span> <span class="fu">plotBarChart</span>(data) {</span>
+<span id="cb11-4"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb11-4" tabindex="-1"></a>  <span class="co">// Create an x-axis</span></span>
+<span id="cb11-5"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb11-5" tabindex="-1"></a>  <span class="kw">let</span> x <span class="op">=</span> d3<span class="op">.</span><span class="fu">scaleBand</span>()</span>
+<span id="cb11-6"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb11-6" tabindex="-1"></a>    <span class="op">.</span><span class="fu">range</span>([<span class="dv">0</span><span class="op">,</span> width])</span>
+<span id="cb11-7"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb11-7" tabindex="-1"></a>    <span class="op">.</span><span class="fu">domain</span>(data<span class="op">.</span><span class="fu">map</span>((d) <span class="kw">=&gt;</span> { <span class="cf">return</span> d<span class="op">.</span><span class="at">Food</span><span class="op">;</span> }))</span>
+<span id="cb11-8"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb11-8" tabindex="-1"></a>    <span class="op">.</span><span class="fu">padding</span>(<span class="fl">0.2</span>)<span class="op">;</span></span>
+<span id="cb11-9"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb11-9" tabindex="-1"></a>  svg<span class="op">.</span><span class="fu">append</span>(<span class="st">&quot;g&quot;</span>)</span>
+<span id="cb11-10"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb11-10" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">&quot;transform&quot;</span><span class="op">,</span> <span class="st">&quot;translate(0, &quot;</span> <span class="op">+</span> height <span class="op">+</span> <span class="st">&quot;)&quot;</span>)</span>
+<span id="cb11-11"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb11-11" tabindex="-1"></a>    <span class="op">.</span><span class="fu">call</span>(d3<span class="op">.</span><span class="fu">axisBottom</span>(x))</span>
+<span id="cb11-12"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb11-12" tabindex="-1"></a>    <span class="op">.</span><span class="fu">selectAll</span>(<span class="st">&quot;text&quot;</span>)</span>
+<span id="cb11-13"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb11-13" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">&quot;transform&quot;</span><span class="op">,</span> <span class="st">&quot;translate(-10.0)rotate(-45)&quot;</span>)</span>
+<span id="cb11-14"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb11-14" tabindex="-1"></a>      <span class="op">.</span><span class="fu">style</span>(<span class="st">&quot;text-anchor&quot;</span><span class="op">,</span> <span class="st">&quot;end&quot;</span>)<span class="op">;</span></span>
+<span id="cb11-15"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb11-15" tabindex="-1"></a></span>
+<span id="cb11-16"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb11-16" tabindex="-1"></a>  <span class="co">// Add a y-axis</span></span>
+<span id="cb11-17"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb11-17" tabindex="-1"></a>  <span class="kw">let</span> y <span class="op">=</span> d3<span class="op">.</span><span class="fu">scaleLinear</span>()</span>
+<span id="cb11-18"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb11-18" tabindex="-1"></a>    <span class="op">.</span><span class="fu">domain</span>([<span class="dv">0</span><span class="op">,</span> <span class="dv">11</span>])</span>
+<span id="cb11-19"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb11-19" tabindex="-1"></a>    <span class="op">.</span><span class="fu">range</span>([height<span class="op">,</span> <span class="dv">0</span> ])</span>
+<span id="cb11-20"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb11-20" tabindex="-1"></a>  svg<span class="op">.</span><span class="fu">append</span>(<span class="st">&quot;g&quot;</span>)</span>
+<span id="cb11-21"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb11-21" tabindex="-1"></a>    <span class="op">.</span><span class="fu">call</span>(d3<span class="op">.</span><span class="fu">axisLeft</span>(y))<span class="op">;</span></span>
+<span id="cb11-22"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb11-22" tabindex="-1"></a></span>
+<span id="cb11-23"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb11-23" tabindex="-1"></a>}</span>
+<span id="cb11-24"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb11-24" tabindex="-1"></a></span>
+<span id="cb11-25"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb11-25" tabindex="-1"></a><span class="co">// Some lines omitted</span></span></code></pre></div>
+<p>Hasil yang didapatkan adalah sebagai berikut:</p>
+<p><img src="images/d3-js-draw-axes.png" width=600></p>
+<p>Berikutnya kita akan menambahkan data ke dalam axes tersebut.
+Hal itu dapat dilakukan dengan menambahkan baris kode berikut
+di dalam fungsi <code>plotBarChart()</code></p>
+<p><strong>plotd3.js</strong></p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb12-1"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb12-1" tabindex="-1"></a><span class="kw">function</span> <span class="fu">plotBarChart</span>(data) {</span>
+<span id="cb12-2"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb12-2" tabindex="-1"></a>  <span class="co">// Some lines omitted </span></span>
+<span id="cb12-3"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb12-3" tabindex="-1"></a></span>
+<span id="cb12-4"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb12-4" tabindex="-1"></a>  svg<span class="op">.</span><span class="fu">selectAll</span>(<span class="st">&quot;dataBar&quot;</span>)</span>
+<span id="cb12-5"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb12-5" tabindex="-1"></a>    <span class="op">.</span><span class="fu">data</span>(data)<span class="op">.</span><span class="fu">enter</span>()</span>
+<span id="cb12-6"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb12-6" tabindex="-1"></a>    <span class="op">.</span><span class="fu">append</span>(<span class="st">&quot;rect&quot;</span>)</span>
+<span id="cb12-7"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb12-7" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">&quot;x&quot;</span><span class="op">,</span> (d) <span class="kw">=&gt;</span> { <span class="cf">return</span> <span class="fu">x</span>(d<span class="op">.</span><span class="at">Food</span>)<span class="op">;</span> })</span>
+<span id="cb12-8"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb12-8" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">&quot;y&quot;</span><span class="op">,</span> (d) <span class="kw">=&gt;</span> { <span class="cf">return</span> <span class="fu">y</span>(d<span class="op">.</span><span class="at">Deliciousness</span>)<span class="op">;</span> })</span>
+<span id="cb12-9"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb12-9" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">&quot;width&quot;</span><span class="op">,</span> x<span class="op">.</span><span class="fu">bandwidth</span>())</span>
+<span id="cb12-10"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb12-10" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">&quot;height&quot;</span><span class="op">,</span> (d) <span class="kw">=&gt;</span> { <span class="cf">return</span> height <span class="op">-</span> <span class="fu">y</span>(d<span class="op">.</span><span class="at">Deliciousness</span>)<span class="op">;</span> })</span>
+<span id="cb12-11"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb12-11" tabindex="-1"></a>      <span class="op">.</span><span class="fu">attr</span>(<span class="st">&quot;fill&quot;</span><span class="op">,</span> <span class="st">&quot;teal&quot;</span>)<span class="op">;</span></span>
+<span id="cb12-12"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb12-12" tabindex="-1"></a>}</span>
+<span id="cb12-13"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb12-13" tabindex="-1"></a></span>
+<span id="cb12-14"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb12-14" tabindex="-1"></a><span class="co">// Some lines omitted</span></span></code></pre></div>
+<p>dan akan didapatkan hasil sebagai berikut:</p>
+<p><img src="images/d3-js-add-bars.png" width=600></p>
+<p>Tahap terakhir adalah penambahan label pada sumbu-y dan judul plot
+Hal ini dapat dilakukan dengan menambahkan lagi baris kode berikut
+di dalam fungsi <code>plotBarChart()</code></p>
+<p><strong>plotd3.js</strong></p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb13-1"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb13-1" tabindex="-1"></a><span class="kw">function</span> <span class="fu">plotBarChart</span>(data) {</span>
+<span id="cb13-2"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb13-2" tabindex="-1"></a>  <span class="co">// Some lines omitted</span></span>
+<span id="cb13-3"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb13-3" tabindex="-1"></a></span>
+<span id="cb13-4"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb13-4" tabindex="-1"></a>  <span class="co">// Add y-axis label</span></span>
+<span id="cb13-5"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb13-5" tabindex="-1"></a>  svg<span class="op">.</span><span class="fu">append</span>(<span class="st">&quot;text&quot;</span>)</span>
+<span id="cb13-6"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb13-6" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">&quot;class&quot;</span><span class="op">,</span> <span class="st">&quot;y label&quot;</span>)</span>
+<span id="cb13-7"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb13-7" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">&quot;text-anchor&quot;</span><span class="op">,</span> <span class="st">&quot;middle&quot;</span>)</span>
+<span id="cb13-8"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb13-8" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">&quot;transform&quot;</span><span class="op">,</span> <span class="st">&quot;rotate(-90)&quot;</span>)</span>
+<span id="cb13-9"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb13-9" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">&quot;y&quot;</span><span class="op">,</span> <span class="op">-</span>margin<span class="op">.</span><span class="at">left</span> <span class="op">+</span> <span class="dv">20</span>)</span>
+<span id="cb13-10"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb13-10" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">&quot;x&quot;</span><span class="op">,</span> <span class="op">-</span>height <span class="op">/</span> <span class="dv">2</span>)</span>
+<span id="cb13-11"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb13-11" tabindex="-1"></a>    <span class="op">.</span><span class="fu">style</span>(<span class="st">&quot;font-size&quot;</span><span class="op">,</span> <span class="st">&quot;14px&quot;</span>)</span>
+<span id="cb13-12"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb13-12" tabindex="-1"></a>    <span class="op">.</span><span class="fu">text</span>(<span class="st">&quot;Deliciousness&quot;</span>)<span class="op">;</span></span>
+<span id="cb13-13"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb13-13" tabindex="-1"></a></span>
+<span id="cb13-14"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb13-14" tabindex="-1"></a>  <span class="co">// Add plot title</span></span>
+<span id="cb13-15"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb13-15" tabindex="-1"></a>  svg<span class="op">.</span><span class="fu">append</span>(<span class="st">&quot;text&quot;</span>)</span>
+<span id="cb13-16"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb13-16" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">&quot;x&quot;</span><span class="op">,</span> (width <span class="op">/</span> <span class="dv">2</span>))</span>
+<span id="cb13-17"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb13-17" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">&quot;y&quot;</span><span class="op">,</span> <span class="dv">0</span> <span class="op">-</span> (margin<span class="op">.</span><span class="at">top</span> <span class="op">/</span> <span class="dv">2</span>))</span>
+<span id="cb13-18"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb13-18" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">&quot;text-anchor&quot;</span><span class="op">,</span> <span class="st">&quot;middle&quot;</span>)</span>
+<span id="cb13-19"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb13-19" tabindex="-1"></a>    <span class="op">.</span><span class="fu">style</span>(<span class="st">&quot;font-size&quot;</span><span class="op">,</span> <span class="st">&quot;18px&quot;</span>)</span>
+<span id="cb13-20"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb13-20" tabindex="-1"></a>    <span class="op">.</span><span class="fu">text</span>(<span class="st">&quot;Some delicious food&quot;</span>)<span class="op">;</span></span>
+<span id="cb13-21"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb13-21" tabindex="-1"></a>}</span>
+<span id="cb13-22"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb13-22" tabindex="-1"></a><span class="co">// Some lines omitted</span></span></code></pre></div>
+<p>Lalu didapatkan hasil akhir plot Bar Chart menggunakan d3.js dan
+pembacaan data <code>food.csv</code> sebagai berikut:</p>
+<p><img src="images/d3-js-final-bar-chart.png" width=600></p>
+<p>Mengingat kembali pertemuan sesi kelas, kita dapat juga
+menggunakan JavaScript library Plotly. Kelebihan dari Plotly
+adalah kita tidak perlu mendefinisikan banyak hal terkait
+tata letak axes, bars, axes labels, dan titles. Dan kode
+yang dituliskan juga tidak terlalu panjang seperti
+menggunakan d3.js. Namun yang menjadi nilai tambahan dari
+d3.js, kita mempunyai kebebasan untuk membuat plot dengan
+bentuk apapun karena kita memiliki kebebasan untuk
+mengatur secara rinci peletakan setiap elemen dalam plot
+Bar Chart. Pada akhirnya semua dikembalikan kepada pengembang
+manakah yang lebih utama kecepatan produksi visualisasi
+atau mengutakaman visualisasi yang orisinal sesuai
+kebutuhan pengembang.</p>
+<p>Jika ingin mempelajari lebih dalam dan tidak ingin membuat
+dari awal, kita bisa mengunjungi laman berikut untuk
+menelusuri tata cara penggambaran grafik di
+<a href="https://d3-graph-gallery.com/index.html">D3.js Graph Gallery</a>
+yang dibuat oleh Holtz Yan.</p>
 </div>
 <div id="making-balikpapan-administration-district-map" class="section level2 hasAnchor" number="14.4">
 <h2><span class="header-section-number">14.4</span> Making Balikpapan administration district map<a href="javascript-in-web-browser-geospatial-plot-and-d3.html#making-balikpapan-administration-district-map" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Bagian ini adalah bagian terakhir dari tutorial mata kuliah
+Pemrograman Terstrutkut. Disini kita mengambil contoh ini
+dikarenakan keterbatasan internet di sesi praktikum untuk
+melakukan deploy personal blog menggunakan Next.js.</p>
+<p>Untuk itu dipilih alternatif yang sekiranya masih berguna
+digunakan dalam tugas akhir ataupun final project yang lain.</p>
+<p>Disini kita akan membuat plot batas administrasi kecamatan di
+kota Balikpapan, yang merupakan pusat kota bisnis dan industri
+terbesar di pulai Kalimantan. Di akhir bagian ini kita
+akan membuat gambar peta berikut:</p>
+<p><img src="images/d3-js-balikpapan-district-map.png"></p>
+<p>Pertama kita buat terlebih dahulu <em>working directory</em> sebagai berikut:</p>
+<pre><code>...
+├─ d3-balikpapan-district-map/
+│  ├─ main.html
+│  ├─ plotd3.js
+│  ╰─ styles.css
+├─ datasets/
+│  ╰─ balikpapan.geojson
+├─ lib/
+│  ╰─ d3.v7.min.js
+...</code></pre>
+<p>Untuk data <code>balikpapan.geojson</code> dapat didownload
+<a href="./week-16-scripts/datasets/balikpapan.geojson">disini</a>.</p>
+<p>Sama seperti pada bagian sebelumnya, kita buat terlebih dahulu
+kerangka awal untuk program plotting map di <code>plotd3.js</code>.
+(untuk isi <code>main.html</code> dam <code>styles.css</code> masih sama seperti sebelumnya).</p>
+<p>Berikut kerangka awal untuk <code>plotd3.js</code>
+<strong>plotd3.js</strong></p>
+<div class="sourceCode" id="cb15"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb15-1"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb15-1" tabindex="-1"></a><span class="kw">let</span> margin <span class="op">=</span> { <span class="dt">top</span><span class="op">:</span> <span class="dv">30</span><span class="op">,</span> <span class="dt">right</span><span class="op">:</span> <span class="dv">30</span><span class="op">,</span> <span class="dt">bottom</span><span class="op">:</span> <span class="dv">100</span><span class="op">,</span> <span class="dt">left</span><span class="op">:</span> <span class="dv">60</span> }<span class="op">;</span></span>
+<span id="cb15-2"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb15-2" tabindex="-1"></a><span class="kw">let</span> width <span class="op">=</span> <span class="dv">460</span> <span class="op">-</span> margin<span class="op">.</span><span class="at">left</span> <span class="op">-</span> margin<span class="op">.</span><span class="at">right</span><span class="op">;</span></span>
+<span id="cb15-3"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb15-3" tabindex="-1"></a><span class="kw">let</span> height <span class="op">=</span> <span class="dv">400</span> <span class="op">-</span> margin<span class="op">.</span><span class="at">top</span> <span class="op">-</span> margin<span class="op">.</span><span class="at">bottom</span><span class="op">;</span></span>
+<span id="cb15-4"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb15-4" tabindex="-1"></a></span>
+<span id="cb15-5"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb15-5" tabindex="-1"></a><span class="co">// Append the svg object to the body of the page</span></span>
+<span id="cb15-6"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb15-6" tabindex="-1"></a><span class="kw">let</span> svg <span class="op">=</span> d3<span class="op">.</span><span class="fu">select</span>(<span class="st">&quot;body&quot;</span>)</span>
+<span id="cb15-7"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb15-7" tabindex="-1"></a>  <span class="op">.</span><span class="fu">append</span>(<span class="st">&quot;svg&quot;</span>)</span>
+<span id="cb15-8"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb15-8" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">&quot;width&quot;</span><span class="op">,</span> width <span class="op">+</span> margin<span class="op">.</span><span class="at">left</span> <span class="op">+</span> margin<span class="op">.</span><span class="at">right</span>)</span>
+<span id="cb15-9"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb15-9" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">&quot;height&quot;</span><span class="op">,</span> height <span class="op">+</span> margin<span class="op">.</span><span class="at">top</span> <span class="op">+</span> margin<span class="op">.</span><span class="at">bottom</span>)</span>
+<span id="cb15-10"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb15-10" tabindex="-1"></a>  <span class="op">.</span><span class="fu">append</span>(<span class="st">&quot;g&quot;</span>)</span>
+<span id="cb15-11"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb15-11" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">&quot;transform&quot;</span><span class="op">,</span></span>
+<span id="cb15-12"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb15-12" tabindex="-1"></a>          <span class="st">&quot;translate(&quot;</span> <span class="op">+</span> margin<span class="op">.</span><span class="at">left</span> <span class="op">+</span> <span class="st">&quot;, &quot;</span> <span class="op">+</span> margin<span class="op">.</span><span class="at">top</span> <span class="op">+</span><span class="st">&quot;)&quot;</span>)<span class="op">;</span></span>
+<span id="cb15-13"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb15-13" tabindex="-1"></a></span>
+<span id="cb15-14"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb15-14" tabindex="-1"></a></span>
+<span id="cb15-15"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb15-15" tabindex="-1"></a><span class="kw">function</span> <span class="fu">plotMap</span>(data) {</span>
+<span id="cb15-16"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb15-16" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(data)<span class="op">;</span></span>
+<span id="cb15-17"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb15-17" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="bu">document</span><span class="op">.</span><span class="fu">querySelector</span>(<span class="st">&quot;svg&quot;</span>))<span class="op">;</span></span>
+<span id="cb15-18"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb15-18" tabindex="-1"></a></span>
+<span id="cb15-19"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb15-19" tabindex="-1"></a>}</span>
+<span id="cb15-20"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb15-20" tabindex="-1"></a></span>
+<span id="cb15-21"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb15-21" tabindex="-1"></a>d3<span class="op">.</span><span class="fu">json</span>(<span class="st">&quot;../datasets/balikpapan.geojson&quot;</span>)</span>
+<span id="cb15-22"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb15-22" tabindex="-1"></a>  <span class="op">.</span><span class="fu">then</span>(plotMap)<span class="op">;</span></span></code></pre></div>
+<p>Sama seperti pada bagian sebelumnya di “Drawing with Data”,
+kita menggunakan struktur yang sama yaitu mendeklarasikan
+terlebih dahulu HTML element untuk SVG berupa ukuran tinggi dan
+lebar dan ukuran margin atas, bawah, kanan dan kiri.</p>
+<p>Berikutnya fungsi untuk menggambar peta kita namakan <code>plotMap()</code>
+yang merupakan fungsi untuk melakan berbagai manipulasi data
+sesuai dengan masukan yang disediakan oleh d3.js untuk menggambar peta.</p>
+<p>Di baris terakhir merupakan pemanggilan data GeoJSON menggunakan
+<code>d3.json()</code> yang menghasilkan suatu Promise object yang bisa kita sisipkan
+suatu fungsi callback dalam contoh yang kita akan buat adalah fungsi <code>plotMap()</code></p>
+<p>Di dalam fungsi <code>plotMap()</code> kita masih menampilkan dua baris
+perintah <code>console.log()</code> untuk melihat apakah data yang dibaca
+sudah benar dan element SVG sudah dibuat dengan ukuran yang sesuai.
+Berikut tampilan awal:</p>
+<p><img src="images/d3-js-balikpapan-district-map-init-and-read.png"></p>
+<p>Web browser masih tidak menampilkan apa-apa, namun jendela console
+memberikan output yang kita inginkan yaitu enam wilayah kecamatan di balikpapan
+dan SVG element dengan ukuran yang telah kita tentukan.</p>
+<p>Tahap berikutnya adalah melakukan beberapa transformasi koordinat data
+dan transformasi koordinat peta ke SVG element <code>path</code>. Berikut adalah
+tambahan baris kode JavaScript di dalam fungsi <code>plotMap()</code></p>
+<p><strong>plotd3.js</strong></p>
+<div class="sourceCode" id="cb16"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb16-1"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb16-1" tabindex="-1"></a><span class="co">// Some lines above omitted</span></span>
+<span id="cb16-2"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb16-2" tabindex="-1"></a></span>
+<span id="cb16-3"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb16-3" tabindex="-1"></a><span class="kw">function</span> <span class="fu">plotMap</span>(data) {</span>
+<span id="cb16-4"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb16-4" tabindex="-1"></a>  <span class="co">// Some lines omited</span></span>
+<span id="cb16-5"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb16-5" tabindex="-1"></a></span>
+<span id="cb16-6"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb16-6" tabindex="-1"></a>  <span class="co">// Create a projection function (our data is in latitude, longitude)</span></span>
+<span id="cb16-7"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb16-7" tabindex="-1"></a>  <span class="co">// This function is needed to project from spherical to cylindrical </span></span>
+<span id="cb16-8"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb16-8" tabindex="-1"></a>  <span class="kw">let</span> projection <span class="op">=</span> d3<span class="op">.</span><span class="fu">geoMercator</span>()<span class="op">.</span><span class="fu">scale</span>(<span class="dv">1</span>)<span class="op">.</span><span class="fu">translate</span>([<span class="dv">0</span><span class="op">,</span> <span class="dv">0</span>])<span class="op">.</span><span class="fu">precision</span>(<span class="dv">0</span>)<span class="op">;</span></span>
+<span id="cb16-9"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb16-9" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(projection)<span class="op">;</span></span>
+<span id="cb16-10"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb16-10" tabindex="-1"></a></span>
+<span id="cb16-11"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb16-11" tabindex="-1"></a>  <span class="co">// Create a function to translate projected coordinate into SVG path</span></span>
+<span id="cb16-12"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb16-12" tabindex="-1"></a>  <span class="kw">let</span> path <span class="op">=</span> d3<span class="op">.</span><span class="fu">geoPath</span>()<span class="op">.</span><span class="fu">projection</span>(projection)<span class="op">;</span></span>
+<span id="cb16-13"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb16-13" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(path)<span class="op">;</span> </span>
+<span id="cb16-14"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb16-14" tabindex="-1"></a>}</span>
+<span id="cb16-15"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb16-15" tabindex="-1"></a></span>
+<span id="cb16-16"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb16-16" tabindex="-1"></a><span class="co">// Some lines omitted</span></span></code></pre></div>
+<p>Variabel yang pertama <code>projection</code> menyimpan fungsi transformasi untuk
+mengubah koordinat lintang dan bujur di dalam data <code>balikpapan.geojson</code> yang
+kita miliki ke dalam koordinat silinder. Proyeksi ini dikenal
+sebagai <a href="https://en.wikipedia.org/wiki/Mercator_projection">Mercator projection</a>.
+(lihat di Wikipedia untuk lebih jelas).</p>
+<p>Variabel yang kedua <code>path</code> adalah fungsi untuk melakukan transformasi
+koordinat proyeksi ke dalam SVG element <code>path</code>. Fungsi transformasi ini
+juga memerlukan inputan <code>projection</code>.</p>
+<p>Dengan mencetak kedua fungsi transformasi itu ke jendela console, kita
+bisa melihat bentuk fungsinya (mungkin penamaannya tidak jelas, karena
+library d3.js sudah di-minifikasi untuk memperkecil ukuran file).
+Berikut output kedua fungsi transformasi di jendela console:</p>
+<p><img src="images/d3-js-balikpapan-district-map-transformation.png"></p>
+<p>Tahap berikutnya melakukan scaling dan translation karena
+ukuran path yang dihasilkan masih sangat kecil dan tidak sesuai
+dengan ukuran SVG element yang telah kita tentukan di awal.
+Untuk itu kita menggunakan rumus scaling dan translation ini
+dari sumber berikut: <a href="https://stackoverflow.com/questions/23953366/d3-large-geojson-file-does-not-show-draw-map-properly-using-projections/24055015#24055015">“D3 - Large GeoJSON File does not show draw map properly using projections”</a>. Kode JavaScript berikut ditambahkan di dalam
+fungsi <code>plotMap()</code></p>
+<p><strong>plotd3.js</strong></p>
+<div class="sourceCode" id="cb17"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb17-1"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb17-1" tabindex="-1"></a><span class="co">// Some lines above omitted</span></span>
+<span id="cb17-2"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb17-2" tabindex="-1"></a></span>
+<span id="cb17-3"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb17-3" tabindex="-1"></a><span class="kw">function</span> <span class="fu">plotMap</span>(data) {</span>
+<span id="cb17-4"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb17-4" tabindex="-1"></a>  <span class="co">// Some lines omitted</span></span>
+<span id="cb17-5"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb17-5" tabindex="-1"></a></span>
+<span id="cb17-6"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb17-6" tabindex="-1"></a>  <span class="co">// Automatic plot scaling and translation </span></span>
+<span id="cb17-7"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb17-7" tabindex="-1"></a>  <span class="kw">let</span> bounds <span class="op">=</span> path<span class="op">.</span><span class="fu">bounds</span>(data)<span class="op">;</span></span>
+<span id="cb17-8"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb17-8" tabindex="-1"></a>  <span class="kw">let</span> scale <span class="op">=</span> <span class="op">.</span><span class="dv">95</span> <span class="op">/</span> <span class="bu">Math</span><span class="op">.</span><span class="fu">max</span>((bounds[<span class="dv">1</span>][<span class="dv">0</span>] <span class="op">-</span> bounds[<span class="dv">0</span>][<span class="dv">0</span>]) <span class="op">/</span> width<span class="op">,</span> </span>
+<span id="cb17-9"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb17-9" tabindex="-1"></a>    (bounds[<span class="dv">1</span>][<span class="dv">1</span>] <span class="op">-</span> bounds[<span class="dv">0</span>][<span class="dv">1</span>]) <span class="op">/</span> height)<span class="op">;</span></span>
+<span id="cb17-10"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb17-10" tabindex="-1"></a>  <span class="kw">let</span> transl <span class="op">=</span> [(width <span class="op">-</span> scale <span class="op">*</span> (bounds[<span class="dv">1</span>][<span class="dv">0</span>] <span class="op">+</span> bounds[<span class="dv">0</span>][<span class="dv">0</span>])) <span class="op">/</span> <span class="dv">2</span><span class="op">,</span> </span>
+<span id="cb17-11"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb17-11" tabindex="-1"></a>    (height <span class="op">-</span> scale <span class="op">*</span> (bounds[<span class="dv">1</span>][<span class="dv">1</span>] <span class="op">+</span> bounds[<span class="dv">0</span>][<span class="dv">1</span>])) <span class="op">/</span> <span class="dv">2</span>]<span class="op">;</span></span>
+<span id="cb17-12"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb17-12" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;bounds&quot;</span><span class="op">,</span> bounds)</span>
+<span id="cb17-13"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb17-13" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;scale&quot;</span><span class="op">,</span> scale)<span class="op">;</span></span>
+<span id="cb17-14"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb17-14" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;transl&quot;</span><span class="op">,</span>  transl)<span class="op">;</span></span>
+<span id="cb17-15"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb17-15" tabindex="-1"></a></span>
+<span id="cb17-16"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb17-16" tabindex="-1"></a>  <span class="co">// Add scaling and translation to projection function</span></span>
+<span id="cb17-17"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb17-17" tabindex="-1"></a>  projection<span class="op">.</span><span class="fu">scale</span>(scale)<span class="op">.</span><span class="fu">translate</span>(transl)<span class="op">;</span></span>
+<span id="cb17-18"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb17-18" tabindex="-1"></a>}</span>
+<span id="cb17-19"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb17-19" tabindex="-1"></a></span>
+<span id="cb17-20"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb17-20" tabindex="-1"></a><span class="co">// Some lines omitted</span></span></code></pre></div>
+<p>Kita dapat melihat hasil perhitungan scaling dan translation in
+di dalam jendela console.</p>
+<p><img src="images/d3-js-balikpapan-district-map-scaling-and-translation.png"></p>
+<p>Selanjutnya adalah melakukan penggambaran tiap wilayah kecamatan
+dan juga menambahkan attribute <code>class</code> di setiap SVG element path yang
+mewakili wilayah kecamatan di kota Balikpapan.</p>
+<p><strong>plotd3.js</strong></p>
+<div class="sourceCode" id="cb18"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb18-1"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb18-1" tabindex="-1"></a><span class="co">// Some lines above omitted</span></span>
+<span id="cb18-2"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb18-2" tabindex="-1"></a></span>
+<span id="cb18-3"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb18-3" tabindex="-1"></a><span class="kw">function</span> <span class="fu">plotMap</span>(data) {</span>
+<span id="cb18-4"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb18-4" tabindex="-1"></a>  <span class="co">// Some lines omitted</span></span>
+<span id="cb18-5"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb18-5" tabindex="-1"></a></span>
+<span id="cb18-6"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb18-6" tabindex="-1"></a>  <span class="co">// Create polygon for district and give the element iits className</span></span>
+<span id="cb18-7"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb18-7" tabindex="-1"></a>  <span class="co">// to be able doing styling using styles.css</span></span>
+<span id="cb18-8"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb18-8" tabindex="-1"></a>  svg<span class="op">.</span><span class="fu">selectAll</span>(<span class="st">&quot;.subunit&quot;</span>)</span>
+<span id="cb18-9"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb18-9" tabindex="-1"></a>    <span class="op">.</span><span class="fu">data</span>(data<span class="op">.</span><span class="at">features</span>)<span class="op">.</span><span class="fu">enter</span>()<span class="op">.</span><span class="fu">append</span>(<span class="st">&quot;path&quot;</span>)</span>
+<span id="cb18-10"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb18-10" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">&quot;class&quot;</span><span class="op">,</span> (d) <span class="kw">=&gt;</span> <span class="st">&quot;subunit &quot;</span> <span class="op">+</span> d<span class="op">.</span><span class="at">properties</span><span class="op">.</span><span class="at">KEC_</span><span class="op">.</span><span class="fu">replace</span>(<span class="st">&quot; &quot;</span><span class="op">,</span> <span class="st">&quot;&quot;</span>))</span>
+<span id="cb18-11"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb18-11" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">&quot;d&quot;</span><span class="op">,</span> path)<span class="op">;</span></span>
+<span id="cb18-12"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb18-12" tabindex="-1"></a>}</span>
+<span id="cb18-13"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb18-13" tabindex="-1"></a></span>
+<span id="cb18-14"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb18-14" tabindex="-1"></a><span class="co">// Some lines omitted</span></span></code></pre></div>
+<p>Pada baris kode JavaScript di atas, kita menambahkan class attribute
+bernama “subunit” diikuti nama kecamatan, contoh “BalikpapanBarat”.
+Dari class attribute ini kita memiliki dua pilihan styling
+yaitu dengan menggunakan className <code>subunit</code> untuk melakukan
+styling di seluruh wilayah kecamatan, atau secara specific
+melakukan styling yang berbeda-beda di setiap wilayah kecamatan.
+Dapat kita lihat pada bagian jendela Elements, terlihat
+di bagian SVG element <code>&lt;path&gt;</code> terdapat attribute tambahan
+<code>&lt;path class="subunit BalikpapanBarat"&gt;</code></p>
+<p><img src="images/d3-js-balikpapan-district-map-area-plot.png"></p>
+<p>Gambar di atas menunjukkan semua wilayah masih berwarna hitam
+(warna default), sehingga kita perlu melakukan perwarnaan. Kita
+dapat melakukan pewarnaan wilayah kecamatan langsung di dalam JavaScript.
+Namun cara yang lebih elegan adalah menggunakan file <code>styles.css</code></p>
+<p>Disini kita akan melakukan pewarnaan wilayah yang berbeda beda untuk
+setiap wilayah kecamatan. Kita dapat melakukannya dengan menambahkan
+perintah berikut di dalam file <code>styles.css</code></p>
+<p><strong>styles.css</strong></p>
+<div class="sourceCode" id="cb19"><pre class="sourceCode css"><code class="sourceCode css"><span id="cb19-1"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb19-1" tabindex="-1"></a><span class="co">/* Some lines omitted */</span></span>
+<span id="cb19-2"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb19-2" tabindex="-1"></a></span>
+<span id="cb19-3"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb19-3" tabindex="-1"></a><span class="fu">.subunit.BalikpapanBarat</span> { <span class="kw">fill</span><span class="ch">:</span> <span class="cn">#537c78</span><span class="op">;</span> }</span>
+<span id="cb19-4"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb19-4" tabindex="-1"></a><span class="fu">.subunit.BalikpapanUtara</span> { <span class="kw">fill</span><span class="ch">:</span> <span class="cn">#7ba591</span><span class="op">;</span> }</span>
+<span id="cb19-5"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb19-5" tabindex="-1"></a><span class="fu">.subunit.BalikpapanSelatan</span> { <span class="kw">fill</span><span class="ch">:</span> <span class="cn">#cc222b</span><span class="op">;</span> }</span>
+<span id="cb19-6"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb19-6" tabindex="-1"></a><span class="fu">.subunit.BalikpapanTengah</span> { <span class="kw">fill</span><span class="ch">:</span> <span class="cn">#f15b4c</span><span class="op">;</span> }</span>
+<span id="cb19-7"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb19-7" tabindex="-1"></a><span class="fu">.subunit.BalikpapanKota</span> { <span class="kw">fill</span><span class="ch">:</span> <span class="cn">#faa41b</span><span class="op">;</span> }</span>
+<span id="cb19-8"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb19-8" tabindex="-1"></a><span class="fu">.subunit.BalikpapanTimur</span> { <span class="kw">fill</span><span class="ch">:</span> <span class="cn">#ffd45b</span><span class="op">;</span> }</span></code></pre></div>
+<p>Jika prosedur di atas dijalankan dengan benar, kita sudah dapat mencapai
+hasil yang cukup memuaskan mendekati hasil akhir seperti berikut:</p>
+<p><img src="images/d3-js-balikpapan-district-map-different-color-area.png"></p>
+<p>Langkah terakhir adalah menambahkan nama wilayah kecamatan. Disini kita
+akan melakukannya secara otomatis dengan mengambil nama wilayah kecamatan
+dari <em>property</em> <code>data.features[i].properties.KEC_</code> dengan <code>i</code> merupakan
+indeks wilayah yang ada dalam data <code>balikpapan.geojson</code> dari 0 hingga 5
+(enam wilayah kecamatan). Berikut kita tambahkan kode JavaScript di dalam
+fungsi <code>plotMap()</code></p>
+<p><strong>plotd3.js</strong></p>
+<div class="sourceCode" id="cb20"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb20-1"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb20-1" tabindex="-1"></a><span class="co">// Some lines above omitted</span></span>
+<span id="cb20-2"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb20-2" tabindex="-1"></a></span>
+<span id="cb20-3"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb20-3" tabindex="-1"></a><span class="kw">function</span> <span class="fu">plotMap</span>(data) {</span>
+<span id="cb20-4"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb20-4" tabindex="-1"></a>  <span class="co">// Some lines omitted</span></span>
+<span id="cb20-5"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb20-5" tabindex="-1"></a></span>
+<span id="cb20-6"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb20-6" tabindex="-1"></a>  <span class="co">// Add labels for district name</span></span>
+<span id="cb20-7"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb20-7" tabindex="-1"></a>  svg<span class="op">.</span><span class="fu">selectAll</span>(<span class="st">&quot;.subunit-label&quot;</span>)</span>
+<span id="cb20-8"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb20-8" tabindex="-1"></a>    <span class="op">.</span><span class="fu">data</span>(data<span class="op">.</span><span class="at">features</span>)</span>
+<span id="cb20-9"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb20-9" tabindex="-1"></a>    <span class="op">.</span><span class="fu">enter</span>()<span class="op">.</span><span class="fu">append</span>(<span class="st">&quot;text&quot;</span>)</span>
+<span id="cb20-10"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb20-10" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">&quot;class&quot;</span><span class="op">,</span> (d) <span class="kw">=&gt;</span> <span class="st">&quot;subunit-label &quot;</span> <span class="op">+</span> d<span class="op">.</span><span class="at">properties</span><span class="op">.</span><span class="at">KEC_</span><span class="op">.</span><span class="fu">replace</span>(<span class="st">&quot; &quot;</span><span class="op">,</span> <span class="st">&quot;&quot;</span>))</span>
+<span id="cb20-11"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb20-11" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">&quot;transform&quot;</span><span class="op">,</span> (d) <span class="kw">=&gt;</span> <span class="st">&quot;translate(&quot;</span> <span class="op">+</span> path<span class="op">.</span><span class="fu">centroid</span>(d) <span class="op">+</span> <span class="st">&quot;)&quot;</span>)</span>
+<span id="cb20-12"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb20-12" tabindex="-1"></a>    <span class="op">.</span><span class="fu">attr</span>(<span class="st">&quot;dy&quot;</span><span class="op">,</span> <span class="st">&quot;.35em&quot;</span>)</span>
+<span id="cb20-13"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb20-13" tabindex="-1"></a>    <span class="op">.</span><span class="fu">text</span>((d) <span class="kw">=&gt;</span> d<span class="op">.</span><span class="at">properties</span><span class="op">.</span><span class="at">KEC_</span> )<span class="op">;</span></span>
+<span id="cb20-14"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb20-14" tabindex="-1"></a>}</span>
+<span id="cb20-15"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb20-15" tabindex="-1"></a></span>
+<span id="cb20-16"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb20-16" tabindex="-1"></a><span class="co">// Some lines omitted</span></span></code></pre></div>
+<p>Kemudian kita juga menambahkan sedikit styling untuk label nama wilayah
+kecamatan ini dengan menambahkan kode styling .css berikut di dalam <code>styles.css</code></p>
+<p><strong>styles.css</strong></p>
+<div class="sourceCode" id="cb21"><pre class="sourceCode css"><code class="sourceCode css"><span id="cb21-1"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb21-1" tabindex="-1"></a><span class="co">/* Some lines omitted */</span></span>
+<span id="cb21-2"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb21-2" tabindex="-1"></a></span>
+<span id="cb21-3"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb21-3" tabindex="-1"></a><span class="fu">.subunit-label</span> {</span>
+<span id="cb21-4"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb21-4" tabindex="-1"></a>  <span class="kw">fill</span><span class="ch">:</span> <span class="cn">#332519</span><span class="op">;</span></span>
+<span id="cb21-5"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb21-5" tabindex="-1"></a>  <span class="kw">fill-opacity</span><span class="ch">:</span> <span class="dv">.5</span><span class="op">;</span></span>
+<span id="cb21-6"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb21-6" tabindex="-1"></a>  <span class="kw">font-size</span><span class="ch">:</span> <span class="dv">8</span><span class="dt">px</span><span class="op">;</span></span>
+<span id="cb21-7"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb21-7" tabindex="-1"></a>  <span class="kw">font-weight</span><span class="ch">:</span> <span class="dv">300</span><span class="op">;</span></span>
+<span id="cb21-8"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb21-8" tabindex="-1"></a>  <span class="kw">text-anchor</span><span class="ch">:</span> <span class="dv">middle</span><span class="op">;</span></span>
+<span id="cb21-9"><a href="javascript-in-web-browser-geospatial-plot-and-d3.html#cb21-9" tabindex="-1"></a>}</span></code></pre></div>
+<p>Sehingga kita dapatkan hasil akhir seperti berikut:</p>
+<p><img src="images/d3-js-balikpapan-district-map.png"></p>
+<p>Demikian tutorial sesi praktikum mata kuliah Pemrograman Terstuktur, semoga
+dapat memberi manfaat untuk pembaca dalam melakukan eksplorasi dan pemanfaatan
+JavaScript dalam menyelesaikan masalah sehari-hari. Perjalanan kita dalam
+belajar JavaScript masih panjang.</p>
+<p>Ada kemungkinan di tahun mendatang JavaScript akan terganti oleh bahasa
+pemrograman lainnya. Namun pola umum dalam bahasa pemrograman seperti
+fungsi, datatype, object, variable, dan hal-hal dasar lainnya akan terus
+ada.</p>
 </div>
 <div id="exercises-10" class="section level2 unnumbered hasAnchor">
 <h2>Exercises<a href="javascript-in-web-browser-geospatial-plot-and-d3.html#exercises-10" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>Jelajahi dan carilah di internet terkait tata cara membuat
+file GeoJSON yang dapat di proses oleh d3.js.<br />
+<em>Hint</em>:
+<ul>
+<li>Umumnya file peta memiliki format <code>.shp</code> yang
+merupakan file yang dihasilkan dari program standard untuk
+melakukan pengelolalaan data-data GIS.</li>
+<li>File <code>.shp</code> biasanya
+dikumpulkan dengan file-file yang lain (tidak sendirian
+ada file penunjangnya berupa: <code>.shx</code>, <code>dbf</code>, <code>prj</code>).</li>
+<li>Setiap file <code>.shp</code> selalu memiliki sistem referensi koordinat
+(CRS - Coordinate Reference System) yang mengatur titik data
+dengan titik bujur dan lintang. CRS untuk setiap file <code>.shp</code>
+umumnya tidak memiliki standard yang sama.</li>
+<li>Standar yang umum
+untuk CRS adalah EPSG:4326. Untuk itu perlu dilakukan transformasi
+koordinat dari file <code>.shp</code> ke EPSG:4326.</li>
+<li>Hal ini bisa ditempuh
+dengan program CLI (Command Line Interface) <code>ogr2ogr</code>.</li>
+<li>Lalu berikut dapat dilakukan konversi .shp yang sudah memiliki
+CRS EPSG:4236 menuju GeoJSON menggunakan program pengolah GIS
+seperti QGIS (gratis) atau ArcGIS (berbayar)</li>
+</ul></li>
+<li>Tambahkan fitur animasi, sehingga membuat peta yang digambar lebih
+hidup. Sebagai contoh: ketika dilakukan <em>mouse hovering</em>, warna
+wilayah kecamatan berubah, atauy lebih besar dan muncul mendekati
+pembaca.</li>
+</ul>
 
 </div>
 </div>
@@ -293,7 +889,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/USERNAME/REPO/edit/BRANCH/15-js-in-web-02.Rmd",
+"link": "https://github.com/LugoBlogger/struct-prog-js/edit/main/14-js-in-web-02.Rmd",
 "text": "Edit"
 },
 "history": {

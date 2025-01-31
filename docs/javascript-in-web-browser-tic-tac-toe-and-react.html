@@ -12,7 +12,7 @@ set in the _output.yml file.</p>" />
 
   <meta property="og:title" content="13 JavaScript in Web Browser: Tic-Tac-Toe and React | Structured Programming with JavaScript" />
   <meta property="og:type" content="book" />
-  
+  <meta property="og:image" content="https://github.com/LugoBlogger/struct-prog-js/blob/main/images/cover.png" />
   <meta property="og:description" content="<p>This is a minimal example of using the bookdown package to write a book.
 The HTML output format for this example is bookdown::gitbook,
 set in the _output.yml file.</p>" />
@@ -24,7 +24,7 @@ set in the _output.yml file.</p>" />
   <meta name="twitter:description" content="<p>This is a minimal example of using the bookdown package to write a book.
 The HTML output format for this example is bookdown::gitbook,
 set in the _output.yml file.</p>" />
-  
+  <meta name="twitter:image" content="https://github.com/LugoBlogger/struct-prog-js/blob/main/images/cover.png" />
 
 <meta name="author" content="Henokh Lugo Hariyanto Arif Wicaksono Septyanto" />
 
@@ -59,6 +59,71 @@ set in the _output.yml file.</p>" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
+<style type="text/css">
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
 
 <style type="text/css">
   
@@ -83,13 +148,14 @@ set in the _output.yml file.</p>" />
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Prelude</a>
 <ul>
-<li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#intended-reader"><i class="fa fa-check"></i><b>0.1</b> Intended reader</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#intended-reader"><i class="fa fa-check"></i>Intended reader</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#how-to-read-and-code"><i class="fa fa-check"></i>How to read (and code)</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#colophon"><i class="fa fa-check"></i>Colophon</a></li>
 </ul></li>
 <li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
 <ul>
 <li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#structured-programming"><i class="fa fa-check"></i><b>1.1</b> Structured programming</a></li>
-<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#motivation"><i class="fa fa-check"></i><b>1.2</b> Motivation</a></li>
+<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#the-goal-of-this-book"><i class="fa fa-check"></i><b>1.2</b> The goal of this book</a></li>
 <li class="chapter" data-level="1.3" data-path="introduction.html"><a href="introduction.html#how-to-learn"><i class="fa fa-check"></i><b>1.3</b> How to learn</a></li>
 <li class="chapter" data-level="1.4" data-path="introduction.html"><a href="introduction.html#short-tips"><i class="fa fa-check"></i><b>1.4</b> Short tips</a></li>
 </ul></li>
@@ -130,10 +196,11 @@ set in the _output.yml file.</p>" />
 <ul>
 <li class="chapter" data-level="5.1" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#primary-expression"><i class="fa fa-check"></i><b>5.1</b> Primary expression</a></li>
 <li class="chapter" data-level="5.2" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#operators"><i class="fa fa-check"></i><b>5.2</b> Operators</a></li>
-<li class="chapter" data-level="5.3" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#relational-expression"><i class="fa fa-check"></i><b>5.3</b> Relational expression</a></li>
-<li class="chapter" data-level="5.4" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#logical-expression"><i class="fa fa-check"></i><b>5.4</b> Logical expression</a></li>
-<li class="chapter" data-level="5.5" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#assignment-expression"><i class="fa fa-check"></i><b>5.5</b> Assignment expression</a></li>
-<li class="chapter" data-level="5.6" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#miscellaneous-operators"><i class="fa fa-check"></i><b>5.6</b> Miscellaneous operators</a></li>
+<li class="chapter" data-level="5.3" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#arithmetic-expression"><i class="fa fa-check"></i><b>5.3</b> Arithmetic expression</a></li>
+<li class="chapter" data-level="5.4" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#relational-expression"><i class="fa fa-check"></i><b>5.4</b> Relational expression</a></li>
+<li class="chapter" data-level="5.5" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#logical-expression"><i class="fa fa-check"></i><b>5.5</b> Logical expression</a></li>
+<li class="chapter" data-level="5.6" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#assignment-expression"><i class="fa fa-check"></i><b>5.6</b> Assignment expression</a></li>
+<li class="chapter" data-level="5.7" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#miscellaneous-operators"><i class="fa fa-check"></i><b>5.7</b> Miscellaneous operators</a></li>
 <li class="chapter" data-level="" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#exercises-2"><i class="fa fa-check"></i>Exercises</a></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="statements.html"><a href="statements.html"><i class="fa fa-check"></i><b>6</b> Statements</a>
@@ -141,8 +208,9 @@ set in the _output.yml file.</p>" />
 <li class="chapter" data-level="6.1" data-path="statements.html"><a href="statements.html#expression-statements"><i class="fa fa-check"></i><b>6.1</b> Expression statements</a></li>
 <li class="chapter" data-level="6.2" data-path="statements.html"><a href="statements.html#compound-and-empty-statements"><i class="fa fa-check"></i><b>6.2</b> Compound and empty statements</a></li>
 <li class="chapter" data-level="6.3" data-path="statements.html"><a href="statements.html#conditionals"><i class="fa fa-check"></i><b>6.3</b> Conditionals</a></li>
-<li class="chapter" data-level="6.4" data-path="statements.html"><a href="statements.html#jumps"><i class="fa fa-check"></i><b>6.4</b> Jumps</a></li>
-<li class="chapter" data-level="6.5" data-path="statements.html"><a href="statements.html#miscellaneous-statements"><i class="fa fa-check"></i><b>6.5</b> Miscellaneous statements</a></li>
+<li class="chapter" data-level="6.4" data-path="statements.html"><a href="statements.html#iteration-loops"><i class="fa fa-check"></i><b>6.4</b> Iteration (loops)</a></li>
+<li class="chapter" data-level="6.5" data-path="statements.html"><a href="statements.html#jumps"><i class="fa fa-check"></i><b>6.5</b> Jumps</a></li>
+<li class="chapter" data-level="6.6" data-path="statements.html"><a href="statements.html#miscellaneous-statements"><i class="fa fa-check"></i><b>6.6</b> Miscellaneous statements</a></li>
 <li class="chapter" data-level="" data-path="statements.html"><a href="statements.html#exercises-3"><i class="fa fa-check"></i>Exercises</a></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="objects.html"><a href="objects.html"><i class="fa fa-check"></i><b>7</b> Objects</a>
@@ -168,7 +236,13 @@ set in the _output.yml file.</p>" />
 <li class="chapter" data-level="9.5" data-path="arrays.html"><a href="arrays.html#adding-and-removing-elements-of-an-array"><i class="fa fa-check"></i><b>9.5</b> Adding and removing elements of an array</a></li>
 <li class="chapter" data-level="9.6" data-path="arrays.html"><a href="arrays.html#performing-iteration-to-an-array"><i class="fa fa-check"></i><b>9.6</b> Performing iteration to an array</a></li>
 <li class="chapter" data-level="9.7" data-path="arrays.html"><a href="arrays.html#multidimensional-array"><i class="fa fa-check"></i><b>9.7</b> Multidimensional array</a></li>
-<li class="chapter" data-level="9.8" data-path="arrays.html"><a href="arrays.html#some-useful-methods-in-an-array"><i class="fa fa-check"></i><b>9.8</b> Some useful methods in an array</a></li>
+<li class="chapter" data-level="9.8" data-path="arrays.html"><a href="arrays.html#some-useful-methods-in-an-array"><i class="fa fa-check"></i><b>9.8</b> Some useful methods in an array</a>
+<ul>
+<li class="chapter" data-level="9.8.1" data-path="arrays.html"><a href="arrays.html#array-iterator-methods"><i class="fa fa-check"></i><b>9.8.1</b> Array iterator methods</a></li>
+<li class="chapter" data-level="9.8.2" data-path="arrays.html"><a href="arrays.html#methods-for-creating-stacks-and-queues"><i class="fa fa-check"></i><b>9.8.2</b> Methods for creating stacks and queues</a></li>
+<li class="chapter" data-level="9.8.3" data-path="arrays.html"><a href="arrays.html#methods-on-subarrays"><i class="fa fa-check"></i><b>9.8.3</b> Methods on subarrays</a></li>
+<li class="chapter" data-level="9.8.4" data-path="arrays.html"><a href="arrays.html#array-searching-and-sorting-methods"><i class="fa fa-check"></i><b>9.8.4</b> Array searching and sorting methods</a></li>
+</ul></li>
 <li class="chapter" data-level="9.9" data-path="arrays.html"><a href="arrays.html#objects-that-is-similar-to-array"><i class="fa fa-check"></i><b>9.9</b> Objects that is similar to array</a></li>
 <li class="chapter" data-level="9.10" data-path="arrays.html"><a href="arrays.html#thinking-a-string-as-an-array"><i class="fa fa-check"></i><b>9.10</b> Thinking a string as an array</a></li>
 <li class="chapter" data-level="" data-path="arrays.html"><a href="arrays.html#exercises-5"><i class="fa fa-check"></i>Exercises</a></li>
@@ -197,13 +271,25 @@ set in the _output.yml file.</p>" />
 <li class="chapter" data-level="12.2" data-path="asynchronous-programming-in-javascript.html"><a href="asynchronous-programming-in-javascript.html#an-example-of-asynchronous-program"><i class="fa fa-check"></i><b>12.2</b> An example of asynchronous program</a></li>
 <li class="chapter" data-level="12.3" data-path="asynchronous-programming-in-javascript.html"><a href="asynchronous-programming-in-javascript.html#introduction-to-promise-object"><i class="fa fa-check"></i><b>12.3</b> Introduction to Promise object</a></li>
 <li class="chapter" data-level="12.4" data-path="asynchronous-programming-in-javascript.html"><a href="asynchronous-programming-in-javascript.html#some-practical-use-of-promise-object"><i class="fa fa-check"></i><b>12.4</b> Some practical use of Promise object</a></li>
+<li class="chapter" data-level="12.5" data-path="asynchronous-programming-in-javascript.html"><a href="asynchronous-programming-in-javascript.html#await-and-async"><i class="fa fa-check"></i><b>12.5</b> <code>await</code> and <code>async</code></a></li>
 <li class="chapter" data-level="" data-path="asynchronous-programming-in-javascript.html"><a href="asynchronous-programming-in-javascript.html#exercises-8"><i class="fa fa-check"></i>Exercises</a></li>
 </ul></li>
 <li class="chapter" data-level="13" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html"><i class="fa fa-check"></i><b>13</b> JavaScript in Web Browser: Tic-Tac-Toe and React</a>
 <ul>
 <li class="chapter" data-level="13.1" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#setup-environment"><i class="fa fa-check"></i><b>13.1</b> Setup environment</a></li>
-<li class="chapter" data-level="13.2" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#short-overview-of-tic-tac-toe-program-and-react"><i class="fa fa-check"></i><b>13.2</b> Short overview of Tic-Tac-Toe program and React</a></li>
-<li class="chapter" data-level="13.3" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#finishing-the-base-program-of-tic-tac-toe"><i class="fa fa-check"></i><b>13.3</b> Finishing the base program of Tic-Tac-Toe</a></li>
+<li class="chapter" data-level="13.2" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#short-overview-of-tic-tac-toe-program-and-react"><i class="fa fa-check"></i><b>13.2</b> Short overview of Tic-Tac-Toe program and React</a>
+<ul>
+<li class="chapter" data-level="13.2.1" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#isi-folder-pages-dan-styles."><i class="fa fa-check"></i><b>13.2.1</b> Isi folder <code>pages</code> dan <code>styles</code>.</a></li>
+<li class="chapter" data-level="13.2.2" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#membuat-papan-permainan-tic-tac-toe"><i class="fa fa-check"></i><b>13.2.2</b> Membuat papan permainan Tic-Tac-Toe</a></li>
+<li class="chapter" data-level="13.2.3" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#react-props-untuk-data-manipulasi-komponen-square"><i class="fa fa-check"></i><b>13.2.3</b> React <code>props</code> untuk data manipulasi komponen <code>Square</code></a></li>
+<li class="chapter" data-level="13.2.4" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#menambahkan-interactivity"><i class="fa fa-check"></i><b>13.2.4</b> Menambahkan <em>interactivity</em></a></li>
+</ul></li>
+<li class="chapter" data-level="13.3" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#finishing-the-base-program-of-tic-tac-toe"><i class="fa fa-check"></i><b>13.3</b> Finishing the base program of Tic-Tac-Toe</a>
+<ul>
+<li class="chapter" data-level="13.3.1" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#memindahkan-usestate-dari-square-ke-board-lifted-up"><i class="fa fa-check"></i><b>13.3.1</b> Memindahkan <code>useState</code> dari <code>Square()</code> ke <code>Board()</code> (lifted up)</a></li>
+<li class="chapter" data-level="13.3.2" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#kondisi-untuk-menambahkan-pergantian-pemain"><i class="fa fa-check"></i><b>13.3.2</b> Kondisi untuk menambahkan pergantian pemain</a></li>
+<li class="chapter" data-level="13.3.3" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#menambahkan-fitur-pemberitahuan-untuk-pemenang"><i class="fa fa-check"></i><b>13.3.3</b> Menambahkan fitur pemberitahuan untuk pemenang</a></li>
+</ul></li>
 <li class="chapter" data-level="13.4" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#additional-features-time-travel-for-players-steps"><i class="fa fa-check"></i><b>13.4</b> Additional features: “Time travel” for player’s steps</a></li>
 <li class="chapter" data-level="" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#exercises-9"><i class="fa fa-check"></i>Exercises</a></li>
 </ul></li>
@@ -217,9 +303,6 @@ set in the _output.yml file.</p>" />
 </ul></li>
 <li class="chapter" data-level="15" data-path="javascript-in-web-browser-learning-animation.html"><a href="javascript-in-web-browser-learning-animation.html"><i class="fa fa-check"></i><b>15</b> JavaScript in Web Browser: Learning animation</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
-<li class="divider"></li>
-<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-
 </ul>
 
       </nav>
@@ -239,20 +322,757 @@ set in the _output.yml file.</p>" />
             <section class="normal" id="section-">
 <div id="javascript-in-web-browser-tic-tac-toe-and-react" class="section level1 hasAnchor" number="13">
 <h1><span class="header-section-number">13</span> JavaScript in Web Browser: Tic-Tac-Toe and React<a href="javascript-in-web-browser-tic-tac-toe-and-react.html#javascript-in-web-browser-tic-tac-toe-and-react" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>In this chapter, we are going to learn one of the most popular framework for
+writing a JavaScript program. That framework is React.</p>
+<p>React ini merupakan JavaScript library yang diperuntukkan untuk membangun
+tampilan antarmuka (<em>user interface</em>). Tiga fitur utama dari React adalah
+- Deklaratif
+- Berbasis pada komponen
+- Bisa digunakan untuk membangun aplikasi di berbagai platform (
+di server menggunakan Node.js dan di perangkat mobile menggunakan
+React Native)</p>
+<p>Berikut ini akan diuraikan tutorial sederhana membangun aplikasi game
+sederhana <em>Tic-Tac-Toe</em> yang diambil panduan awal di dalam dokumentasi
+<em>library</em> React.</p>
+<p>Tutorial ini akan dibagi menjadi 4 tahap, yaitu:
+- Instalasi dan persiapan <em>workspace</em> untuk pemgembangan game <em>Tic-Tac-Toe</em>
+- Gambaran singkat terkait gagasan fundamental di dalam React
+- Menyelesaikan pembuatan game
+- Menambahkan fitur <em>time travel</em> atau <em>history</em> permainan
+(opsional)</p>
+<p>Di akhir tutorial ini, kita akan mengerti cara membuat game Tic-Tac-Toe seperti
+pada gambar di bawah ini:</p>
+<p><img src="images/tic-tac-toe-finish-game.png" width=400></p>
+<p>Bagian sebelah kanan yang menunjukkan <em>history</em>
+permainan dapat dilewati jika dirasa tutorial cukup
+panjang.</p>
 <div id="setup-environment" class="section level2 hasAnchor" number="13.1">
 <h2><span class="header-section-number">13.1</span> Setup environment<a href="javascript-in-web-browser-tic-tac-toe-and-react.html#setup-environment" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Tutorial ini dapat juga diakses melalui <a href="https://codesandbox.io/s/ljg0t8%60">codesandbox.io</a>
+tanpa perlu melakukan instalasi secara lokal. Namun kita
+akan melakukan tutorial untuk versi lokal supaya dapat memahami juga
+proses instalasi dan persiapan untuk menyusun program menggunakan
+React.</p>
+<p>Disini kita tidak menggunakan React project initialization
+secara langsung karena alasan keamanan
+(lihat tulisan berikut: <a href="https://overreacted.io/npm-audit-broken-by-design/">npm audit: Broken by Design</a>). Disini kita akan
+menggunakan Next.js sebagai React framework.</p>
+<p>Langkah-langkah untuk mempersiapkan <em>workspace</em>
+1. Install Node.js (lihat kembali pertemuan 1)</p>
+<ol start="2" style="list-style-type: decimal">
+<li><p>Buatlah direktori <code>tic-tac-toe</code> sebagai <em>workspace</em></p></li>
+<li><p>Didalam direktori <code>tic-tac-toe</code>, buatlah file <code>package.json</code>
+dengan isi <em>empty object</em> sebagai berikut:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode json"><code class="sourceCode json"><span id="cb1-1"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb1-1" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb1-2"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb1-2" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div>
+<p>Buka terminal di VSCode, dan pindah lokasi
+<em>working directory</em> ke dalam direktori
+<code>tic-tac-toe</code>. Lalu jalankan perintah berikut melalui terminal di VSCode,</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb2-1" tabindex="-1"></a><span class="ex">npm</span> install react react-dom next</span></code></pre></div></li>
+<li><p>Setelah menjalankan perintah di atas struktur direktori
+menjadi seperti berikut:</p>
+<pre><code>tic-tac-toe/
+├─ node_modules/
+├─ package-lock.json
+╰─ package.json </code></pre></li>
+<li><p>Susun secara rapi data JSON dalam <code>package.json</code> dan tambahkan
+<em>property</em> berikut setelah <em>property</em> <code>dependencies</code> (ingat koma pemisah
+antar <em>property name</em>):</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode json"><code class="sourceCode json"><span id="cb4-1"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb4-1" tabindex="-1"></a><span class="fu">{</span></span>
+<span id="cb4-2"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb4-2" tabindex="-1"></a> <span class="dt">&quot;scripts&quot;</span><span class="fu">:</span> <span class="fu">{</span></span>
+<span id="cb4-3"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb4-3" tabindex="-1"></a>   <span class="dt">&quot;dev&quot;</span><span class="fu">:</span> <span class="st">&quot;next dev&quot;</span></span>
+<span id="cb4-4"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb4-4" tabindex="-1"></a> <span class="fu">}</span></span>
+<span id="cb4-5"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb4-5" tabindex="-1"></a><span class="fu">}</span></span></code></pre></div>
+<p><em>Property</em> tersebut akan memberikan kita perintah untuk
+menjalankan <code>npm run dev</code> menggunakan Next.js framework.</p></li>
+<li><p>Download dua folder <code>pages</code> dan <code>styles</code> beserta isinya di
+<a href="https://github.com/LugoBlogger/SI-201-404-structured-programming/tree/master/examples/tic-tac-toe">GitHub repository SI-201-404-structured-programming</a>. Letakkan kedua folder tersebut
+di dalam <em>working directory</em> <code>tic-tac-toe</code>, sehingga
+didapatkan susunan direktori sebagai berikut:</p>
+<pre><code>tic-tac-toe/
+├─ node_modules/
+├─ pages/
+│  ├─ _app.js
+│  ├─ App.js
+│  ╰─ index.js
+├─ styles/
+│  ╰─ styles.css
+├─ package-lock.json
+╰─ package.json </code></pre></li>
+<li><p>Jalankan <code>npm run dev</code> di terminal (posisi <em>working directory</em>
+berada di direktori <code>tic-tac-toe</code>).
+Tunggu sampai Next.js selesai melakukan <em>compiling</em>
+seperti pada gambar di bawah ini</p>
+<p><img src="images/tic-tac-toe-npm-run-dev.png" width=600></p>
+<p>dan kemudian buka alamat berikut
+di web browser: <code>localhost:3000</code>. Jika berhasil akan
+didapatkan tampilan seperti berikut:</p>
+<p><img src="images/tic-tac-toe-initial-program.png" width=400></p></li>
+</ol>
 </div>
 <div id="short-overview-of-tic-tac-toe-program-and-react" class="section level2 hasAnchor" number="13.2">
 <h2><span class="header-section-number">13.2</span> Short overview of Tic-Tac-Toe program and React<a href="javascript-in-web-browser-tic-tac-toe-and-react.html#short-overview-of-tic-tac-toe-program-and-react" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Selama pengembangan program ini kita akan membuka secara bersamaan
+VSCode dan web browser (dalam contoh ini akan di pakai Google
+Chrome Web Browser). Ketika kita mengetikkan perintah di terminal
+<code>npm run dev</code>, Next.js framework akan senantias terus menerus
+melakukan <code>fast refresh</code> ketika ada di perubahan dalam program
+yang kita ketikan di VScode, sehingga setiap perubahan
+(selama kode benar) akan segera di tampilkan ke web browser.
+Apabila terjadi sesuatu yang tidak semestinya seperti <em>bug</em>,
+maka cukup dilakukan perintah penghentian <em>localhost</em> dengan
+menekan tombol Ctrl+C di terminal VSCode.</p>
+<p><img src="images/tic-tac-toe-vscode-and-browser.png"></p>
+<div id="isi-folder-pages-dan-styles." class="section level3 hasAnchor" number="13.2.1">
+<h3><span class="header-section-number">13.2.1</span> Isi folder <code>pages</code> dan <code>styles</code>.<a href="javascript-in-web-browser-tic-tac-toe-and-react.html#isi-folder-pages-dan-styles." class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Selama proses pembuatan program Tic-Tac-Toe, kita akan
+sering mengedit file <code>App.js</code>.</p>
+<div id="app.js" class="section level4 hasAnchor" number="13.2.1.1">
+<h4><span class="header-section-number">13.2.1.1</span> <code>App.js</code><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#app.js" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Di dalam file <code>App.js</code> terdapat potongan kode JavaScript berikut:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb6-1"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb6-1" tabindex="-1"></a><span class="im">export</span> <span class="im">default</span> <span class="kw">function</span> <span class="fu">Square</span>() {</span>
+<span id="cb6-2"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb6-2" tabindex="-1"></a>  <span class="cf">return</span> <span class="op">&lt;</span>button className<span class="op">=</span><span class="st">&quot;square&quot;</span><span class="op">&gt;</span>X<span class="op">&lt;/</span>button<span class="op">&gt;;</span></span>
+<span id="cb6-3"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb6-3" tabindex="-1"></a>}</span></code></pre></div>
+<p>Potongan kode di atas merupakan fungsi JavaScript bernama
+<code>Square()</code> tanpa parameter (input). Keyword <code>export</code> menunjukkan
+bahwa fungsi ini akan di-<em>export</em> supaya bisa dipanggil oleh berkas
+lain (yaitu <code>index.js</code>). Keyword <code>default</code> merupakan penunjuk
+bahwa secara <em>default</em> fungsi ini akan di-<em>export</em> apabila
+terdapat lebih dari satu fungsi di dalam file <code>App.js</code>.</p>
+<p>Fungsi <code>Square()</code> ini akan dipanggil dan memberikan output di
+<em>web browser</em> sebagai suatu kotak yang berisi huruf “X”.</p>
+<p>Pada bagian <code>return</code>, kita melihat terdapat HTML element <code>&lt;button&gt;</code>
+dengan attribute <code>className="square"</code>. Attribute ini akan
+secara otomatis melakukan <em>look-up</em> terhadap <code>styles.css</code> yang
+terdapat dalam folder <code>styles</code>. Kita melihat disini terdapat
+campuran sintaks HTML dan JavaScript, kode semacam ini
+disebut JSX (JavaScript XML).</p>
+<p><img src="images/tic-tac-toe-square-class-names.png"></p>
+</div>
+<div id="styles.css" class="section level4 hasAnchor" number="13.2.1.2">
+<h4><span class="header-section-number">13.2.1.2</span> <code>styles.css</code><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#styles.css" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<p>Merupakan file yang digunakan untuk mengatur <em>styling</em> dari
+HTML element, seperti elemen <code>&lt;button&gt;</code> yang diatur
+oleh <code>className="square"</code> yang secara otomatis
+memanggil styling <code>.square</code> dari file <code>styles.css</code>.
+Ada beberapa <code>classNames</code> yang telah diatur styling nya
+dan akan digunakan selama pembuatan
+program:
+- <code>.board-row</code>
+- <code>.status</code>
+- <code>.game</code>
+- <code>.game-info</code></p>
+</div>
+<div id="index.js" class="section level4 hasAnchor" number="13.2.1.3">
+<h4><span class="header-section-number">13.2.1.3</span> <code>index.js</code><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#index.js" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div class="sourceCode" id="cb7"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb7-1"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb7-1" tabindex="-1"></a><span class="im">import</span> App <span class="im">from</span> <span class="st">&#39;./App&#39;</span><span class="op">;</span></span>
+<span id="cb7-2"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb7-2" tabindex="-1"></a><span class="im">import</span> Head <span class="im">from</span> <span class="st">&#39;next/head&#39;</span><span class="op">;</span></span>
+<span id="cb7-3"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb7-3" tabindex="-1"></a></span>
+<span id="cb7-4"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb7-4" tabindex="-1"></a><span class="im">export</span> <span class="im">default</span> <span class="kw">function</span> <span class="fu">HomePage</span>() {</span>
+<span id="cb7-5"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb7-5" tabindex="-1"></a>  <span class="cf">return</span> (</span>
+<span id="cb7-6"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb7-6" tabindex="-1"></a>    <span class="op">&lt;&gt;</span></span>
+<span id="cb7-7"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb7-7" tabindex="-1"></a>      <span class="op">&lt;</span>Head<span class="op">&gt;</span></span>
+<span id="cb7-8"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb7-8" tabindex="-1"></a>        <span class="op">&lt;</span>title<span class="op">&gt;</span><span class="bu">Document</span><span class="op">&lt;/</span>title<span class="op">&gt;</span></span>
+<span id="cb7-9"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb7-9" tabindex="-1"></a>      <span class="op">&lt;/</span>Head<span class="op">&gt;</span></span>
+<span id="cb7-10"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb7-10" tabindex="-1"></a>      <span class="op">&lt;</span>div id<span class="op">=</span><span class="st">&quot;root&quot;</span><span class="op">&gt;</span></span>
+<span id="cb7-11"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb7-11" tabindex="-1"></a>        <span class="op">&lt;</span>App <span class="op">/&gt;</span></span>
+<span id="cb7-12"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb7-12" tabindex="-1"></a>      <span class="op">&lt;/</span>div<span class="op">&gt;</span></span>
+<span id="cb7-13"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb7-13" tabindex="-1"></a>    <span class="op">&lt;/&gt;</span></span>
+<span id="cb7-14"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb7-14" tabindex="-1"></a>  )<span class="op">;</span></span>
+<span id="cb7-15"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb7-15" tabindex="-1"></a>}</span></code></pre></div>
+<p>Dua baris <code>import</code> di atas digunakan untuk memanggil fungsi
+<code>Square</code> di <code>App.js</code> yang akan memberikan keluaran (<em>return value</em>)
+berupa element <code>&lt;button&gt;</code>. Element <code>&lt;button&gt;</code> ini akan diapit
+(<em>wrapped</em>) dalam element <code>&lt;div id="root"&gt;  &lt;/div&gt;</code>.
+Element <code>&lt;Head&gt;</code> merupakan komponen dalam Next.js yang digunakan
+untuk menambahkan komponen di dalam element <code>&lt;head&gt;</code> HTML.</p>
+<p>File ini menjadi jembatan antara <code>App.js</code> dan <em>web browser</em>.
+Di dalam tutorial ini, kita tidak akan menyentuh file ini.</p>
+</div>
+<div id="app.js-1" class="section level4 hasAnchor" number="13.2.1.4">
+<h4><span class="header-section-number">13.2.1.4</span> <code>_app.js</code><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#app.js-1" class="anchor-section" aria-label="Anchor link to header"></a></h4>
+<div class="sourceCode" id="cb8"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb8-1"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb8-1" tabindex="-1"></a><span class="im">import</span> <span class="st">&#39;../styles/styles.css&#39;</span><span class="op">;</span></span>
+<span id="cb8-2"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb8-2" tabindex="-1"></a></span>
+<span id="cb8-3"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb8-3" tabindex="-1"></a><span class="im">export</span> <span class="im">default</span> <span class="kw">function</span> <span class="fu">App</span>({ Component<span class="op">,</span> pageProps }) {</span>
+<span id="cb8-4"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb8-4" tabindex="-1"></a>  <span class="cf">return</span> <span class="op">&lt;</span>Component {<span class="op">...</span>pageProps} <span class="op">/&gt;;</span></span>
+<span id="cb8-5"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb8-5" tabindex="-1"></a>}</span></code></pre></div>
+<p>Merupakan file default dari Next.js framework yang harus ada
+untuk menjembatani antara styling <code>styles.css</code> dan HTML
+yang di-<em>generate</em> oleh React. Semua file <code>.css</code> yang
+ada di dalam folder <code>styles</code> ini akan mempengaruhi styling
+website secara global. Untuk melakukan styling secara tersendiri
+untuk masing-masing halaman web dapat dilihat pada tutorial
+<a href="https://nextjs.org/learn/basics/assets-metadata-css/layout-component">Create Your First App</a> di dokumentasi Next.js.
+Disini kita tidak menggunakan prosedur tersebut.</p>
+</div>
+</div>
+<div id="membuat-papan-permainan-tic-tac-toe" class="section level3 hasAnchor" number="13.2.2">
+<h3><span class="header-section-number">13.2.2</span> Membuat papan permainan Tic-Tac-Toe<a href="javascript-in-web-browser-tic-tac-toe-and-react.html#membuat-papan-permainan-tic-tac-toe" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Untuk membuat papan permainan Tic-Tac-Toe yang terdiri
+dari 9 kotak yang disusun dalam grid 3x3, pertama
+kita mencoba untuk menggandakan setiap <code>&lt;button&gt;</code> element
+di dalam file <code>App.js</code>.</p>
+<p><img src="images/tic-tac-toe-three-squares.png"/></p>
+<p>Pada kode di <code>App.js</code>, kita menambahkan dua buah <code>&lt;button&gt;</code>
+element dan apitan <code>&lt;&gt; &lt;/&gt;</code>. Apitan ini dikenal sebagai
+<em>Fragment element</em> dalam komponen React. Fragment element ini
+bertujuan untuk dapat memberikan keluaran HTML element
+yang saling bersebelahan dan dijadikan satu grup nilai luaran.
+Sama seperti halnya Array untuk mengumpulkan beberapa nilai menjadi satu, Fragment element digunakan untuk menyatukan
+beberapa HTML element menjadi satu element besar.
+Lalu terakhir keluaran ini perlu diapit oleh tanda kurung <code>()</code>
+yang menyatakan keluaran ini dilihat sebagai satu <code>expression</code>,</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb9-1"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb9-1" tabindex="-1"></a><span class="im">export</span> <span class="im">default</span> <span class="kw">function</span> <span class="fu">Square</span>() {</span>
+<span id="cb9-2"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb9-2" tabindex="-1"></a>  <span class="cf">return</span> (</span>
+<span id="cb9-3"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb9-3" tabindex="-1"></a>    <span class="op">&lt;&gt;</span></span>
+<span id="cb9-4"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb9-4" tabindex="-1"></a>      <span class="op">&lt;</span>button className<span class="op">=</span><span class="st">&quot;square&quot;</span><span class="op">&gt;</span>X<span class="op">&lt;/</span>button<span class="op">&gt;</span></span>
+<span id="cb9-5"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb9-5" tabindex="-1"></a>      <span class="op">&lt;</span>button className<span class="op">=</span><span class="st">&quot;square&quot;</span><span class="op">&gt;</span>X<span class="op">&lt;/</span>button<span class="op">&gt;</span></span>
+<span id="cb9-6"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb9-6" tabindex="-1"></a>      <span class="op">&lt;</span>button className<span class="op">=</span><span class="st">&quot;square&quot;</span><span class="op">&gt;</span>X<span class="op">&lt;/</span>button<span class="op">&gt;</span></span>
+<span id="cb9-7"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb9-7" tabindex="-1"></a>    <span class="op">&lt;/&gt;</span></span>
+<span id="cb9-8"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb9-8" tabindex="-1"></a>  )<span class="op">;</span></span>
+<span id="cb9-9"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb9-9" tabindex="-1"></a>}</span></code></pre></div>
+<p>Untuk membuat papan permainan Tic-Tac-Toe 3x3, kita
+perlu membagi setiap tiga buah buton dengan elemmnt <code>&lt;div&gt;</code>.
+Agar setiap pembagian <code>&lt;div&gt;</code> berada di baris berikutnya
+(tersusun vertikal)
+maka kita dapat menambahkan pengaturan styling <code>.board-row</code>
+yang sudah disediakan di dalam <code>styles.css</code> dan cukup memanggilnya
+dengan menambahkan <code>className="board-row"</code></p>
+<p>Karena kita telah menyusun papan,
+kita tidak lagi menamakan fungsi di dalam <code>App.js</code> ini
+sebagai <code>Square()</code> melainkan sebagai <code>Board()</code>
+dan juga untuk mempermudah penyusunan program kedepan
+kita ganti teks “X” di setiap <code>&lt;button&gt;</code> dengan
+teks 1, 2, 3, …, 9. Hasil akhir file <code>App.js</code> adalah sebagai
+berikut</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb10-1"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb10-1" tabindex="-1"></a><span class="im">export</span> <span class="im">default</span> <span class="kw">function</span> <span class="fu">Board</span>() {</span>
+<span id="cb10-2"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb10-2" tabindex="-1"></a>  <span class="cf">return</span> (</span>
+<span id="cb10-3"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb10-3" tabindex="-1"></a>    <span class="op">&lt;&gt;</span></span>
+<span id="cb10-4"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb10-4" tabindex="-1"></a>      <span class="op">&lt;</span>div className<span class="op">=</span><span class="st">&quot;board-row&quot;</span><span class="op">&gt;</span></span>
+<span id="cb10-5"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb10-5" tabindex="-1"></a>        <span class="op">&lt;</span>button className<span class="op">=</span><span class="st">&quot;square&quot;</span><span class="op">&gt;</span><span class="dv">1</span><span class="op">&lt;/</span>button<span class="op">&gt;</span></span>
+<span id="cb10-6"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb10-6" tabindex="-1"></a>        <span class="op">&lt;</span>button className<span class="op">=</span><span class="st">&quot;square&quot;</span><span class="op">&gt;</span><span class="dv">2</span><span class="op">&lt;/</span>button<span class="op">&gt;</span></span>
+<span id="cb10-7"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb10-7" tabindex="-1"></a>        <span class="op">&lt;</span>button className<span class="op">=</span><span class="st">&quot;square&quot;</span><span class="op">&gt;</span><span class="dv">3</span><span class="op">&lt;/</span>button<span class="op">&gt;</span></span>
+<span id="cb10-8"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb10-8" tabindex="-1"></a>      <span class="op">&lt;/</span>div<span class="op">&gt;</span></span>
+<span id="cb10-9"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb10-9" tabindex="-1"></a>      <span class="op">&lt;</span>div className<span class="op">=</span><span class="st">&quot;board-row&quot;</span><span class="op">&gt;</span></span>
+<span id="cb10-10"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb10-10" tabindex="-1"></a>        <span class="op">&lt;</span>button className<span class="op">=</span><span class="st">&quot;square&quot;</span><span class="op">&gt;</span><span class="dv">4</span><span class="op">&lt;/</span>button<span class="op">&gt;</span></span>
+<span id="cb10-11"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb10-11" tabindex="-1"></a>        <span class="op">&lt;</span>button className<span class="op">=</span><span class="st">&quot;square&quot;</span><span class="op">&gt;</span><span class="dv">5</span><span class="op">&lt;/</span>button<span class="op">&gt;</span></span>
+<span id="cb10-12"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb10-12" tabindex="-1"></a>        <span class="op">&lt;</span>button className<span class="op">=</span><span class="st">&quot;square&quot;</span><span class="op">&gt;</span><span class="dv">6</span><span class="op">&lt;/</span>button<span class="op">&gt;</span></span>
+<span id="cb10-13"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb10-13" tabindex="-1"></a>      <span class="op">&lt;/</span>div<span class="op">&gt;</span></span>
+<span id="cb10-14"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb10-14" tabindex="-1"></a>      <span class="op">&lt;</span>div className<span class="op">=</span><span class="st">&quot;board-row&quot;</span><span class="op">&gt;</span></span>
+<span id="cb10-15"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb10-15" tabindex="-1"></a>        <span class="op">&lt;</span>button className<span class="op">=</span><span class="st">&quot;square&quot;</span><span class="op">&gt;</span><span class="dv">7</span><span class="op">&lt;/</span>button<span class="op">&gt;</span></span>
+<span id="cb10-16"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb10-16" tabindex="-1"></a>        <span class="op">&lt;</span>button className<span class="op">=</span><span class="st">&quot;square&quot;</span><span class="op">&gt;</span><span class="dv">8</span><span class="op">&lt;/</span>button<span class="op">&gt;</span></span>
+<span id="cb10-17"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb10-17" tabindex="-1"></a>        <span class="op">&lt;</span>button className<span class="op">=</span><span class="st">&quot;square&quot;</span><span class="op">&gt;</span><span class="dv">9</span><span class="op">&lt;/</span>button<span class="op">&gt;</span></span>
+<span id="cb10-18"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb10-18" tabindex="-1"></a>      <span class="op">&lt;/</span>div<span class="op">&gt;</span></span>
+<span id="cb10-19"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb10-19" tabindex="-1"></a>    <span class="op">&lt;/&gt;</span></span>
+<span id="cb10-20"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb10-20" tabindex="-1"></a>  )<span class="op">;</span></span>
+<span id="cb10-21"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb10-21" tabindex="-1"></a>}</span></code></pre></div>
+<p>dan mendapatkan tampilan akhir di browser.</p>
+<p><img src="images/tic-tac-toe-first-board.png"></p>
+</div>
+<div id="react-props-untuk-data-manipulasi-komponen-square" class="section level3 hasAnchor" number="13.2.3">
+<h3><span class="header-section-number">13.2.3</span> React <code>props</code> untuk data manipulasi komponen <code>Square</code><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#react-props-untuk-data-manipulasi-komponen-square" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>React <code>props</code> merupakan nama lain untuk data yang dapat
+kita sematkan ke HTML element. Dengan gabungan fungsi
+HTML element dari bawaan framework React dan props
+kita dapat membangun HTML element dengan attribute
+dan text terapit lebih dinamik (nilainya dapat kita
+ubah-ubah sesuai kebutuhan tanpa harus menulis ulang
+HTML element)</p>
+<p>Seperti kita ketahui di dalam fungsi <code>Board()</code> di file
+<code>App.js</code>, kita menuliskan sembilan kali <code>&lt;button&gt;</code>.
+Kita dapat menuliskan fungsi <code>Square()</code> untuk masing-masing
+kotak, dan memanggil fungsi <code>Square()</code> di dalam <code>Board()</code>.
+Sehingga <code>App.js</code> menjadi</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb11-1"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb11-1" tabindex="-1"></a><span class="kw">function</span> <span class="fu">Square</span>({ value }) {</span>
+<span id="cb11-2"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb11-2" tabindex="-1"></a>  <span class="cf">return</span> <span class="op">&lt;</span>button className<span class="op">=</span><span class="st">&quot;square&quot;</span><span class="op">&gt;</span>{value}<span class="op">&lt;/</span>button<span class="op">&gt;</span></span>
+<span id="cb11-3"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb11-3" tabindex="-1"></a>}</span>
+<span id="cb11-4"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb11-4" tabindex="-1"></a></span>
+<span id="cb11-5"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb11-5" tabindex="-1"></a><span class="im">export</span> <span class="im">default</span> <span class="kw">function</span> <span class="fu">Board</span>() {</span>
+<span id="cb11-6"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb11-6" tabindex="-1"></a>  <span class="cf">return</span> (</span>
+<span id="cb11-7"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb11-7" tabindex="-1"></a>    <span class="op">&lt;&gt;</span></span>
+<span id="cb11-8"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb11-8" tabindex="-1"></a>      <span class="op">&lt;</span>div className<span class="op">=</span><span class="st">&quot;board-row&quot;</span><span class="op">&gt;</span></span>
+<span id="cb11-9"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb11-9" tabindex="-1"></a>        <span class="op">&lt;</span>Square value<span class="op">=</span><span class="st">&quot;1&quot;</span><span class="op">/&gt;</span></span>
+<span id="cb11-10"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb11-10" tabindex="-1"></a>        <span class="op">&lt;</span>Square value<span class="op">=</span><span class="st">&quot;2&quot;</span><span class="op">/&gt;</span></span>
+<span id="cb11-11"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb11-11" tabindex="-1"></a>        <span class="op">&lt;</span>Square value<span class="op">=</span><span class="st">&quot;3&quot;</span><span class="op">/&gt;</span></span>
+<span id="cb11-12"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb11-12" tabindex="-1"></a>      <span class="op">&lt;/</span>div<span class="op">&gt;</span></span>
+<span id="cb11-13"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb11-13" tabindex="-1"></a>      <span class="op">&lt;</span>div className<span class="op">=</span><span class="st">&quot;board-row&quot;</span><span class="op">&gt;</span></span>
+<span id="cb11-14"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb11-14" tabindex="-1"></a>        <span class="op">&lt;</span>Square value<span class="op">=</span><span class="st">&quot;4&quot;</span><span class="op">/&gt;</span></span>
+<span id="cb11-15"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb11-15" tabindex="-1"></a>        <span class="op">&lt;</span>Square value<span class="op">=</span><span class="st">&quot;5&quot;</span><span class="op">/&gt;</span></span>
+<span id="cb11-16"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb11-16" tabindex="-1"></a>        <span class="op">&lt;</span>Square value<span class="op">=</span><span class="st">&quot;6&quot;</span><span class="op">/&gt;</span></span>
+<span id="cb11-17"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb11-17" tabindex="-1"></a>      <span class="op">&lt;/</span>div<span class="op">&gt;</span></span>
+<span id="cb11-18"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb11-18" tabindex="-1"></a>      <span class="op">&lt;</span>div className<span class="op">=</span><span class="st">&quot;board-row&quot;</span><span class="op">&gt;</span></span>
+<span id="cb11-19"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb11-19" tabindex="-1"></a>        <span class="op">&lt;</span>Square value<span class="op">=</span><span class="st">&quot;7&quot;</span><span class="op">/&gt;</span></span>
+<span id="cb11-20"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb11-20" tabindex="-1"></a>        <span class="op">&lt;</span>Square value<span class="op">=</span><span class="st">&quot;8&quot;</span><span class="op">/&gt;</span></span>
+<span id="cb11-21"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb11-21" tabindex="-1"></a>        <span class="op">&lt;</span>Square value<span class="op">=</span><span class="st">&quot;9&quot;</span><span class="op">/&gt;</span></span>
+<span id="cb11-22"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb11-22" tabindex="-1"></a>      <span class="op">&lt;/</span>div<span class="op">&gt;</span></span>
+<span id="cb11-23"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb11-23" tabindex="-1"></a>    <span class="op">&lt;/&gt;</span></span>
+<span id="cb11-24"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb11-24" tabindex="-1"></a>  )<span class="op">;</span></span>
+<span id="cb11-25"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb11-25" tabindex="-1"></a>}</span></code></pre></div>
+<p>React <code>props</code> di atas diwakili oleh parameter <code>value</code>
+dalam kelas <code>Square()</code> di atas. Perlu diingat React <code>props</code>
+disini merupakan object sehingga ketika diinputkan ke dalam
+pendefinisian <code>Square()</code> kita perlu melakukan destructuring
+atau dalam kata lain menambahkan tanda kurung kurawal.
+Demikian juga selama dalam lingkup HTML element, parameter
+<code>value</code> harus diapit dalam kurung kurawal (ingat kesamaan
+ini dengan penandaan variable di template literal).
+Hasil didapatkan seperti sebelumnya namun kode JavaScript
+kita lebih terstruktur dan lebih modular (terpisah-pisah
+dengan jelas tiap komponennya)</p>
+</div>
+<div id="menambahkan-interactivity" class="section level3 hasAnchor" number="13.2.4">
+<h3><span class="header-section-number">13.2.4</span> Menambahkan <em>interactivity</em><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#menambahkan-interactivity" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Tahap berikutnya adalah menambahkan fungsi callback <code>handleClick</code>
+pada attribute di element <code>&lt;button&gt;</code> di dalam komponen <code>Square()</code>.
+Fungsi <code>handleClick</code> ini nantinya akan terpicu ketika
+user melakukan klik terhadap kotak-kotak komponen <code>Square()</code>
+di dalam komponen <code>Board()</code> dan lalu melakukan setting nilai
+teks isian element <code>&lt;button&gt;</code> menjadi “X”.</p>
+<p>Pertama kita buat fungsi callback <code>handleClick()</code> dan
+mengubah komponen <code>Square()</code> sebagai berikut:</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb12-1"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb12-1" tabindex="-1"></a><span class="kw">function</span> <span class="fu">handleClick</span>() {</span>
+<span id="cb12-2"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb12-2" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;clicked&quot;</span>)<span class="op">;</span></span>
+<span id="cb12-3"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb12-3" tabindex="-1"></a>}</span>
+<span id="cb12-4"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb12-4" tabindex="-1"></a></span>
+<span id="cb12-5"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb12-5" tabindex="-1"></a><span class="kw">function</span> <span class="fu">Square</span>({ value }) {</span>
+<span id="cb12-6"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb12-6" tabindex="-1"></a>  <span class="cf">return</span> (</span>
+<span id="cb12-7"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb12-7" tabindex="-1"></a>    <span class="op">&lt;</span>button </span>
+<span id="cb12-8"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb12-8" tabindex="-1"></a>      className<span class="op">=</span><span class="st">&quot;square&quot;</span></span>
+<span id="cb12-9"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb12-9" tabindex="-1"></a>      onClick<span class="op">=</span>{handleClick}</span>
+<span id="cb12-10"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb12-10" tabindex="-1"></a>    <span class="op">&gt;</span></span>
+<span id="cb12-11"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb12-11" tabindex="-1"></a>      {value}</span>
+<span id="cb12-12"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb12-12" tabindex="-1"></a>    <span class="op">&lt;/</span>button<span class="op">&gt;</span></span>
+<span id="cb12-13"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb12-13" tabindex="-1"></a>  )<span class="op">;</span></span>
+<span id="cb12-14"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb12-14" tabindex="-1"></a>}</span></code></pre></div>
+<p>Pada potonga update kode bagian komponen <code>Square()</code> di atas
+terlihat bahwa fungsi callback <code>handleClick()</code> akan
+melakukan <em>print out</em> ke console setiap <code>Square()</code> element
+di klik pada papan permainan <code>Board()</code>. Kita jadikan fungsi
+callback ini sebagai nilai attribute element <code>&lt;button&gt;</code>
+untuk property <code>onclick</code>.</p>
+<p>Pada gambar di bawah ini terlihat jika kita melakukan
+proses klik ke semua kotak (sembilan kali klik),
+maka console di bagian Developer Tools web browser akan
+mencetak sembilan kali pesan <code>clicked</code> (tertera angka 9)</p>
+<p><img src="images/tic-tac-toe-callback-func-in-square.png"></p>
+<p>Untuk bisa menyimpan nilai “X” di masing-masing komponen
+<code>Square()</code> ketika dilakukan klik, kita perlu suatu object
+baru untuk mengingat hal ini. React menyediakan object ini
+sebagai suatu <em>state</em>. Karena ada sembilan kotak, maka
+setiap kotak harus dapat menyimpan masing-masing state
+dan juga kita harus bisa memanipulasi setiap <em>state</em> ini
+dari tidak ada teks “X” menjadi ada.</p>
+<p>Berikut adalah update terakhir untuk fungsi callback <code>handleClick()</code> dan <code>Square()</code></p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb13-1"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb13-1" tabindex="-1"></a><span class="im">import</span> { useState } <span class="im">from</span> <span class="st">&#39;react&#39;</span><span class="op">;</span></span>
+<span id="cb13-2"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb13-2" tabindex="-1"></a></span>
+<span id="cb13-3"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb13-3" tabindex="-1"></a><span class="kw">function</span> <span class="fu">handleClick</span>(setValue) {</span>
+<span id="cb13-4"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb13-4" tabindex="-1"></a>  <span class="fu">setValue</span>(<span class="st">&quot;X&quot;</span>)<span class="op">;</span></span>
+<span id="cb13-5"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb13-5" tabindex="-1"></a>}</span>
+<span id="cb13-6"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb13-6" tabindex="-1"></a></span>
+<span id="cb13-7"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb13-7" tabindex="-1"></a><span class="kw">function</span> <span class="fu">Square</span>() {</span>
+<span id="cb13-8"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb13-8" tabindex="-1"></a>  <span class="kw">const</span> [value<span class="op">,</span> setValue] <span class="op">=</span> <span class="fu">useState</span>(<span class="kw">null</span>)<span class="op">;</span></span>
+<span id="cb13-9"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb13-9" tabindex="-1"></a></span>
+<span id="cb13-10"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb13-10" tabindex="-1"></a>  <span class="cf">return</span> (</span>
+<span id="cb13-11"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb13-11" tabindex="-1"></a>    <span class="op">&lt;</span>button </span>
+<span id="cb13-12"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb13-12" tabindex="-1"></a>      className<span class="op">=</span><span class="st">&quot;square&quot;</span></span>
+<span id="cb13-13"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb13-13" tabindex="-1"></a>      onClick<span class="op">=</span>{() <span class="kw">=&gt;</span> <span class="fu">handleClick</span>(setValue)}</span>
+<span id="cb13-14"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb13-14" tabindex="-1"></a>    <span class="op">&gt;</span></span>
+<span id="cb13-15"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb13-15" tabindex="-1"></a>      {value}</span>
+<span id="cb13-16"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb13-16" tabindex="-1"></a>    <span class="op">&lt;/</span>button<span class="op">&gt;</span></span>
+<span id="cb13-17"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb13-17" tabindex="-1"></a>  )<span class="op">;</span></span>
+<span id="cb13-18"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb13-18" tabindex="-1"></a>}</span></code></pre></div>
+<p>Pertama kita melakukan import object <code>useState</code> dari React library.
+Kemudian kita inisialisasi <em>state</em> dengan nilai null melalui
+pemanggilan object <code>useState(null)</code>. Keluaran dari
+object <code>useState</code> merupakan dua buah object. Yang pertama
+adalah variable <code>value</code> yang akan menyimpan <code>state</code>
+dan yang kedua adalah <code>setValue</code> digunakan sebagai fungsi
+untuk mengubah <code>state</code>.</p>
+<p>Terlihat juga bahwal fungsi callback <code>handleClick</code> memiliki
+tambahan parameter <code>setValue</code> yang akan mengupdate nilai
+<code>value</code> ketika element <code>&lt;button&gt;</code> di klik oleh user.
+Kita melihat juga, nilai dari attribute <code>onclick</code> merupakan
+suatu callback function yang memamnggil fungsi <code>handleClick</code>.
+Kita tidak bisa mengatur secara langsung <code>onclick={handleClick(setValue)}</code> karena dengan melakukan seperti itu kita tidak
+lagi memberikan callback function namun memberikan nilai
+return dari <code>handleClick</code>.</p>
+<p>Kita juga tidak lagi memerlukan argument di komponen
+<code>Square()</code>, maka attribute <code>value</code> saat pemanggilan <code>Square()</code>
+di komponen <code>Board()</code> tidak perlu lagi dilakukan, sehingga
+didapatkan bentuk akhir komponen <code>Board()</code> sebagai berikut:</p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb14-1"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb14-1" tabindex="-1"></a><span class="im">export</span> <span class="im">default</span> <span class="kw">function</span> <span class="fu">Board</span>() {</span>
+<span id="cb14-2"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb14-2" tabindex="-1"></a>  <span class="cf">return</span> (</span>
+<span id="cb14-3"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb14-3" tabindex="-1"></a>    <span class="op">&lt;&gt;</span></span>
+<span id="cb14-4"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb14-4" tabindex="-1"></a>      <span class="op">&lt;</span>div className<span class="op">=</span><span class="st">&quot;board-row&quot;</span><span class="op">&gt;</span></span>
+<span id="cb14-5"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb14-5" tabindex="-1"></a>        <span class="op">&lt;</span>Square <span class="op">/&gt;</span></span>
+<span id="cb14-6"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb14-6" tabindex="-1"></a>        <span class="op">&lt;</span>Square <span class="op">/&gt;</span></span>
+<span id="cb14-7"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb14-7" tabindex="-1"></a>        <span class="op">&lt;</span>Square <span class="op">/&gt;</span></span>
+<span id="cb14-8"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb14-8" tabindex="-1"></a>      <span class="op">&lt;/</span>div<span class="op">&gt;</span></span>
+<span id="cb14-9"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb14-9" tabindex="-1"></a>      <span class="op">&lt;</span>div className<span class="op">=</span><span class="st">&quot;board-row&quot;</span><span class="op">&gt;</span></span>
+<span id="cb14-10"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb14-10" tabindex="-1"></a>        <span class="op">&lt;</span>Square <span class="op">/&gt;</span></span>
+<span id="cb14-11"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb14-11" tabindex="-1"></a>        <span class="op">&lt;</span>Square <span class="op">/&gt;</span></span>
+<span id="cb14-12"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb14-12" tabindex="-1"></a>        <span class="op">&lt;</span>Square <span class="op">/&gt;</span></span>
+<span id="cb14-13"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb14-13" tabindex="-1"></a>      <span class="op">&lt;/</span>div<span class="op">&gt;</span></span>
+<span id="cb14-14"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb14-14" tabindex="-1"></a>      <span class="op">&lt;</span>div className<span class="op">=</span><span class="st">&quot;board-row&quot;</span><span class="op">&gt;</span></span>
+<span id="cb14-15"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb14-15" tabindex="-1"></a>        <span class="op">&lt;</span>Square <span class="op">/&gt;</span></span>
+<span id="cb14-16"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb14-16" tabindex="-1"></a>        <span class="op">&lt;</span>Square <span class="op">/&gt;</span></span>
+<span id="cb14-17"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb14-17" tabindex="-1"></a>        <span class="op">&lt;</span>Square <span class="op">/&gt;</span></span>
+<span id="cb14-18"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb14-18" tabindex="-1"></a>      <span class="op">&lt;/</span>div<span class="op">&gt;</span></span>
+<span id="cb14-19"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb14-19" tabindex="-1"></a>    <span class="op">&lt;/&gt;</span></span>
+<span id="cb14-20"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb14-20" tabindex="-1"></a>  )<span class="op">;</span></span>
+<span id="cb14-21"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb14-21" tabindex="-1"></a>}</span></code></pre></div>
+<p>Jika telah selesai update komponen <code>Square()</code>
+dan <code>Board()</code> di atas maka kita bisa lihat perubahan
+<code>Square()</code> element ketika dilakukan klik seperti
+pada gambar di bawah ini</p>
+<p><img src="images/tic-tac-toe-square-use-state.gif"></p>
+</div>
 </div>
 <div id="finishing-the-base-program-of-tic-tac-toe" class="section level2 hasAnchor" number="13.3">
 <h2><span class="header-section-number">13.3</span> Finishing the base program of Tic-Tac-Toe<a href="javascript-in-web-browser-tic-tac-toe-and-react.html#finishing-the-base-program-of-tic-tac-toe" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Jika telah sampai tahap ini, kita telah membangun kerangka
+dasar permainan Tic-Tac-Toe dan tinggal menambahkan fitur-fitur
+tambahan lainnya agar dapat bergantian mengisi kotak dengan
+“X” dan “O”. Serta juga penentuan akhir permainan siapa yang
+menang atau terjadi <em>draw</em>.</p>
+<p>Sejauh ini kita masih menyimpan semua state permainan di
+masing-masing komponen <code>Square()</code>. Pendekatan ini masih
+mengharuskan kita untuk menyusun mekanisme
+komunikasi antar <code>Square()</code> terkait state mereka.
+Penulisan program dengan mekanisme state di setiap <code>Square()</code>
+akan menghasilkan program yang cukup rumit dipahami dan
+amat susah untuk di lakukan <em>refactor</em> (mekaniseme
+untuk memecah program menjadi bagian-bagian kecil komponen yang
+saling independen dan dikoordinasi oleh satu komponen besar).</p>
+<p>Pendekatan yang lebih baik adalah kita menyimpan semua <em>state</em>
+dari komponen <code>Square()</code> di dalam komponen <code>Board()</code> lalu
+mengkomunikasikan <em>state</em> dan <em>callback function</em>
+ke setiap <code>Square()</code>. Apabila terjadi suatu <em>clicked event</em> oleh
+user di suatu <code>Square()</code>, <em>callback function</em> yang didistribusikan
+ini akan dipanggil dan memicu perubahan <code>state</code> di komponen
+<code>Board()</code>. Lalu komponen <code>Board()</code> akan mengkomunikasikan
+kembali perubahasa <code>state</code> ini ke komponen <code>Square()</code> tersebut.</p>
+<p>Jika digambarkan proses di atas adalah sebagai berikut:</p>
+<p><strong>Mekanisme perubahan state oleh`Board()</strong>
+<img src="images/tic-tac-toe-states-on-board.png"></p>
+<div id="memindahkan-usestate-dari-square-ke-board-lifted-up" class="section level3 hasAnchor" number="13.3.1">
+<h3><span class="header-section-number">13.3.1</span> Memindahkan <code>useState</code> dari <code>Square()</code> ke <code>Board()</code> (lifted up)<a href="javascript-in-web-browser-tic-tac-toe-and-react.html#memindahkan-usestate-dari-square-ke-board-lifted-up" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Seperti yang telah dijelaskan di paragraf sebelumnya.
+Kita susun terlebih dahulu sembilan buah state di <code>Board()</code>.
+Kita juga mendeklarasikan fungsi <code>handleClick()</code> dengan
+parameter nomor urut <code>Square()</code>, state semua <code>Squares()</code>
+(dalam variable <code>squares</code>) dan fungsi untuk mengubah-ubah
+state <code>squares</code> (yaitu <code>setSquares</code>).
+Di dalam fungsi callback <code>handleClick</code> ini, kita melakukan
+penggandaan Array <code>squares</code> menggunakan array method
+<code>.slice()</code>. Kita perlu menggandakan Array state ini dengan tujuan
+untuk fitur tambahan <em>history</em> di bagian terakhir pembuatan
+program ini.</p>
+<div class="sourceCode" id="cb15"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb15-1"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-1" tabindex="-1"></a><span class="kw">function</span> <span class="fu">handleClick</span>(i<span class="op">,</span> squares<span class="op">,</span> setSquares) {</span>
+<span id="cb15-2"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-2" tabindex="-1"></a>   <span class="kw">const</span> nextSquares <span class="op">=</span> squares<span class="op">.</span><span class="fu">slice</span>()<span class="op">;</span></span>
+<span id="cb15-3"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-3" tabindex="-1"></a>   nextSquares[i] <span class="op">=</span> <span class="st">&#39;X&#39;</span><span class="op">;</span></span>
+<span id="cb15-4"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-4" tabindex="-1"></a>   <span class="fu">setSquares</span>(nextSquares)<span class="op">;</span></span>
+<span id="cb15-5"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-5" tabindex="-1"></a>}</span>
+<span id="cb15-6"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-6" tabindex="-1"></a></span>
+<span id="cb15-7"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-7" tabindex="-1"></a><span class="im">export</span> <span class="im">default</span> <span class="kw">function</span> <span class="fu">Board</span>() {</span>
+<span id="cb15-8"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-8" tabindex="-1"></a>  <span class="kw">const</span> [squares<span class="op">,</span> setSquares] <span class="op">=</span> <span class="fu">useState</span>(<span class="bu">Array</span>(<span class="dv">9</span>)<span class="op">.</span><span class="fu">fill</span>(<span class="kw">null</span>))<span class="op">;</span></span>
+<span id="cb15-9"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-9" tabindex="-1"></a></span>
+<span id="cb15-10"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-10" tabindex="-1"></a>  <span class="cf">return</span> (</span>
+<span id="cb15-11"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-11" tabindex="-1"></a>    <span class="op">&lt;&gt;</span></span>
+<span id="cb15-12"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-12" tabindex="-1"></a>      <span class="op">&lt;</span>div className<span class="op">=</span><span class="st">&quot;board-row&quot;</span><span class="op">&gt;</span></span>
+<span id="cb15-13"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-13" tabindex="-1"></a>        <span class="op">&lt;</span>Square </span>
+<span id="cb15-14"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-14" tabindex="-1"></a>          value<span class="op">=</span>{squares[<span class="dv">0</span>]} </span>
+<span id="cb15-15"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-15" tabindex="-1"></a>          onSquareClick<span class="op">=</span>{() <span class="kw">=&gt;</span> <span class="fu">handleClick</span>(<span class="dv">0</span><span class="op">,</span> squares<span class="op">,</span> setSquares)}<span class="op">/&gt;</span></span>
+<span id="cb15-16"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-16" tabindex="-1"></a>        <span class="op">&lt;</span>Square </span>
+<span id="cb15-17"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-17" tabindex="-1"></a>          value<span class="op">=</span>{squares[<span class="dv">1</span>]} </span>
+<span id="cb15-18"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-18" tabindex="-1"></a>          onSquareClick<span class="op">=</span>{() <span class="kw">=&gt;</span> <span class="fu">handleClick</span>(<span class="dv">1</span><span class="op">,</span> squares<span class="op">,</span> setSquares)}<span class="op">/&gt;</span></span>
+<span id="cb15-19"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-19" tabindex="-1"></a>        <span class="op">&lt;</span>Square </span>
+<span id="cb15-20"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-20" tabindex="-1"></a>          value<span class="op">=</span>{squares[<span class="dv">2</span>]} </span>
+<span id="cb15-21"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-21" tabindex="-1"></a>          onSquareClick<span class="op">=</span>{() <span class="kw">=&gt;</span> <span class="fu">handleClick</span>(<span class="dv">2</span><span class="op">,</span> squares<span class="op">,</span> setSquares)}<span class="op">/&gt;</span></span>
+<span id="cb15-22"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-22" tabindex="-1"></a>      <span class="op">&lt;/</span>div<span class="op">&gt;</span></span>
+<span id="cb15-23"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-23" tabindex="-1"></a>      <span class="op">&lt;</span>div className<span class="op">=</span><span class="st">&quot;board-row&quot;</span><span class="op">&gt;</span></span>
+<span id="cb15-24"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-24" tabindex="-1"></a>        <span class="op">&lt;</span>Square </span>
+<span id="cb15-25"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-25" tabindex="-1"></a>          value<span class="op">=</span>{squares[<span class="dv">3</span>]} </span>
+<span id="cb15-26"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-26" tabindex="-1"></a>          onSquareClick<span class="op">=</span>{() <span class="kw">=&gt;</span> <span class="fu">handleClick</span>(<span class="dv">3</span><span class="op">,</span> squares<span class="op">,</span> setSquares)}<span class="op">/&gt;</span></span>
+<span id="cb15-27"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-27" tabindex="-1"></a>        <span class="op">&lt;</span>Square </span>
+<span id="cb15-28"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-28" tabindex="-1"></a>          value<span class="op">=</span>{squares[<span class="dv">4</span>]} </span>
+<span id="cb15-29"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-29" tabindex="-1"></a>          onSquareClick<span class="op">=</span>{() <span class="kw">=&gt;</span> <span class="fu">handleClick</span>(<span class="dv">4</span><span class="op">,</span> squares<span class="op">,</span> setSquares)}<span class="op">/&gt;</span></span>
+<span id="cb15-30"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-30" tabindex="-1"></a>        <span class="op">&lt;</span>Square </span>
+<span id="cb15-31"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-31" tabindex="-1"></a>          value<span class="op">=</span>{squares[<span class="dv">5</span>]} </span>
+<span id="cb15-32"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-32" tabindex="-1"></a>          onSquareClick<span class="op">=</span>{() <span class="kw">=&gt;</span> <span class="fu">handleClick</span>(<span class="dv">5</span><span class="op">,</span> squares<span class="op">,</span> setSquares)}<span class="op">/&gt;</span></span>
+<span id="cb15-33"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-33" tabindex="-1"></a>      <span class="op">&lt;/</span>div<span class="op">&gt;</span></span>
+<span id="cb15-34"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-34" tabindex="-1"></a>      <span class="op">&lt;</span>div className<span class="op">=</span><span class="st">&quot;board-row&quot;</span><span class="op">&gt;</span></span>
+<span id="cb15-35"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-35" tabindex="-1"></a>        <span class="op">&lt;</span>Square </span>
+<span id="cb15-36"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-36" tabindex="-1"></a>          value<span class="op">=</span>{squares[<span class="dv">6</span>]} </span>
+<span id="cb15-37"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-37" tabindex="-1"></a>          onSquareClick<span class="op">=</span>{() <span class="kw">=&gt;</span> <span class="fu">handleClick</span>(<span class="dv">6</span><span class="op">,</span> squares<span class="op">,</span> setSquares)}<span class="op">/&gt;</span></span>
+<span id="cb15-38"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-38" tabindex="-1"></a>        <span class="op">&lt;</span>Square </span>
+<span id="cb15-39"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-39" tabindex="-1"></a>          value<span class="op">=</span>{squares[<span class="dv">7</span>]} </span>
+<span id="cb15-40"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-40" tabindex="-1"></a>          onSquareClick<span class="op">=</span>{() <span class="kw">=&gt;</span> <span class="fu">handleClick</span>(<span class="dv">7</span><span class="op">,</span> squares<span class="op">,</span> setSquares)}<span class="op">/&gt;</span></span>
+<span id="cb15-41"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-41" tabindex="-1"></a>        <span class="op">&lt;</span>Square </span>
+<span id="cb15-42"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-42" tabindex="-1"></a>          value<span class="op">=</span>{squares[<span class="dv">8</span>]} </span>
+<span id="cb15-43"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-43" tabindex="-1"></a>          onSquareClick<span class="op">=</span>{() <span class="kw">=&gt;</span> <span class="fu">handleClick</span>(<span class="dv">8</span><span class="op">,</span> squares<span class="op">,</span> setSquares)}<span class="op">/&gt;</span></span>
+<span id="cb15-44"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-44" tabindex="-1"></a>      <span class="op">&lt;/</span>div<span class="op">&gt;</span></span>
+<span id="cb15-45"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-45" tabindex="-1"></a>    <span class="op">&lt;/&gt;</span></span>
+<span id="cb15-46"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-46" tabindex="-1"></a>  )<span class="op">;</span></span>
+<span id="cb15-47"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb15-47" tabindex="-1"></a>}</span></code></pre></div>
+<p>Berikutnya kita melakukan perubahan pada kompone <code>Square()</code> sehingga mampu
+menerima dua input <em>property</em>: <code>value</code> dan <code>onSquareClick</code>.
+Disini komponen <code>Square()</code> hanya berperan sebagai penerima user input
+ketika user melakukan klik dengan mouse dan kemudian menerima response
+dari komponen Board() update <code>squares</code> untuk posisi di kotak yang di klik
+(lihat mekanisme pencetakan teks ‘X’ di gambar
+<strong>Mekanisme perubahan state oleh <code>Board()</code></strong>). Dan
+juga komponen <code>Square()</code> hanya berfungsi untuk menampilkan
+state yang sedang berlangsung (atau dalam hal ini nilai
+<code>squares</code>).</p>
+<p>Berikut adalah perubahan kode untuk komponen <code>Square()</code></p>
+<div class="sourceCode" id="cb16"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb16-1"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb16-1" tabindex="-1"></a><span class="kw">function</span> <span class="fu">Square</span>({ value<span class="op">,</span> onSquareClick}) {</span>
+<span id="cb16-2"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb16-2" tabindex="-1"></a>  <span class="cf">return</span> (</span>
+<span id="cb16-3"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb16-3" tabindex="-1"></a>    <span class="op">&lt;</span>button className<span class="op">=</span><span class="st">&quot;square&quot;</span> onClick<span class="op">=</span>{onSquareClick} <span class="op">&gt;</span></span>
+<span id="cb16-4"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb16-4" tabindex="-1"></a>      {value}</span>
+<span id="cb16-5"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb16-5" tabindex="-1"></a>    <span class="op">&lt;/</span>button<span class="op">&gt;</span></span>
+<span id="cb16-6"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb16-6" tabindex="-1"></a>  )<span class="op">;</span></span>
+<span id="cb16-7"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb16-7" tabindex="-1"></a>}</span></code></pre></div>
+<p>Hasil akhir yang didapatkan tetap sama, namun kode yang kita
+tulis lebih struktur dan mudah untuk dipahami.</p>
+</div>
+<div id="kondisi-untuk-menambahkan-pergantian-pemain" class="section level3 hasAnchor" number="13.3.2">
+<h3><span class="header-section-number">13.3.2</span> Kondisi untuk menambahkan pergantian pemain<a href="javascript-in-web-browser-tic-tac-toe-and-react.html#kondisi-untuk-menambahkan-pergantian-pemain" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Fitur berikutnya yang dibangun adalah pergantian pemain
+ketika melakukan klik di tempat berbeda.
+Pemain awal yang akan memulai terlebih dahulu adalah pemain
+dengan tanda “X” dilanjutkan pemain dengan tanda “O”,
+demikian seterusnya bergantian.</p>
+<p>Untuk bisa melakukan pergantian pemain, kita butuh suatu
+<em>state</em> untuk mencatat kondisi pemain manakah yang akan
+mengklik kotak <code>Square()</code>.
+Disini kita membuat <code>state</code> dan <code>setState</code>-nya untuk state
+ini dari React framework sebagai <code>xIsNext</code> dan <code>setXIsNext</code>.
+<em>State</em> ini akan menyimpan nilai boolean (<code>true</code> atau <code>false</code>)
+yang menyatakan bahwa proses klik ke kotak <code>Square()</code>
+adalah untuk pemain <code>X</code> atau tidak.</p>
+<p>Untuk dapat menggunakan <em>state</em> <code>xIsNext</code> kita perlu mengubah callback function <em>handleClick()</em> dengan menambahkan beberapa kondisi:
+1. Jika <em>state</em> untuk kotak ke-<code>i</code> tidak kosong (bukan <code>null</code>)
+dalam program kita dinyatakan dalam <code>squares[i]</code>
+maka kita tidak perlu mengganti isian kotak <code>Square()</code>.
+2. Jika <em>state</em> untuk <code>xIsNext</code> adalah <code>true</code> maka kita akan
+melakukan isian kotak <code>Square()</code> (diposisi manapun
+ketika kotak diklik) dengan ‘X’.
+3. Jika <em>states</em> untuk <code>xIsNext</code> adalah <code>false</code> maka kita akan
+melakukan isian kotak <code>Square()</code> (diposisi manapun
+ketika kotak diklik) dengan ‘O’.
+4. Setelah melakukan opsi (2) atau (3), <em>state</em> untuk <code>xIsNext</code>
+harus dinegasi (dari <code>true</code> menjadi <code>false</code> atau sebaliknya)
+supaya langkah berikutnya (ketika user melakukan klik
+pada kotak berikutnya) adalah pemain yang lain.</p>
+<p>Implementasi kondisi (1) sampai (4) di atas akan membuat program
+kita melakukan pergantian isian teks “X” dan “O” setiap melakukan
+klik kotak yang berbeda. Berikut perubahan yang terjadi dalam
+kode program untuk bagian fungsi callback <code>handleClick()</code>
+dan komponen <code>Board()</code>.</p>
+<div class="sourceCode" id="cb17"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb17-1"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-1" tabindex="-1"></a><span class="kw">function</span> <span class="fu">handleClick</span>(i<span class="op">,</span> squares<span class="op">,</span> setSquares<span class="op">,</span> xIsNext<span class="op">,</span> setXIsNext) {</span>
+<span id="cb17-2"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-2" tabindex="-1"></a>  <span class="cf">if</span> (squares[i]) {</span>
+<span id="cb17-3"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-3" tabindex="-1"></a>    <span class="cf">return</span><span class="op">;</span></span>
+<span id="cb17-4"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-4" tabindex="-1"></a>  }</span>
+<span id="cb17-5"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-5" tabindex="-1"></a></span>
+<span id="cb17-6"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-6" tabindex="-1"></a>  <span class="kw">const</span> nextSquares <span class="op">=</span> squares<span class="op">.</span><span class="fu">slice</span>()<span class="op">;</span></span>
+<span id="cb17-7"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-7" tabindex="-1"></a>  <span class="cf">if</span> (xIsNext) {</span>
+<span id="cb17-8"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-8" tabindex="-1"></a>    nextSquares[i] <span class="op">=</span> <span class="st">&#39;X&#39;</span><span class="op">;</span></span>
+<span id="cb17-9"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-9" tabindex="-1"></a>  } <span class="cf">else</span> {</span>
+<span id="cb17-10"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-10" tabindex="-1"></a>    nextSquares[i] <span class="op">=</span> <span class="st">&#39;O&#39;</span><span class="op">;</span></span>
+<span id="cb17-11"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-11" tabindex="-1"></a>  }</span>
+<span id="cb17-12"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-12" tabindex="-1"></a></span>
+<span id="cb17-13"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-13" tabindex="-1"></a>  <span class="fu">setSquares</span>(nextSquares)<span class="op">;</span></span>
+<span id="cb17-14"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-14" tabindex="-1"></a>  <span class="fu">setXIsNext</span>(<span class="op">!</span>xIsNext)<span class="op">;</span></span>
+<span id="cb17-15"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-15" tabindex="-1"></a>}</span>
+<span id="cb17-16"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-16" tabindex="-1"></a></span>
+<span id="cb17-17"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-17" tabindex="-1"></a><span class="co">// Square() compoonent does not change</span></span>
+<span id="cb17-18"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-18" tabindex="-1"></a></span>
+<span id="cb17-19"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-19" tabindex="-1"></a><span class="im">export</span> <span class="im">default</span> <span class="kw">function</span> <span class="fu">Board</span>() {</span>
+<span id="cb17-20"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-20" tabindex="-1"></a>  <span class="kw">const</span> [xIsNext<span class="op">,</span> setXIsNext] <span class="op">=</span> <span class="fu">useState</span>(<span class="kw">true</span>)<span class="op">;</span></span>
+<span id="cb17-21"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-21" tabindex="-1"></a>  <span class="kw">const</span> [squares<span class="op">,</span> setSquares] <span class="op">=</span> <span class="fu">useState</span>(<span class="bu">Array</span>(<span class="dv">9</span>)<span class="op">.</span><span class="fu">fill</span>(<span class="kw">null</span>))<span class="op">;</span></span>
+<span id="cb17-22"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-22" tabindex="-1"></a></span>
+<span id="cb17-23"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-23" tabindex="-1"></a>  <span class="cf">return</span> (</span>
+<span id="cb17-24"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-24" tabindex="-1"></a>    <span class="op">&lt;&gt;</span></span>
+<span id="cb17-25"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-25" tabindex="-1"></a>      <span class="op">&lt;</span>div className<span class="op">=</span><span class="st">&quot;board-row&quot;</span><span class="op">&gt;</span></span>
+<span id="cb17-26"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-26" tabindex="-1"></a>        <span class="op">&lt;</span>Square </span>
+<span id="cb17-27"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-27" tabindex="-1"></a>          value<span class="op">=</span>{squares[<span class="dv">0</span>]} </span>
+<span id="cb17-28"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-28" tabindex="-1"></a>          onSquareClick<span class="op">=</span>{() <span class="kw">=&gt;</span> <span class="fu">handleClick</span>(</span>
+<span id="cb17-29"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-29" tabindex="-1"></a>            <span class="dv">0</span><span class="op">,</span> squares<span class="op">,</span> setSquares<span class="op">,</span> xIsNext<span class="op">,</span> setXIsNext)}<span class="op">/&gt;</span></span>
+<span id="cb17-30"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-30" tabindex="-1"></a>        <span class="op">&lt;</span>Square </span>
+<span id="cb17-31"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-31" tabindex="-1"></a>          value<span class="op">=</span>{squares[<span class="dv">1</span>]} </span>
+<span id="cb17-32"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-32" tabindex="-1"></a>          onSquareClick<span class="op">=</span>{() <span class="kw">=&gt;</span> <span class="fu">handleClick</span>(</span>
+<span id="cb17-33"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-33" tabindex="-1"></a>            <span class="dv">1</span><span class="op">,</span> squares<span class="op">,</span> setSquares<span class="op">,</span> xIsNext<span class="op">,</span> setXIsNext)}<span class="op">/&gt;</span></span>
+<span id="cb17-34"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-34" tabindex="-1"></a>        <span class="op">&lt;</span>Square </span>
+<span id="cb17-35"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-35" tabindex="-1"></a>          value<span class="op">=</span>{squares[<span class="dv">2</span>]} </span>
+<span id="cb17-36"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-36" tabindex="-1"></a>          onSquareClick<span class="op">=</span>{() <span class="kw">=&gt;</span> <span class="fu">handleClick</span>(</span>
+<span id="cb17-37"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-37" tabindex="-1"></a>            <span class="dv">2</span><span class="op">,</span> squares<span class="op">,</span> setSquares<span class="op">,</span> xIsNext<span class="op">,</span> setXIsNext)}<span class="op">/&gt;</span></span>
+<span id="cb17-38"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-38" tabindex="-1"></a>      <span class="op">&lt;/</span>div<span class="op">&gt;</span></span>
+<span id="cb17-39"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-39" tabindex="-1"></a>      <span class="op">&lt;</span>div className<span class="op">=</span><span class="st">&quot;board-row&quot;</span><span class="op">&gt;</span></span>
+<span id="cb17-40"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-40" tabindex="-1"></a>        <span class="op">&lt;</span>Square </span>
+<span id="cb17-41"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-41" tabindex="-1"></a>          value<span class="op">=</span>{squares[<span class="dv">3</span>]} </span>
+<span id="cb17-42"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-42" tabindex="-1"></a>          onSquareClick<span class="op">=</span>{() <span class="kw">=&gt;</span> <span class="fu">handleClick</span>(</span>
+<span id="cb17-43"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-43" tabindex="-1"></a>            <span class="dv">3</span><span class="op">,</span> squares<span class="op">,</span> setSquares<span class="op">,</span> xIsNext<span class="op">,</span> setXIsNext)}<span class="op">/&gt;</span></span>
+<span id="cb17-44"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-44" tabindex="-1"></a>        <span class="op">&lt;</span>Square </span>
+<span id="cb17-45"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-45" tabindex="-1"></a>          value<span class="op">=</span>{squares[<span class="dv">4</span>]} </span>
+<span id="cb17-46"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-46" tabindex="-1"></a>          onSquareClick<span class="op">=</span>{() <span class="kw">=&gt;</span> <span class="fu">handleClick</span>(</span>
+<span id="cb17-47"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-47" tabindex="-1"></a>            <span class="dv">4</span><span class="op">,</span> squares<span class="op">,</span> setSquares<span class="op">,</span> xIsNext<span class="op">,</span> setXIsNext)}<span class="op">/&gt;</span></span>
+<span id="cb17-48"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-48" tabindex="-1"></a>        <span class="op">&lt;</span>Square </span>
+<span id="cb17-49"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-49" tabindex="-1"></a>          value<span class="op">=</span>{squares[<span class="dv">5</span>]} </span>
+<span id="cb17-50"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-50" tabindex="-1"></a>          onSquareClick<span class="op">=</span>{() <span class="kw">=&gt;</span> <span class="fu">handleClick</span>(</span>
+<span id="cb17-51"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-51" tabindex="-1"></a>            <span class="dv">5</span><span class="op">,</span> squares<span class="op">,</span> setSquares<span class="op">,</span> xIsNext<span class="op">,</span> setXIsNext)}<span class="op">/&gt;</span></span>
+<span id="cb17-52"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-52" tabindex="-1"></a>      <span class="op">&lt;/</span>div<span class="op">&gt;</span></span>
+<span id="cb17-53"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-53" tabindex="-1"></a>      <span class="op">&lt;</span>div className<span class="op">=</span><span class="st">&quot;board-row&quot;</span><span class="op">&gt;</span></span>
+<span id="cb17-54"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-54" tabindex="-1"></a>        <span class="op">&lt;</span>Square </span>
+<span id="cb17-55"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-55" tabindex="-1"></a>          value<span class="op">=</span>{squares[<span class="dv">6</span>]} </span>
+<span id="cb17-56"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-56" tabindex="-1"></a>          onSquareClick<span class="op">=</span>{() <span class="kw">=&gt;</span> <span class="fu">handleClick</span>(</span>
+<span id="cb17-57"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-57" tabindex="-1"></a>            <span class="dv">6</span><span class="op">,</span> squares<span class="op">,</span> setSquares<span class="op">,</span> xIsNext<span class="op">,</span> setXIsNext)}<span class="op">/&gt;</span></span>
+<span id="cb17-58"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-58" tabindex="-1"></a>        <span class="op">&lt;</span>Square </span>
+<span id="cb17-59"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-59" tabindex="-1"></a>          value<span class="op">=</span>{squares[<span class="dv">7</span>]} </span>
+<span id="cb17-60"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-60" tabindex="-1"></a>          onSquareClick<span class="op">=</span>{() <span class="kw">=&gt;</span> <span class="fu">handleClick</span>(</span>
+<span id="cb17-61"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-61" tabindex="-1"></a>            <span class="dv">7</span><span class="op">,</span> squares<span class="op">,</span> setSquares<span class="op">,</span> xIsNext<span class="op">,</span> setXIsNext)}<span class="op">/&gt;</span></span>
+<span id="cb17-62"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-62" tabindex="-1"></a>        <span class="op">&lt;</span>Square </span>
+<span id="cb17-63"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-63" tabindex="-1"></a>          value<span class="op">=</span>{squares[<span class="dv">8</span>]} </span>
+<span id="cb17-64"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-64" tabindex="-1"></a>          onSquareClick<span class="op">=</span>{() <span class="kw">=&gt;</span> <span class="fu">handleClick</span>(</span>
+<span id="cb17-65"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-65" tabindex="-1"></a>            <span class="dv">8</span><span class="op">,</span> squares<span class="op">,</span> setSquares<span class="op">,</span> xIsNext<span class="op">,</span> setXIsNext)}<span class="op">/&gt;</span></span>
+<span id="cb17-66"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-66" tabindex="-1"></a>      <span class="op">&lt;/</span>div<span class="op">&gt;</span></span>
+<span id="cb17-67"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-67" tabindex="-1"></a>    <span class="op">&lt;/&gt;</span></span>
+<span id="cb17-68"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-68" tabindex="-1"></a>  )<span class="op">;</span></span>
+<span id="cb17-69"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb17-69" tabindex="-1"></a>}</span></code></pre></div>
+<p>Di bagian <code>Board()</code> terlihat deklarasi <em>state</em>
+untuk <code>xIsNext</code> dan fungsi untuk pengubahannya
+<code>setXIsNext</code>. <em>State</em> ini akan terus berubah
+dari <em>state</em> awal <code>null</code> lalu <code>true</code>
+lalu <code>false</code> lalu <code>true</code>, demikian seterusnya
+bolak balik <code>true</code> dan <code>false</code> hingga semua kotak
+terisi.</p>
+<p>Jika kita melihat program di atas kita masih perlu mengubah
+satu-satu pemanggilan elemen <code>&lt;Square&gt;</code> dengan attribute
+<code>handleClick</code> yang berbeda. Di bagian
+<a href="#id_#Self-exercise">Self-exercise</a> kita akan mengeksplorasi
+penulisan kode agar kita hanya cukup menuliskan
+komponen <Square> sekali ditambah penggunaan for loop untuk
+array dimensi 2.</p>
+<p>Hasil akhir yang didapatkan dari penambahan fitur pergantian
+permain adalah sebagai berikut:</p>
+<p><img src="images/tic-tac-toe-alternate-X-O.gif"></p>
+<p>Dari animasi di atas masih tersisa satu bagian
+lagi yaitu penentuan pemenang, seperti terlihat
+program permainan yang kita buat masih sangat
+bersih tanpa ada notifikasi pemain yang menang.</p>
+</div>
+<div id="menambahkan-fitur-pemberitahuan-untuk-pemenang" class="section level3 hasAnchor" number="13.3.3">
+<h3><span class="header-section-number">13.3.3</span> Menambahkan fitur pemberitahuan untuk pemenang<a href="javascript-in-web-browser-tic-tac-toe-and-react.html#menambahkan-fitur-pemberitahuan-untuk-pemenang" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<p>Untuk menentukan pemain yang menang, kita perlu tahu
+semua kondisi menang ketika kombinasi nomor kotak-kotak ini
+terisi dengan teks yang sama (semua ‘X’ atau semua ‘O’)</p>
+<div class="sourceCode" id="cb18"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb18-1"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb18-1" tabindex="-1"></a> [<span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span>]<span class="op">,</span> <span class="co">// horizontal atas</span></span>
+<span id="cb18-2"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb18-2" tabindex="-1"></a> [<span class="dv">3</span><span class="op">,</span> <span class="dv">4</span><span class="op">,</span> <span class="dv">5</span>]<span class="op">,</span> <span class="co">// horizontal tengah</span></span>
+<span id="cb18-3"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb18-3" tabindex="-1"></a> [<span class="dv">6</span><span class="op">,</span> <span class="dv">7</span><span class="op">,</span> <span class="dv">8</span>]<span class="op">,</span> <span class="co">// horizontal bawah</span></span>
+<span id="cb18-4"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb18-4" tabindex="-1"></a> [<span class="dv">0</span><span class="op">,</span> <span class="dv">3</span><span class="op">,</span> <span class="dv">6</span>]<span class="op">,</span> <span class="co">// vertikal kiri</span></span>
+<span id="cb18-5"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb18-5" tabindex="-1"></a> [<span class="dv">1</span><span class="op">,</span> <span class="dv">4</span><span class="op">,</span> <span class="dv">7</span>]<span class="op">,</span> <span class="co">// vertikal tengah</span></span>
+<span id="cb18-6"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb18-6" tabindex="-1"></a> [<span class="dv">2</span><span class="op">,</span> <span class="dv">5</span><span class="op">,</span> <span class="dv">8</span>]<span class="op">,</span> <span class="co">// vertikal kanan</span></span>
+<span id="cb18-7"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb18-7" tabindex="-1"></a> [<span class="dv">0</span><span class="op">,</span> <span class="dv">4</span><span class="op">,</span> <span class="dv">8</span>]<span class="op">,</span> <span class="co">// diagonal dari kiri atas ke kanan bawah</span></span>
+<span id="cb18-8"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb18-8" tabindex="-1"></a> [<span class="dv">2</span><span class="op">,</span> <span class="dv">4</span><span class="op">,</span> <span class="dv">6</span>]<span class="op">,</span> <span class="co">// diagonal dari kanan atas ke kiri bawah</span></span></code></pre></div>
+<p>Perlu diingat, setiap proses klik kotak <code>Square()</code> kita harus
+memeriksa kondisi menang yang sudah disebutkan di atas.
+Jadi sangat jelas, syarat menang tersebut harus disisipkan
+dalam fungsi callback <code>handleClick()</code>.
+Ketika menang fungsi callback <code>handleClick()</code> harus berhenti.
+Untuk itu kita perlu membuat suatu fungsi baru untuk menentukan
+apakah ketika user melakukan klik pada suatu kotak, kondisi menang
+sudah terpenuhi atau tidak.
+Kita sebut fungsi baru itu <code>calculateWinner()</code>.
+Kita dapat letakkan fungsi ini sesudah deklarasi komponen
+<code>Block()</code></p>
+<div class="sourceCode" id="cb19"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb19-1"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb19-1" tabindex="-1"></a><span class="kw">function</span> <span class="fu">calculateWinner</span>(squares) {</span>
+<span id="cb19-2"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb19-2" tabindex="-1"></a>  <span class="kw">const</span> lines <span class="op">=</span> [</span>
+<span id="cb19-3"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb19-3" tabindex="-1"></a>    [<span class="dv">0</span><span class="op">,</span> <span class="dv">1</span><span class="op">,</span> <span class="dv">2</span>]<span class="op">,</span> </span>
+<span id="cb19-4"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb19-4" tabindex="-1"></a>    [<span class="dv">3</span><span class="op">,</span> <span class="dv">4</span><span class="op">,</span> <span class="dv">5</span>]<span class="op">,</span> </span>
+<span id="cb19-5"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb19-5" tabindex="-1"></a>    [<span class="dv">6</span><span class="op">,</span> <span class="dv">7</span><span class="op">,</span> <span class="dv">8</span>]<span class="op">,</span> </span>
+<span id="cb19-6"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb19-6" tabindex="-1"></a>    [<span class="dv">0</span><span class="op">,</span> <span class="dv">3</span><span class="op">,</span> <span class="dv">6</span>]<span class="op">,</span> </span>
+<span id="cb19-7"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb19-7" tabindex="-1"></a>    [<span class="dv">1</span><span class="op">,</span> <span class="dv">4</span><span class="op">,</span> <span class="dv">7</span>]<span class="op">,</span> </span>
+<span id="cb19-8"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb19-8" tabindex="-1"></a>    [<span class="dv">2</span><span class="op">,</span> <span class="dv">5</span><span class="op">,</span> <span class="dv">8</span>]<span class="op">,</span> </span>
+<span id="cb19-9"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb19-9" tabindex="-1"></a>    [<span class="dv">0</span><span class="op">,</span> <span class="dv">4</span><span class="op">,</span> <span class="dv">8</span>]<span class="op">,</span> </span>
+<span id="cb19-10"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb19-10" tabindex="-1"></a>    [<span class="dv">2</span><span class="op">,</span> <span class="dv">4</span><span class="op">,</span> <span class="dv">6</span>]<span class="op">,</span> </span>
+<span id="cb19-11"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb19-11" tabindex="-1"></a>  ]<span class="op">;</span></span>
+<span id="cb19-12"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb19-12" tabindex="-1"></a></span>
+<span id="cb19-13"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb19-13" tabindex="-1"></a>  <span class="cf">for</span> (<span class="kw">let</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> i <span class="op">&lt;</span> lines<span class="op">.</span><span class="at">length</span><span class="op">;</span> i<span class="op">++</span>) {</span>
+<span id="cb19-14"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb19-14" tabindex="-1"></a>    <span class="kw">const</span> [a<span class="op">,</span> b<span class="op">,</span> c] <span class="op">=</span> lines[i]<span class="op">;</span></span>
+<span id="cb19-15"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb19-15" tabindex="-1"></a>    <span class="cf">if</span> (squares[a] <span class="op">&amp;&amp;</span> (squares[a] <span class="op">===</span> squares[b]) <span class="op">&amp;&amp;</span> (squares[a] <span class="op">===</span> squares[c])) {</span>
+<span id="cb19-16"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb19-16" tabindex="-1"></a>      <span class="cf">return</span> squares[a]<span class="op">;</span></span>
+<span id="cb19-17"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb19-17" tabindex="-1"></a>    }</span>
+<span id="cb19-18"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb19-18" tabindex="-1"></a>  }</span>
+<span id="cb19-19"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb19-19" tabindex="-1"></a></span>
+<span id="cb19-20"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb19-20" tabindex="-1"></a>  <span class="cf">return</span> <span class="kw">null</span><span class="op">;</span></span>
+<span id="cb19-21"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb19-21" tabindex="-1"></a>}</span></code></pre></div>
+<p>Terlihat dari kode di atas, kita melakukan semua uji posisi menang
+dengan cara melakukan iterasi ke array dimensi 2, <code>lines</code>.
+Kemudian di setiap iterasi dilakukan pengujian apakah isian teks <code>Squares</code>
+(dalam hal ini diwakili oleh <em>state</em> <code>squares</code>) berisi teks ’X” semua atau
+’O” semua. Dan juga perlu dipastikan bahwa <em>state</em> ini tidak boleh <em>null</em>
+(diwakili oleh kondisi pertama <code>squares[a]</code>)</p>
+<p>Jika semua syarat menang tidak dipenuhi maka fungsi <code>calculateWinner</code> akan
+memberikan keluaran berupa <code>null</code>.</p>
+<p>Tahap berikutnya adalah memanggil fungsi <code>calculateWinner()</code> ini di dalam
+fungsi callback <code>handleClick()</code> serta penulisan pesan pemain yang menang.
+Berikut perubahan kode untuk fungsi callback <code>handleClick()</code> dan
+komponen <code>Board()</code></p>
+<div class="sourceCode" id="cb20"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb20-1"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb20-1" tabindex="-1"></a><span class="kw">function</span> <span class="fu">handleClick</span>(i<span class="op">,</span> squares<span class="op">,</span> setSquares<span class="op">,</span> xIsNext<span class="op">,</span> setXIsNext) {</span>
+<span id="cb20-2"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb20-2" tabindex="-1"></a>  <span class="cf">if</span> (squares[i] <span class="op">||</span> <span class="fu">calculateWinner</span>(squares)) {</span>
+<span id="cb20-3"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb20-3" tabindex="-1"></a>    <span class="cf">return</span><span class="op">;</span></span>
+<span id="cb20-4"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb20-4" tabindex="-1"></a>  }</span>
+<span id="cb20-5"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb20-5" tabindex="-1"></a></span>
+<span id="cb20-6"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb20-6" tabindex="-1"></a>  <span class="co">// the rest of lines are the same as before</span></span>
+<span id="cb20-7"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb20-7" tabindex="-1"></a>}</span></code></pre></div>
+<div class="sourceCode" id="cb21"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb21-1"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb21-1" tabindex="-1"></a><span class="im">export</span> <span class="im">default</span> <span class="kw">function</span> <span class="fu">Board</span>() {</span>
+<span id="cb21-2"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb21-2" tabindex="-1"></a>  <span class="kw">const</span> [xIsNext<span class="op">,</span> setXIsNext] <span class="op">=</span> <span class="fu">useState</span>(<span class="kw">true</span>)<span class="op">;</span></span>
+<span id="cb21-3"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb21-3" tabindex="-1"></a>  <span class="kw">const</span> [squares<span class="op">,</span> setSquares] <span class="op">=</span> <span class="fu">useState</span>(<span class="bu">Array</span>(<span class="dv">9</span>)<span class="op">.</span><span class="fu">fill</span>(<span class="kw">null</span>))<span class="op">;</span></span>
+<span id="cb21-4"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb21-4" tabindex="-1"></a></span>
+<span id="cb21-5"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb21-5" tabindex="-1"></a>  <span class="kw">const</span> winner <span class="op">=</span> <span class="fu">calculateWinner</span>(squares)<span class="op">;</span></span>
+<span id="cb21-6"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb21-6" tabindex="-1"></a>  <span class="kw">let</span> statusText<span class="op">;</span></span>
+<span id="cb21-7"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb21-7" tabindex="-1"></a>  <span class="cf">if</span> (winner) {</span>
+<span id="cb21-8"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb21-8" tabindex="-1"></a>    statusText <span class="op">=</span> <span class="st">&quot;Winner: &quot;</span> <span class="op">+</span> winner<span class="op">;</span></span>
+<span id="cb21-9"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb21-9" tabindex="-1"></a>  } <span class="cf">else</span> {</span>
+<span id="cb21-10"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb21-10" tabindex="-1"></a>    statusText <span class="op">=</span> <span class="st">&quot;Next player: &quot;</span> <span class="op">+</span> (xIsNext <span class="op">?</span> <span class="st">&quot;X&quot;</span> <span class="op">:</span> <span class="st">&quot;O&quot;</span>)<span class="op">;</span></span>
+<span id="cb21-11"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb21-11" tabindex="-1"></a>  }</span>
+<span id="cb21-12"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb21-12" tabindex="-1"></a></span>
+<span id="cb21-13"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb21-13" tabindex="-1"></a>  <span class="co">// the rest of lines are the same as before</span></span>
+<span id="cb21-14"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#cb21-14" tabindex="-1"></a>}</span></code></pre></div>
+<p>Berikut hasil program ketika dilakukan proses klik</p>
+<p><img src="images/tic-tac-toe-base-game-demo.gif"></p>
+<p>Jika sudah sampai pada titik ini berarti kita sudah menyelesaikan
+program Tic-Tac-Toe untuk fitur paling dasar. Masih ada tambahan fitur
+yang masih bisa dikembangkan seperti pemberitahuan ketika terjadi draw,
+fitur <em>time travel</em> untuk menampilkan <em>history</em> langkah, dan fitur
+penanda kotak-kotak bagi pemenang (perlu mengubah CSS element). Semua
+fitur tambahan itu dapat di baca pada subtopik opsional berikutnya tentang
+<a href="#id_#(Opsional)Fitur-tambahan-time-travel-untuk-sejarah-langkah"><em>time travel</em></a>
+dan di bagian <a href="#id_#Self-exercise">Self-exercise</a>.</p>
+</div>
 </div>
 <div id="additional-features-time-travel-for-players-steps" class="section level2 hasAnchor" number="13.4">
 <h2><span class="header-section-number">13.4</span> Additional features: “Time travel” for player’s steps<a href="javascript-in-web-browser-tic-tac-toe-and-react.html#additional-features-time-travel-for-players-steps" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>[Akan ditambahkan nanti, tunggu dengan sabar . . .]</p>
 </div>
 <div id="exercises-9" class="section level2 unnumbered hasAnchor">
 <h2>Exercises<a href="javascript-in-web-browser-tic-tac-toe-and-react.html#exercises-9" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ol style="list-style-type: decimal">
+<li>Gantilah text dalam tombol <em>history</em>, sehingga menjadi
+tertulis “You are at move #…”.</li>
+<li>Tulis ulang komponen <code>Square</code> di dalam <code>Board</code>
+menggunakan dua <em>loops</em>.</li>
+<li>Tambahkan tombol on-off (<em>toggle button</em>)
+untuk mengurutkan urutan langkah dari awal sampai akhir
+(atau susunan sebaliknya)</li>
+<li>Ketika ada pemain yang menang, tambahkan penanda
+(<em>highlight</em>) ke kotak-kotak <code>Board</code> Tic-Tac-Toe
+untuk pemain yang menang. Jika terjadi <em>draw</em>,
+tampilkan pesan bahwa terjadi hasil pertandingan <em>draw</em>
+(seimbang)</li>
+<li>Tampilkan lokasi setiap langkah dalam format (baris, kolom)
+di setiap daftar <em>history</em> langkah.</li>
+</ol>
 
 </div>
 </div>
@@ -293,7 +1113,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/USERNAME/REPO/edit/BRANCH/14-js-in-web-01.Rmd",
+"link": "https://github.com/LugoBlogger/struct-prog-js/edit/main/13-js-in-web-01.Rmd",
 "text": "Edit"
 },
 "history": {

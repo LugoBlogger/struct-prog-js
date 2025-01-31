@@ -12,7 +12,7 @@ set in the _output.yml file.</p>" />
 
   <meta property="og:title" content="12 Asynchronous Programming in JavaScript | Structured Programming with JavaScript" />
   <meta property="og:type" content="book" />
-  
+  <meta property="og:image" content="https://github.com/LugoBlogger/struct-prog-js/blob/main/images/cover.png" />
   <meta property="og:description" content="<p>This is a minimal example of using the bookdown package to write a book.
 The HTML output format for this example is bookdown::gitbook,
 set in the _output.yml file.</p>" />
@@ -24,7 +24,7 @@ set in the _output.yml file.</p>" />
   <meta name="twitter:description" content="<p>This is a minimal example of using the bookdown package to write a book.
 The HTML output format for this example is bookdown::gitbook,
 set in the _output.yml file.</p>" />
-  
+  <meta name="twitter:image" content="https://github.com/LugoBlogger/struct-prog-js/blob/main/images/cover.png" />
 
 <meta name="author" content="Henokh Lugo Hariyanto Arif Wicaksono Septyanto" />
 
@@ -59,6 +59,71 @@ set in the _output.yml file.</p>" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
+<style type="text/css">
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
 
 <style type="text/css">
   
@@ -83,13 +148,14 @@ set in the _output.yml file.</p>" />
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Prelude</a>
 <ul>
-<li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#intended-reader"><i class="fa fa-check"></i><b>0.1</b> Intended reader</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#intended-reader"><i class="fa fa-check"></i>Intended reader</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#how-to-read-and-code"><i class="fa fa-check"></i>How to read (and code)</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#colophon"><i class="fa fa-check"></i>Colophon</a></li>
 </ul></li>
 <li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
 <ul>
 <li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#structured-programming"><i class="fa fa-check"></i><b>1.1</b> Structured programming</a></li>
-<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#motivation"><i class="fa fa-check"></i><b>1.2</b> Motivation</a></li>
+<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#the-goal-of-this-book"><i class="fa fa-check"></i><b>1.2</b> The goal of this book</a></li>
 <li class="chapter" data-level="1.3" data-path="introduction.html"><a href="introduction.html#how-to-learn"><i class="fa fa-check"></i><b>1.3</b> How to learn</a></li>
 <li class="chapter" data-level="1.4" data-path="introduction.html"><a href="introduction.html#short-tips"><i class="fa fa-check"></i><b>1.4</b> Short tips</a></li>
 </ul></li>
@@ -130,10 +196,11 @@ set in the _output.yml file.</p>" />
 <ul>
 <li class="chapter" data-level="5.1" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#primary-expression"><i class="fa fa-check"></i><b>5.1</b> Primary expression</a></li>
 <li class="chapter" data-level="5.2" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#operators"><i class="fa fa-check"></i><b>5.2</b> Operators</a></li>
-<li class="chapter" data-level="5.3" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#relational-expression"><i class="fa fa-check"></i><b>5.3</b> Relational expression</a></li>
-<li class="chapter" data-level="5.4" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#logical-expression"><i class="fa fa-check"></i><b>5.4</b> Logical expression</a></li>
-<li class="chapter" data-level="5.5" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#assignment-expression"><i class="fa fa-check"></i><b>5.5</b> Assignment expression</a></li>
-<li class="chapter" data-level="5.6" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#miscellaneous-operators"><i class="fa fa-check"></i><b>5.6</b> Miscellaneous operators</a></li>
+<li class="chapter" data-level="5.3" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#arithmetic-expression"><i class="fa fa-check"></i><b>5.3</b> Arithmetic expression</a></li>
+<li class="chapter" data-level="5.4" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#relational-expression"><i class="fa fa-check"></i><b>5.4</b> Relational expression</a></li>
+<li class="chapter" data-level="5.5" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#logical-expression"><i class="fa fa-check"></i><b>5.5</b> Logical expression</a></li>
+<li class="chapter" data-level="5.6" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#assignment-expression"><i class="fa fa-check"></i><b>5.6</b> Assignment expression</a></li>
+<li class="chapter" data-level="5.7" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#miscellaneous-operators"><i class="fa fa-check"></i><b>5.7</b> Miscellaneous operators</a></li>
 <li class="chapter" data-level="" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#exercises-2"><i class="fa fa-check"></i>Exercises</a></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="statements.html"><a href="statements.html"><i class="fa fa-check"></i><b>6</b> Statements</a>
@@ -141,8 +208,9 @@ set in the _output.yml file.</p>" />
 <li class="chapter" data-level="6.1" data-path="statements.html"><a href="statements.html#expression-statements"><i class="fa fa-check"></i><b>6.1</b> Expression statements</a></li>
 <li class="chapter" data-level="6.2" data-path="statements.html"><a href="statements.html#compound-and-empty-statements"><i class="fa fa-check"></i><b>6.2</b> Compound and empty statements</a></li>
 <li class="chapter" data-level="6.3" data-path="statements.html"><a href="statements.html#conditionals"><i class="fa fa-check"></i><b>6.3</b> Conditionals</a></li>
-<li class="chapter" data-level="6.4" data-path="statements.html"><a href="statements.html#jumps"><i class="fa fa-check"></i><b>6.4</b> Jumps</a></li>
-<li class="chapter" data-level="6.5" data-path="statements.html"><a href="statements.html#miscellaneous-statements"><i class="fa fa-check"></i><b>6.5</b> Miscellaneous statements</a></li>
+<li class="chapter" data-level="6.4" data-path="statements.html"><a href="statements.html#iteration-loops"><i class="fa fa-check"></i><b>6.4</b> Iteration (loops)</a></li>
+<li class="chapter" data-level="6.5" data-path="statements.html"><a href="statements.html#jumps"><i class="fa fa-check"></i><b>6.5</b> Jumps</a></li>
+<li class="chapter" data-level="6.6" data-path="statements.html"><a href="statements.html#miscellaneous-statements"><i class="fa fa-check"></i><b>6.6</b> Miscellaneous statements</a></li>
 <li class="chapter" data-level="" data-path="statements.html"><a href="statements.html#exercises-3"><i class="fa fa-check"></i>Exercises</a></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="objects.html"><a href="objects.html"><i class="fa fa-check"></i><b>7</b> Objects</a>
@@ -168,7 +236,13 @@ set in the _output.yml file.</p>" />
 <li class="chapter" data-level="9.5" data-path="arrays.html"><a href="arrays.html#adding-and-removing-elements-of-an-array"><i class="fa fa-check"></i><b>9.5</b> Adding and removing elements of an array</a></li>
 <li class="chapter" data-level="9.6" data-path="arrays.html"><a href="arrays.html#performing-iteration-to-an-array"><i class="fa fa-check"></i><b>9.6</b> Performing iteration to an array</a></li>
 <li class="chapter" data-level="9.7" data-path="arrays.html"><a href="arrays.html#multidimensional-array"><i class="fa fa-check"></i><b>9.7</b> Multidimensional array</a></li>
-<li class="chapter" data-level="9.8" data-path="arrays.html"><a href="arrays.html#some-useful-methods-in-an-array"><i class="fa fa-check"></i><b>9.8</b> Some useful methods in an array</a></li>
+<li class="chapter" data-level="9.8" data-path="arrays.html"><a href="arrays.html#some-useful-methods-in-an-array"><i class="fa fa-check"></i><b>9.8</b> Some useful methods in an array</a>
+<ul>
+<li class="chapter" data-level="9.8.1" data-path="arrays.html"><a href="arrays.html#array-iterator-methods"><i class="fa fa-check"></i><b>9.8.1</b> Array iterator methods</a></li>
+<li class="chapter" data-level="9.8.2" data-path="arrays.html"><a href="arrays.html#methods-for-creating-stacks-and-queues"><i class="fa fa-check"></i><b>9.8.2</b> Methods for creating stacks and queues</a></li>
+<li class="chapter" data-level="9.8.3" data-path="arrays.html"><a href="arrays.html#methods-on-subarrays"><i class="fa fa-check"></i><b>9.8.3</b> Methods on subarrays</a></li>
+<li class="chapter" data-level="9.8.4" data-path="arrays.html"><a href="arrays.html#array-searching-and-sorting-methods"><i class="fa fa-check"></i><b>9.8.4</b> Array searching and sorting methods</a></li>
+</ul></li>
 <li class="chapter" data-level="9.9" data-path="arrays.html"><a href="arrays.html#objects-that-is-similar-to-array"><i class="fa fa-check"></i><b>9.9</b> Objects that is similar to array</a></li>
 <li class="chapter" data-level="9.10" data-path="arrays.html"><a href="arrays.html#thinking-a-string-as-an-array"><i class="fa fa-check"></i><b>9.10</b> Thinking a string as an array</a></li>
 <li class="chapter" data-level="" data-path="arrays.html"><a href="arrays.html#exercises-5"><i class="fa fa-check"></i>Exercises</a></li>
@@ -197,13 +271,25 @@ set in the _output.yml file.</p>" />
 <li class="chapter" data-level="12.2" data-path="asynchronous-programming-in-javascript.html"><a href="asynchronous-programming-in-javascript.html#an-example-of-asynchronous-program"><i class="fa fa-check"></i><b>12.2</b> An example of asynchronous program</a></li>
 <li class="chapter" data-level="12.3" data-path="asynchronous-programming-in-javascript.html"><a href="asynchronous-programming-in-javascript.html#introduction-to-promise-object"><i class="fa fa-check"></i><b>12.3</b> Introduction to Promise object</a></li>
 <li class="chapter" data-level="12.4" data-path="asynchronous-programming-in-javascript.html"><a href="asynchronous-programming-in-javascript.html#some-practical-use-of-promise-object"><i class="fa fa-check"></i><b>12.4</b> Some practical use of Promise object</a></li>
+<li class="chapter" data-level="12.5" data-path="asynchronous-programming-in-javascript.html"><a href="asynchronous-programming-in-javascript.html#await-and-async"><i class="fa fa-check"></i><b>12.5</b> <code>await</code> and <code>async</code></a></li>
 <li class="chapter" data-level="" data-path="asynchronous-programming-in-javascript.html"><a href="asynchronous-programming-in-javascript.html#exercises-8"><i class="fa fa-check"></i>Exercises</a></li>
 </ul></li>
 <li class="chapter" data-level="13" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html"><i class="fa fa-check"></i><b>13</b> JavaScript in Web Browser: Tic-Tac-Toe and React</a>
 <ul>
 <li class="chapter" data-level="13.1" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#setup-environment"><i class="fa fa-check"></i><b>13.1</b> Setup environment</a></li>
-<li class="chapter" data-level="13.2" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#short-overview-of-tic-tac-toe-program-and-react"><i class="fa fa-check"></i><b>13.2</b> Short overview of Tic-Tac-Toe program and React</a></li>
-<li class="chapter" data-level="13.3" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#finishing-the-base-program-of-tic-tac-toe"><i class="fa fa-check"></i><b>13.3</b> Finishing the base program of Tic-Tac-Toe</a></li>
+<li class="chapter" data-level="13.2" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#short-overview-of-tic-tac-toe-program-and-react"><i class="fa fa-check"></i><b>13.2</b> Short overview of Tic-Tac-Toe program and React</a>
+<ul>
+<li class="chapter" data-level="13.2.1" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#isi-folder-pages-dan-styles."><i class="fa fa-check"></i><b>13.2.1</b> Isi folder <code>pages</code> dan <code>styles</code>.</a></li>
+<li class="chapter" data-level="13.2.2" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#membuat-papan-permainan-tic-tac-toe"><i class="fa fa-check"></i><b>13.2.2</b> Membuat papan permainan Tic-Tac-Toe</a></li>
+<li class="chapter" data-level="13.2.3" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#react-props-untuk-data-manipulasi-komponen-square"><i class="fa fa-check"></i><b>13.2.3</b> React <code>props</code> untuk data manipulasi komponen <code>Square</code></a></li>
+<li class="chapter" data-level="13.2.4" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#menambahkan-interactivity"><i class="fa fa-check"></i><b>13.2.4</b> Menambahkan <em>interactivity</em></a></li>
+</ul></li>
+<li class="chapter" data-level="13.3" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#finishing-the-base-program-of-tic-tac-toe"><i class="fa fa-check"></i><b>13.3</b> Finishing the base program of Tic-Tac-Toe</a>
+<ul>
+<li class="chapter" data-level="13.3.1" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#memindahkan-usestate-dari-square-ke-board-lifted-up"><i class="fa fa-check"></i><b>13.3.1</b> Memindahkan <code>useState</code> dari <code>Square()</code> ke <code>Board()</code> (lifted up)</a></li>
+<li class="chapter" data-level="13.3.2" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#kondisi-untuk-menambahkan-pergantian-pemain"><i class="fa fa-check"></i><b>13.3.2</b> Kondisi untuk menambahkan pergantian pemain</a></li>
+<li class="chapter" data-level="13.3.3" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#menambahkan-fitur-pemberitahuan-untuk-pemenang"><i class="fa fa-check"></i><b>13.3.3</b> Menambahkan fitur pemberitahuan untuk pemenang</a></li>
+</ul></li>
 <li class="chapter" data-level="13.4" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#additional-features-time-travel-for-players-steps"><i class="fa fa-check"></i><b>13.4</b> Additional features: “Time travel” for player’s steps</a></li>
 <li class="chapter" data-level="" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#exercises-9"><i class="fa fa-check"></i>Exercises</a></li>
 </ul></li>
@@ -217,9 +303,6 @@ set in the _output.yml file.</p>" />
 </ul></li>
 <li class="chapter" data-level="15" data-path="javascript-in-web-browser-learning-animation.html"><a href="javascript-in-web-browser-learning-animation.html"><i class="fa fa-check"></i><b>15</b> JavaScript in Web Browser: Learning animation</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
-<li class="divider"></li>
-<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-
 </ul>
 
       </nav>
@@ -239,20 +322,386 @@ set in the _output.yml file.</p>" />
             <section class="normal" id="section-">
 <div id="asynchronous-programming-in-javascript" class="section level1 hasAnchor" number="12">
 <h1><span class="header-section-number">12</span> Asynchronous Programming in JavaScript<a href="asynchronous-programming-in-javascript.html#asynchronous-programming-in-javascript" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>This topic about asynchronous will be divided into two parts.
+The first part is discussing that asynchronous programming is main feature in
+JavaScript programming langauage and also short introuction to a Promise object</p>
+<p>In the second part, we will see more closely to the Promise object and the use
+of await expression and async function.</p>
+<p>Di tahap pertama ini kita akan membahas dua hal berikut:
+- Mengenal pemrograman asinkronus<br />
+- Contoh program asinkronus sederhana</p>
 <div id="understanding-the-principle-of-asynchronous-programming" class="section level2 hasAnchor" number="12.1">
 <h2><span class="header-section-number">12.1</span> Understanding the principle of asynchronous programming<a href="asynchronous-programming-in-javascript.html#understanding-the-principle-of-asynchronous-programming" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Sebelum mengerti asinkronus, kita harus mengerti bahwa pemroograman sinkronus
+adalah semua progran yang telah kita pelajari di bagian sebelumnya
+yaitu saat setiap perintah-perintah (statements) dieksekusi secara berurutan,
+setiap perintah akan dieksekusi setelah perintah yang dipanggil (umumnya di baris
+sebelumnya) telah selesai dijalankan.</p>
+<p>Program asinkronus merupakan program yang dapat berjalan tanpa harus menunggu
+program lain selesai melakukan proses eksekusinya. Misal ada dua program
+yang satu melakukan download lagu, dan yang lain memutar file MP3. Atau
+saat kalian membuka aplikasi Instagram, kalian juga menerima notifikasi pesan
+masuk dari aplikasi WhatsApp. Bisa dikatakan
+hampir semua aplikasi yang ada di laptop/PC atau <em>smartphone</em> yang kita
+gunakan berbasis pada pemrograman asinkronus.</p>
+<p>Detail pemrograman asinkronus ini bekerja pada level prosesor bukanlah
+menjadi persoalan yang kita harus pelajari. Namun tata cara menggunakan
+fitur pemrograman asinkronus di JavaScript adalah yang sangat perlu kita pelajari.</p>
+<p>Berikut sedikit ilustrasi perbandingan pemrograman sinkronus dan
+asinkronus menurut (Haverbeke, 2018)</p>
+<p><img src="images/asynchronous-synchronous-timeline.png" width=1200></p>
+<p>Dari gambar di atas terdapat istilah <em>threads</em> yang merupakan potongan
+kode yang dijalankan pada suatu proses dalam suatu prosesor. Prosesor
+menjalankan proses besar yang terdiri dari beberapa <em>threads</em>. Seperti
+sistem operasi merupakan proses besar yang terdiri dari potongan program
+program kecil untuk mengatur hubungan antara <em>hardware</em> di dalam komputer
+dan sistem I/O
+(input/output termasuk monitor, keyboard, dan mouse)</p>
+<p>Program-program yang kita buat di dalam Node.js dijalankan oleh <em>thread</em> ini.</p>
+<p>Garis biru menunjukkan perjalanan waktu saat suatu program dieksekusi.
+Garis merah adalah ketika program melakukan suatu <em>request</em> ke server.
+Ketika kita menggunakan pemrograman sinkronus, kita harus menunggu program
+pertama selesai melakukan <em>request</em>, baru kita bisa menjalankan program kedua.</p>
+<p>Jika kita lakukan dengan dua <em>threads</em>, kita tidak bisa mengkomunikasikan
+antara dua program ini misal program kedua akan melakukan instruksi kedua
+(setelah program kedua melakukan <em>request</em>).</p>
+<p>Namun dengan asinkronus, kita bisa membuat dua-duanya berjalan beriringan.
+Dan ketika program pertama selesai melakukan <em>request</em> maka instruksi program
+kedua bisa langsung dijalankan tanpa perlu melakukan <em>request</em> oleh program kedua
+ini.</p>
+<p>Bisa dikatakan, program pertama tetap berjalan di <em>background</em> sembari
+kita bisa menjalankan program kedua. Kemampuan seperti ini sangatlah diperlukan
+misal kita ingin menunggu input dari user dan melakukan suatu aksi ketika user
+melakukan suatu input ke dalam program kita. Mirip seperti while loop
+yang akan terhenti jika ada user input namun kita disini membiarkan
+program pertama terus berjalan.</p>
 </div>
 <div id="an-example-of-asynchronous-program" class="section level2 hasAnchor" number="12.2">
 <h2><span class="header-section-number">12.2</span> An example of asynchronous program<a href="asynchronous-programming-in-javascript.html#an-example-of-asynchronous-program" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Berikut ini adalah program yang menunjukkan penggunaan pemrograman asinkronus.
+Terdapat istilah fungsi <em>callback</em> yang artinya fungsi ini akan menjadi suatu
+argument untuk fungsi lain (sebut <em>parent</em> function). <em>Parent</em> function
+ini akan berjalan di <em>background</em> (tetap dieksekusi) sampai suatu
+<em>event</em> terjadi yang mengakibatkan fungsi <em>callback</em> dieksekusi atau
+lebih tepatnya dipanggil (<em>invoking</em>).</p>
+<p>Pada program pertama ini, fungsi <code>setTimeout()</code> memerlukan dua input
+argument. Pertama adalah <em>callback function</em> yang akan dipanggil setelah
+jeda (<em>delay</em>) waktu pada input argument kedua selesai.
+Pada contoh ini kita menginputkan argument <em>delay</em> sebanyak 2 detik.
+Input argument ini bersatuan <em>millisecond</em>, jadi kita inputkan 2 detik
+sebagai 2,000 <em>milliseconds</em>.</p>
+<p><strong>timer-set-timeout.js</strong></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb1-1"><a href="asynchronous-programming-in-javascript.html#cb1-1" tabindex="-1"></a><span class="co">// Only run once after put a delay of 2 secons</span></span>
+<span id="cb1-2"><a href="asynchronous-programming-in-javascript.html#cb1-2" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="asynchronous-programming-in-javascript.html#cb1-3" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;delay two seconds from now&quot;</span>)<span class="op">;</span></span>
+<span id="cb1-4"><a href="asynchronous-programming-in-javascript.html#cb1-4" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="asynchronous-programming-in-javascript.html#cb1-5" tabindex="-1"></a><span class="kw">const</span> callbackFunc <span class="op">=</span> () <span class="kw">=&gt;</span> {<span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;run after two seconds&quot;</span>)}<span class="op">;</span></span>
+<span id="cb1-6"><a href="asynchronous-programming-in-javascript.html#cb1-6" tabindex="-1"></a><span class="pp">setTimeout</span>(callbackFunc<span class="op">,</span> <span class="dv">2_000</span>)<span class="op">;</span></span>
+<span id="cb1-7"><a href="asynchronous-programming-in-javascript.html#cb1-7" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;Do something during 2 secs&quot;</span>)<span class="op">;</span></span></code></pre></div>
+<p>Program kedua kita memiliki <em>nested callback function</em>. Artinya
+<em>Callback function</em> di dalam <em>callback function</em> di dalam <em>callback function</em>,
+dan seterusnya. Di program kedua ini, <code>callbackFunc()</code> merupakan
+<em>callback function</em> untuk <code>setInterval()</code> dan variable <code>updateInterval()</code>
+yang merupakan referensi ke fungsi <code>setInterval()</code> menjadi bagian dari
+<em>callback function</em> <code>stop_callbackFunc()</code>.
+Dan terakhir <code>stop_callbackFunc()</code> merupakan argument fungsi <code>setTimeout()</code>.</p>
+<p><strong>timer-set-interval.js</strong></p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb2-1"><a href="asynchronous-programming-in-javascript.html#cb2-1" tabindex="-1"></a><span class="co">// The following program will print sequentially</span></span>
+<span id="cb2-2"><a href="asynchronous-programming-in-javascript.html#cb2-2" tabindex="-1"></a><span class="co">// numbers from 1 to 10 with each one second delay</span></span>
+<span id="cb2-3"><a href="asynchronous-programming-in-javascript.html#cb2-3" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="asynchronous-programming-in-javascript.html#cb2-4" tabindex="-1"></a><span class="kw">let</span> state <span class="op">=</span> {<span class="dt">num</span><span class="op">:</span> <span class="dv">0</span>}</span>
+<span id="cb2-5"><a href="asynchronous-programming-in-javascript.html#cb2-5" tabindex="-1"></a></span>
+<span id="cb2-6"><a href="asynchronous-programming-in-javascript.html#cb2-6" tabindex="-1"></a><span class="kw">let</span> callbackFunc <span class="op">=</span> () <span class="kw">=&gt;</span> {</span>
+<span id="cb2-7"><a href="asynchronous-programming-in-javascript.html#cb2-7" tabindex="-1"></a>  state<span class="op">.</span><span class="at">num</span> <span class="op">+=</span> <span class="dv">1</span><span class="op">;</span></span>
+<span id="cb2-8"><a href="asynchronous-programming-in-javascript.html#cb2-8" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(state<span class="op">.</span><span class="at">num</span>)}<span class="op">;</span></span>
+<span id="cb2-9"><a href="asynchronous-programming-in-javascript.html#cb2-9" tabindex="-1"></a></span>
+<span id="cb2-10"><a href="asynchronous-programming-in-javascript.html#cb2-10" tabindex="-1"></a><span class="co">// Call callbackFunc in one second and then again repeat</span></span>
+<span id="cb2-11"><a href="asynchronous-programming-in-javascript.html#cb2-11" tabindex="-1"></a><span class="co">// every second after that</span></span>
+<span id="cb2-12"><a href="asynchronous-programming-in-javascript.html#cb2-12" tabindex="-1"></a><span class="kw">let</span> updateIntervalId <span class="op">=</span> <span class="pp">setInterval</span>(callbackFunc<span class="op">,</span> <span class="dv">1_000</span>)<span class="op">;</span></span>
+<span id="cb2-13"><a href="asynchronous-programming-in-javascript.html#cb2-13" tabindex="-1"></a></span>
+<span id="cb2-14"><a href="asynchronous-programming-in-javascript.html#cb2-14" tabindex="-1"></a></span>
+<span id="cb2-15"><a href="asynchronous-programming-in-javascript.html#cb2-15" tabindex="-1"></a><span class="co">// setInterval() returns a value that we can use to stop the</span></span>
+<span id="cb2-16"><a href="asynchronous-programming-in-javascript.html#cb2-16" tabindex="-1"></a><span class="co">// repeated invocations by calling clearInterval()</span></span>
+<span id="cb2-17"><a href="asynchronous-programming-in-javascript.html#cb2-17" tabindex="-1"></a></span>
+<span id="cb2-18"><a href="asynchronous-programming-in-javascript.html#cb2-18" tabindex="-1"></a><span class="kw">function</span> <span class="fu">stop_callbackFunc</span>() {</span>
+<span id="cb2-19"><a href="asynchronous-programming-in-javascript.html#cb2-19" tabindex="-1"></a>  <span class="pp">clearInterval</span>(updateIntervalId)<span class="op">;</span></span>
+<span id="cb2-20"><a href="asynchronous-programming-in-javascript.html#cb2-20" tabindex="-1"></a>}</span>
+<span id="cb2-21"><a href="asynchronous-programming-in-javascript.html#cb2-21" tabindex="-1"></a></span>
+<span id="cb2-22"><a href="asynchronous-programming-in-javascript.html#cb2-22" tabindex="-1"></a><span class="pp">setTimeout</span>(stop_callbackFunc<span class="op">,</span> <span class="dv">10_500</span>)<span class="op">;</span>   <span class="co">// add a little bit milliseconds</span></span>
+<span id="cb2-23"><a href="asynchronous-programming-in-javascript.html#cb2-23" tabindex="-1"></a>                                         <span class="co">// from 10 secs.</span></span></code></pre></div>
+<p>Kita lihat disini kerumitan yang ditimbulkan dengan alur penggunaan<br />
+<em>callback function</em> yang saling berkaitan. Kita akan melihat di
+bagian kedua bahwa hal ini dapat kita sederhanakan dan penulisan program
+menjadi lebih elegan menggunakan objek <em>Promise</em>.</p>
+<p><img src="images/pimp-my-ride-meme-callbacks.jpeg" width=600></p>
+<p><br/></p>
+<p>Untuk contoh terakhir, program terdiri dari tiga berkas yaitu
+<code>events-demo.html</code>, <code>events-demo.css</code>, dan <code>events-demo.js</code>.
+Program ini akan memberikan kita tampilan di berkas <code>.html</code>
+berupa tombol untuk mengubah-ubah warna suatu teks.</p>
+<p>Buat suatu folder bernama <em>events</em> dan taruh ketiga berkas tersebut
+(<code>.html</code>, <code>.css</code>, dan <code>.js</code>) dalam folder tersebut.</p>
+<p><strong>events-demo.html</strong></p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode html"><code class="sourceCode html"><span id="cb3-1"><a href="asynchronous-programming-in-javascript.html#cb3-1" tabindex="-1"></a><span class="dt">&lt;</span><span class="kw">html</span><span class="dt">&gt;</span></span>
+<span id="cb3-2"><a href="asynchronous-programming-in-javascript.html#cb3-2" tabindex="-1"></a>  <span class="dt">&lt;</span><span class="kw">head</span><span class="dt">&gt;</span></span>
+<span id="cb3-3"><a href="asynchronous-programming-in-javascript.html#cb3-3" tabindex="-1"></a>    <span class="dt">&lt;</span><span class="kw">link</span><span class="ot"> rel</span><span class="op">=</span><span class="st">&quot;stylesheet&quot;</span><span class="ot"> href</span><span class="op">=</span><span class="st">&quot;./events-demo.css&quot;</span><span class="dt">&gt;&lt;/</span><span class="kw">style</span><span class="dt">&gt;</span></span>
+<span id="cb3-4"><a href="asynchronous-programming-in-javascript.html#cb3-4" tabindex="-1"></a>  <span class="dt">&lt;/</span><span class="kw">head</span><span class="dt">&gt;</span></span>
+<span id="cb3-5"><a href="asynchronous-programming-in-javascript.html#cb3-5" tabindex="-1"></a>  <span class="dt">&lt;</span><span class="kw">body</span><span class="dt">&gt;</span></span>
+<span id="cb3-6"><a href="asynchronous-programming-in-javascript.html#cb3-6" tabindex="-1"></a>    <span class="dt">&lt;</span><span class="kw">div</span><span class="ot"> id</span><span class="op">=</span><span class="st">&quot;output&quot;</span><span class="dt">&gt;</span></span>
+<span id="cb3-7"><a href="asynchronous-programming-in-javascript.html#cb3-7" tabindex="-1"></a>      <span class="dt">&lt;</span><span class="kw">h3</span><span class="dt">&gt;</span>Hello world!<span class="dt">&lt;/</span><span class="kw">h3</span><span class="dt">&gt;</span></span>
+<span id="cb3-8"><a href="asynchronous-programming-in-javascript.html#cb3-8" tabindex="-1"></a>    <span class="dt">&lt;/</span><span class="kw">div</span><span class="dt">&gt;</span></span>
+<span id="cb3-9"><a href="asynchronous-programming-in-javascript.html#cb3-9" tabindex="-1"></a>    <span class="dt">&lt;</span><span class="kw">button</span><span class="ot"> id</span><span class="op">=</span><span class="st">&quot;change&quot;</span><span class="dt">&gt;</span>Change color<span class="dt">&lt;/</span><span class="kw">button</span><span class="dt">&gt;</span></span>
+<span id="cb3-10"><a href="asynchronous-programming-in-javascript.html#cb3-10" tabindex="-1"></a></span>
+<span id="cb3-11"><a href="asynchronous-programming-in-javascript.html#cb3-11" tabindex="-1"></a>    <span class="dt">&lt;</span><span class="kw">script</span><span class="ot"> src</span><span class="op">=</span><span class="st">&quot;./events-demo.js&quot;</span><span class="dt">&gt;&lt;/</span><span class="kw">script</span><span class="dt">&gt;</span></span>
+<span id="cb3-12"><a href="asynchronous-programming-in-javascript.html#cb3-12" tabindex="-1"></a>  <span class="dt">&lt;/</span><span class="kw">body</span><span class="dt">&gt;</span></span>
+<span id="cb3-13"><a href="asynchronous-programming-in-javascript.html#cb3-13" tabindex="-1"></a><span class="dt">&lt;/</span><span class="kw">html</span><span class="dt">&gt;</span> </span></code></pre></div>
+<p><strong>events-demo.css</strong></p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode css"><code class="sourceCode css"><span id="cb4-1"><a href="asynchronous-programming-in-javascript.html#cb4-1" tabindex="-1"></a><span class="fu">.red</span> {</span>
+<span id="cb4-2"><a href="asynchronous-programming-in-javascript.html#cb4-2" tabindex="-1"></a>  <span class="kw">color</span><span class="ch">:</span> <span class="cn">red</span><span class="op">;</span></span>
+<span id="cb4-3"><a href="asynchronous-programming-in-javascript.html#cb4-3" tabindex="-1"></a>}</span>
+<span id="cb4-4"><a href="asynchronous-programming-in-javascript.html#cb4-4" tabindex="-1"></a></span>
+<span id="cb4-5"><a href="asynchronous-programming-in-javascript.html#cb4-5" tabindex="-1"></a><span class="fu">.green</span> {</span>
+<span id="cb4-6"><a href="asynchronous-programming-in-javascript.html#cb4-6" tabindex="-1"></a>  <span class="kw">color</span><span class="ch">:</span> <span class="cn">green</span><span class="op">;</span></span>
+<span id="cb4-7"><a href="asynchronous-programming-in-javascript.html#cb4-7" tabindex="-1"></a>}</span></code></pre></div>
+<p><strong>events-demo.js</strong></p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb5-1"><a href="asynchronous-programming-in-javascript.html#cb5-1" tabindex="-1"></a><span class="kw">function</span> <span class="fu">changeColor</span>() {</span>
+<span id="cb5-2"><a href="asynchronous-programming-in-javascript.html#cb5-2" tabindex="-1"></a>  outElement <span class="op">=</span> <span class="bu">document</span><span class="op">.</span><span class="fu">getElementById</span>(<span class="st">&quot;output&quot;</span>)<span class="op">;</span></span>
+<span id="cb5-3"><a href="asynchronous-programming-in-javascript.html#cb5-3" tabindex="-1"></a>  <span class="co">// console.log(outElement.className);</span></span>
+<span id="cb5-4"><a href="asynchronous-programming-in-javascript.html#cb5-4" tabindex="-1"></a>  </span>
+<span id="cb5-5"><a href="asynchronous-programming-in-javascript.html#cb5-5" tabindex="-1"></a>  <span class="kw">let</span> currentClass <span class="op">=</span> outElement<span class="op">.</span><span class="at">className</span><span class="op">;</span></span>
+<span id="cb5-6"><a href="asynchronous-programming-in-javascript.html#cb5-6" tabindex="-1"></a>  <span class="cf">if</span> (currentClass <span class="op">===</span> <span class="st">&quot;&quot;</span> <span class="op">||</span> currentClass <span class="op">===</span> <span class="st">&quot;green&quot;</span>) {</span>
+<span id="cb5-7"><a href="asynchronous-programming-in-javascript.html#cb5-7" tabindex="-1"></a>    outElement<span class="op">.</span><span class="at">className</span> <span class="op">=</span> <span class="st">&quot;red&quot;</span><span class="op">;</span></span>
+<span id="cb5-8"><a href="asynchronous-programming-in-javascript.html#cb5-8" tabindex="-1"></a>  } <span class="cf">else</span> { </span>
+<span id="cb5-9"><a href="asynchronous-programming-in-javascript.html#cb5-9" tabindex="-1"></a>    outElement<span class="op">.</span><span class="at">className</span> <span class="op">=</span> <span class="st">&quot;green&quot;</span><span class="op">;</span></span>
+<span id="cb5-10"><a href="asynchronous-programming-in-javascript.html#cb5-10" tabindex="-1"></a>  } </span>
+<span id="cb5-11"><a href="asynchronous-programming-in-javascript.html#cb5-11" tabindex="-1"></a>}</span>
+<span id="cb5-12"><a href="asynchronous-programming-in-javascript.html#cb5-12" tabindex="-1"></a></span>
+<span id="cb5-13"><a href="asynchronous-programming-in-javascript.html#cb5-13" tabindex="-1"></a><span class="kw">let</span> btnChange <span class="op">=</span> <span class="bu">document</span><span class="op">.</span><span class="fu">getElementById</span>(<span class="st">&quot;change&quot;</span>)<span class="op">;</span></span>
+<span id="cb5-14"><a href="asynchronous-programming-in-javascript.html#cb5-14" tabindex="-1"></a></span>
+<span id="cb5-15"><a href="asynchronous-programming-in-javascript.html#cb5-15" tabindex="-1"></a>btnChange<span class="op">.</span><span class="fu">addEventListener</span>(<span class="st">&quot;click&quot;</span><span class="op">,</span> changeColor)<span class="op">;</span></span></code></pre></div>
 </div>
 <div id="introduction-to-promise-object" class="section level2 hasAnchor" number="12.3">
 <h2><span class="header-section-number">12.3</span> Introduction to Promise object<a href="asynchronous-programming-in-javascript.html#introduction-to-promise-object" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Objek Promise, adalah suatu objek khusus yang menangani manajemen fungsi
+yang memiliki perilaku asinkronus. Perilaku asinkronus disini artinya
+fungsi tersebut dapat dijalankan secara asinkronus yang artinya
+memberikan fitur <em>non-blocking</em> terhadap fungsi lain atau program lain
+yang dijalankan (ingat kembali terkait program <strong>timer-set-timeout.js</strong>).</p>
+<p>Apabila kita menuliskan program asinkronus menggunakan callback function,
+maka kita memiliki masalah banyaknya nested function ketika
+kita membuat program asinkronus dengan jumlah fungsi asinkronus cukup
+banyak dan membuat program kita nampak tidak terstuktur. Promise
+object mampu menangani ini.</p>
+<p>Cara mengubah dari program asinkronus yang menggunakan callback function
+adalah dengan mengganti susunan callback function tersebut dengan
+method <code>.then(callbackFunc)</code> yang tersedia dalam Promise object</p>
+<p>Sintaks dari penulisan Promise object:</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb6-1"><a href="asynchronous-programming-in-javascript.html#cb6-1" tabindex="-1"></a><span class="fu">p1</span>(arg1)</span>
+<span id="cb6-2"><a href="asynchronous-programming-in-javascript.html#cb6-2" tabindex="-1"></a>  <span class="op">.</span><span class="fu">then</span>(callbackFunc1)</span>
+<span id="cb6-3"><a href="asynchronous-programming-in-javascript.html#cb6-3" tabindex="-1"></a>  <span class="op">.</span><span class="fu">then</span>(callbackFunc2)</span>
+<span id="cb6-4"><a href="asynchronous-programming-in-javascript.html#cb6-4" tabindex="-1"></a>  <span class="op">.</span><span class="fu">catch</span>(callbackErrorHandler)</span></code></pre></div>
+<p>Makna dari program tersebut adalah <code>p1</code> adalah suat fungsi yang menghasilkan
+atau memberikan nilai return Promise object. Jika eksekusi Promise
+object ini selesai (disebut <strong>settled</strong>) maka akan ada dua kemungkinan
+Ekseksui fungsi <code>p1</code> menghasilkan nilai return yang diinginkan (disebut
+<strong>fulfilled</strong>) atau fungsi <code>p1</code> mengalami error ditengah ekseksi
+(disebut <strong>rejected</strong>). Jika fungsi <code>p1</code> berada di <em>state</em> <strong>fulfilled</strong>,
+maka <code>callbackFunc1</code> dijalankan.. Dan pemanggilan <code>callbackFunc1</code> dilakukan
+dan memberikan hasil berupa Promise object.
+Proses ini terus dilanjutkan sama seperti proses eksekusi fungsi <code>p1</code>,
+hingga kita berhasil memanggil <code>callbackFunc2</code>. Namun jika selama proses
+eksekusi di atas terjadi error atau Promise object berada di keadaan
+<strong>rejected</strong>, maka perintah <code>callbackErrorHandler</code> yang akan dijalankan.</p>
+<p>Promise object juga mampu memberikan aliran program seperti air yang
+mengalir dari anak tangga menuju anak tangga berikutnya. Tiap-tiap
+anak tangga ini adalah kombinasi methods <code>.then()</code> dan <code>.catch()</code>
+(bisa juga menambahkan <code>.finally()</code> namun disini kita cukup menggunakan
+<code>.then()</code> dan <code>.catch()</code>).</p>
 </div>
 <div id="some-practical-use-of-promise-object" class="section level2 hasAnchor" number="12.4">
 <h2><span class="header-section-number">12.4</span> Some practical use of Promise object<a href="asynchronous-programming-in-javascript.html#some-practical-use-of-promise-object" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Berikut contoh program asinkronus yang menggunakan struktur
+Promise object yang ditulis
+menggunakan <code>.then()</code></p>
+<p>Pada program ini kita menggunakan restcountry API yang menyediakan
+beberapa data-data umum terkait negara-negara di dunia. Dan kita
+akan mencetak GINI indeks untup tiap negara.</p>
+<p><strong>promise-and-error-restcountryAPI.js</strong></p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb7-1"><a href="asynchronous-programming-in-javascript.html#cb7-1" tabindex="-1"></a><span class="co">// Fetch A JSON api to demonstrate .catch</span></span>
+<span id="cb7-2"><a href="asynchronous-programming-in-javascript.html#cb7-2" tabindex="-1"></a></span>
+<span id="cb7-3"><a href="asynchronous-programming-in-javascript.html#cb7-3" tabindex="-1"></a><span class="kw">function</span> <span class="fu">displayData</span>(message) {</span>
+<span id="cb7-4"><a href="asynchronous-programming-in-javascript.html#cb7-4" tabindex="-1"></a>  </span>
+<span id="cb7-5"><a href="asynchronous-programming-in-javascript.html#cb7-5" tabindex="-1"></a>  <span class="cf">for</span> (<span class="kw">let</span> country <span class="kw">of</span> message) {</span>
+<span id="cb7-6"><a href="asynchronous-programming-in-javascript.html#cb7-6" tabindex="-1"></a>    <span class="cf">if</span> (country<span class="op">.</span><span class="at">gini</span>) {</span>
+<span id="cb7-7"><a href="asynchronous-programming-in-javascript.html#cb7-7" tabindex="-1"></a>      <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(country<span class="op">.</span><span class="at">name</span><span class="op">.</span><span class="at">common</span><span class="op">,</span> country<span class="op">.</span><span class="at">gini</span>)<span class="op">;</span></span>
+<span id="cb7-8"><a href="asynchronous-programming-in-javascript.html#cb7-8" tabindex="-1"></a>    }</span>
+<span id="cb7-9"><a href="asynchronous-programming-in-javascript.html#cb7-9" tabindex="-1"></a>  }</span>
+<span id="cb7-10"><a href="asynchronous-programming-in-javascript.html#cb7-10" tabindex="-1"></a></span>
+<span id="cb7-11"><a href="asynchronous-programming-in-javascript.html#cb7-11" tabindex="-1"></a>}</span>
+<span id="cb7-12"><a href="asynchronous-programming-in-javascript.html#cb7-12" tabindex="-1"></a></span>
+<span id="cb7-13"><a href="asynchronous-programming-in-javascript.html#cb7-13" tabindex="-1"></a><span class="kw">function</span> <span class="fu">c1</span>(response) {</span>
+<span id="cb7-14"><a href="asynchronous-programming-in-javascript.html#cb7-14" tabindex="-1"></a>  <span class="cf">if</span> (<span class="op">!</span>response<span class="op">.</span><span class="at">ok</span>) {</span>
+<span id="cb7-15"><a href="asynchronous-programming-in-javascript.html#cb7-15" tabindex="-1"></a>    <span class="cf">return</span> <span class="kw">null</span><span class="op">;</span></span>
+<span id="cb7-16"><a href="asynchronous-programming-in-javascript.html#cb7-16" tabindex="-1"></a>  }</span>
+<span id="cb7-17"><a href="asynchronous-programming-in-javascript.html#cb7-17" tabindex="-1"></a></span>
+<span id="cb7-18"><a href="asynchronous-programming-in-javascript.html#cb7-18" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(response<span class="op">.</span><span class="at">status</span>)</span>
+<span id="cb7-19"><a href="asynchronous-programming-in-javascript.html#cb7-19" tabindex="-1"></a>  </span>
+<span id="cb7-20"><a href="asynchronous-programming-in-javascript.html#cb7-20" tabindex="-1"></a>  <span class="co">// Now check the headers to ensure that the server sent us JSON</span></span>
+<span id="cb7-21"><a href="asynchronous-programming-in-javascript.html#cb7-21" tabindex="-1"></a>  <span class="co">// If not, the server is broken.</span></span>
+<span id="cb7-22"><a href="asynchronous-programming-in-javascript.html#cb7-22" tabindex="-1"></a>  <span class="kw">let</span> type <span class="op">=</span> response<span class="op">.</span><span class="at">headers</span><span class="op">.</span><span class="fu">get</span>(<span class="st">&#39;content-type&#39;</span>)<span class="op">;</span></span>
+<span id="cb7-23"><a href="asynchronous-programming-in-javascript.html#cb7-23" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(type)<span class="op">;</span></span>
+<span id="cb7-24"><a href="asynchronous-programming-in-javascript.html#cb7-24" tabindex="-1"></a></span>
+<span id="cb7-25"><a href="asynchronous-programming-in-javascript.html#cb7-25" tabindex="-1"></a>  <span class="cf">if</span> (type <span class="op">!==</span> <span class="st">&quot;application/json&quot;</span>) {</span>
+<span id="cb7-26"><a href="asynchronous-programming-in-javascript.html#cb7-26" tabindex="-1"></a>    <span class="cf">throw</span> <span class="kw">new</span> <span class="bu">TypeError</span>(<span class="vs">`Expected JSON, got </span><span class="sc">${</span>type<span class="sc">}</span><span class="vs">`</span>)<span class="op">;</span></span>
+<span id="cb7-27"><a href="asynchronous-programming-in-javascript.html#cb7-27" tabindex="-1"></a>  }</span>
+<span id="cb7-28"><a href="asynchronous-programming-in-javascript.html#cb7-28" tabindex="-1"></a></span>
+<span id="cb7-29"><a href="asynchronous-programming-in-javascript.html#cb7-29" tabindex="-1"></a>  <span class="co">// If we get here, then we got a 2xx status and a JSON content-type</span></span>
+<span id="cb7-30"><a href="asynchronous-programming-in-javascript.html#cb7-30" tabindex="-1"></a>  <span class="co">// so we confidently return a Promise for the response body as a JSON object</span></span>
+<span id="cb7-31"><a href="asynchronous-programming-in-javascript.html#cb7-31" tabindex="-1"></a>  <span class="kw">let</span> p4 <span class="op">=</span> response<span class="op">.</span><span class="fu">json</span>()<span class="op">;</span></span>
+<span id="cb7-32"><a href="asynchronous-programming-in-javascript.html#cb7-32" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(p4)<span class="op">;</span></span>
+<span id="cb7-33"><a href="asynchronous-programming-in-javascript.html#cb7-33" tabindex="-1"></a>  <span class="cf">return</span> p4<span class="op">;</span> </span>
+<span id="cb7-34"><a href="asynchronous-programming-in-javascript.html#cb7-34" tabindex="-1"></a>}</span>
+<span id="cb7-35"><a href="asynchronous-programming-in-javascript.html#cb7-35" tabindex="-1"></a></span>
+<span id="cb7-36"><a href="asynchronous-programming-in-javascript.html#cb7-36" tabindex="-1"></a><span class="kw">function</span> <span class="fu">c2</span>(message) {</span>
+<span id="cb7-37"><a href="asynchronous-programming-in-javascript.html#cb7-37" tabindex="-1"></a>  <span class="cf">if</span> (message) {</span>
+<span id="cb7-38"><a href="asynchronous-programming-in-javascript.html#cb7-38" tabindex="-1"></a>    <span class="fu">displayData</span>(message)<span class="op">;</span></span>
+<span id="cb7-39"><a href="asynchronous-programming-in-javascript.html#cb7-39" tabindex="-1"></a>  }</span>
+<span id="cb7-40"><a href="asynchronous-programming-in-javascript.html#cb7-40" tabindex="-1"></a>  <span class="cf">else</span> {</span>
+<span id="cb7-41"><a href="asynchronous-programming-in-javascript.html#cb7-41" tabindex="-1"></a>    <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;Message is null or undefined&quot;</span>)<span class="op">;</span></span>
+<span id="cb7-42"><a href="asynchronous-programming-in-javascript.html#cb7-42" tabindex="-1"></a>  }</span>
+<span id="cb7-43"><a href="asynchronous-programming-in-javascript.html#cb7-43" tabindex="-1"></a>}</span>
+<span id="cb7-44"><a href="asynchronous-programming-in-javascript.html#cb7-44" tabindex="-1"></a></span>
+<span id="cb7-45"><a href="asynchronous-programming-in-javascript.html#cb7-45" tabindex="-1"></a><span class="kw">function</span> <span class="fu">c3</span>(err) {</span>
+<span id="cb7-46"><a href="asynchronous-programming-in-javascript.html#cb7-46" tabindex="-1"></a>  <span class="cf">if</span> (err <span class="kw">instanceof</span> <span class="bu">TypeError</span>) {</span>
+<span id="cb7-47"><a href="asynchronous-programming-in-javascript.html#cb7-47" tabindex="-1"></a>    <span class="co">// This happens if we throw TypeError above</span></span>
+<span id="cb7-48"><a href="asynchronous-programming-in-javascript.html#cb7-48" tabindex="-1"></a>    <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;Something is wrong with the server&quot;</span>)<span class="op">;</span></span>
+<span id="cb7-49"><a href="asynchronous-programming-in-javascript.html#cb7-49" tabindex="-1"></a>  }</span>
+<span id="cb7-50"><a href="asynchronous-programming-in-javascript.html#cb7-50" tabindex="-1"></a>  <span class="cf">else</span> {</span>
+<span id="cb7-51"><a href="asynchronous-programming-in-javascript.html#cb7-51" tabindex="-1"></a>    <span class="co">// This must be some kind of unanticipated error</span></span>
+<span id="cb7-52"><a href="asynchronous-programming-in-javascript.html#cb7-52" tabindex="-1"></a>    <span class="bu">console</span><span class="op">.</span><span class="fu">error</span>(err)<span class="op">;</span></span>
+<span id="cb7-53"><a href="asynchronous-programming-in-javascript.html#cb7-53" tabindex="-1"></a>  }</span>
+<span id="cb7-54"><a href="asynchronous-programming-in-javascript.html#cb7-54" tabindex="-1"></a>}</span>
+<span id="cb7-55"><a href="asynchronous-programming-in-javascript.html#cb7-55" tabindex="-1"></a></span>
+<span id="cb7-56"><a href="asynchronous-programming-in-javascript.html#cb7-56" tabindex="-1"></a><span class="co">// https://gitlab.com/restcountries/restcountries</span></span>
+<span id="cb7-57"><a href="asynchronous-programming-in-javascript.html#cb7-57" tabindex="-1"></a><span class="kw">const</span> url <span class="op">=</span> <span class="st">&quot;https://restcountries.com/v3.1/all&quot;</span></span>
+<span id="cb7-58"><a href="asynchronous-programming-in-javascript.html#cb7-58" tabindex="-1"></a></span>
+<span id="cb7-59"><a href="asynchronous-programming-in-javascript.html#cb7-59" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(url)<span class="op">;</span></span>
+<span id="cb7-60"><a href="asynchronous-programming-in-javascript.html#cb7-60" tabindex="-1"></a></span>
+<span id="cb7-61"><a href="asynchronous-programming-in-javascript.html#cb7-61" tabindex="-1"></a><span class="kw">let</span> p1 <span class="op">=</span> <span class="fu">fetch</span>(url)</span>
+<span id="cb7-62"><a href="asynchronous-programming-in-javascript.html#cb7-62" tabindex="-1"></a>  <span class="op">.</span><span class="fu">then</span>(c1)</span>
+<span id="cb7-63"><a href="asynchronous-programming-in-javascript.html#cb7-63" tabindex="-1"></a>  <span class="op">.</span><span class="fu">then</span>(c2)</span>
+<span id="cb7-64"><a href="asynchronous-programming-in-javascript.html#cb7-64" tabindex="-1"></a>  <span class="op">.</span><span class="fu">catch</span>(c3)<span class="op">;</span></span></code></pre></div>
+<p>Perhatikan contoh di atas bahwa program mulai dijalankan
+dari bagian <code>let p1 = fetch(url)</code> dan Promise object akan diteruskan
+ke pemanggilan callback <code>.then(c1)</code>
+berikutnya ke pemanggilan callback <code>.then(c2)</code>.
+Apabila terjadi error di tengah jalan, callback <code>c3</code> akan dipanggil.</p>
+<p>Diagram waktu untuk proses ini cukup rumit, namun dapat
+digambarkan sebagai berikut. Pada pertemuan kuliah akan dijelaskan
+kembali.</p>
+<p><img src="images/promise-and-error-timeline.png" width=600></p>
+</div>
+<div id="await-and-async" class="section level2 hasAnchor" number="12.5">
+<h2><span class="header-section-number">12.5</span> <code>await</code> and <code>async</code><a href="asynchronous-programming-in-javascript.html#await-and-async" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Merupakan dua buah <em>keyword</em> yang cukup penting dan akan sering dijumpai
+ketika bekerja dengan program JavaScript yang memiliki fitur
+interaktif artinya ada interaksi antara user dengan aplikasi atau <em>trigger</em> lain
+yang mengakibatkan suatu proses dijalankan.</p>
+<p><em>Keyword</em> pertama yaitu <code>await</code> digunakan supaya suatu keadaan di<br />
+Promise object menjadi keadaan <em>settled</em>.
+Di dalam Promise object dikenal tiga macam keadaan yaitu:</p>
+<ul>
+<li><em>pending</em>: Suatu objek Promise yang sedang dalam proses eksekusi.</li>
+<li><em>fulfilled</em>: Suatu objek Promise yang telah menyelesaikan eksekusinya dan
+telah memberikan suatu <em>output</em> nilai.</li>
+<li><em>rejected</em>: Suatu objek Promise yang mengalami suatu <em>error</em> atau masalah di
+dalam proses eksekusinya, sehingga akan memberikan nilai <em>output</em>
+berupa objek <em>error</em>.</li>
+</ul>
+<p>Selain tiga macam keadaan tersebut, ada beberapa tambahan istilah yang sering<br />
+digunakan dalam objek Promise:
+- <em>settled</em>: Suatu objek Promise yang berada pada keadaan <em>fulfilled</em> atau
+<em>rejected</em>.
+- <em>resolved</em>: Suatu objek Promise yang berada pada keadaan <em>pending</em> dan
+keadaan <em>settled</em> atau tidaknya dipengaruhi oleh objek Promise lain berada
+pada keadaan <em>settled</em> atau tidak.</p>
+<p>Ke-empat istilah di dalam objek Promise tersebut lebih mudah dimengerti dengan<br />
+diagram berikut</p>
+<p><img src="images/four-states-of-promise-object.png" width=600></p>
+<p>Untuk <em>resolved</em>, silahkan dilihat pada gambar sebelumnya.</p>
+<p>Keyword kedua adalah <code>async</code>. Keyword ini adalah pelengkap dari penggunaan
+keyword <code>await</code>. Karena dalam aturan penggunaan <code>await</code>, apabila
+<code>await</code> digunakan di dalam deklarasi atau <em>body of function</em> suatu fungsi lain (
+kita sebut fungsi lain ini fungsi <em>parent</em>),
+maka fungsi <em>parent</em> tersebut harus di-set supaya menjadi fungsi asinkronus
+dengan cara menambahkan <code>async</code> keyword di depan deklarasi fungsi <em>parent</em>
+tersebut.</p>
+<p>Berikut contoh penggunaan <code>await</code> dan <code>async</code>. Kita lihat fungsi <code>fetchData()</code>
+dan <code>main()</code> memuat keywords <code>await</code> di dalam <em>body of function</em> (<code>await delay(2000)</code>
+dan <code>await fetchData()</code> berturut-turut). Secara aturan kedua fungsi <em>parents</em>
+ini harus di awali <code>async</code> keyword supaya berjalan sebagaimana mestinya.</p>
+<p><strong>await-and-async.js</strong></p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb8-1"><a href="asynchronous-programming-in-javascript.html#cb8-1" tabindex="-1"></a><span class="co">// A function that simulates an asynchronous operation with a delay</span></span>
+<span id="cb8-2"><a href="asynchronous-programming-in-javascript.html#cb8-2" tabindex="-1"></a><span class="kw">function</span> <span class="fu">delay</span>(ms) {</span>
+<span id="cb8-3"><a href="asynchronous-programming-in-javascript.html#cb8-3" tabindex="-1"></a>  <span class="cf">return</span> <span class="kw">new</span> <span class="bu">Promise</span>((resolve) <span class="kw">=&gt;</span> <span class="pp">setTimeout</span>(resolve<span class="op">,</span> ms))<span class="op">;</span></span>
+<span id="cb8-4"><a href="asynchronous-programming-in-javascript.html#cb8-4" tabindex="-1"></a>}</span>
+<span id="cb8-5"><a href="asynchronous-programming-in-javascript.html#cb8-5" tabindex="-1"></a></span>
+<span id="cb8-6"><a href="asynchronous-programming-in-javascript.html#cb8-6" tabindex="-1"></a><span class="co">// An asynchronous function that uses the &quot;await&quot; keyword</span></span>
+<span id="cb8-7"><a href="asynchronous-programming-in-javascript.html#cb8-7" tabindex="-1"></a><span class="kw">async</span> <span class="kw">function</span> <span class="fu">fetchData</span>() {</span>
+<span id="cb8-8"><a href="asynchronous-programming-in-javascript.html#cb8-8" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;Fetching data...&quot;</span>)<span class="op">;</span></span>
+<span id="cb8-9"><a href="asynchronous-programming-in-javascript.html#cb8-9" tabindex="-1"></a>  <span class="cf">await</span> <span class="fu">delay</span>(<span class="dv">2000</span>)<span class="op">;</span> <span class="co">// Simulating a delay of 2 seconds</span></span>
+<span id="cb8-10"><a href="asynchronous-programming-in-javascript.html#cb8-10" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;Data fetched!&quot;</span>)<span class="op">;</span></span>
+<span id="cb8-11"><a href="asynchronous-programming-in-javascript.html#cb8-11" tabindex="-1"></a>  <span class="cf">return</span> { <span class="dt">message</span><span class="op">:</span> <span class="st">&quot;Hello, World!&quot;</span> }<span class="op">;</span></span>
+<span id="cb8-12"><a href="asynchronous-programming-in-javascript.html#cb8-12" tabindex="-1"></a>}</span>
+<span id="cb8-13"><a href="asynchronous-programming-in-javascript.html#cb8-13" tabindex="-1"></a></span>
+<span id="cb8-14"><a href="asynchronous-programming-in-javascript.html#cb8-14" tabindex="-1"></a><span class="co">// Using the &quot;await&quot; keyword to wait for the asynchronous function to complete</span></span>
+<span id="cb8-15"><a href="asynchronous-programming-in-javascript.html#cb8-15" tabindex="-1"></a><span class="kw">async</span> <span class="kw">function</span> <span class="fu">main</span>() {</span>
+<span id="cb8-16"><a href="asynchronous-programming-in-javascript.html#cb8-16" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;Start&quot;</span>)<span class="op">;</span></span>
+<span id="cb8-17"><a href="asynchronous-programming-in-javascript.html#cb8-17" tabindex="-1"></a>  <span class="kw">const</span> result <span class="op">=</span> <span class="cf">await</span> <span class="fu">fetchData</span>()<span class="op">;</span></span>
+<span id="cb8-18"><a href="asynchronous-programming-in-javascript.html#cb8-18" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(result<span class="op">.</span><span class="at">message</span>)<span class="op">;</span></span>
+<span id="cb8-19"><a href="asynchronous-programming-in-javascript.html#cb8-19" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;End&quot;</span>)<span class="op">;</span></span>
+<span id="cb8-20"><a href="asynchronous-programming-in-javascript.html#cb8-20" tabindex="-1"></a>}</span>
+<span id="cb8-21"><a href="asynchronous-programming-in-javascript.html#cb8-21" tabindex="-1"></a></span>
+<span id="cb8-22"><a href="asynchronous-programming-in-javascript.html#cb8-22" tabindex="-1"></a><span class="co">// Calling the main function</span></span>
+<span id="cb8-23"><a href="asynchronous-programming-in-javascript.html#cb8-23" tabindex="-1"></a><span class="fu">main</span>()<span class="op">;</span></span></code></pre></div>
+<p>Dari contoh di atas, apabila keyword <code>async</code> dan <code>await</code> dihilangkan maka
+<code>delay(2000)</code> akan dijalankan di tahapan terakhir.</p>
 </div>
 <div id="exercises-8" class="section level2 unnumbered hasAnchor">
 <h2>Exercises<a href="asynchronous-programming-in-javascript.html#exercises-8" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ol style="list-style-type: decimal">
+<li><p>Bacalah topik mengenai pemrograman asinkronus di dalam
+buku <a href="https://eloquentjavascript.net/11_async.html">(Haverbeke, 2018) - Bab 11</a>.
+Jelaskan dan gambarkan keterkaitan hal apa saja yang telah kalian pahami
+di subbab <em>Asynchronicity</em>, <em>Crow Tech</em>, dan <em>Callbacks</em>.
+Catatan: Jawaban setiap
+mahasiswa harus berbeda. Jawaban yang sama akan dibagi ke jumlah mahasiswa
+yang menjawab jawaban sama persis</p></li>
+<li><p>Pelajari penggunaan Web API fetch dari blog berikut:
+<a href="https://blog.webdevsimplified.com/2022-01/js-fetch-api/">JavaScript fetch API Ultimate Guide</a>
+Tuliskan hal yang kalian benar-benar pahami.
+Dan tuliskan juga hal yang belum bisa kalian pahami dari tulisan dalam
+<em>blog</em> tersebut.</p></li>
+<li><p>Bacalah dengan seksama kembali pertemuan ini
+dan tuliskan kembali dengan menggunakan bahasa yang kalian pahami
+terkait Promise, async, dan await. Hanya tulis yang kalian benar-benar pahami.
+Bisa juga kalian menanbahkan hasil eksplorasi dari internet
+jika diperlukan untuk memperjelas apa yang kalian tulis.
+Jawaban yang sama akan dibagi dengan jumlah mahasiswa yang memiliki
+jawaban sama.</p></li>
+<li><p>Susunlah suatu program menggunakan Promise object
+dan fungsi <code>fetch</code> dan <em>package</em> <code>node-html-parser</code> untuk
+melakukan <em>scraping</em> nama <em>heroes</em> dalam <em>game Mobile Legends</em>
+dan pasangan URL untuk masing-masing <em>hero</em>.
+<em>Scraping</em> dimulai dilakukan dari laman berikut:
+<code>https://mobile-legends.fandom.com/wiki/List_of_heroes</code></p>
+<p>Jika program yang dibuat benar, maka akan ditampilkan hasil
+seperti berikut di layar <code>console</code> VSCode.</p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb9-1"><a href="asynchronous-programming-in-javascript.html#cb9-1" tabindex="-1"></a><span class="ex">Miya</span>        https://mobile-legends.fandom.com/wiki/Miya</span>
+<span id="cb9-2"><a href="asynchronous-programming-in-javascript.html#cb9-2" tabindex="-1"></a><span class="ex">Balmond</span>     https://mobile-legends.fandom.com/wiki/Balmond</span>
+<span id="cb9-3"><a href="asynchronous-programming-in-javascript.html#cb9-3" tabindex="-1"></a><span class="ex">Saber</span>       https://mobile-legends.fandom.com/wiki/Saber</span>
+<span id="cb9-4"><a href="asynchronous-programming-in-javascript.html#cb9-4" tabindex="-1"></a><span class="co"># dan seterusnya sampai semua list heroes tercetak</span></span></code></pre></div></li>
+</ol>
 
 </div>
 </div>
@@ -293,7 +742,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/USERNAME/REPO/edit/BRANCH/13-async.Rmd",
+"link": "https://github.com/LugoBlogger/struct-prog-js/edit/main/12-async.Rmd",
 "text": "Edit"
 },
 "history": {

@@ -12,7 +12,7 @@ set in the _output.yml file.</p>" />
 
   <meta property="og:title" content="11 JavaScript Standard Library | Structured Programming with JavaScript" />
   <meta property="og:type" content="book" />
-  
+  <meta property="og:image" content="https://github.com/LugoBlogger/struct-prog-js/blob/main/images/cover.png" />
   <meta property="og:description" content="<p>This is a minimal example of using the bookdown package to write a book.
 The HTML output format for this example is bookdown::gitbook,
 set in the _output.yml file.</p>" />
@@ -24,7 +24,7 @@ set in the _output.yml file.</p>" />
   <meta name="twitter:description" content="<p>This is a minimal example of using the bookdown package to write a book.
 The HTML output format for this example is bookdown::gitbook,
 set in the _output.yml file.</p>" />
-  
+  <meta name="twitter:image" content="https://github.com/LugoBlogger/struct-prog-js/blob/main/images/cover.png" />
 
 <meta name="author" content="Henokh Lugo Hariyanto Arif Wicaksono Septyanto" />
 
@@ -59,6 +59,71 @@ set in the _output.yml file.</p>" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
+<style type="text/css">
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
 
 <style type="text/css">
   
@@ -83,13 +148,14 @@ set in the _output.yml file.</p>" />
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Prelude</a>
 <ul>
-<li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#intended-reader"><i class="fa fa-check"></i><b>0.1</b> Intended reader</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#intended-reader"><i class="fa fa-check"></i>Intended reader</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#how-to-read-and-code"><i class="fa fa-check"></i>How to read (and code)</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#colophon"><i class="fa fa-check"></i>Colophon</a></li>
 </ul></li>
 <li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
 <ul>
 <li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#structured-programming"><i class="fa fa-check"></i><b>1.1</b> Structured programming</a></li>
-<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#motivation"><i class="fa fa-check"></i><b>1.2</b> Motivation</a></li>
+<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#the-goal-of-this-book"><i class="fa fa-check"></i><b>1.2</b> The goal of this book</a></li>
 <li class="chapter" data-level="1.3" data-path="introduction.html"><a href="introduction.html#how-to-learn"><i class="fa fa-check"></i><b>1.3</b> How to learn</a></li>
 <li class="chapter" data-level="1.4" data-path="introduction.html"><a href="introduction.html#short-tips"><i class="fa fa-check"></i><b>1.4</b> Short tips</a></li>
 </ul></li>
@@ -130,10 +196,11 @@ set in the _output.yml file.</p>" />
 <ul>
 <li class="chapter" data-level="5.1" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#primary-expression"><i class="fa fa-check"></i><b>5.1</b> Primary expression</a></li>
 <li class="chapter" data-level="5.2" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#operators"><i class="fa fa-check"></i><b>5.2</b> Operators</a></li>
-<li class="chapter" data-level="5.3" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#relational-expression"><i class="fa fa-check"></i><b>5.3</b> Relational expression</a></li>
-<li class="chapter" data-level="5.4" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#logical-expression"><i class="fa fa-check"></i><b>5.4</b> Logical expression</a></li>
-<li class="chapter" data-level="5.5" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#assignment-expression"><i class="fa fa-check"></i><b>5.5</b> Assignment expression</a></li>
-<li class="chapter" data-level="5.6" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#miscellaneous-operators"><i class="fa fa-check"></i><b>5.6</b> Miscellaneous operators</a></li>
+<li class="chapter" data-level="5.3" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#arithmetic-expression"><i class="fa fa-check"></i><b>5.3</b> Arithmetic expression</a></li>
+<li class="chapter" data-level="5.4" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#relational-expression"><i class="fa fa-check"></i><b>5.4</b> Relational expression</a></li>
+<li class="chapter" data-level="5.5" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#logical-expression"><i class="fa fa-check"></i><b>5.5</b> Logical expression</a></li>
+<li class="chapter" data-level="5.6" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#assignment-expression"><i class="fa fa-check"></i><b>5.6</b> Assignment expression</a></li>
+<li class="chapter" data-level="5.7" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#miscellaneous-operators"><i class="fa fa-check"></i><b>5.7</b> Miscellaneous operators</a></li>
 <li class="chapter" data-level="" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#exercises-2"><i class="fa fa-check"></i>Exercises</a></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="statements.html"><a href="statements.html"><i class="fa fa-check"></i><b>6</b> Statements</a>
@@ -141,8 +208,9 @@ set in the _output.yml file.</p>" />
 <li class="chapter" data-level="6.1" data-path="statements.html"><a href="statements.html#expression-statements"><i class="fa fa-check"></i><b>6.1</b> Expression statements</a></li>
 <li class="chapter" data-level="6.2" data-path="statements.html"><a href="statements.html#compound-and-empty-statements"><i class="fa fa-check"></i><b>6.2</b> Compound and empty statements</a></li>
 <li class="chapter" data-level="6.3" data-path="statements.html"><a href="statements.html#conditionals"><i class="fa fa-check"></i><b>6.3</b> Conditionals</a></li>
-<li class="chapter" data-level="6.4" data-path="statements.html"><a href="statements.html#jumps"><i class="fa fa-check"></i><b>6.4</b> Jumps</a></li>
-<li class="chapter" data-level="6.5" data-path="statements.html"><a href="statements.html#miscellaneous-statements"><i class="fa fa-check"></i><b>6.5</b> Miscellaneous statements</a></li>
+<li class="chapter" data-level="6.4" data-path="statements.html"><a href="statements.html#iteration-loops"><i class="fa fa-check"></i><b>6.4</b> Iteration (loops)</a></li>
+<li class="chapter" data-level="6.5" data-path="statements.html"><a href="statements.html#jumps"><i class="fa fa-check"></i><b>6.5</b> Jumps</a></li>
+<li class="chapter" data-level="6.6" data-path="statements.html"><a href="statements.html#miscellaneous-statements"><i class="fa fa-check"></i><b>6.6</b> Miscellaneous statements</a></li>
 <li class="chapter" data-level="" data-path="statements.html"><a href="statements.html#exercises-3"><i class="fa fa-check"></i>Exercises</a></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="objects.html"><a href="objects.html"><i class="fa fa-check"></i><b>7</b> Objects</a>
@@ -168,7 +236,13 @@ set in the _output.yml file.</p>" />
 <li class="chapter" data-level="9.5" data-path="arrays.html"><a href="arrays.html#adding-and-removing-elements-of-an-array"><i class="fa fa-check"></i><b>9.5</b> Adding and removing elements of an array</a></li>
 <li class="chapter" data-level="9.6" data-path="arrays.html"><a href="arrays.html#performing-iteration-to-an-array"><i class="fa fa-check"></i><b>9.6</b> Performing iteration to an array</a></li>
 <li class="chapter" data-level="9.7" data-path="arrays.html"><a href="arrays.html#multidimensional-array"><i class="fa fa-check"></i><b>9.7</b> Multidimensional array</a></li>
-<li class="chapter" data-level="9.8" data-path="arrays.html"><a href="arrays.html#some-useful-methods-in-an-array"><i class="fa fa-check"></i><b>9.8</b> Some useful methods in an array</a></li>
+<li class="chapter" data-level="9.8" data-path="arrays.html"><a href="arrays.html#some-useful-methods-in-an-array"><i class="fa fa-check"></i><b>9.8</b> Some useful methods in an array</a>
+<ul>
+<li class="chapter" data-level="9.8.1" data-path="arrays.html"><a href="arrays.html#array-iterator-methods"><i class="fa fa-check"></i><b>9.8.1</b> Array iterator methods</a></li>
+<li class="chapter" data-level="9.8.2" data-path="arrays.html"><a href="arrays.html#methods-for-creating-stacks-and-queues"><i class="fa fa-check"></i><b>9.8.2</b> Methods for creating stacks and queues</a></li>
+<li class="chapter" data-level="9.8.3" data-path="arrays.html"><a href="arrays.html#methods-on-subarrays"><i class="fa fa-check"></i><b>9.8.3</b> Methods on subarrays</a></li>
+<li class="chapter" data-level="9.8.4" data-path="arrays.html"><a href="arrays.html#array-searching-and-sorting-methods"><i class="fa fa-check"></i><b>9.8.4</b> Array searching and sorting methods</a></li>
+</ul></li>
 <li class="chapter" data-level="9.9" data-path="arrays.html"><a href="arrays.html#objects-that-is-similar-to-array"><i class="fa fa-check"></i><b>9.9</b> Objects that is similar to array</a></li>
 <li class="chapter" data-level="9.10" data-path="arrays.html"><a href="arrays.html#thinking-a-string-as-an-array"><i class="fa fa-check"></i><b>9.10</b> Thinking a string as an array</a></li>
 <li class="chapter" data-level="" data-path="arrays.html"><a href="arrays.html#exercises-5"><i class="fa fa-check"></i>Exercises</a></li>
@@ -197,13 +271,25 @@ set in the _output.yml file.</p>" />
 <li class="chapter" data-level="12.2" data-path="asynchronous-programming-in-javascript.html"><a href="asynchronous-programming-in-javascript.html#an-example-of-asynchronous-program"><i class="fa fa-check"></i><b>12.2</b> An example of asynchronous program</a></li>
 <li class="chapter" data-level="12.3" data-path="asynchronous-programming-in-javascript.html"><a href="asynchronous-programming-in-javascript.html#introduction-to-promise-object"><i class="fa fa-check"></i><b>12.3</b> Introduction to Promise object</a></li>
 <li class="chapter" data-level="12.4" data-path="asynchronous-programming-in-javascript.html"><a href="asynchronous-programming-in-javascript.html#some-practical-use-of-promise-object"><i class="fa fa-check"></i><b>12.4</b> Some practical use of Promise object</a></li>
+<li class="chapter" data-level="12.5" data-path="asynchronous-programming-in-javascript.html"><a href="asynchronous-programming-in-javascript.html#await-and-async"><i class="fa fa-check"></i><b>12.5</b> <code>await</code> and <code>async</code></a></li>
 <li class="chapter" data-level="" data-path="asynchronous-programming-in-javascript.html"><a href="asynchronous-programming-in-javascript.html#exercises-8"><i class="fa fa-check"></i>Exercises</a></li>
 </ul></li>
 <li class="chapter" data-level="13" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html"><i class="fa fa-check"></i><b>13</b> JavaScript in Web Browser: Tic-Tac-Toe and React</a>
 <ul>
 <li class="chapter" data-level="13.1" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#setup-environment"><i class="fa fa-check"></i><b>13.1</b> Setup environment</a></li>
-<li class="chapter" data-level="13.2" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#short-overview-of-tic-tac-toe-program-and-react"><i class="fa fa-check"></i><b>13.2</b> Short overview of Tic-Tac-Toe program and React</a></li>
-<li class="chapter" data-level="13.3" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#finishing-the-base-program-of-tic-tac-toe"><i class="fa fa-check"></i><b>13.3</b> Finishing the base program of Tic-Tac-Toe</a></li>
+<li class="chapter" data-level="13.2" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#short-overview-of-tic-tac-toe-program-and-react"><i class="fa fa-check"></i><b>13.2</b> Short overview of Tic-Tac-Toe program and React</a>
+<ul>
+<li class="chapter" data-level="13.2.1" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#isi-folder-pages-dan-styles."><i class="fa fa-check"></i><b>13.2.1</b> Isi folder <code>pages</code> dan <code>styles</code>.</a></li>
+<li class="chapter" data-level="13.2.2" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#membuat-papan-permainan-tic-tac-toe"><i class="fa fa-check"></i><b>13.2.2</b> Membuat papan permainan Tic-Tac-Toe</a></li>
+<li class="chapter" data-level="13.2.3" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#react-props-untuk-data-manipulasi-komponen-square"><i class="fa fa-check"></i><b>13.2.3</b> React <code>props</code> untuk data manipulasi komponen <code>Square</code></a></li>
+<li class="chapter" data-level="13.2.4" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#menambahkan-interactivity"><i class="fa fa-check"></i><b>13.2.4</b> Menambahkan <em>interactivity</em></a></li>
+</ul></li>
+<li class="chapter" data-level="13.3" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#finishing-the-base-program-of-tic-tac-toe"><i class="fa fa-check"></i><b>13.3</b> Finishing the base program of Tic-Tac-Toe</a>
+<ul>
+<li class="chapter" data-level="13.3.1" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#memindahkan-usestate-dari-square-ke-board-lifted-up"><i class="fa fa-check"></i><b>13.3.1</b> Memindahkan <code>useState</code> dari <code>Square()</code> ke <code>Board()</code> (lifted up)</a></li>
+<li class="chapter" data-level="13.3.2" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#kondisi-untuk-menambahkan-pergantian-pemain"><i class="fa fa-check"></i><b>13.3.2</b> Kondisi untuk menambahkan pergantian pemain</a></li>
+<li class="chapter" data-level="13.3.3" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#menambahkan-fitur-pemberitahuan-untuk-pemenang"><i class="fa fa-check"></i><b>13.3.3</b> Menambahkan fitur pemberitahuan untuk pemenang</a></li>
+</ul></li>
 <li class="chapter" data-level="13.4" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#additional-features-time-travel-for-players-steps"><i class="fa fa-check"></i><b>13.4</b> Additional features: “Time travel” for player’s steps</a></li>
 <li class="chapter" data-level="" data-path="javascript-in-web-browser-tic-tac-toe-and-react.html"><a href="javascript-in-web-browser-tic-tac-toe-and-react.html#exercises-9"><i class="fa fa-check"></i>Exercises</a></li>
 </ul></li>
@@ -217,9 +303,6 @@ set in the _output.yml file.</p>" />
 </ul></li>
 <li class="chapter" data-level="15" data-path="javascript-in-web-browser-learning-animation.html"><a href="javascript-in-web-browser-learning-animation.html"><i class="fa fa-check"></i><b>15</b> JavaScript in Web Browser: Learning animation</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
-<li class="divider"></li>
-<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-
 </ul>
 
       </nav>
@@ -239,20 +322,661 @@ set in the _output.yml file.</p>" />
             <section class="normal" id="section-">
 <div id="javascript-standard-library" class="section level1 hasAnchor" number="11">
 <h1><span class="header-section-number">11</span> JavaScript Standard Library<a href="javascript-standard-library.html#javascript-standard-library" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>In this chapter, we are going to discuss some standard libraries or sometimes
+they are called as <em>functions</em> and <em>class</em> which are available by default
+inside the JavaScript runtime environment.</p>
+<p>Ada beberapa <em>library</em> yang akan kita bahas.
+- Sets and Maps
+- Regular Expression
+- Dates and Times
+- Timer</p>
+<p><em>Library</em> yang disebutkan diatas hanyalah segelintir dari berbagai macam
+<em>standar library</em> dan <em>built-in object</em> dalam JavaScript. Lebih lengkap dapat
+melihat dokumentasi di Mozilla Developer Network (MDN) Web Docs tentang
+<a href="https://developer.mozilla.org/en-US/docs/Web/API">Web APIs</a>
+dan <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects">Standard built-in objects</a></p>
+<p>Di sesi ini lebih ditekankan pada penggunaan <em>regular expression</em> yang
+memiliki kegunaan untuk melakukan pencarian string secara efisien.
+<em>Library</em> yang lain hanya diulas sedikit.</p>
 <div id="sets-and-maps" class="section level2 hasAnchor" number="11.1">
 <h2><span class="header-section-number">11.1</span> Sets and Maps<a href="javascript-standard-library.html#sets-and-maps" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><em>Sets</em> merupakan dasar di JavaScript yang digunakan untuk mewakili
+objek matematis himpunan (ingat kembali di mata kuliah matematika
+diskrit terkait himpunan). Secara singkat yang menjadi ciri khas
+objek <em>Sets</em> ini adalah seluruh elementnya idak memperboleh
+ada yang duplikat. Bisa dikatakan <em>Sets</em> merupakan bentuk
+khusus dari <em>Array</em> yang mengharuskan elementnya tidak ada yang
+duplikat/ganda.</p>
+<p>Empat hal yang akan kita jelajahi dalam objek <em>Sets</em> ini adalah
+- membuat objek <em>Sets</em><br />
+<strong>create-set.js</strong><br />
+```js
+let s = new Set(); // Membuat set s tanpa element/anggota
+let t = new Set([1, s]) // Membuat set t dengan dua anggota</p>
+<p>// Membuat set u dari string
+let unique_str = new Set(“Balikpapan”); // huruf a dan p akan dihitung sekali
+```</p>
+<ul>
+<li><p>memanipulasi objek <em>Sets</em><br />
+<strong>manipulate-set.js</strong></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb1-1"><a href="javascript-standard-library.html#cb1-1" tabindex="-1"></a><span class="kw">let</span> s <span class="op">=</span> <span class="kw">new</span> <span class="bu">Set</span>()<span class="op">;</span>    <span class="co">// Membuat set s tanpa element</span></span>
+<span id="cb1-2"><a href="javascript-standard-library.html#cb1-2" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(s)<span class="op">;</span></span>
+<span id="cb1-3"><a href="javascript-standard-library.html#cb1-3" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="javascript-standard-library.html#cb1-4" tabindex="-1"></a>s<span class="op">.</span><span class="fu">add</span>(<span class="dv">1</span>)<span class="op">;</span>             <span class="co">// Menambahkan element 1</span></span>
+<span id="cb1-5"><a href="javascript-standard-library.html#cb1-5" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(s)<span class="op">;</span></span>
+<span id="cb1-6"><a href="javascript-standard-library.html#cb1-6" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="javascript-standard-library.html#cb1-7" tabindex="-1"></a>s<span class="op">.</span><span class="fu">add</span>(<span class="dv">1</span>)<span class="op">;</span>             <span class="co">// Menambahkan element yang sama tidak mengubah apapun</span></span>
+<span id="cb1-8"><a href="javascript-standard-library.html#cb1-8" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(s)<span class="op">;</span></span>
+<span id="cb1-9"><a href="javascript-standard-library.html#cb1-9" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="javascript-standard-library.html#cb1-10" tabindex="-1"></a>s<span class="op">.</span><span class="fu">add</span>(<span class="kw">true</span>)<span class="op">;</span>          <span class="co">// Menambahkan element selain 1, yaitu true</span></span>
+<span id="cb1-11"><a href="javascript-standard-library.html#cb1-11" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(s)<span class="op">;</span></span>
+<span id="cb1-12"><a href="javascript-standard-library.html#cb1-12" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="javascript-standard-library.html#cb1-13" tabindex="-1"></a>s<span class="op">.</span><span class="fu">add</span>([<span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">3</span>])<span class="op">;</span>     <span class="co">// Menambahkan element berupa array [1,. 2, 3]</span></span>
+<span id="cb1-14"><a href="javascript-standard-library.html#cb1-14" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(s)<span class="op">;</span></span>
+<span id="cb1-15"><a href="javascript-standard-library.html#cb1-15" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="javascript-standard-library.html#cb1-16" tabindex="-1"></a>s<span class="op">.</span><span class="fu">delete</span>(<span class="dv">1</span>)<span class="op">;</span>          <span class="co">// Menghapus element 1</span></span>
+<span id="cb1-17"><a href="javascript-standard-library.html#cb1-17" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(s)<span class="op">;</span></span>
+<span id="cb1-18"><a href="javascript-standard-library.html#cb1-18" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="javascript-standard-library.html#cb1-19" tabindex="-1"></a>s<span class="op">.</span><span class="fu">delete</span>(<span class="st">&quot;test&quot;</span>)      <span class="co">// Menghapus element yang tidak ada, tidak mengubah apapun</span></span>
+<span id="cb1-20"><a href="javascript-standard-library.html#cb1-20" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(s)<span class="op">;</span></span>
+<span id="cb1-21"><a href="javascript-standard-library.html#cb1-21" tabindex="-1"></a></span>
+<span id="cb1-22"><a href="javascript-standard-library.html#cb1-22" tabindex="-1"></a>s<span class="op">.</span><span class="fu">delete</span>(<span class="kw">true</span>)<span class="op">;</span>       <span class="co">// Menghapus element true</span></span>
+<span id="cb1-23"><a href="javascript-standard-library.html#cb1-23" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(s)</span>
+<span id="cb1-24"><a href="javascript-standard-library.html#cb1-24" tabindex="-1"></a></span>
+<span id="cb1-25"><a href="javascript-standard-library.html#cb1-25" tabindex="-1"></a>s<span class="op">.</span><span class="fu">delete</span>([<span class="dv">1</span><span class="op">,</span> <span class="dv">2</span><span class="op">,</span> <span class="dv">3</span>])   <span class="co">// Menghapus array [1, 2, 3] gagal karena array yang dicari dan yang ada di set s memiliki referensi yang berebeda</span></span>
+<span id="cb1-26"><a href="javascript-standard-library.html#cb1-26" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(s)<span class="op">;</span></span>
+<span id="cb1-27"><a href="javascript-standard-library.html#cb1-27" tabindex="-1"></a></span>
+<span id="cb1-28"><a href="javascript-standard-library.html#cb1-28" tabindex="-1"></a>s<span class="op">.</span><span class="fu">clear</span>()<span class="op">;</span>             <span class="co">// Menghapus semua element set s</span></span></code></pre></div></li>
+<li><p>menguji keanggotaan suatu element dalam <em>Sets</em><br />
+<strong>membership-set.js</strong></p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb2-1"><a href="javascript-standard-library.html#cb2-1" tabindex="-1"></a><span class="kw">let</span> result<span class="op">;</span></span>
+<span id="cb2-2"><a href="javascript-standard-library.html#cb2-2" tabindex="-1"></a><span class="kw">let</span> oneDigitPrimes <span class="op">=</span> <span class="kw">new</span> <span class="bu">Set</span>([<span class="dv">2</span><span class="op">,</span> <span class="dv">3</span><span class="op">,</span> <span class="dv">5</span><span class="op">,</span> <span class="dv">7</span>])<span class="op">;</span></span>
+<span id="cb2-3"><a href="javascript-standard-library.html#cb2-3" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="javascript-standard-library.html#cb2-4" tabindex="-1"></a>result <span class="op">=</span> oneDigitPrimes<span class="op">.</span><span class="fu">has</span>(<span class="dv">2</span>)<span class="op">;</span>   <span class="co">// 2 ada di dalam set oneDigitPrimes</span></span>
+<span id="cb2-5"><a href="javascript-standard-library.html#cb2-5" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(result)<span class="op">;</span></span>
+<span id="cb2-6"><a href="javascript-standard-library.html#cb2-6" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="javascript-standard-library.html#cb2-7" tabindex="-1"></a>result <span class="op">=</span> oneDigitPrimes<span class="op">.</span><span class="fu">has</span>(<span class="dv">4</span>)<span class="op">;</span>   <span class="co">// 4 tidak ada di dalam set oneDigitPrimes</span></span>
+<span id="cb2-8"><a href="javascript-standard-library.html#cb2-8" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(result)<span class="op">;</span></span></code></pre></div></li>
+<li><p>Melakukan iterasi element <em>Sets</em><br />
+Sepertinya halnya <em>array</em>, iterasi juga dapat dilakukan ke masing-masing
+element dari <em>Sets</em><br />
+<strong>iterate-set.js</strong></p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb3-1"><a href="javascript-standard-library.html#cb3-1" tabindex="-1"></a><span class="kw">let</span> result<span class="op">;</span></span>
+<span id="cb3-2"><a href="javascript-standard-library.html#cb3-2" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="javascript-standard-library.html#cb3-3" tabindex="-1"></a><span class="co">// Membuat set yang tersusun dari 4 buah bilangan prima berdigit tunggal</span></span>
+<span id="cb3-4"><a href="javascript-standard-library.html#cb3-4" tabindex="-1"></a><span class="kw">let</span> oneDigitPrimes <span class="op">=</span> <span class="kw">new</span> <span class="bu">Set</span>([<span class="dv">2</span><span class="op">,</span> <span class="dv">3</span><span class="op">,</span> <span class="dv">5</span><span class="op">,</span> <span class="dv">7</span>])<span class="op">;</span></span>
+<span id="cb3-5"><a href="javascript-standard-library.html#cb3-5" tabindex="-1"></a></span>
+<span id="cb3-6"><a href="javascript-standard-library.html#cb3-6" tabindex="-1"></a><span class="co">// Menghitung jumlahan keseluruhan element oneDigitPrimes</span></span>
+<span id="cb3-7"><a href="javascript-standard-library.html#cb3-7" tabindex="-1"></a><span class="kw">let</span> sum <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb3-8"><a href="javascript-standard-library.html#cb3-8" tabindex="-1"></a><span class="cf">for</span> (<span class="kw">let</span> p <span class="kw">of</span> oneDigitPrimes) {</span>
+<span id="cb3-9"><a href="javascript-standard-library.html#cb3-9" tabindex="-1"></a>  sum <span class="op">+=</span> p<span class="op">;</span></span>
+<span id="cb3-10"><a href="javascript-standard-library.html#cb3-10" tabindex="-1"></a>}</span>
+<span id="cb3-11"><a href="javascript-standard-library.html#cb3-11" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(sum)</span>
+<span id="cb3-12"><a href="javascript-standard-library.html#cb3-12" tabindex="-1"></a></span>
+<span id="cb3-13"><a href="javascript-standard-library.html#cb3-13" tabindex="-1"></a><span class="co">// Spread operator dapat juga diterapkan untuk menjadikan</span></span>
+<span id="cb3-14"><a href="javascript-standard-library.html#cb3-14" tabindex="-1"></a><span class="co">// set sebagai array</span></span>
+<span id="cb3-15"><a href="javascript-standard-library.html#cb3-15" tabindex="-1"></a>result <span class="op">=</span> [<span class="op">...</span>oneDigitPrimes]<span class="op">;</span></span>
+<span id="cb3-16"><a href="javascript-standard-library.html#cb3-16" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(result <span class="kw">instanceof</span> <span class="bu">Array</span>)<span class="op">;</span></span></code></pre></div></li>
+</ul>
+<p>Objek berikutnya adalah <em>Map</em>. Secara garis besar, <em>Map</em> merupakan
+perluasan/perumuman dari objek <em>array</em>. Objek <em>Map</em> ini sangat
+mirip dengan objek <em>dict</em> pada Python. Di dalam objek <em>Map</em> ini
+tersusun atas serangkaian pasangan <em>key</em> dan <em>value</em>.
+Bentuk pasangan <em>key</em> dan <em>value</em> ini hampir mirip seperti
+<em>property name</em> dan <em>property value</em> pada JavaScript object.
+Namun perbedaan mendasar dari <em>Map</em> dan <em>object</em> adalah, <em>map</em>
+digunakan untuk bentuk data yang lebih spesifik untuk menyimpan
+nilai-nilai yang akan kita akses dengan <em>key</em>. Sedangkan
+<em>object</em> merupakan struktur data lebih luas daripada <em>Map</em>,
+dan <em>object</em> dapat memuat fungsi untuk melakukan manipulasi
+property yang dimilikinya. Meskipun di dalam <em>Map</em> kita juga dapat
+menempatkan fungsi, namun dalam prakteknya kita tidak menggunakan
+<em>Map</em> seperti <em>object</em>.</p>
+<p>Sepertinya halnya <em>Set</em>, berikut akan diberikan beberapa
+hal dasar yang dapat dilakukan dengan <em>Map</em></p>
+<ul>
+<li><p>membuat object <em>Map</em><br />
+<strong>create-map.js</strong></p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb4-1"><a href="javascript-standard-library.html#cb4-1" tabindex="-1"></a><span class="kw">let</span> m1 <span class="op">=</span> <span class="kw">new</span> <span class="bu">Map</span>()<span class="op">;</span>      <span class="co">// membuat Map kosong </span></span>
+<span id="cb4-2"><a href="javascript-standard-library.html#cb4-2" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(m1)<span class="op">;</span></span>
+<span id="cb4-3"><a href="javascript-standard-library.html#cb4-3" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="javascript-standard-library.html#cb4-4" tabindex="-1"></a><span class="kw">let</span> m2 <span class="op">=</span> <span class="kw">new</span> <span class="bu">Map</span>([       <span class="co">// membuat Map dengan array N x 2</span></span>
+<span id="cb4-5"><a href="javascript-standard-library.html#cb4-5" tabindex="-1"></a>  [<span class="st">&quot;one&quot;</span><span class="op">,</span> <span class="dv">1</span>] <span class="op">,</span></span>
+<span id="cb4-6"><a href="javascript-standard-library.html#cb4-6" tabindex="-1"></a>  [<span class="st">&quot;two&quot;</span><span class="op">,</span> <span class="dv">2</span>] ])<span class="op">;</span></span>
+<span id="cb4-7"><a href="javascript-standard-library.html#cb4-7" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(m2)<span class="op">;</span></span>
+<span id="cb4-8"><a href="javascript-standard-library.html#cb4-8" tabindex="-1"></a></span>
+<span id="cb4-9"><a href="javascript-standard-library.html#cb4-9" tabindex="-1"></a><span class="co">// Membuat Map dari Map lain (menggandakan)</span></span>
+<span id="cb4-10"><a href="javascript-standard-library.html#cb4-10" tabindex="-1"></a><span class="kw">let</span> m3 <span class="op">=</span> <span class="kw">new</span> <span class="bu">Map</span>(m2)<span class="op">;</span></span>
+<span id="cb4-11"><a href="javascript-standard-library.html#cb4-11" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(m3)<span class="op">;</span></span>
+<span id="cb4-12"><a href="javascript-standard-library.html#cb4-12" tabindex="-1"></a></span>
+<span id="cb4-13"><a href="javascript-standard-library.html#cb4-13" tabindex="-1"></a><span class="co">// Membuat Map dari object</span></span>
+<span id="cb4-14"><a href="javascript-standard-library.html#cb4-14" tabindex="-1"></a><span class="kw">let</span> obj <span class="op">=</span> {<span class="dt">x</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="dv">2</span>}<span class="op">;</span></span>
+<span id="cb4-15"><a href="javascript-standard-library.html#cb4-15" tabindex="-1"></a><span class="kw">let</span> m4 <span class="op">=</span> <span class="kw">new</span> <span class="bu">Map</span>(<span class="bu">Object</span><span class="op">.</span><span class="fu">entries</span>(obj))<span class="op">;</span></span>
+<span id="cb4-16"><a href="javascript-standard-library.html#cb4-16" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(m4)<span class="op">;</span></span></code></pre></div></li>
+<li><p>memanipulasi object <em>Map</em> dan <em>method</em> yang terdapat di dalam <em>map</em><br />
+<strong>manipulate-map.js</strong></p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb5-1"><a href="javascript-standard-library.html#cb5-1" tabindex="-1"></a><span class="co">// Membuat map kosong yang akan kita lakukan manipualsi</span></span>
+<span id="cb5-2"><a href="javascript-standard-library.html#cb5-2" tabindex="-1"></a><span class="kw">let</span> m <span class="op">=</span> <span class="kw">new</span> <span class="bu">Map</span>()<span class="op">;</span></span>
+<span id="cb5-3"><a href="javascript-standard-library.html#cb5-3" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(m) <span class="op">;</span></span>
+<span id="cb5-4"><a href="javascript-standard-library.html#cb5-4" tabindex="-1"></a></span>
+<span id="cb5-5"><a href="javascript-standard-library.html#cb5-5" tabindex="-1"></a>m<span class="op">.</span><span class="fu">set</span>(<span class="st">&quot;one&quot;</span><span class="op">,</span> <span class="dv">1</span>)<span class="op">;</span>    <span class="co">// mengisi map dengan pasangan key, val = &quot;one&quot;, 1</span></span>
+<span id="cb5-6"><a href="javascript-standard-library.html#cb5-6" tabindex="-1"></a>m<span class="op">.</span><span class="fu">set</span>(<span class="st">&quot;two&quot;</span><span class="op">,</span> <span class="dv">2</span>)<span class="op">;</span>    <span class="co">// mengisi map dengan pasangan key, val = &quot;two&quot;, 2</span></span>
+<span id="cb5-7"><a href="javascript-standard-library.html#cb5-7" tabindex="-1"></a>m<span class="op">.</span><span class="fu">set</span>(<span class="st">&quot;three&quot;</span><span class="op">,</span> <span class="dv">3</span>)<span class="op">.</span><span class="fu">set</span>(<span class="st">&quot;four&quot;</span><span class="op">,</span> <span class="dv">4</span>)<span class="op">;</span>   <span class="co">// pengisian map dapat dilakukan dengan bentuk rantai .set berulang-ulang</span></span>
+<span id="cb5-8"><a href="javascript-standard-library.html#cb5-8" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(m)<span class="op">;</span></span>
+<span id="cb5-9"><a href="javascript-standard-library.html#cb5-9" tabindex="-1"></a></span>
+<span id="cb5-10"><a href="javascript-standard-library.html#cb5-10" tabindex="-1"></a><span class="co">// Melihat ukuran map (banyaknya pasangan key dan val)</span></span>
+<span id="cb5-11"><a href="javascript-standard-library.html#cb5-11" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(m<span class="op">.</span><span class="at">size</span>)<span class="op">;</span></span>
+<span id="cb5-12"><a href="javascript-standard-library.html#cb5-12" tabindex="-1"></a></span>
+<span id="cb5-13"><a href="javascript-standard-library.html#cb5-13" tabindex="-1"></a><span class="co">// Mendapatkan value dari key tertentu</span></span>
+<span id="cb5-14"><a href="javascript-standard-library.html#cb5-14" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(m<span class="op">.</span><span class="fu">get</span>(<span class="st">&quot;two&quot;</span>))<span class="op">;</span></span>
+<span id="cb5-15"><a href="javascript-standard-library.html#cb5-15" tabindex="-1"></a></span>
+<span id="cb5-16"><a href="javascript-standard-library.html#cb5-16" tabindex="-1"></a><span class="co">// Jika key tidak ada di dalam Map, maka akan dihasilkan undefined</span></span>
+<span id="cb5-17"><a href="javascript-standard-library.html#cb5-17" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(m<span class="op">.</span><span class="fu">get</span>(<span class="st">&quot;five&quot;</span>))<span class="op">;</span></span>
+<span id="cb5-18"><a href="javascript-standard-library.html#cb5-18" tabindex="-1"></a></span>
+<span id="cb5-19"><a href="javascript-standard-library.html#cb5-19" tabindex="-1"></a><span class="co">// Kita dapat menghapus pasangan key, val dengan method .delete</span></span>
+<span id="cb5-20"><a href="javascript-standard-library.html#cb5-20" tabindex="-1"></a>m<span class="op">.</span><span class="fu">delete</span>(<span class="st">&quot;one&quot;</span>)<span class="op">;</span></span>
+<span id="cb5-21"><a href="javascript-standard-library.html#cb5-21" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(m)<span class="op">;</span></span>
+<span id="cb5-22"><a href="javascript-standard-library.html#cb5-22" tabindex="-1"></a></span>
+<span id="cb5-23"><a href="javascript-standard-library.html#cb5-23" tabindex="-1"></a><span class="co">// Untuk menghapus seluruh pasangan key, val gunakan .clear</span></span>
+<span id="cb5-24"><a href="javascript-standard-library.html#cb5-24" tabindex="-1"></a>m<span class="op">.</span><span class="fu">clear</span>()<span class="op">;</span></span>
+<span id="cb5-25"><a href="javascript-standard-library.html#cb5-25" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(m)<span class="op">;</span></span></code></pre></div></li>
+<li><p>Menguji ada tidaknya <em>key</em> dalam object <em>Map</em><br />
+<strong>membership-map.js</strong></p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb6-1"><a href="javascript-standard-library.html#cb6-1" tabindex="-1"></a><span class="kw">let</span> m <span class="op">=</span> <span class="kw">new</span> <span class="bu">Map</span>([</span>
+<span id="cb6-2"><a href="javascript-standard-library.html#cb6-2" tabindex="-1"></a>  [<span class="st">&quot;one&quot;</span><span class="op">,</span> <span class="dv">1</span>]<span class="op">,</span></span>
+<span id="cb6-3"><a href="javascript-standard-library.html#cb6-3" tabindex="-1"></a>  [<span class="st">&quot;two&quot;</span><span class="op">,</span> <span class="dv">2</span>]<span class="op">,</span></span>
+<span id="cb6-4"><a href="javascript-standard-library.html#cb6-4" tabindex="-1"></a>  [<span class="st">&quot;three&quot;</span><span class="op">,</span> <span class="dv">3</span>]<span class="op">,</span></span>
+<span id="cb6-5"><a href="javascript-standard-library.html#cb6-5" tabindex="-1"></a>  [<span class="st">&quot;four&quot;</span><span class="op">,</span> <span class="dv">4</span>] ])<span class="op">;</span></span>
+<span id="cb6-6"><a href="javascript-standard-library.html#cb6-6" tabindex="-1"></a></span>
+<span id="cb6-7"><a href="javascript-standard-library.html#cb6-7" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(m<span class="op">.</span><span class="fu">has</span>(<span class="st">&quot;three&quot;</span>))<span class="op">;</span>     <span class="co">// menghasilkan true, karena map m memuat key &quot;three&quot;</span></span>
+<span id="cb6-8"><a href="javascript-standard-library.html#cb6-8" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(m<span class="op">.</span><span class="fu">has</span>(<span class="st">&quot;five&quot;</span>))<span class="op">;</span>      <span class="co">// menghasilkan false, karena map m tidak emmuat key &quot;five&quot;</span></span></code></pre></div></li>
+<li><p>Melakukan iterasi pasangan <em>key</em>, <em>val</em> di dalam <em>Map</em><br />
+<strong>iterate-map.js</strong></p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb7-1"><a href="javascript-standard-library.html#cb7-1" tabindex="-1"></a><span class="co">// Membuat map berisi 4 pasangan key, val</span></span>
+<span id="cb7-2"><a href="javascript-standard-library.html#cb7-2" tabindex="-1"></a><span class="kw">let</span> m <span class="op">=</span> <span class="kw">new</span> <span class="bu">Map</span>([</span>
+<span id="cb7-3"><a href="javascript-standard-library.html#cb7-3" tabindex="-1"></a>  [<span class="st">&quot;x&quot;</span><span class="op">,</span> <span class="dv">1</span>]<span class="op">,</span></span>
+<span id="cb7-4"><a href="javascript-standard-library.html#cb7-4" tabindex="-1"></a>  [<span class="st">&quot;y&quot;</span><span class="op">,</span> <span class="dv">2</span>]<span class="op">,</span></span>
+<span id="cb7-5"><a href="javascript-standard-library.html#cb7-5" tabindex="-1"></a>  [<span class="st">&quot;z&quot;</span><span class="op">,</span> <span class="dv">3</span>]<span class="op">,</span></span>
+<span id="cb7-6"><a href="javascript-standard-library.html#cb7-6" tabindex="-1"></a>  [<span class="st">&quot;w&quot;</span><span class="op">,</span> <span class="dv">4</span>] ])<span class="op">;</span></span>
+<span id="cb7-7"><a href="javascript-standard-library.html#cb7-7" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(m)<span class="op">;</span></span>
+<span id="cb7-8"><a href="javascript-standard-library.html#cb7-8" tabindex="-1"></a></span>
+<span id="cb7-9"><a href="javascript-standard-library.html#cb7-9" tabindex="-1"></a><span class="co">// Menyatakan Map sebagai array dengan dimensi 4 x 2</span></span>
+<span id="cb7-10"><a href="javascript-standard-library.html#cb7-10" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>([<span class="op">...</span>m])<span class="op">;</span></span>
+<span id="cb7-11"><a href="javascript-standard-library.html#cb7-11" tabindex="-1"></a></span>
+<span id="cb7-12"><a href="javascript-standard-library.html#cb7-12" tabindex="-1"></a><span class="co">// Mengambil key saja dan mengubah menjadi array</span></span>
+<span id="cb7-13"><a href="javascript-standard-library.html#cb7-13" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>([<span class="op">...</span>m<span class="op">.</span><span class="fu">keys</span>()])<span class="op">;</span></span>
+<span id="cb7-14"><a href="javascript-standard-library.html#cb7-14" tabindex="-1"></a></span>
+<span id="cb7-15"><a href="javascript-standard-library.html#cb7-15" tabindex="-1"></a><span class="co">// Mengambil value saja dan mengubah menjadi array</span></span>
+<span id="cb7-16"><a href="javascript-standard-library.html#cb7-16" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>([<span class="op">...</span>m<span class="op">.</span><span class="fu">values</span>()])<span class="op">;</span></span>
+<span id="cb7-17"><a href="javascript-standard-library.html#cb7-17" tabindex="-1"></a></span>
+<span id="cb7-18"><a href="javascript-standard-library.html#cb7-18" tabindex="-1"></a><span class="co">// Mengambil pasangan key, val (sama seperti [...m])</span></span>
+<span id="cb7-19"><a href="javascript-standard-library.html#cb7-19" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>([<span class="op">...</span>m<span class="op">.</span><span class="fu">entries</span>()])</span>
+<span id="cb7-20"><a href="javascript-standard-library.html#cb7-20" tabindex="-1"></a></span>
+<span id="cb7-21"><a href="javascript-standard-library.html#cb7-21" tabindex="-1"></a><span class="co">// Iterasi dapat dilakukan menggunakan for ... of ...</span></span>
+<span id="cb7-22"><a href="javascript-standard-library.html#cb7-22" tabindex="-1"></a><span class="cf">for</span> (<span class="kw">let</span> [key<span class="op">,</span> val] <span class="kw">of</span> m) {</span>
+<span id="cb7-23"><a href="javascript-standard-library.html#cb7-23" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="vs">`[key, val]: [</span><span class="sc">${</span>key<span class="sc">}</span><span class="vs">, </span><span class="sc">${</span>val<span class="sc">}</span><span class="vs">]`</span>)<span class="op">;</span></span>
+<span id="cb7-24"><a href="javascript-standard-library.html#cb7-24" tabindex="-1"></a>}</span></code></pre></div></li>
+</ul>
 </div>
 <div id="pattern-matching-with-regular-expression" class="section level2 hasAnchor" number="11.2">
 <h2><span class="header-section-number">11.2</span> Pattern Matching with Regular Expression<a href="javascript-standard-library.html#pattern-matching-with-regular-expression" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Gagasan <em>pattern matching</em> merupakan mekanisme untuk mencari suatu
+substring menggunakan pola tertentu. Pola tertentu ini dapat dibuat
+dengan struktur literal yang dikenal <em>regular expression</em>.</p>
+<p>Di dalam JavaScript, struktur regular expression dapat dibuat dengan
+mengapit <em>pattern</em> dengan <code>/</code> dan <code>/</code></p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb8-1"><a href="javascript-standard-library.html#cb8-1" tabindex="-1"></a><span class="kw">let</span> pattern <span class="op">=</span> <span class="ss">/s</span><span class="sc">$</span><span class="ss">/i</span></span></code></pre></div>
+<p>Di dalam potongan <em>regular expression</em> di atas, <em>pattern</em> diberikan
+oleh <code>s$</code>. Huruf <code>i</code> setelah <code>/</code> adalah penanda bagaimana <em>pattern</em>
+tersebut digunakan saat melakukan <em>pattern matching</em>. Kita akan
+memahami di bagian selanjutnya bahwa huruf <code>s</code> adalah karakter dasar
+(<em>literal character</em>), <code>$</code> adalah <em>special character</em> yang menunjukan
+bahwa proses <em>pattern matching</em> dilakukan di akhir string sebelum
+karakter <em>newline</em> (<code>\n</code>).</p>
+<p>Bagian terakhir setelah tanda garis miring kedua, yaitu huruf <code>i</code>
+merupakan penanda
+bahwa proses <em>pattern matching</em> dilakukan untuk semua karakter
+huruf kapital atau kecil (<em>uppercase</em> atau <em>lowercase</em>). <code>i</code> disini
+merupakan singkatan dari <code>ignore case</code>.</p>
+<p>Sehingga apabila digabung kita memiliki keseluruhan <em>regular expression</em>
+<code>/s$/i</code> untuk mencari
+string apapun yang berakhiran huruf <code>s</code> atau <code>S</code>. Contoh: <code>"pass"</code>,
+<code>"special characters"</code>, <code>"SaaS"</code>. <code>KT 2023 PAS</code>.</p>
+<p>Dikarenakan luasnya topik <em>regular expression</em>, maka disini kita
+hanya membahas hal-hal yang sangat mendasar dan penting dan dapat digunakan
+untuk penerapan pengembangan web.</p>
+<p>Di bagian ini akan kita uraikan dua bagian besar untuk
+memahami <em>regular expression</em>. Beberapa hal
+dapat dilompati misal dirasa terlalu panjang
+selama sesi praktikum.</p>
+<p>Bagian pertama akan membahas 7 subbagian
+terkait <em>regular expression</em> yaitu:
+1. Pola dasar <em>regular expression</em><br />
+Disini tidak akan didaftarkan satu-satu semua pola dasar namun
+hanya beberapa saja sehingga cukup memberikan gambaran.
+- <code>.</code> (karakter titik): semua jenis karakter kecuali <code>\newline</code>.<br />
+<em>Pattern</em> ini digunakan untuk melakukan pencarian semua jenis
+karakter kecuali <code>\newline</code> (<code>\newline</code> adalah karakter yang
+kita input ketika menekan tombol <code>Enter</code>). Contoh penggunaannya
+<code>/./</code></p>
+<ul>
+<li><p>karakter satu huruf (contoh: <code>a</code>):<br />
+<em>Pattern</em> ini akan mencari karakter yang dispesifikasi (misal <code>a</code>)
+dalam suatu string. Contoh penggunaannya <code>/a/</code></p></li>
+<li><p>karakter lebih dari satu huruf (contoh: <code>ab</code>):<br />
+<em>Pattern</em> ini akan mencari karakter yang dispesifikasi (misal <code>ab</code>)<br />
+dalam suatu string. Contoh penggunaannya <code>/ab/</code></p></li>
+<li><p>conditional character dengan <code>|</code> (contoh: <code>a|b</code>):<br />
+<em>Pattern</em> ini akan mencari karakter yang dispesifikasi sebelum <code>|</code>
+atau sesudah <code>|</code>. Contoh misal kita menuliskan <em>pattern</em> <code>a|b</code> maka
+akan dicari karakter <code>a</code> atau <code>b</code> dalam suatu string. Contoh
+penggunaannya <code>a|b</code>.</p></li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li><p>Quantifiers<br />
+<em>Quantifier</em> digunakan untuk menyatakan berapa kali karakter
+yang ingin kita cari muncul.</p>
+<ul>
+<li><p><code>*</code> (tanda bintang, <em>asterisk</em>)<br />
+<em>Quantifier</em> ini digunakan untuk menyatakan bahwa karakter
+yang kita cari memiliki nol atau lebih perulangan karakter.
+Misal kita memiliki
+<em>pattern</em> <code>/a*/</code>, maka akan dicari <em>strings</em> berikut
+<code>""</code>, <code>"a"</code>, <code>"aa"</code>, <code>"aaa"</code>, <code>"aaaa"</code>, dan seterusnya.</p></li>
+<li><p><code>+</code> (tanda positif, <em>plus sign</em>)<br />
+<em>Quantifier</em> ini digunakan untuk menyatakan bahwa karakter yang
+kita cari memiliki satu atau lebih perulangan karakter.
+Misal kita memiliki <em>pattern</em>
+<code>/a+/</code>, maka akan dicari <em>strings</em> berikut
+<code>"a"</code>, <code>"aa"</code>, <code>"aaa"</code>, <code>"aaaa"</code>, dan seterusnya.</p></li>
+<li><p><code>?</code> (tanda tanya, <em>question mark</em>)
+<em>Quantifier</em> ini digunakan untuk menyatakan bahwa karakter yang kita
+cari memiliki perulangan nol atau satu karakter. Misal kita
+memiliki <em>pattern</em> <code>/a?/</code> maka akan dicari dua string berikut
+<code>""</code> dan <code>"a"</code></p></li>
+<li><p><code>{n}</code>: <code>n</code> perulangan karakter<br />
+<em>Quantifier</em> ini digunakan untuk menyatakan bahwa karakter
+yang kita cari memiliki perulangan tepat <code>n</code> kali.
+Misal kita memiliki <code>pattern</code> <code>/a{2}/</code> maka akan dicari satu string
+<code>"aa"</code>.</p></li>
+<li><p><code>{n,m}</code>: perulangan karakter dari <code>n</code> kali hinga <code>m</code> kali.<br />
+<em>Quantifier</em> ini digunakan untuk menyatakan bahwa
+karakter yang kita cari memiliki perulangan antara <code>n</code>
+kali perulangan dan <code>m</code> kali perulangan. Misal kita memiliki
+<em>pattern</em> <code>/a{2,5}/</code> maka akan dicari <em>string</em> berikut:
+<code>"aa"</code>, <code>"aaa"</code>, <code>"aaaa"</code>, <code>"aaaaa"</code>.</p></li>
+<li><p><code>{n,}</code>: perulangan karakter minimal <code>n</code> kali<br />
+<em>Quantifier</em> ini digunakan untuk menyatakan bahwa karakter yang
+kita cari memiliki perulangan minimal <code>n</code> kali. Misal kita memiliki
+<em>pattern</em> <code>/a{2,}</code> maka akan dicari <em>string</em> berikut:
+<code>"aa"</code>, <code>"aaa"</code>, <code>"aaaa"</code>, <code>"aaaaa"</code>, dan seterusnya.</p></li>
+</ul></li>
+<li><p>Groups<br />
+<em>Groups</em> digunakan untuk mengelompokkan <em>pattern</em></p>
+<ul>
+<li><p><code>(...)</code> (tanda kurung)<br />
+<em>Group</em> ini digunakan untuk mengumpulkan beberapa <em>patterns</em>
+menjadi satu unit <em>pattern</em>. Sangat berguna ketika digunakan
+bersamaan dengan <em>quantifier</em>. Perlu diingat <em>group</em> ini dapat
+direferensi dengan <code>\#</code> (<code>#</code> menyatakan urutan <em>group</em>).
+Misal kita memiliki <em>pattern</em> <code>/(a|b)+/</code> maka akan dicari
+<em>string</em> yang terdiri dari kombinasi
+satu atau lebih karakter <code>a</code> atau <code>b</code>. Contohnya:
+<code>"a"</code>, <code>"b"</code>, <code>"ab"</code>, <code>"ba"</code>, <code>"aaa"</code>, <code>"aab"</code>, <code>"aba"</code>, <code>"baa"</code>,
+<code>"abb"</code>, <code>"bab"</code>, <code>"bba"</code>, <code>"bbb"</code>, dan seterusnya.</p></li>
+<li><p><code>(?:...)</code> (tanda kurung dan <code>?:</code>)<br />
+Sama seperti <em>Group</em> <code>(...)</code> namun tidak mengingat referensi.</p></li>
+<li><p><code>\#</code> (garis miring balik dan urutan <code>#</code>-th <em>group</em>)<br />
+<em>Group</em> ini digunakan untuk mereferensi <em>group</em> <code>()</code> yang sudah digunakan
+sebelumnya. Sehingga tidak perlu menuliskan dua kali.
+Misal kita memiliki <em>pattern</em> <code>/(a|b)c(d|e)(a|b)/</code>
+dapat disingkat menjadi <code>/(a|b)c(d|e)\1/</code>.</p></li>
+</ul></li>
+<li><p>Flags<br />
+Digunakan untuk mengubah proses <em>pattern matching</em>. Sebelumnya
+telah dibahas <em>flag</em> <code>i</code> yang menyatakan <em>pattern matching</em>
+mengabaikan huruf besar kecil dari <em>pattern</em> yang digunakan.
+Berikut ini beberapa <em>flag</em> yang umum digunakan.</p>
+<ul>
+<li><p><code>g</code> (<em>global match</em>)<br />
+<em>Flag</em> ini digunakan untuk mencari semua <em>pattern</em> yang muncul
+dalam suatu string. Sehingga tidak hanya kemunculan pertama saja
+yang dihasilkan. Misalkan kita memiliki <em>pattern</em> ‘/JavaScript/g’
+maka semua kata <code>JavaScript</code> akan dimunculkan sebagai hasil t
+tidak hanya kata pertama yang ditemukan.</p></li>
+<li><p><code>i</code> (<em>ignore case</em>)<br />
+<em>Flag</em> ini digunakan untuk mengabaikan huruf besar kecil dari
+karakter alfabet. Misal kita memiliki <em>pattern</em>: ‘/js/i’,
+maka semua kombinasi besar kecil <code>j</code> dan <code>s</code> akan dicari
+oleh <em>pattern</em> tersebut, yaitu: <code>"js"</code>, <code>"Js"</code>, <code>"jS"</code>, dan <code>"JS"</code>.</p></li>
+<li><p><code>m</code> (<em>multiline mode</em>)<br />
+Dengan <em>flag</em> ini suatu string yang terdiri dari beberapa baris
+(tiap baris dipisahkan oleh <em>newline character</em>) tidak
+lagi dilihat sebagai satu <em>string</em> panjang, melainkan
+terdiri beberapa <em>substrings</em> yang dipisahkan oleh <em>newline character</em>.
+Sehingga apabila digunakan pencarian bersamaan dengan <em>assertion</em>
+<code>^</code> atau <code>$</code>
+(lihat penjelasan di bagian <em>assertion</em>),
+akan dilakukan pencarian ditiap baris.</p>
+<p><strong>multiline-mode-regex.js</strong></p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb9-1"><a href="javascript-standard-library.html#cb9-1" tabindex="-1"></a><span class="kw">let</span> text <span class="op">=</span> <span class="st">&quot;JavaScript script</span><span class="sc">\n</span><span class="st">script&quot;</span><span class="op">;</span>   <span class="co">// dua baris string</span></span>
+<span id="cb9-2"><a href="javascript-standard-library.html#cb9-2" tabindex="-1"></a><span class="kw">let</span> p <span class="op">=</span> <span class="ss">/</span><span class="sc">^(</span><span class="ss">script</span><span class="sc">)</span><span class="ss">/</span><span class="op">;</span></span>
+<span id="cb9-3"><a href="javascript-standard-library.html#cb9-3" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(text<span class="op">.</span><span class="fu">replace</span>(p<span class="op">,</span> <span class="st">&quot;a&quot;</span>))<span class="op">;</span> <span class="co">// =&gt; &quot;Javascript script\nscript&quot; </span></span>
+<span id="cb9-4"><a href="javascript-standard-library.html#cb9-4" tabindex="-1"></a>                                   <span class="co">//    (tidak mengubah apapun)</span></span>
+<span id="cb9-5"><a href="javascript-standard-library.html#cb9-5" tabindex="-1"></a></span>
+<span id="cb9-6"><a href="javascript-standard-library.html#cb9-6" tabindex="-1"></a>p <span class="op">=</span> <span class="ss">/</span><span class="sc">^(</span><span class="ss">script</span><span class="sc">)</span><span class="ss">/m</span><span class="op">;</span></span>
+<span id="cb9-7"><a href="javascript-standard-library.html#cb9-7" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(text<span class="op">.</span><span class="fu">replace</span>(p<span class="op">,</span> <span class="st">&quot;a&quot;</span>))<span class="op">;</span> <span class="co">// =&gt; &quot;Javascript script\na&quot;</span></span>
+<span id="cb9-8"><a href="javascript-standard-library.html#cb9-8" tabindex="-1"></a></span>
+<span id="cb9-9"><a href="javascript-standard-library.html#cb9-9" tabindex="-1"></a>p <span class="op">=</span> <span class="ss">/</span><span class="sc">(</span><span class="ss">script</span><span class="sc">)$</span><span class="ss">/</span><span class="op">;</span></span>
+<span id="cb9-10"><a href="javascript-standard-library.html#cb9-10" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(text<span class="op">.</span><span class="fu">replace</span>(p<span class="op">,</span> <span class="st">&quot;a&quot;</span>))<span class="op">;</span> <span class="co">// =&gt; &quot;Javascript script\na&quot; </span></span>
+<span id="cb9-11"><a href="javascript-standard-library.html#cb9-11" tabindex="-1"></a>                                   <span class="co">// `text` dianggap string panjang</span></span>
+<span id="cb9-12"><a href="javascript-standard-library.html#cb9-12" tabindex="-1"></a></span>
+<span id="cb9-13"><a href="javascript-standard-library.html#cb9-13" tabindex="-1"></a>p <span class="op">=</span> <span class="ss">/</span><span class="sc">(</span><span class="ss">script</span><span class="sc">)$</span><span class="ss">/m</span><span class="op">;</span></span>
+<span id="cb9-14"><a href="javascript-standard-library.html#cb9-14" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(text<span class="op">.</span><span class="fu">replace</span>(p<span class="op">,</span> <span class="st">&quot;a&quot;</span>))<span class="op">;</span> <span class="co">// =&gt; &quot;Javascript a\nscript&quot;</span></span>
+<span id="cb9-15"><a href="javascript-standard-library.html#cb9-15" tabindex="-1"></a>                                   <span class="co">// `text` terdiri dari substring</span></span></code></pre></div></li>
+</ul></li>
+<li><p>Character classes<br />
+Merupakan gabungan dari karakter individu yang membentuk
+kelas karakter. Sangat berguna untuk mendaftar semua karakter menjadi lebih
+ringkas. Seperti contohnya jika ingin melakukan pencarian
+<em>pattern</em> alfabet dari <code>a</code> sampai <code>z</code>, kita tidak perlu menuliskan
+<code>/abcdefghijklmnopqrstuvwxyz/</code> tetapi cukup dengan <code>/[a-z]/</code>
+Berikut adalah <em>character class</em> yang ada di JavaScript:</p>
+<ul>
+<li><p><code>[...]</code>: semua karakter yang ada dalam kurung siku.<br />
+Misal kita memiliki contoh <em>pattern</em> <code>/[ab-d]/</code> maka
+<em>string</em> yang dicari adalah karakter <code>a</code>, <code>b</code>, <code>c</code>, <code>d</code>.</p></li>
+<li><p><code>[^...]</code>: semua karakter yang yang bukan di dalam kurung siku.<br />
+Misal kita memiliki contoh pattern <code>/[^ab-d]/</code> maka <em>string</em>
+yang dicari adalah karakter selain empat karakter <code>a</code>, <code>b</code>, <code>c</code>, <code>d</code>.</p></li>
+<li><p><code>[\b]</code> (<em>backspace character</em>)<br />
+<em>Character class</em> ini akan mencari <em>backspace character</em>.
+Di dalam kurung siku hanya boleh ada <code>\b</code>. Jika disisipkan
+huruf lain maka <em>character class</em> ini tidak lagi menunjukkan
+<em>backspace</em>. <em>Character class</em> ini sangat jarang digunakan
+dan merupakan warisan dari pengembangan Unicode.</p>
+<p>Contoh penggunaannya</p>
+<p><strong>backspace-regex.js</strong></p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb10-1"><a href="javascript-standard-library.html#cb10-1" tabindex="-1"></a><span class="co">// \b (`backspace character` memindahkan kursor ke kiri)</span></span>
+<span id="cb10-2"><a href="javascript-standard-library.html#cb10-2" tabindex="-1"></a><span class="co">// namun tidak menghapus karakter selama pergerakan kursor ke kiri</span></span>
+<span id="cb10-3"><a href="javascript-standard-library.html#cb10-3" tabindex="-1"></a><span class="kw">let</span> text <span class="op">=</span> <span class="st">&quot;JavaScript</span><span class="sc">\b\b\b\b\b\b</span><span class="st"> s&quot;</span><span class="op">;</span></span>
+<span id="cb10-4"><a href="javascript-standard-library.html#cb10-4" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(text)<span class="op">;</span>    <span class="co">// =&gt; Java sript;</span></span>
+<span id="cb10-5"><a href="javascript-standard-library.html#cb10-5" tabindex="-1"></a><span class="kw">let</span> p <span class="op">=</span> <span class="ss">/</span><span class="sc">[\b]+</span><span class="ss"> s/</span><span class="op">;</span> </span>
+<span id="cb10-6"><a href="javascript-standard-library.html#cb10-6" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(text<span class="op">.</span><span class="fu">replace</span>(p<span class="op">,</span> <span class="st">&quot;&quot;</span>))<span class="op">;</span>   <span class="co">// =&gt; JavaScript</span></span></code></pre></div></li>
+<li><p><code>\d</code> (<em>digit</em>)<br />
+<em>Character class</em> ini menyatakan <em>pattern</em> untuk angka. Setara
+dengan <em>pattern</em> <code>[0-9]</code>.</p></li>
+<li><p><code>\D</code> (<em>non-digit</em>)<br />
+<em>Character class</em> ini menyatakan <em>pattern</em> selain angka. Setara
+dengan <em>pattern</em> <code>[^0-9]</code></p></li>
+<li><p><code>\s</code> (<em>whitespace character</em>)<br />
+<em>Character class</em> ini menyatakan <em>pattern</em> untuk
+Unicode <em>whitespace character</em>. Contohnya: spasi, <em>Enter</em>,
+dan <em>Tab</em>.</p></li>
+<li><p><code>\S</code> (<em>non-whitespace character</em>)<br />
+<em>Character class</em> ini menyatakan <em>pattern</em> selain <em>whitespace character</em>.</p></li>
+<li><p><code>\w</code> (<em>word character</em>)<br />
+<em>Character class</em> ini menyatakan semua ASCII <em>word character</em>.
+<em>Word character</em> adalah karakter alfabet (huruf besar dan kecil),
+angka dan <em>underscore</em>. Setara dengan <em>pattern</em> <code>[a-zA-Z0-9_]</code>.</p></li>
+<li><p><code>\W</code> (<em>non-word character</em>)<br />
+<em>Character class</em> ini menyatakan semua karakter selain ASCII
+<em>word character</em></p></li>
+</ul></li>
+<li><p>Special character<br />
+Di bagian ini merupakan kumpulan <em>pattern</em> untuk <em>special character</em>
+seperti karakter baris baru (diinput ketika menekan tombol <em>Enter</em>) .</p>
+<ul>
+<li><p><code>\n</code> (<em>newline</em>)<br />
+<em>Special character</em> untuk mencari karakter pemisah antar baris.
+Karakter ini dapat digunakan dalam <em>regular expression</em> untuk
+memisahkan tiap baris dalam suatu string.</p></li>
+<li><p><code>\r</code> (<em>carriage return</em>)<br />
+<em>Special character</em> untuk membawa kursor ke posisi awal <em>string</em>.</p></li>
+<li><p><code>\t</code> (<em>tab</em>)<br />
+<em>Special character</em> yang mewakili tombol <em>Tab</em>. Ukuran tab
+dari tanpa spasi hingga umumnya 4 spasi berdasarkan posisi
+ke kelipatan terdekat.</p>
+<p><strong>tab-example-regex.js</strong></p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb11-1"><a href="javascript-standard-library.html#cb11-1" tabindex="-1"></a><span class="kw">let</span> p <span class="op">=</span> <span class="ss">/</span><span class="sc">\t</span><span class="ss">/</span><span class="op">;</span></span>
+<span id="cb11-2"><a href="javascript-standard-library.html#cb11-2" tabindex="-1"></a><span class="kw">let</span> text <span class="op">=</span> <span class="st">&quot;abcd</span><span class="sc">\t</span><span class="st">efgh&quot;</span><span class="op">;</span>   <span class="co">// \t disini setara dengan 4 spasi</span></span>
+<span id="cb11-3"><a href="javascript-standard-library.html#cb11-3" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(text)<span class="op">;</span></span>
+<span id="cb11-4"><a href="javascript-standard-library.html#cb11-4" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(text<span class="op">.</span><span class="fu">replace</span>(p<span class="op">,</span> <span class="st">&quot;+&quot;</span>))<span class="op">;</span></span>
+<span id="cb11-5"><a href="javascript-standard-library.html#cb11-5" tabindex="-1"></a></span>
+<span id="cb11-6"><a href="javascript-standard-library.html#cb11-6" tabindex="-1"></a>text <span class="op">=</span> <span class="st">&quot;abcdefg</span><span class="sc">\t</span><span class="st">efgh&quot;</span><span class="op">;</span>    <span class="co">// \t disini setara dengan 1 spasi</span></span>
+<span id="cb11-7"><a href="javascript-standard-library.html#cb11-7" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(text)<span class="op">;</span></span>
+<span id="cb11-8"><a href="javascript-standard-library.html#cb11-8" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(text<span class="op">.</span><span class="fu">replace</span>(p<span class="op">,</span> <span class="st">&quot;+&quot;</span>))<span class="op">;</span></span></code></pre></div></li>
+<li><p><code>\nnn</code> (<em>octal character</em>)<br />
+Unicode <em>character</em> dengan menggunakan <em>octal digit</em>.
+Misal huruf kapital <code>E</code> dapat dinyatakan dalam <code>\105</code>.</p></li>
+<li><p><code>\xhh</code> (<em>latin character</em> dengan dua digit heksadesimal)<br />
+Dua digit heksadesimal yang digunakan untuk menyatakan
+karakter latin (huruf A-Z).
+Misal huruf kapital <code>E</code> dapat dinyatakan dalam <code>\x45</code>.</p></li>
+<li><p><code>\uhhhh</code> (Unicode <em>character</em> dengan empat digit heksadesimal)<br />
+Empat digit heksadesimal yang digunakan untuk menyatakan
+Unicode <em>character</em>.<br />
+Misal <em>parallel world</em> dalam bahasa Jepang <code>異世界</code> (<em>isekai</em>)
+dapat dinyatakan dalam <code>\u7570\u4e16\u754c</code>.</p></li>
+</ul></li>
+<li><p>Assertion<br />
+<em>Assertion</em> merupakan karakter yang digunakan untuk menyatakan
+bahwa
+<em>pattern matching</em> mengacu (<em>anchoring</em>) ke posisi tertentu
+dalam suatu <em>string</em>. Berikut karakter yang digunakan:</p>
+<ul>
+<li><p><code>^</code> (pencarian dimulai dari karakter awal <em>string</em>)<br />
+<em>Assertion</em> ini melakukan pencarian karakter dimulai dari
+awal karakter suatu string. Jika dikombinasikan dengan
+<em>flag</em> <code>m</code> maka akan dilakukan pencarian juga di awal baris.
+(lihat contoh sebelumnya di bagian <em>Flag</em>)</p></li>
+<li><p><code>$</code> (pencarian dimulai dari karakter akhir <em>string</em>)<br />
+<em>Assertion</em> ini melakukan pencarian karakter dimulai dari akhir
+karakter suatu string. Jika dikombinasikan dengan <em>flag</em> <code>m</code>
+maka akan dilakukan pencarian juga di akhir baris.
+(lihat contoh sebelumnya di bagian <em>Flag</em>)</p></li>
+<li><p><code>\b</code> (pencarian dilakukan di antara <em>word boundary</em>)<br />
+<em>Assertion</em> ini akan melakukan pencarian diantara
+<code>\w</code> dan <code>\W</code> (lihat bagian <em>character classes</em>).
+<em>Boundary</em> disini adalah bagian diantara dua karakter.
+Jika umumnya <em>anchoring</em> dilakukan pada karakter (seperti <code>^</code> dan <code>$</code>),
+<code>\b</code> melakukan <em>anchoring</em> diantara dua karakter.
+Misal kita melakukan pencarian kata “JavaScript” yang berdiri
+sendiri (kanan kiri dipisahkan spasi). Kita dapat menggunakan
+<em>pattern</em> <code>/\sJavaScript\s/g</code> (<code>\s</code> disini adalah karakter spasi
+dan <em>flag</em> <code>g</code> untuk mode <em>global</em>).
+Namun cara ini tidak dapat diterapkan apabila kata “JavaScript”
+muncul di awal string (sebelum “JavaScript” tidak dimulai dengan spasi)
+atau di akhir string (setelah “JavaScript” tidak diakhiri oleh spasi).
+Maka dengan <em>word boundary</em> kita dapat mengatasi masalah tersebut
+dan mengubahnya menjadi
+<code>/\bJavaScript\b/g</code></p></li>
+<li><p><code>\B</code> (pencarian dilakukan di antara <em>non-word boundary</em>)<br />
+Sama seperti <code>\b</code> hanya saja melakukan pencarian <em>pattern</em>
+yang bukan <em>word boundary</em>. Sebagai contoh <em>pattern</em>
+<code>/\B[Ss]cript/</code> dapat ditemukan didalam <em>string</em> “JavaScript”
+dan “postscript”, namun tidak untuk “script” atau “Scripting*
+yang merupakan kata yang berdiri sendiri (bukan bagian dari suatu
+kata).</p></li>
+<li><p><code>(?=p)</code> (<em>positive lookahead</em>)<br />
+<em>Assertion</em> ini digunakan untuk mengatur secara bebas karakter
+<em>anchoring</em> <code>p</code>. Sebagai contoh kita ingin mencari kata “JavaScript”
+lalu diikuti oleh titik dua. Maka <em>pattern</em>-nya adalah<br />
+<code>/JavaScript(?=\:)/g</code></p></li>
+<li><p><code>(?!p)</code> (<em>negative lookahead</em>)<br />
+<em>Assertion</em> ini adalah negasi dari <em>positive lookahead</em> yang
+mengakibatkan <em>pattern</em> <code>p</code> tidak dipenuhi dalam proses pencarian.
+Sebagai contoh kita ingin mencari kata “Java” yang diikuti oleh
+huruf kapital namun tidak diikuti oleh kata “Script”. Maka
+<em>pattern</em>-nya adalah <code>/JavaScript(?!Script)[A-Z]/g</code>.</p></li>
+</ul></li>
+</ol>
+<p>Bagian kedua kita akan menerapkan
+<em>regular expression</em> ke dalam <em>methods</em> string.
+Kita bagi dalam subbagian <em>string method</em> berikut</p>
+<ul>
+<li><p><code>search()</code></p>
+<p><strong>str-method-search.js</strong></p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb12-1"><a href="javascript-standard-library.html#cb12-1" tabindex="-1"></a><span class="kw">let</span> result<span class="op">;</span></span>
+<span id="cb12-2"><a href="javascript-standard-library.html#cb12-2" tabindex="-1"></a></span>
+<span id="cb12-3"><a href="javascript-standard-library.html#cb12-3" tabindex="-1"></a>result <span class="op">=</span> <span class="st">&quot;JavaScript&quot;</span><span class="op">.</span><span class="fu">search</span>(<span class="ss">/script/i</span>)<span class="op">;</span></span>
+<span id="cb12-4"><a href="javascript-standard-library.html#cb12-4" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(result)<span class="op">;</span>    <span class="co">// =&gt; 4 (indeks S di Script)</span></span>
+<span id="cb12-5"><a href="javascript-standard-library.html#cb12-5" tabindex="-1"></a></span>
+<span id="cb12-6"><a href="javascript-standard-library.html#cb12-6" tabindex="-1"></a>result <span class="op">=</span> <span class="st">&quot;Python&quot;</span><span class="op">.</span><span class="fu">search</span>(<span class="ss">/script/i</span>)<span class="op">;</span></span>
+<span id="cb12-7"><a href="javascript-standard-library.html#cb12-7" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(result)<span class="op">;</span>    <span class="co">// =&gt; -1 (tidak ditemukan pattern /script/)</span></span></code></pre></div></li>
+<li><p><code>replace()</code></p>
+<p><strong>str-method-replace.js</strong></p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb13-1"><a href="javascript-standard-library.html#cb13-1" tabindex="-1"></a><span class="kw">let</span> result<span class="op">;</span> </span>
+<span id="cb13-2"><a href="javascript-standard-library.html#cb13-2" tabindex="-1"></a></span>
+<span id="cb13-3"><a href="javascript-standard-library.html#cb13-3" tabindex="-1"></a><span class="kw">const</span> text <span class="op">=</span> <span class="st">&quot;the following text contains incorrect capitalization of jaVaScrIPt&quot;</span><span class="op">;</span></span>
+<span id="cb13-4"><a href="javascript-standard-library.html#cb13-4" tabindex="-1"></a></span>
+<span id="cb13-5"><a href="javascript-standard-library.html#cb13-5" tabindex="-1"></a><span class="co">// No matter how it is capitalized, replace it with the correct capitalization</span></span>
+<span id="cb13-6"><a href="javascript-standard-library.html#cb13-6" tabindex="-1"></a>result <span class="op">=</span> text<span class="op">.</span><span class="fu">replace</span>(<span class="ss">/javascript/gi</span><span class="op">,</span> <span class="st">&quot;JavaScript&quot;</span>)<span class="op">;</span></span>
+<span id="cb13-7"><a href="javascript-standard-library.html#cb13-7" tabindex="-1"></a>result <span class="op">=</span> result<span class="op">.</span><span class="fu">replace</span>(<span class="ss">/incorrect/gi</span><span class="op">,</span> <span class="st">&quot;correct&quot;</span>)<span class="op">;</span></span>
+<span id="cb13-8"><a href="javascript-standard-library.html#cb13-8" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(result)<span class="op">;</span></span></code></pre></div></li>
+<li><p><code>match()</code></p>
+<p><strong>str-method-match.js</strong></p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb14-1"><a href="javascript-standard-library.html#cb14-1" tabindex="-1"></a><span class="kw">let</span> result<span class="op">;</span></span>
+<span id="cb14-2"><a href="javascript-standard-library.html#cb14-2" tabindex="-1"></a></span>
+<span id="cb14-3"><a href="javascript-standard-library.html#cb14-3" tabindex="-1"></a><span class="kw">const</span> text <span class="op">=</span> <span class="st">&quot;7 plus 8 equals 15&quot;</span><span class="op">;</span></span>
+<span id="cb14-4"><a href="javascript-standard-library.html#cb14-4" tabindex="-1"></a></span>
+<span id="cb14-5"><a href="javascript-standard-library.html#cb14-5" tabindex="-1"></a>result <span class="op">=</span> text<span class="op">.</span><span class="fu">match</span>(<span class="ss">/</span><span class="sc">\d+</span><span class="ss">/g</span>)<span class="op">;</span>    <span class="co">// =&gt; [&quot;7&quot;, &quot;8&quot;, &quot;15&quot;]</span></span>
+<span id="cb14-6"><a href="javascript-standard-library.html#cb14-6" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(result)<span class="op">;</span></span>
+<span id="cb14-7"><a href="javascript-standard-library.html#cb14-7" tabindex="-1"></a></span>
+<span id="cb14-8"><a href="javascript-standard-library.html#cb14-8" tabindex="-1"></a>result <span class="op">=</span> text<span class="op">.</span><span class="fu">match</span>(<span class="ss">/</span><span class="sc">\d+</span><span class="ss">/</span>)<span class="op">;</span>    <span class="co">// =&gt; returns an array</span></span>
+<span id="cb14-9"><a href="javascript-standard-library.html#cb14-9" tabindex="-1"></a>                               <span class="co">//    with complete description of </span></span>
+<span id="cb14-10"><a href="javascript-standard-library.html#cb14-10" tabindex="-1"></a>                               <span class="co">//    how its matched to the text</span></span>
+<span id="cb14-11"><a href="javascript-standard-library.html#cb14-11" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(result)<span class="op">;</span></span></code></pre></div></li>
+<li><p><code>matchAll()</code></p>
+<p><strong>str-method-mathc-all.js</strong></p>
+<div class="sourceCode" id="cb15"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb15-1"><a href="javascript-standard-library.html#cb15-1" tabindex="-1"></a><span class="co">// One or more Unicode alphabetical characters between word boundaries</span></span>
+<span id="cb15-2"><a href="javascript-standard-library.html#cb15-2" tabindex="-1"></a><span class="kw">const</span> words <span class="op">=</span> <span class="ss">/</span><span class="sc">\b\p</span><span class="ss">{Alphabetic}</span><span class="sc">+\b</span><span class="ss">/gu</span><span class="op">;</span>   <span class="co">// \p is not supported in Firefox yet</span></span>
+<span id="cb15-3"><a href="javascript-standard-library.html#cb15-3" tabindex="-1"></a><span class="kw">const</span> text <span class="op">=</span> <span class="st">&quot;This is a naïve test of the matchAll() method.&quot;</span><span class="op">;</span></span>
+<span id="cb15-4"><a href="javascript-standard-library.html#cb15-4" tabindex="-1"></a><span class="cf">for</span> (<span class="kw">let</span> word <span class="kw">of</span> text<span class="op">.</span><span class="fu">matchAll</span>(words)) {</span>
+<span id="cb15-5"><a href="javascript-standard-library.html#cb15-5" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="vs">`Found &#39;</span><span class="sc">${</span>word[<span class="dv">0</span>]<span class="sc">}</span><span class="vs">&#39; at index </span><span class="sc">${</span>word<span class="op">.</span><span class="at">index</span><span class="sc">}</span><span class="vs">.`</span>)<span class="op">;</span></span>
+<span id="cb15-6"><a href="javascript-standard-library.html#cb15-6" tabindex="-1"></a>}</span></code></pre></div></li>
+<li><p><code>split()</code></p>
+<p><strong>str-method-split.js</strong></p>
+<div class="sourceCode" id="cb16"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb16-1"><a href="javascript-standard-library.html#cb16-1" tabindex="-1"></a><span class="kw">let</span> result<span class="op">;</span></span>
+<span id="cb16-2"><a href="javascript-standard-library.html#cb16-2" tabindex="-1"></a></span>
+<span id="cb16-3"><a href="javascript-standard-library.html#cb16-3" tabindex="-1"></a>result <span class="op">=</span> <span class="st">&quot;123,456,789&quot;</span><span class="op">.</span><span class="fu">split</span>(<span class="st">&quot;,&quot;</span>)<span class="op">;</span></span>
+<span id="cb16-4"><a href="javascript-standard-library.html#cb16-4" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(result)<span class="op">;</span></span>
+<span id="cb16-5"><a href="javascript-standard-library.html#cb16-5" tabindex="-1"></a></span>
+<span id="cb16-6"><a href="javascript-standard-library.html#cb16-6" tabindex="-1"></a>result <span class="op">=</span> <span class="st">&quot;1, 2, 3,</span><span class="sc">\n</span><span class="st">4, 5&quot;</span><span class="op">.</span><span class="fu">split</span>(<span class="ss">/</span><span class="sc">\s*</span><span class="ss">,</span><span class="sc">\s*</span><span class="ss">/</span>)<span class="op">;</span></span>
+<span id="cb16-7"><a href="javascript-standard-library.html#cb16-7" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(result)<span class="op">;</span></span>
+<span id="cb16-8"><a href="javascript-standard-library.html#cb16-8" tabindex="-1"></a></span>
+<span id="cb16-9"><a href="javascript-standard-library.html#cb16-9" tabindex="-1"></a><span class="kw">const</span> htmlTag <span class="op">=</span> <span class="ss">/&lt;</span><span class="sc">([^&gt;]+)</span><span class="ss">&gt;/</span><span class="op">;</span>    <span class="co">// &lt; followed by one or more nan -&gt;, followed by &gt;</span></span>
+<span id="cb16-10"><a href="javascript-standard-library.html#cb16-10" tabindex="-1"></a>result <span class="op">=</span> <span class="st">&quot;Testing&lt;br/&gt;1,2,3&quot;</span><span class="op">.</span><span class="fu">split</span>(htmlTag)<span class="op">;</span>    <span class="co">// [&quot;Testing&quot;, &quot;br/&quot;, &quot;1,2,3&quot;]</span></span>
+<span id="cb16-11"><a href="javascript-standard-library.html#cb16-11" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(result)<span class="op">;</span></span></code></pre></div></li>
+</ul>
+<p>Beberapa sumber yang berguna untuk mendalami penggunaan praktis, eksplorasi,
+dan pengujian <em>regular expression</em> adalah sebagai berikut:
+- Buku yang menjelaskan <em>regular expression</em> dalam JavaScript
+- <a href="https://learnbyexample.github.io/learn_js_regexp/cover.html">(Agarwal, 2021) - <em>JavaScrip RegExp - an example based guide</em></a><br />
+- <a href="https://www.amazon.in/Regex-Cheat-Sheet-javascript-expressions-ebook/dp/B07Q1J9FRL">(Johansson, 2019) - <em>Regex Cheat Sheet</em></a></p>
+<ul>
+<li><p>Visualisasi <em>regular expression</em> JavaScript ke dalam <em>railroad diagram</em>:
+<a href="https://jex.im/regulex/#!flags=&amp;re=%5E(a%7Cb)*%3F%24">jex.im</a></p></li>
+<li><p>Pengujian <em>regular expression</em> di JavaScript dan bahasa lainnya:
+<a href="https://extendsclass.com/regex-tester.html#js">regex-tester</a></p></li>
+<li><p>Beberapa contoh penggunaan <em>regular expression</em> dalam kasus nyata
+(lihat bagian <em>Community Pattern</em>): <a href="https://regexr.com/3h62s">regexr</a></p></li>
+<li><p><em>Cheatsheet</em> some important regular expression:
+<a href="https://twitter.com/CodingTute/status/1414644705460035595/photo/1">JavaScript RegEx CheatSheet by CodingTute</a></p></li>
+<li><p>100 seconds explanation by Fireship.io about regular expression:
+<a href="https://fireship.io/lessons/regex-cheat-sheet-js/">JavaScript RegEx CheatSheet by Fireship.io</a></p></li>
+<li><p>Useful RegEx API in JavaScript (including other JavaScript built-in command
+and object): <a href="https://overapi.com/javascript">overapi.com</a></p></li>
+</ul>
 </div>
 <div id="dates-and-times" class="section level2 hasAnchor" number="11.3">
 <h2><span class="header-section-number">11.3</span> Dates and Times<a href="javascript-standard-library.html#dates-and-times" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Web API berikutnya adalah pengelolaan variable tanggal dan waktu
+(<em>Dates and Times</em>). Berikut ini adalah contoh penggunaan
+object <code>Date</code> dan beberapa method untuk memanipulasi
+pencetakan tanggal dan waktu pada <em>terminal</em></p>
+<p><strong>date-obj.js</strong></p>
+<div class="sourceCode" id="cb17"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb17-1"><a href="javascript-standard-library.html#cb17-1" tabindex="-1"></a><span class="kw">function</span> <span class="fu">print</span>(s) { <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="op">...</span>s)<span class="op">;</span> }<span class="op">;</span></span>
+<span id="cb17-2"><a href="javascript-standard-library.html#cb17-2" tabindex="-1"></a><span class="kw">let</span> result<span class="op">;</span></span>
+<span id="cb17-3"><a href="javascript-standard-library.html#cb17-3" tabindex="-1"></a></span>
+<span id="cb17-4"><a href="javascript-standard-library.html#cb17-4" tabindex="-1"></a><span class="kw">let</span> now <span class="op">=</span> <span class="kw">new</span> <span class="bu">Date</span>()<span class="op">;</span>     <span class="co">// The current time</span></span>
+<span id="cb17-5"><a href="javascript-standard-library.html#cb17-5" tabindex="-1"></a><span class="fu">print</span>([<span class="st">&quot;now: &quot;</span><span class="op">,</span> now])<span class="op">;</span></span>
+<span id="cb17-6"><a href="javascript-standard-library.html#cb17-6" tabindex="-1"></a></span>
+<span id="cb17-7"><a href="javascript-standard-library.html#cb17-7" tabindex="-1"></a><span class="kw">let</span> epoch <span class="op">=</span> <span class="kw">new</span> <span class="bu">Date</span>(<span class="dv">0</span>)<span class="op">;</span>  <span class="co">// Midnight, January 1st, 1970, GMT</span></span>
+<span id="cb17-8"><a href="javascript-standard-library.html#cb17-8" tabindex="-1"></a><span class="fu">print</span>([<span class="st">&quot;epoch: &quot;</span><span class="op">,</span> epoch])<span class="op">;</span></span>
+<span id="cb17-9"><a href="javascript-standard-library.html#cb17-9" tabindex="-1"></a></span>
+<span id="cb17-10"><a href="javascript-standard-library.html#cb17-10" tabindex="-1"></a><span class="kw">let</span> century <span class="op">=</span> <span class="kw">new</span> <span class="bu">Date</span>(<span class="dv">2100</span><span class="op">,</span>          <span class="co">// Year 2100</span></span>
+<span id="cb17-11"><a href="javascript-standard-library.html#cb17-11" tabindex="-1"></a>                       <span class="dv">0</span><span class="op">,</span>             <span class="co">// January</span></span>
+<span id="cb17-12"><a href="javascript-standard-library.html#cb17-12" tabindex="-1"></a>                       <span class="dv">1</span><span class="op">,</span>             <span class="co">// 1st</span></span>
+<span id="cb17-13"><a href="javascript-standard-library.html#cb17-13" tabindex="-1"></a>                       <span class="dv">2</span><span class="op">,</span> <span class="dv">3</span><span class="op">,</span> <span class="dv">4</span><span class="op">,</span> <span class="dv">5</span>)<span class="op">;</span>   <span class="co">// 02:03:04.005, local time</span></span>
+<span id="cb17-14"><a href="javascript-standard-library.html#cb17-14" tabindex="-1"></a><span class="fu">print</span>([<span class="st">&quot;century: &quot;</span><span class="op">,</span> century])<span class="op">;</span></span>
+<span id="cb17-15"><a href="javascript-standard-library.html#cb17-15" tabindex="-1"></a></span>
+<span id="cb17-16"><a href="javascript-standard-library.html#cb17-16" tabindex="-1"></a><span class="co">// Midnight in England, January 1, 2100</span></span>
+<span id="cb17-17"><a href="javascript-standard-library.html#cb17-17" tabindex="-1"></a>century <span class="op">=</span> <span class="kw">new</span> <span class="bu">Date</span>(<span class="bu">Date</span><span class="op">.</span><span class="fu">UTC</span>(<span class="dv">2100</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">1</span>))<span class="op">;</span></span>
+<span id="cb17-18"><a href="javascript-standard-library.html#cb17-18" tabindex="-1"></a><span class="fu">print</span>([<span class="st">&quot;century: &quot;</span><span class="op">,</span> century])<span class="op">;</span></span>
+<span id="cb17-19"><a href="javascript-standard-library.html#cb17-19" tabindex="-1"></a><span class="fu">print</span>([<span class="st">&quot;century.toString(): &quot;</span><span class="op">,</span> century<span class="op">.</span><span class="fu">toString</span>()])<span class="op">;</span></span>
+<span id="cb17-20"><a href="javascript-standard-library.html#cb17-20" tabindex="-1"></a><span class="fu">print</span>([<span class="st">&quot;century.toUTCString(): &quot;</span><span class="op">,</span> century<span class="op">.</span><span class="fu">toUTCString</span>()])<span class="op">;</span></span>
+<span id="cb17-21"><a href="javascript-standard-library.html#cb17-21" tabindex="-1"></a><span class="fu">print</span>([<span class="st">&quot;century.toISOString(): &quot;</span><span class="op">,</span> century<span class="op">.</span><span class="fu">toISOString</span>()])<span class="op">;</span></span>
+<span id="cb17-22"><a href="javascript-standard-library.html#cb17-22" tabindex="-1"></a></span>
+<span id="cb17-23"><a href="javascript-standard-library.html#cb17-23" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>()<span class="op">;</span></span>
+<span id="cb17-24"><a href="javascript-standard-library.html#cb17-24" tabindex="-1"></a>century <span class="op">=</span> <span class="kw">new</span> <span class="bu">Date</span>(<span class="st">&quot;2100-01-01T00:00:00Z&quot;</span>)<span class="op">;</span>   <span class="co">// An ISO format date</span></span>
+<span id="cb17-25"><a href="javascript-standard-library.html#cb17-25" tabindex="-1"></a><span class="fu">print</span>([<span class="st">&quot;century.toISOString(): &quot;</span><span class="op">,</span> century<span class="op">.</span><span class="fu">toISOString</span>()])<span class="op">;</span></span></code></pre></div>
+<p>Untuk melakukan aritmatika dengan object <em>Dates and Time</em>, kita perlu
+menggunakan beberapa <em>method</em> <code>get</code> dan <code>set</code> yang sudah disediakan
+oleh <em>library Dates and Time</em></p>
+<p><strong>date-arithmetic.js</strong></p>
+<div class="sourceCode" id="cb18"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb18-1"><a href="javascript-standard-library.html#cb18-1" tabindex="-1"></a><span class="kw">function</span> <span class="fu">print</span>(s) { <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="op">...</span>s)<span class="op">;</span> }<span class="op">;</span></span>
+<span id="cb18-2"><a href="javascript-standard-library.html#cb18-2" tabindex="-1"></a></span>
+<span id="cb18-3"><a href="javascript-standard-library.html#cb18-3" tabindex="-1"></a><span class="kw">let</span> d <span class="op">=</span> <span class="kw">new</span> <span class="bu">Date</span>()<span class="op">;</span></span>
+<span id="cb18-4"><a href="javascript-standard-library.html#cb18-4" tabindex="-1"></a><span class="fu">print</span>([<span class="st">&quot;d: &quot;</span><span class="op">,</span> d])<span class="op">;</span></span>
+<span id="cb18-5"><a href="javascript-standard-library.html#cb18-5" tabindex="-1"></a></span>
+<span id="cb18-6"><a href="javascript-standard-library.html#cb18-6" tabindex="-1"></a>d<span class="op">.</span><span class="fu">setMonth</span>(d<span class="op">.</span><span class="fu">getMonth</span>() <span class="op">+</span> <span class="dv">3</span><span class="op">,</span> d<span class="op">.</span><span class="fu">getDate</span>() <span class="op">+</span> <span class="dv">14</span>)<span class="op">;</span></span>
+<span id="cb18-7"><a href="javascript-standard-library.html#cb18-7" tabindex="-1"></a><span class="fu">print</span>([<span class="st">&quot;d: &quot;</span><span class="op">,</span> d])<span class="op">;</span></span>
+<span id="cb18-8"><a href="javascript-standard-library.html#cb18-8" tabindex="-1"></a></span>
+<span id="cb18-9"><a href="javascript-standard-library.html#cb18-9" tabindex="-1"></a>d<span class="op">.</span><span class="fu">setTime</span>(d<span class="op">.</span><span class="fu">getTime</span>() <span class="op">+</span> <span class="dv">30_000</span>)<span class="op">;</span>      <span class="co">// add 30 seconds</span></span>
+<span id="cb18-10"><a href="javascript-standard-library.html#cb18-10" tabindex="-1"></a><span class="fu">print</span>([<span class="st">&quot;d: &quot;</span><span class="op">,</span> d])<span class="op">;</span></span></code></pre></div>
 </div>
 <div id="timers" class="section level2 hasAnchor" number="11.4">
 <h2><span class="header-section-number">11.4</span> Timers<a href="javascript-standard-library.html#timers" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Merupakan fungsi bawaan JavaScript yang berfungsi untuk
+melakukan jeda sebelum program atau perintah dieksekusi.
+Berikut contoh penggunaan Timer yang digunakan bersamaan
+dengan perintah <code>console.log()</code></p>
+<p><strong>timer-set-timeout.js</strong></p>
+<div class="sourceCode" id="cb19"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb19-1"><a href="javascript-standard-library.html#cb19-1" tabindex="-1"></a><span class="pp">setTimeout</span>(() <span class="kw">=&gt;</span> { <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;Read...&quot;</span>)<span class="op">;</span> }<span class="op">,</span> <span class="dv">1000</span>)<span class="op">;</span></span>
+<span id="cb19-2"><a href="javascript-standard-library.html#cb19-2" tabindex="-1"></a><span class="pp">setTimeout</span>(() <span class="kw">=&gt;</span> { <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;set...&quot;</span>)<span class="op">;</span> }<span class="op">,</span> <span class="dv">2000</span>)<span class="op">;</span></span>
+<span id="cb19-3"><a href="javascript-standard-library.html#cb19-3" tabindex="-1"></a><span class="pp">setTimeout</span>(() <span class="kw">=&gt;</span> { <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;go!&quot;</span>)}<span class="op">,</span> <span class="dv">3000</span>)<span class="op">;</span></span></code></pre></div>
+<p>Berikut ini penggunaan <code>setTimeout</code> dan <code>setInterval</code>
+untuk membuat jam digital dengan format waktu lokal.</p>
+<p><strong>timer-digital-clock.js</strong></p>
+<div class="sourceCode" id="cb20"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb20-1"><a href="javascript-standard-library.html#cb20-1" tabindex="-1"></a><span class="co">// Once a second; clear the console and print the current time</span></span>
+<span id="cb20-2"><a href="javascript-standard-library.html#cb20-2" tabindex="-1"></a><span class="kw">let</span> clock <span class="op">=</span> <span class="pp">setInterval</span>(() <span class="kw">=&gt;</span> {</span>
+<span id="cb20-3"><a href="javascript-standard-library.html#cb20-3" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">clear</span>()<span class="op">;</span></span>
+<span id="cb20-4"><a href="javascript-standard-library.html#cb20-4" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="kw">new</span> <span class="bu">Date</span>()<span class="op">.</span><span class="fu">toLocaleTimeString</span>())<span class="op">;</span></span>
+<span id="cb20-5"><a href="javascript-standard-library.html#cb20-5" tabindex="-1"></a>}<span class="op">,</span> <span class="dv">1000</span>)<span class="op">;</span></span>
+<span id="cb20-6"><a href="javascript-standard-library.html#cb20-6" tabindex="-1"></a></span>
+<span id="cb20-7"><a href="javascript-standard-library.html#cb20-7" tabindex="-1"></a><span class="co">// After 10 seconds: stop the repeating code above</span></span>
+<span id="cb20-8"><a href="javascript-standard-library.html#cb20-8" tabindex="-1"></a><span class="pp">setTimeout</span>(() <span class="kw">=&gt;</span> { <span class="pp">clearInterval</span>(clock)<span class="op">;</span> }<span class="op">,</span> <span class="dv">10000</span>)<span class="op">;</span></span>
+<span id="cb20-9"><a href="javascript-standard-library.html#cb20-9" tabindex="-1"></a></span>
+<span id="cb20-10"><a href="javascript-standard-library.html#cb20-10" tabindex="-1"></a></span>
+<span id="cb20-11"><a href="javascript-standard-library.html#cb20-11" tabindex="-1"></a><span class="co">// The above program is an example of asynchronous programming</span></span></code></pre></div>
 </div>
 <div id="exercises-7" class="section level2 unnumbered hasAnchor">
 <h2>Exercises<a href="javascript-standard-library.html#exercises-7" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ol style="list-style-type: decimal">
+<li><p>Pilih dan telusuri satu <a href="https://developer.mozilla.org/en-US/docs/Web/API">Web APIs</a>
+di daftar yang ada di MDN Web Docs. Berikan salah satu
+contoh penggunaan yang berhubungan langsung dengan permasalahan organisasi
+atau manajemen.</p></li>
+<li><p>Berikut ini diberikan data <em>last access</em> LMS ITK untuk mahasiswa
+Sistem Informasi yang mengikuti mata kuliah Pemrograman Terstruktur.
+Data dapat diunduh di <a href="https://drive.google.com/file/d/13bHyYF85LUnGM2I-daKvknllMnuo3RIi">20230426-1505WITA-last-access.json</a>.
+Menggunakan <em>regular expression</em>, seleksi setiap baris untuk mendapatkan
+jam dan menit.
+Menggunakan nama file yang diberikan, tentukan waktu terakhir (tanggal
+dan jam LMS diakses oleh mahasiswa). Perhitungan waktu bisa menggunakan
+<em>library Dates and Times</em>.</p></li>
+</ol>
 
 </div>
 </div>
@@ -293,7 +1017,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/USERNAME/REPO/edit/BRANCH/11-js-stdlib.Rmd",
+"link": "https://github.com/LugoBlogger/struct-prog-js/edit/main/11-js-stdlib.Rmd",
 "text": "Edit"
 },
 "history": {

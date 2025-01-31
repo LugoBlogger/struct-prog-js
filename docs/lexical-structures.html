@@ -12,7 +12,7 @@ set in the _output.yml file.</p>" />
 
   <meta property="og:title" content="3 Lexical Structures | Structured Programming with JavaScript" />
   <meta property="og:type" content="book" />
-  
+  <meta property="og:image" content="https://github.com/LugoBlogger/struct-prog-js/blob/main/images/cover.png" />
   <meta property="og:description" content="<p>This is a minimal example of using the bookdown package to write a book.
 The HTML output format for this example is bookdown::gitbook,
 set in the _output.yml file.</p>" />
@@ -24,7 +24,7 @@ set in the _output.yml file.</p>" />
   <meta name="twitter:description" content="<p>This is a minimal example of using the bookdown package to write a book.
 The HTML output format for this example is bookdown::gitbook,
 set in the _output.yml file.</p>" />
-  
+  <meta name="twitter:image" content="https://github.com/LugoBlogger/struct-prog-js/blob/main/images/cover.png" />
 
 <meta name="author" content="Henokh Lugo Hariyanto Arif Wicaksono Septyanto" />
 
@@ -59,6 +59,71 @@ set in the _output.yml file.</p>" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
+<style type="text/css">
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
 
 <style type="text/css">
   
@@ -83,13 +148,14 @@ set in the _output.yml file.</p>" />
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Prelude</a>
 <ul>
-<li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#intended-reader"><i class="fa fa-check"></i><b>0.1</b> Intended reader</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#intended-reader"><i class="fa fa-check"></i>Intended reader</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#how-to-read-and-code"><i class="fa fa-check"></i>How to read (and code)</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#colophon"><i class="fa fa-check"></i>Colophon</a></li>
 </ul></li>
 <li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
 <ul>
 <li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#structured-programming"><i class="fa fa-check"></i><b>1.1</b> Structured programming</a></li>
-<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#motivation"><i class="fa fa-check"></i><b>1.2</b> Motivation</a></li>
+<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#the-goal-of-this-book"><i class="fa fa-check"></i><b>1.2</b> The goal of this book</a></li>
 <li class="chapter" data-level="1.3" data-path="introduction.html"><a href="introduction.html#how-to-learn"><i class="fa fa-check"></i><b>1.3</b> How to learn</a></li>
 <li class="chapter" data-level="1.4" data-path="introduction.html"><a href="introduction.html#short-tips"><i class="fa fa-check"></i><b>1.4</b> Short tips</a></li>
 </ul></li>
@@ -107,10 +173,9 @@ set in the _output.yml file.</p>" />
 <ul>
 <li class="chapter" data-level="3.1" data-path="lexical-structures.html"><a href="lexical-structures.html#case-sensitivity-spaces-and-line-breaks"><i class="fa fa-check"></i><b>3.1</b> Case sensitivity, spaces, and line breaks</a></li>
 <li class="chapter" data-level="3.2" data-path="lexical-structures.html"><a href="lexical-structures.html#comments"><i class="fa fa-check"></i><b>3.2</b> Comments</a></li>
-<li class="chapter" data-level="3.3" data-path="lexical-structures.html"><a href="lexical-structures.html#literals"><i class="fa fa-check"></i><b>3.3</b> Literals</a></li>
-<li class="chapter" data-level="3.4" data-path="lexical-structures.html"><a href="lexical-structures.html#identifiers-and-reserved-words"><i class="fa fa-check"></i><b>3.4</b> Identifiers and Reserved Words</a></li>
-<li class="chapter" data-level="3.5" data-path="lexical-structures.html"><a href="lexical-structures.html#unicode"><i class="fa fa-check"></i><b>3.5</b> Unicode</a></li>
-<li class="chapter" data-level="3.6" data-path="lexical-structures.html"><a href="lexical-structures.html#optional-semicolons"><i class="fa fa-check"></i><b>3.6</b> Optional semicolons</a></li>
+<li class="chapter" data-level="3.3" data-path="lexical-structures.html"><a href="lexical-structures.html#identifiers-and-reserved-words"><i class="fa fa-check"></i><b>3.3</b> Identifiers and Reserved Words</a></li>
+<li class="chapter" data-level="3.4" data-path="lexical-structures.html"><a href="lexical-structures.html#unicode"><i class="fa fa-check"></i><b>3.4</b> Unicode</a></li>
+<li class="chapter" data-level="3.5" data-path="lexical-structures.html"><a href="lexical-structures.html#optional-semicolons"><i class="fa fa-check"></i><b>3.5</b> Optional semicolons</a></li>
 <li class="chapter" data-level="" data-path="lexical-structures.html"><a href="lexical-structures.html#exercises"><i class="fa fa-check"></i>Exercises</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="types-values-and-variables.html"><a href="types-values-and-variables.html"><i class="fa fa-check"></i><b>4</b> Types, Values and Variables</a>
@@ -217,9 +282,6 @@ set in the _output.yml file.</p>" />
 </ul></li>
 <li class="chapter" data-level="15" data-path="javascript-in-web-browser-learning-animation.html"><a href="javascript-in-web-browser-learning-animation.html"><i class="fa fa-check"></i><b>15</b> JavaScript in Web Browser: Learning animation</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
-<li class="divider"></li>
-<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-
 </ul>
 
       </nav>
@@ -239,23 +301,150 @@ set in the _output.yml file.</p>" />
             <section class="normal" id="section-">
 <div id="lexical-structures" class="section level1 hasAnchor" number="3">
 <h1><span class="header-section-number">3</span> Lexical Structures<a href="lexical-structures.html#lexical-structures" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Struktur leksikal adalah suatu kumpulan aturan dasar yang mengatur tata cara
+menuliskan program dengan bahasa yang kita pilih, misalnya disini
+struktur leksikal yang akan kita bahas adalah JavaScript.</p>
+<p>Struktur leksikal mengatur sintaks (tata cara penulisan) bahasa JavaScript.
+terkait penamaan variable, karakter <em>delimiters</em> untuk <em>comments</em>,
+dan tata cara memisahkan satu <em>statement</em> dengan <em>statement</em> yang lain.</p>
+<p>Ada 6 hal yang akan kita coba untuk pelajari secara langsung melalui penulisan
+kode JavaScript</p>
+<ul>
+<li>Sensitivitas penamaan variabel, aturan spasi antar sintaks, dan spasi
+antar baris</li>
+<li><em>Comments</em></li>
+<li>Literal</li>
+<li><em>Identifiers</em> dan <em>Reserved words</em></li>
+<li>Unicode</li>
+<li>Penggunaan titik koma (<em>semicolon</em>)</li>
+</ul>
 <div id="case-sensitivity-spaces-and-line-breaks" class="section level2 hasAnchor" number="3.1">
 <h2><span class="header-section-number">3.1</span> Case sensitivity, spaces, and line breaks<a href="lexical-structures.html#case-sensitivity-spaces-and-line-breaks" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li><p>Huruf besar kecil menentukan pembeda antara nama variables:<br />
+<strong>case-sensitive.js</strong></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb1-1"><a href="lexical-structures.html#cb1-1" tabindex="-1"></a>  <span class="kw">let</span> Hello <span class="op">=</span> <span class="dv">1</span><span class="op">;</span></span>
+<span id="cb1-2"><a href="lexical-structures.html#cb1-2" tabindex="-1"></a>  <span class="kw">let</span> hello <span class="op">=</span> <span class="dv">2</span><span class="op">;</span></span>
+<span id="cb1-3"><a href="lexical-structures.html#cb1-3" tabindex="-1"></a>  <span class="kw">let</span> heLLo <span class="op">=</span> <span class="dv">3</span><span class="op">;</span></span>
+<span id="cb1-4"><a href="lexical-structures.html#cb1-4" tabindex="-1"></a>  <span class="kw">let</span> HELLO <span class="op">=</span> <span class="dv">4</span><span class="op">;</span></span>
+<span id="cb1-5"><a href="lexical-structures.html#cb1-5" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(Hello<span class="op">,</span> hello<span class="op">,</span> heLLo<span class="op">,</span> HELLO)</span></code></pre></div></li>
+<li><p>Spasi antara token (nama variable, tanda operator dan nilai variable)
+dapat diabaikan<br />
+<strong>ignored-space.js</strong></p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb2-1"><a href="lexical-structures.html#cb2-1" tabindex="-1"></a>  <span class="kw">let</span> hello<span class="op">=</span><span class="dv">1</span><span class="op">;</span></span>
+<span id="cb2-2"><a href="lexical-structures.html#cb2-2" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(hello)<span class="op">;</span></span>
+<span id="cb2-3"><a href="lexical-structures.html#cb2-3" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="lexical-structures.html#cb2-4" tabindex="-1"></a>  hello <span class="op">=</span>        <span class="dv">5</span><span class="op">;</span></span>
+<span id="cb2-5"><a href="lexical-structures.html#cb2-5" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(hello)<span class="op">;</span></span></code></pre></div></li>
+<li><p><em>Line breaks</em> dapat diabaikan dalam penulisan kode JavaScript asalkan
+dipisahkan dengan titik koma (<em>semicolon</em>)<br />
+<strong>ignored-linebreaks.js</strong></p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb3-1"><a href="lexical-structures.html#cb3-1" tabindex="-1"></a>  <span class="kw">let</span> hello <span class="op">=</span> <span class="dv">1</span><span class="op">;</span> world <span class="op">=</span> <span class="dv">5</span><span class="op">;</span> <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(hello<span class="op">,</span> world)<span class="op">;</span></span></code></pre></div></li>
+</ul>
 </div>
 <div id="comments" class="section level2 hasAnchor" number="3.2">
 <h2><span class="header-section-number">3.2</span> Comments<a href="lexical-structures.html#comments" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Pembuatan komentar sangat perlu untuk memberitahu <em>programmer</em> seperti apa
+jalannya program yang dia buat.</p>
+<ul>
+<li><p>Komentar satu baris dapat menggunakan <em>double slashes</em></p></li>
+<li><p>Komentar untuk baris untuk lebih dari satu baris menggunakan
+pasangan buka tutup <em>slashes and stars</em>: <code>/* */</code></p></li>
+</ul>
+<p><strong>comment-in-js.js</strong>
+```js
+// Ini merupakan komentar satu baris</p>
+<pre><code>/*
+ * Ini merupakan komentar lebih dari satu baris. Ekstra satu karakter *
+ * diawal bari tidak harus ditulis. Itu ditulis hanya untuk terlihat
+ * lebih konsisten dan menarik.
+ */</code></pre>
+<pre><code>
+## Literals
+
+- *Literals* adalah suatu nilai data yang ditulis secara langsung menggunakan 
+ karakter seperti contohnya karakter angka &quot;2&quot;, akan memberikan bilangan bulat
+ 2 apabila diberikan pada suatu variabel. Berikut beberapa contoh *literals*
+ dan penggunaannya. (literal disini diberikan sebagai nilai sebelah
+ kanan tanda &quot;=&quot;).    
+**literals.js**
+```js
+  let int_num = 12;             // Bilangan bulat dua belas
+  let dec_num = 1.2;            // Bilangan desimal 1.2
+  let str_1 = &quot;hello world!&quot;;   // string &quot;hello world&quot;
+  let str_2 = &#39;Hi&#39;;             // string dengan delimiter tanda petik satu 
+  let bool_1 = true;            // Nilai boolean true
+  let bool_2 = false;           // Nilai boolean false;
+  let null_obj = null;          // nilai untuk ketidakadaan tipe data objek</code></pre>
 </div>
-<div id="literals" class="section level2 hasAnchor" number="3.3">
-<h2><span class="header-section-number">3.3</span> Literals<a href="lexical-structures.html#literals" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="identifiers-and-reserved-words" class="section level2 hasAnchor" number="3.3">
+<h2><span class="header-section-number">3.3</span> Identifiers and Reserved Words<a href="lexical-structures.html#identifiers-and-reserved-words" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li><p><em>Identifier</em> berarti nama. <em>identifier</em> biasanya
+digunakan untuk menamakan nilai konstanta, <em>variable</em>, <em>properties</em>,
+<em>class</em>, dan label untuk iterasi dalam perulangan.<br />
+<em>Identifier</em> dalam JavaScript harus diawali oleh suatu huruf (bukan angka),
+garis bawah (<em>underscore</em>) atau tanda dollar (<em>dollar sign</em>).
+Huruf kedua dan selanjutnya boleh angka, garis bawah, atau tanda dollar.<br />
+<strong>identifiers-reserved.js</strong></p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb6-1"><a href="lexical-structures.html#cb6-1" tabindex="-1"></a>  <span class="co">// Berikut ini adalah identifier yang legal</span></span>
+<span id="cb6-2"><a href="lexical-structures.html#cb6-2" tabindex="-1"></a>  <span class="kw">let</span> i <span class="op">=</span> <span class="dv">0</span><span class="op">;</span>                        <span class="co">// i adalah identifier</span></span>
+<span id="cb6-3"><a href="lexical-structures.html#cb6-3" tabindex="-1"></a>  <span class="kw">let</span> my_variable_name <span class="op">=</span> <span class="st">&quot;name&quot;</span><span class="op">;</span>    <span class="co">// tanda garis bawah setelah huruf pertama</span></span>
+<span id="cb6-4"><a href="lexical-structures.html#cb6-4" tabindex="-1"></a>  <span class="kw">let</span> v13 <span class="op">=</span> <span class="fl">13.3</span><span class="op">;</span>                   <span class="co">// angka setelah huruf pertama</span></span>
+<span id="cb6-5"><a href="lexical-structures.html#cb6-5" tabindex="-1"></a>  <span class="kw">let</span> _dummy <span class="op">=</span> <span class="st">&quot;dummy&quot;</span><span class="op">;</span>             <span class="co">// boleh diawali tanda garis bawah</span></span>
+<span id="cb6-6"><a href="lexical-structures.html#cb6-6" tabindex="-1"></a>  <span class="kw">let</span> $str <span class="op">=</span> <span class="st">&#39;new string&#39;</span><span class="op">;</span>          <span class="co">// boleh diawali oleh tanda dollar</span></span>
+<span id="cb6-7"><a href="lexical-structures.html#cb6-7" tabindex="-1"></a>  <span class="kw">let</span> new$sign <span class="op">=</span> <span class="st">&quot;rupiah&quot;</span><span class="op">;</span>          <span class="co">// tanda dolar boleh setelah huruf pertama</span></span>
+<span id="cb6-8"><a href="lexical-structures.html#cb6-8" tabindex="-1"></a></span>
+<span id="cb6-9"><a href="lexical-structures.html#cb6-9" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(i<span class="op">,</span> my_variable_name<span class="op">,</span> v13<span class="op">,</span> _dummy<span class="op">,</span> $str<span class="op">,</span> new$sign)<span class="op">;</span></span></code></pre></div>
+<p><em>Reserved words</em> merupakan kata-kata yang sudah dipakai oleh JavaScript
+untuk menamakan beberapa prosedur dan tidak bisa digunakan untuk
+penamaan variable. Berikut adalah daftar <em>reserved words</em> yang umum digunakan
+oleh JavaScript.</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb7-1"><a href="lexical-structures.html#cb7-1" tabindex="-1"></a>  <span class="im">as</span>          <span class="kw">const</span>       <span class="im">export</span>    <span class="kw">get</span>         <span class="kw">null</span>      target      <span class="kw">void</span></span>
+<span id="cb7-2"><a href="lexical-structures.html#cb7-2" tabindex="-1"></a>  <span class="kw">async</span>       <span class="cf">continue</span>    <span class="kw">extends</span>   <span class="cf">if</span>          <span class="kw">of</span>        <span class="kw">this</span>        <span class="cf">while</span></span>
+<span id="cb7-3"><a href="lexical-structures.html#cb7-3" tabindex="-1"></a>  <span class="cf">await</span>       <span class="cf">debugger</span>    <span class="kw">false</span>     <span class="im">import</span>      <span class="cf">return</span>    <span class="cf">throw</span>       <span class="cf">with</span></span>
+<span id="cb7-4"><a href="lexical-structures.html#cb7-4" tabindex="-1"></a>  <span class="cf">break</span>       <span class="im">default</span>     <span class="cf">finally</span>   <span class="kw">in</span>          <span class="kw">set</span>       <span class="kw">true</span>        <span class="kw">yield</span></span>
+<span id="cb7-5"><a href="lexical-structures.html#cb7-5" tabindex="-1"></a>  <span class="cf">case</span>        <span class="kw">delete</span>      <span class="cf">for</span>       <span class="kw">instanceof</span>  <span class="kw">static</span>    <span class="cf">try</span>         <span class="cf">catch</span></span>
+<span id="cb7-6"><a href="lexical-structures.html#cb7-6" tabindex="-1"></a>  <span class="cf">do</span>          <span class="im">from</span>        <span class="kw">let</span>       <span class="kw">super</span>       <span class="kw">typeof</span>    <span class="kw">class</span>       <span class="cf">else</span></span>
+<span id="cb7-7"><a href="lexical-structures.html#cb7-7" tabindex="-1"></a>  <span class="kw">function</span>    <span class="kw">new</span>         <span class="cf">switch</span>    <span class="kw">var</span></span></code></pre></div></li>
+</ul>
 </div>
-<div id="identifiers-and-reserved-words" class="section level2 hasAnchor" number="3.4">
-<h2><span class="header-section-number">3.4</span> Identifiers and Reserved Words<a href="lexical-structures.html#identifiers-and-reserved-words" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="unicode" class="section level2 hasAnchor" number="3.4">
+<h2><span class="header-section-number">3.4</span> Unicode<a href="lexical-structures.html#unicode" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Unicode character adalah daftar kode untuk representasi huruf yang lebih luas. Contohnya seperti huruf-huruf jawa, emoji, latin, jepang, mandarin, dst.<br />
+Di dalam JavaScript dapat menggunakan karakter Unicode sebagai <em>identifier</em>,
+namun tidak disarankan secara <em>programming convention</em> untuk urusan portability,
+artinya program diusahakan sebisa mungkin dapat dipahami oleh banyak orang
+dengan berbagai latar belakang bahasa dan abjad yang digunakan.
+Namun untuk nilai dari <em>identifiers</em> boleh menggunakan karakter Unicode;
+Berikut contoh penggunaan Unicode:<br />
+<strong>unicode.js</strong></p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb8-1"><a href="lexical-structures.html#cb8-1" tabindex="-1"></a>  <span class="kw">const</span> π <span class="op">=</span> <span class="fl">3.14</span><span class="op">;</span></span>
+<span id="cb8-2"><a href="lexical-structures.html#cb8-2" tabindex="-1"></a>  <span class="kw">const</span> истинный <span class="op">=</span> <span class="kw">true</span><span class="op">;</span></span>
+<span id="cb8-3"><a href="lexical-structures.html#cb8-3" tabindex="-1"></a>  <span class="kw">const</span> emoji <span class="op">=</span> <span class="st">&quot;🤯&quot;</span><span class="op">;</span>           <span class="co">// unicode emoji sebagai value</span></span>
+<span id="cb8-4"><a href="lexical-structures.html#cb8-4" tabindex="-1"></a>  <span class="kw">const</span> javanese_nya <span class="op">=</span> <span class="st">&quot;ꦚ&quot;</span><span class="op">;</span>    <span class="co">// unicode aksara jawa sebagai value</span></span>
+<span id="cb8-5"><a href="lexical-structures.html#cb8-5" tabindex="-1"></a>  <span class="kw">const</span> otherworld <span class="op">=</span> <span class="st">&quot;異世界&quot;</span><span class="op">;</span>    <span class="co">// unicode kanji sebagai value</span></span>
+<span id="cb8-6"><a href="lexical-structures.html#cb8-6" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(π<span class="op">,</span> истинный<span class="op">,</span> emoji<span class="op">,</span> javanese_nya<span class="op">,</span> otherworld)<span class="op">;</span></span>
+<span id="cb8-7"><a href="lexical-structures.html#cb8-7" tabindex="-1"></a></span>
+<span id="cb8-8"><a href="lexical-structures.html#cb8-8" tabindex="-1"></a>  <span class="co">// pemanggilan karakter Unicode sebagai idenfier bisa menggunakan cara</span></span>
+<span id="cb8-9"><a href="lexical-structures.html#cb8-9" tabindex="-1"></a>  <span class="co">// sebagai berikut</span></span>
+<span id="cb8-10"><a href="lexical-structures.html#cb8-10" tabindex="-1"></a>  <span class="kw">let</span> café <span class="op">=</span> <span class="dv">1</span><span class="op">;</span>   <span class="co">// mendefinisikan variable dengan nama identifier memuat unicode</span></span>
+<span id="cb8-11"><a href="lexical-structures.html#cb8-11" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(caf\u00e9<span class="op">,</span> caf\u{E9})  <span class="co">// dua cara untuk memanggil identifier café&quot;</span></span></code></pre></div>
 </div>
-<div id="unicode" class="section level2 hasAnchor" number="3.5">
-<h2><span class="header-section-number">3.5</span> Unicode<a href="lexical-structures.html#unicode" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-</div>
-<div id="optional-semicolons" class="section level2 hasAnchor" number="3.6">
-<h2><span class="header-section-number">3.6</span> Optional semicolons<a href="lexical-structures.html#optional-semicolons" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="optional-semicolons" class="section level2 hasAnchor" number="3.5">
+<h2><span class="header-section-number">3.5</span> Optional semicolons<a href="lexical-structures.html#optional-semicolons" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Pada bagian pertama, kita sudah membahas bahwa kita dapat mengabaikan
+<em>line breaks</em> dengan cara menggunakan titik koma (<em>semicolon</em>).<br />
+Namun kita sebenarnya dapat juga sebaliknya mengabaikan <em>semicolon</em>,
+namun kita perlu menambahkan <em>line breaks</em>. Sebagai contoh:</p>
+<p><strong>ignored-semicolon.js</strong></p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb9-1"><a href="lexical-structures.html#cb9-1" tabindex="-1"></a>  <span class="kw">let</span> a</span>
+<span id="cb9-2"><a href="lexical-structures.html#cb9-2" tabindex="-1"></a>  a</span>
+<span id="cb9-3"><a href="lexical-structures.html#cb9-3" tabindex="-1"></a>  <span class="op">=</span></span>
+<span id="cb9-4"><a href="lexical-structures.html#cb9-4" tabindex="-1"></a>  <span class="dv">3</span></span>
+<span id="cb9-5"><a href="lexical-structures.html#cb9-5" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(a)<span class="op">;</span></span></code></pre></div>
+<p>Kode di atas setara dengan satu baris kode berikut:</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb10-1"><a href="lexical-structures.html#cb10-1" tabindex="-1"></a>  <span class="kw">let</span> a<span class="op">;</span> a <span class="op">=</span> <span class="dv">3</span><span class="op">;</span> <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(a)<span class="op">;</span></span></code></pre></div>
 </div>
 <div id="exercises" class="section level2 unnumbered hasAnchor">
 <h2>Exercises<a href="lexical-structures.html#exercises" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -299,7 +488,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/USERNAME/REPO/edit/BRANCH/03-lexical-struct.Rmd",
+"link": "https://github.com/LugoBlogger/struct-prog-js/edit/main/03-lexical-struct.Rmd",
 "text": "Edit"
 },
 "history": {

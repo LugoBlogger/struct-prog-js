@@ -1,1 +1,10 @@
 # Playing around with JavaScript Progam
+
+In this part, we present some interesting problems and how to solve
+it using JavaScript step-by-step. We also provide some theoretical background
+and historical point of view why the problem is so important to learn.
+
+<!--
+Use competitive programming exercises such as
+backtracking algorithm, search algorithm, sorting algorith, etc.
+-->

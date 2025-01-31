@@ -12,7 +12,7 @@ set in the _output.yml file.</p>" />
 
   <meta property="og:title" content="4 Types, Values and Variables | Structured Programming with JavaScript" />
   <meta property="og:type" content="book" />
-  
+  <meta property="og:image" content="https://github.com/LugoBlogger/struct-prog-js/blob/main/images/cover.png" />
   <meta property="og:description" content="<p>This is a minimal example of using the bookdown package to write a book.
 The HTML output format for this example is bookdown::gitbook,
 set in the _output.yml file.</p>" />
@@ -24,7 +24,7 @@ set in the _output.yml file.</p>" />
   <meta name="twitter:description" content="<p>This is a minimal example of using the bookdown package to write a book.
 The HTML output format for this example is bookdown::gitbook,
 set in the _output.yml file.</p>" />
-  
+  <meta name="twitter:image" content="https://github.com/LugoBlogger/struct-prog-js/blob/main/images/cover.png" />
 
 <meta name="author" content="Henokh Lugo Hariyanto Arif Wicaksono Septyanto" />
 
@@ -59,6 +59,71 @@ set in the _output.yml file.</p>" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
+<style type="text/css">
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
 
 <style type="text/css">
   
@@ -83,13 +148,14 @@ set in the _output.yml file.</p>" />
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Prelude</a>
 <ul>
-<li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#intended-reader"><i class="fa fa-check"></i><b>0.1</b> Intended reader</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#intended-reader"><i class="fa fa-check"></i>Intended reader</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#how-to-read-and-code"><i class="fa fa-check"></i>How to read (and code)</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#colophon"><i class="fa fa-check"></i>Colophon</a></li>
 </ul></li>
 <li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
 <ul>
 <li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#structured-programming"><i class="fa fa-check"></i><b>1.1</b> Structured programming</a></li>
-<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#motivation"><i class="fa fa-check"></i><b>1.2</b> Motivation</a></li>
+<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#the-goal-of-this-book"><i class="fa fa-check"></i><b>1.2</b> The goal of this book</a></li>
 <li class="chapter" data-level="1.3" data-path="introduction.html"><a href="introduction.html#how-to-learn"><i class="fa fa-check"></i><b>1.3</b> How to learn</a></li>
 <li class="chapter" data-level="1.4" data-path="introduction.html"><a href="introduction.html#short-tips"><i class="fa fa-check"></i><b>1.4</b> Short tips</a></li>
 </ul></li>
@@ -217,9 +283,6 @@ set in the _output.yml file.</p>" />
 </ul></li>
 <li class="chapter" data-level="15" data-path="javascript-in-web-browser-learning-animation.html"><a href="javascript-in-web-browser-learning-animation.html"><i class="fa fa-check"></i><b>15</b> JavaScript in Web Browser: Learning animation</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
-<li class="divider"></li>
-<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-
 </ul>
 
       </nav>
@@ -239,35 +302,352 @@ set in the _output.yml file.</p>" />
             <section class="normal" id="section-">
 <div id="types-values-and-variables" class="section level1 hasAnchor" number="4">
 <h1><span class="header-section-number">4</span> Types, Values and Variables<a href="types-values-and-variables.html#types-values-and-variables" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p>Pada bab ini kita akan membahas <em>types</em>, <em>values</em>, dan <em>variables</em>.
+Istilah <em>types</em> merupakan wakilan dari nilai (<em>values</em>) yang dapat
+kita manipulasi (dijumlahkan, digabungkan, dsb.). Jika dalam bahasa pemrograman
+Python biasanya disebut <em>data types</em>, tapi dalam bahasa pemrograman JavaScript
+lebih sering disebut <em>types</em>. Mengetahui <em>types</em> yang tepat untuk nilai
+yang ingin kita wakilkan merupakan syarat untuk membangun suatu program
+yang fleksibel.</p>
+<p>Maksud fleksibel disini adalah kita dapat memanipulasi nilai, mengubah
+satu <em>type</em> ke <em>type</em> yang lain.</p>
+<p>Proses pengubahan nilai (<em>value</em>) dan <em>type</em> ini didukung dengan
+kemampuan <em>variables</em> di dalam JavaScript. <em>Variable</em> adalah suatu nama yang
+menunjuk kepada suatu nilai yang nilainya dapat kita ubah-ubah.
+Pada pertemuan sebelumnya kita telah belajar mengenai bagaimana penggunaan
+<em>identifier</em> untuk menamakan <em>variable</em>. Proses modifikasi
+yang fleksibel ini (yang hampir dimiliki oleh berbagai macam bahasa pemrograman) yanng dimiliki oleh <em>variable</em>
+membuat JavaScript dapat digunakan hampir di segala permasalahan komputasi.</p>
+<p>Beberapa topik yang akan kita kaji dalam sesi praktikum ini adalah:</p>
+<ul>
+<li>Beberapa istilah penting dalam <em>types</em></li>
+<li><em>Type</em>: <code>Numbers</code></li>
+<li><em>Type</em>: <code>Text</code></li>
+<li><em>Type</em>: <code>Boolean</code></li>
+<li><em>Special type</em>: <code>null</code> and <code>undefined</code></li>
+<li><em>Type</em>: <code>Symbols</code></li>
+<li><em>Value</em>: Global object</li>
+<li><em>Type conversions</em></li>
+<li><em>Variable declaration and assignment</em></li>
+</ul>
 <div id="some-important-terms-in-types" class="section level2 hasAnchor" number="4.1">
 <h2><span class="header-section-number">4.1</span> Some important terms in types<a href="types-values-and-variables.html#some-important-terms-in-types" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><em>Type</em> dalam JavaScript dapat dibagi menjadi dua kategori:
+- <em>primitive types</em>: numbers, strings of text, boolean,
+- <em>object types</em>: selain primitive types</p>
+<p>Demikian pula untuk <em>values</em> dalam JavaScript terdapat dua kategori:
+- <em>primitive values</em>: numbers, string, boolean, symbol, <code>null</code>, <code>undefined</code>
+- <em>object values</em>: (biasanya disebut object) selain primitive values</p>
+<p>Contoh object: <code>Object</code>, <code>Array</code>, <code>Set</code>, <code>Map</code>, <code>RegExp</code>, <code>Date</code>, <code>Error</code>,
+<code>Function</code></p>
+<p>Object type memiliki sifat <em>mutable</em> artinya nilai dari tipe tersebut dapat
+kita ubah-ubah. Berbeda dengan primitive type yang memiliki sifat <em>immutable</em>
+(tidak dapat kita ubah-ubah)</p>
+<p>Berikut potongan kode untuk mengetahui <em>types</em> beberapa <em>primitive type</em>
+dan <em>object type</em></p>
 </div>
 <div id="types-number" class="section level2 hasAnchor" number="4.2">
 <h2><span class="header-section-number">4.2</span> Types: Number<a href="types-values-and-variables.html#types-number" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Merupakan tipe numerik yang sering paling digunakan dalam bahasa pemrograman
+JavaScript.</p>
+<ul>
+<li><p><em>Integer literals</em><br />
+Merupakan data yang berbentuk integer yang dapat di-inputkan secara langsung
+dalam program JavaScript</p>
+<p><strong>integer-literals.js</strong></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb1-1"><a href="types-values-and-variables.html#cb1-1" tabindex="-1"></a><span class="kw">let</span> a <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb1-2"><a href="types-values-and-variables.html#cb1-2" tabindex="-1"></a><span class="kw">let</span> b <span class="op">=</span> <span class="dv">3</span><span class="op">;</span></span>
+<span id="cb1-3"><a href="types-values-and-variables.html#cb1-3" tabindex="-1"></a><span class="kw">let</span> c <span class="op">=</span> <span class="dv">1_000_000</span><span class="op">;</span>  <span class="co">// tanda garis bawah hanya untuk pemisah</span></span>
+<span id="cb1-4"><a href="types-values-and-variables.html#cb1-4" tabindex="-1"></a>                    <span class="co">// tidak mengubah nilai</span></span>
+<span id="cb1-5"><a href="types-values-and-variables.html#cb1-5" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(a<span class="op">,</span> b<span class="op">,</span> c)<span class="op">;</span></span>
+<span id="cb1-6"><a href="types-values-and-variables.html#cb1-6" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="types-values-and-variables.html#cb1-7" tabindex="-1"></a><span class="kw">let</span> d <span class="op">=</span> <span class="bn">0xff</span><span class="op">;</span>       <span class="co">// =&gt; 255: (f*16^1 + f*16^0) = (16*16 + 16*1)</span></span>
+<span id="cb1-8"><a href="types-values-and-variables.html#cb1-8" tabindex="-1"></a><span class="kw">let</span> e <span class="op">=</span> <span class="bn">0x15EC41</span><span class="op">;</span>   <span class="co">// =&gt; 1436737: (1*16^5 + 5*16^4 + E*16^3 + C*16^2 + 4*16^1 + 1*16^0)</span></span>
+<span id="cb1-9"><a href="types-values-and-variables.html#cb1-9" tabindex="-1"></a>                    <span class="co">//             = (1*16^5 + 5*16^4 + 14*16^3 + 12*16^2 + 4*16 + 1*1)</span></span>
+<span id="cb1-10"><a href="types-values-and-variables.html#cb1-10" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(d<span class="op">,</span> e)<span class="op">;</span></span>
+<span id="cb1-11"><a href="types-values-and-variables.html#cb1-11" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="types-values-and-variables.html#cb1-12" tabindex="-1"></a><span class="kw">let</span> f <span class="op">=</span> <span class="bn">0b10101</span><span class="op">;</span>    <span class="co">// =&gt; 21: (1*16 + 0*8 + 1*4 + 0*2 + 1*1)</span></span>
+<span id="cb1-13"><a href="types-values-and-variables.html#cb1-13" tabindex="-1"></a><span class="kw">let</span> g <span class="op">=</span> <span class="bn">0o377</span><span class="op">;</span>      <span class="co">// =&gt; 255: (3*64 + 7*8 + 7*1)</span></span>
+<span id="cb1-14"><a href="types-values-and-variables.html#cb1-14" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(f<span class="op">,</span> g)<span class="op">;</span></span></code></pre></div></li>
+<li><p><em>Floating-Point Literals</em><br />
+Merupakan data yang berbentuk desimal yang dapat di-inputkan secara langsung
+dalam program JavaScript</p>
+<p><strong>floating-point-literals.js</strong></p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb2-1"><a href="types-values-and-variables.html#cb2-1" tabindex="-1"></a><span class="kw">let</span> a <span class="op">=</span> <span class="fl">3.14</span><span class="op">;</span></span>
+<span id="cb2-2"><a href="types-values-and-variables.html#cb2-2" tabindex="-1"></a><span class="kw">let</span> b <span class="op">=</span> <span class="fl">2345.6789</span><span class="op">;</span></span>
+<span id="cb2-3"><a href="types-values-and-variables.html#cb2-3" tabindex="-1"></a><span class="kw">let</span> c <span class="op">=</span> <span class="op">.</span><span class="dv">333_333_333_333_333_333</span>    <span class="co">// tanda garis bawah hanya pemisah</span></span>
+<span id="cb2-4"><a href="types-values-and-variables.html#cb2-4" tabindex="-1"></a>                                    <span class="co">// tidak mengubah nilai</span></span>
+<span id="cb2-5"><a href="types-values-and-variables.html#cb2-5" tabindex="-1"></a><span class="kw">let</span> f <span class="op">=</span> <span class="fl">6.02e23</span><span class="op">;</span>        <span class="co">// 6.02 × 10²³</span></span>
+<span id="cb2-6"><a href="types-values-and-variables.html#cb2-6" tabindex="-1"></a><span class="kw">let</span> g <span class="op">=</span> <span class="fl">1.473822E-32</span>    <span class="co">// 1.4738223 × 10⁻³²</span></span>
+<span id="cb2-7"><a href="types-values-and-variables.html#cb2-7" tabindex="-1"></a></span>
+<span id="cb2-8"><a href="types-values-and-variables.html#cb2-8" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(a<span class="op">,</span> b<span class="op">,</span> c<span class="op">,</span> f<span class="op">,</span> g)<span class="op">;</span></span></code></pre></div></li>
+</ul>
+<p>Terdapat <em>special value</em> dalam <em>type: numeric</em> yaitu <code>NaN</code>.
+<code>NaN</code> digunakan dalam JavaScript untuk mewakili hasil pembagian angka dengan nol
+,penarikan akar bilangan negatif, dan <em>parsing</em> bilangan bulat namun
+input yang diberikan adalah string.</p>
 </div>
 <div id="type-text" class="section level2 hasAnchor" number="4.3">
 <h2><span class="header-section-number">4.3</span> Type: Text<a href="types-values-and-variables.html#type-text" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Merupakan tipe <em>string</em> yang digunakan untuk mewakili teks.</p>
+<ul>
+<li><p><em>String literals</em><br />
+Merupakan data yang berbentuk string yang dapat di-inputkan secara langsung
+dalam program JavaScript</p>
+<p><strong>string-literals.js</strong></p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb3-1"><a href="types-values-and-variables.html#cb3-1" tabindex="-1"></a><span class="kw">let</span> a <span class="op">=</span> <span class="st">&quot;&quot;</span><span class="op">;</span>         <span class="co">// String kosong dehgan nol karakter</span></span>
+<span id="cb3-2"><a href="types-values-and-variables.html#cb3-2" tabindex="-1"></a><span class="kw">let</span> b <span class="op">=</span> <span class="st">&quot;testing&quot;</span><span class="op">;</span></span>
+<span id="cb3-3"><a href="types-values-and-variables.html#cb3-3" tabindex="-1"></a><span class="kw">let</span> c <span class="op">=</span> <span class="st">&quot;3.14&quot;</span><span class="op">;</span>           <span class="co">// angka namun dalam bentuk string</span></span>
+<span id="cb3-4"><a href="types-values-and-variables.html#cb3-4" tabindex="-1"></a><span class="kw">let</span> d <span class="op">=</span> <span class="st">&#39;name=&quot;Hasan&quot;&#39;</span><span class="op">;</span>   <span class="co">// ekspresi dalam string</span></span>
+<span id="cb3-5"><a href="types-values-and-variables.html#cb3-5" tabindex="-1"></a></span>
+<span id="cb3-6"><a href="types-values-and-variables.html#cb3-6" tabindex="-1"></a><span class="kw">let</span> f <span class="op">=</span> <span class="st">&quot;Wouldn&#39;t you prefer to learn JavaScript?&quot;</span><span class="op">;</span></span>
+<span id="cb3-7"><a href="types-values-and-variables.html#cb3-7" tabindex="-1"></a><span class="kw">let</span> g <span class="op">=</span> <span class="vs">`&quot;She said &#39;hi&#39;&quot;, he said.`</span><span class="op">;</span>        <span class="co">// menggunakan backticks</span></span>
+<span id="cb3-8"><a href="types-values-and-variables.html#cb3-8" tabindex="-1"></a></span>
+<span id="cb3-9"><a href="types-values-and-variables.html#cb3-9" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(a)<span class="op">;</span></span>
+<span id="cb3-10"><a href="types-values-and-variables.html#cb3-10" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(b)<span class="op">;</span></span>
+<span id="cb3-11"><a href="types-values-and-variables.html#cb3-11" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(c)<span class="op">;</span></span>
+<span id="cb3-12"><a href="types-values-and-variables.html#cb3-12" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(d)<span class="op">;</span></span>
+<span id="cb3-13"><a href="types-values-and-variables.html#cb3-13" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(f)<span class="op">;</span></span>
+<span id="cb3-14"><a href="types-values-and-variables.html#cb3-14" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(g)<span class="op">;</span></span></code></pre></div></li>
+<li><p><em>Escape sequences</em> di <em>string literals</em><br />
+Merupakan urutan karakter untuk bisa menggunakan karakter yang telah
+digunakan oleh JavaScript. Sebagai contoh
+seperti halnya JavaScript telah menggunakan
+tanda petik dua sebagai awalan dan akhiran suatu string maka dengan
+<em>escape sequences</em>, kita dapat menggunakan secara literal (bukan sebaga
+penanda awalan dan akhiran string) dalam suatu string</p>
+<p><strong>escape-seq.js</strong></p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb4-1"><a href="types-values-and-variables.html#cb4-1" tabindex="-1"></a><span class="kw">let</span> a <span class="op">=</span> <span class="st">&quot;</span><span class="sc">\&quot;</span><span class="st">She said </span><span class="sc">\&#39;</span><span class="st">hi</span><span class="sc">\&#39;\&quot;</span><span class="st">, he said.&quot;</span><span class="op">;</span></span>
+<span id="cb4-2"><a href="types-values-and-variables.html#cb4-2" tabindex="-1"></a><span class="kw">let</span> b <span class="op">=</span> <span class="st">&quot;This is first line;</span><span class="sc">\n</span><span class="st">This is second line&quot;</span><span class="op">;</span></span>
+<span id="cb4-3"><a href="types-values-and-variables.html#cb4-3" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="types-values-and-variables.html#cb4-4" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(a)<span class="op">;</span></span>
+<span id="cb4-5"><a href="types-values-and-variables.html#cb4-5" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(b)<span class="op">;</span></span></code></pre></div>
+<p>Jika mengingat pertemuan sebelumnya terkait pembahasan Unicode, kita
+mengetahui untuk meng-input karakter Unicode, kita menggunakan awalan <code>\u</code>.
+Awalan ini juga termasuk <em>escape sequences</em>.</p></li>
+<li><p><em>Template Literals</em>
+Serupa dengan <em>string literals</em> namun kita dapat menyediakan
+<em>template</em> dengan cara mensubstitusikan nama variable yang menyimpan
+suatu nilai. Khusus <em>template literals</em>, <em>delimiters</em> (tanda awalan
+dan akhiran suatu string) menggunakan <em>backticks</em> (`).</p>
+<p><strong>template-literals.js</strong></p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb5-1"><a href="types-values-and-variables.html#cb5-1" tabindex="-1"></a><span class="kw">let</span> name <span class="op">=</span> <span class="st">&quot;Randy&quot;</span><span class="op">;</span></span>
+<span id="cb5-2"><a href="types-values-and-variables.html#cb5-2" tabindex="-1"></a><span class="kw">let</span> greeting <span class="op">=</span> <span class="vs">`Selamat datang </span><span class="sc">${</span>name<span class="sc">}</span><span class="vs">.`</span><span class="op">;</span></span>
+<span id="cb5-3"><a href="types-values-and-variables.html#cb5-3" tabindex="-1"></a></span>
+<span id="cb5-4"><a href="types-values-and-variables.html#cb5-4" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(greeting)<span class="op">;</span></span></code></pre></div>
+<p>Pada kode di atas, <code>${name}</code> akan dieksekusi menjadi “Randy”
+dan string <code>Randy</code> akan ditambahkan pada string sebelumnya (<code>Selamat datang</code>)</p></li>
+</ul>
 </div>
 <div id="type-boolean" class="section level2 hasAnchor" number="4.4">
 <h2><span class="header-section-number">4.4</span> Type: Boolean<a href="types-values-and-variables.html#type-boolean" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Merupakan <em>type</em> yang digunakan untuk mewakili kondisi Boolean
+(benar atau salah). Untuk <em>type</em> ini hanya memiliki dua kemungkinan nilai
+yaitu (<code>true</code> dan <code>false</code>).<br />
+Di dalam JavaScript dikenal istilah <em>falsy</em>, yang artinya untuk suatu
+nilai dalam JavaScript bernilai <code>false</code> jika dikonversi ke <em>type</em> Boolean.</p>
+<p>Berikut adalah nilai yang akan dikonversi menjadi <code>false</code> jika dikonversi
+ke <em>type</em> Boolean.</p>
+<p><strong>falsy-values.js</strong></p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb6-1"><a href="types-values-and-variables.html#cb6-1" tabindex="-1"></a><span class="kw">let</span> a <span class="op">=</span> <span class="kw">undefined</span><span class="op">;</span></span>
+<span id="cb6-2"><a href="types-values-and-variables.html#cb6-2" tabindex="-1"></a><span class="kw">let</span> b <span class="op">=</span> <span class="kw">null</span><span class="op">;</span></span>
+<span id="cb6-3"><a href="types-values-and-variables.html#cb6-3" tabindex="-1"></a><span class="kw">let</span> c <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb6-4"><a href="types-values-and-variables.html#cb6-4" tabindex="-1"></a><span class="kw">let</span> d <span class="op">=</span> <span class="op">-</span><span class="dv">0</span><span class="op">;</span></span>
+<span id="cb6-5"><a href="types-values-and-variables.html#cb6-5" tabindex="-1"></a><span class="kw">let</span> f <span class="op">=</span> <span class="kw">NaN</span><span class="op">;</span>    <span class="co">// NaN: Not a Number</span></span>
+<span id="cb6-6"><a href="types-values-and-variables.html#cb6-6" tabindex="-1"></a><span class="kw">let</span> g <span class="op">=</span> <span class="st">&quot;&quot;</span><span class="op">;</span></span>
+<span id="cb6-7"><a href="types-values-and-variables.html#cb6-7" tabindex="-1"></a></span>
+<span id="cb6-8"><a href="types-values-and-variables.html#cb6-8" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(</span>
+<span id="cb6-9"><a href="types-values-and-variables.html#cb6-9" tabindex="-1"></a>  <span class="bu">Boolean</span>(a)<span class="op">,</span> <span class="bu">Boolean</span>(b)<span class="op">,</span> <span class="bu">Boolean</span>(c)<span class="op">,</span> </span>
+<span id="cb6-10"><a href="types-values-and-variables.html#cb6-10" tabindex="-1"></a>  <span class="bu">Boolean</span>(d)<span class="op">,</span> <span class="bu">Boolean</span>(f)<span class="op">,</span> <span class="bu">Boolean</span>(g))<span class="op">;</span></span></code></pre></div>
 </div>
 <div id="special-type-null-and-undefined" class="section level2 hasAnchor" number="4.5">
 <h2><span class="header-section-number">4.5</span> Special type: <code>null</code> and <code>undefined</code><a href="types-values-and-variables.html#special-type-null-and-undefined" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><code>null</code> umumnya digunakan sebagai wakilan untuk suatu keadaan tanpa nilai.
+Misal untuk <em>type</em> data numerik kita bisa membuat keadaan tanpa nilai adalah 0.
+Namun untuk <em>type</em> yang lebih umum seperti string, atau <em>object type</em>,
+ada banyak pilihan untuk menentukan keadaan nol atau tanpa nilai.
+Disitulah <em>null</em> hadir untuk memperumum keadaan tanpa nilai untuk berbagai
+<em>object type</em>.</p>
+<p>Sedangkan <code>undefined</code> merupakan keadaan saat suatu nama <em>variable</em> belum
+kita tentukan jenis <em>type</em>-nya. Atau suatu keadaan yang kita tidak tahu
+dia harus seperti apa.</p>
+<p>Berikut tabel perbedaan antara <code>null</code> dan <code>undefined</code>
+| <code>null</code> | <code>undefined</code> |
+|———–|———————————————-|
+| tidak memiliki nilai, dan <strong>sengaja digunakan sebagai <em>value</em></strong> | dideklarasikan, tapi <strong>belum diberikan <em>value</em></strong> |
+| jenis <em>type</em>-nya adalah <code>object</code> | jenis <em>type</em>-nya adalah <code>undefined</code> |
+| perilaku aritmatik seperti <code>0</code> | perilaku aritmatik seperti <code>NaN</code> |</p>
+<p>Pendeklarasian adalah proses memberikan <em>type</em> dari suatu variable dan bisa
+disertai pemberian <em>value</em> atau tidak.</p>
+<p>Berikut adalah pengujian tabel perbedaan di atas</p>
+<p><strong>null-and-undefined.js</strong></p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb7-1"><a href="types-values-and-variables.html#cb7-1" tabindex="-1"></a><span class="kw">let</span> a <span class="op">=</span> <span class="kw">null</span><span class="op">;</span></span>
+<span id="cb7-2"><a href="types-values-and-variables.html#cb7-2" tabindex="-1"></a><span class="kw">let</span> b <span class="op">=</span> <span class="kw">undefined</span><span class="op">;</span></span>
+<span id="cb7-3"><a href="types-values-and-variables.html#cb7-3" tabindex="-1"></a></span>
+<span id="cb7-4"><a href="types-values-and-variables.html#cb7-4" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;typeof(a) : &quot;</span><span class="op">,</span> <span class="kw">typeof</span>(a))<span class="op">;</span></span>
+<span id="cb7-5"><a href="types-values-and-variables.html#cb7-5" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;typeof(b) : &quot;</span><span class="op">,</span> <span class="kw">typeof</span>(b))<span class="op">;</span></span>
+<span id="cb7-6"><a href="types-values-and-variables.html#cb7-6" tabindex="-1"></a></span>
+<span id="cb7-7"><a href="types-values-and-variables.html#cb7-7" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;a + 0: &quot;</span><span class="op">,</span> a <span class="op">+</span> <span class="dv">0</span>)<span class="op">;</span></span>
+<span id="cb7-8"><a href="types-values-and-variables.html#cb7-8" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;a - 0: &quot;</span><span class="op">,</span> a <span class="op">-</span> <span class="dv">0</span>)<span class="op">;</span></span>
+<span id="cb7-9"><a href="types-values-and-variables.html#cb7-9" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;a + 5: &quot;</span><span class="op">,</span> a <span class="op">+</span> <span class="dv">5</span>)<span class="op">;</span></span>
+<span id="cb7-10"><a href="types-values-and-variables.html#cb7-10" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;b + 0: &quot;</span><span class="op">,</span> b <span class="op">+</span> <span class="dv">0</span>)<span class="op">;</span></span>
+<span id="cb7-11"><a href="types-values-and-variables.html#cb7-11" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;b - 0: &quot;</span><span class="op">,</span> b <span class="op">-</span> <span class="dv">0</span>)<span class="op">;</span></span>
+<span id="cb7-12"><a href="types-values-and-variables.html#cb7-12" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;b + 5: &quot;</span><span class="op">,</span> b <span class="op">+</span> <span class="dv">5</span>)<span class="op">;</span></span>
+<span id="cb7-13"><a href="types-values-and-variables.html#cb7-13" tabindex="-1"></a></span>
+<span id="cb7-14"><a href="types-values-and-variables.html#cb7-14" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;a === 0&quot;</span><span class="op">,</span> a <span class="op">===</span> <span class="dv">0</span>)<span class="op">;</span></span>
+<span id="cb7-15"><a href="types-values-and-variables.html#cb7-15" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;b === NaN&quot;</span><span class="op">,</span> b <span class="op">===</span> <span class="kw">NaN</span>)<span class="op">;</span></span></code></pre></div>
 </div>
 <div id="type-symbols" class="section level2 hasAnchor" number="4.6">
 <h2><span class="header-section-number">4.6</span> Type: Symbols<a href="types-values-and-variables.html#type-symbols" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Digunakan untuk untuk penamaan <em>key</em> atau <em>property name</em> dalam <em>object type</em>.
+Kita akan membahas tentanng Symbol di pertemuan tentang <em>Object type</em>.</p>
+<p>Berikut adalah contoh bahwa <code>object type</code> Symbols tidak akan pernah
+menghasilkan nilai yang sama ketika didefinsikan dengan nilai yang sama</p>
+<p><strong>symbols-demo.js</strong></p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb8-1"><a href="types-values-and-variables.html#cb8-1" tabindex="-1"></a><span class="kw">let</span> a <span class="op">=</span> <span class="bu">Symbol</span>(<span class="st">&quot;property_a&quot;</span>)<span class="op">;</span></span>
+<span id="cb8-2"><a href="types-values-and-variables.html#cb8-2" tabindex="-1"></a><span class="kw">let</span> b <span class="op">=</span> <span class="bu">Symbol</span>(<span class="st">&quot;property_a&quot;</span>)<span class="op">;</span></span>
+<span id="cb8-3"><a href="types-values-and-variables.html#cb8-3" tabindex="-1"></a></span>
+<span id="cb8-4"><a href="types-values-and-variables.html#cb8-4" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(a <span class="op">===</span> b)<span class="op">;</span></span></code></pre></div>
 </div>
 <div id="value-global-object" class="section level2 hasAnchor" number="4.7">
 <h2><span class="header-section-number">4.7</span> Value: Global object<a href="types-values-and-variables.html#value-global-object" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li>Ketika program interpreter JavaScript (contohnya: Node.js atau
+web browser) mulai berjalan, program tersebut akan membuat suatu
+objek global dan memberikan sekumpulan <em>properties</em> yang mendefinisikan
+beberapa nilai berikut:
+<ol style="list-style-type: decimal">
+<li><em>Global constants</em>, seperti: <code>undefined</code>, <code>Infinity</code>, dan <code>NaN</code>.</li>
+<li><em>Global functions</em>, seperti: <code>isNaN()</code>, <code>parseInt()</code>, dan <code>eval()</code></li>
+<li>Fungsi konstruktor, seperti: <code>Date()</code>, <code>RegExp()</code>, <code>String()</code>, <code>Object()</code>,
+<code>Array()</code>.</li>
+<li>Objek global, seperti: Math dan JSON.</li>
+</ol>
+Seperti yang telah dibahas dalam sesi kuliah, pendeklarasian
+variable yang bersifat global sangat susah untuk ditelusuri perubahannya
+apabila terjadi <em>bug</em>. Global object digunakan untuk suatu nilai yang konstan
+dalam satu program. Kita akan kembali ke pembahasan global object pada
+pertemuan tentang <em>Object type</em> dan <em>Function</em>.</li>
+</ul>
 </div>
 <div id="type-conversions" class="section level2 hasAnchor" number="4.8">
 <h2><span class="header-section-number">4.8</span> Type conversions<a href="types-values-and-variables.html#type-conversions" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li><p>Perlu diketahu JavaScript dapat melakukan pengubahan <em>type</em> suatu <em>literal</em>
+dalam suatu operasi aritmatik secara otomatis</p>
+<p><strong>autoconversion-type-.js</strong></p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb9-1"><a href="types-values-and-variables.html#cb9-1" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="dv">10</span> <span class="op">+</span> <span class="st">&quot; apples&quot;</span>)<span class="op">;</span>    <span class="co">// =&gt; &quot;10 appels&quot;: Bilangan 10 dikonversi menjadi suatu string</span></span>
+<span id="cb9-2"><a href="types-values-and-variables.html#cb9-2" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;7&quot;</span> <span class="op">*</span> <span class="st">&quot;4&quot;</span>)<span class="op">;</span>         <span class="co">// =&gt; 28: kedua string dikonversi ke bilangan</span></span>
+<span id="cb9-3"><a href="types-values-and-variables.html#cb9-3" tabindex="-1"></a></span>
+<span id="cb9-4"><a href="types-values-and-variables.html#cb9-4" tabindex="-1"></a><span class="kw">let</span> n <span class="op">=</span> <span class="dv">1</span> <span class="op">-</span> <span class="st">&quot;x&quot;</span><span class="op">;</span>                <span class="co">// n === NaN; string &quot;x&quot; tidak dapat dikonversi ke bilangan</span></span>
+<span id="cb9-5"><a href="types-values-and-variables.html#cb9-5" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(n <span class="op">+</span> <span class="st">&quot;thing(s)&quot;</span>)<span class="op">;</span>    <span class="co">// =&gt; &quot;NaN thing(s)&quot;: NaN dikonversi ke string &quot;NaN&quot;.</span></span></code></pre></div></li>
+<li><p>Beberapa fungsi konversi eksplisit dalam JavaScript</p>
+<p><strong>explictit-conversion-func.js</strong></p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb10-1"><a href="types-values-and-variables.html#cb10-1" tabindex="-1"></a><span class="kw">let</span> a <span class="op">=</span> <span class="bu">Number</span>(<span class="st">&quot;3&quot;</span>)<span class="op">;</span>      </span>
+<span id="cb10-2"><a href="types-values-and-variables.html#cb10-2" tabindex="-1"></a><span class="kw">let</span> b <span class="op">=</span> <span class="bu">String</span>(<span class="kw">false</span>)<span class="op">;</span></span>
+<span id="cb10-3"><a href="types-values-and-variables.html#cb10-3" tabindex="-1"></a><span class="kw">let</span> c <span class="op">=</span> <span class="bu">Boolean</span>([])<span class="op">;</span>                <span class="co">// Mengkonversi array kosong ke Boolean *type*</span></span>
+<span id="cb10-4"><a href="types-values-and-variables.html#cb10-4" tabindex="-1"></a><span class="kw">let</span> d <span class="op">=</span> <span class="st">&quot;0b&quot;</span> <span class="op">+</span> (<span class="dv">2023</span>)<span class="op">.</span><span class="fu">toString</span>(<span class="dv">2</span>)<span class="op">;</span>  <span class="co">// Argumen toString menunjukkan basis bilangan</span></span>
+<span id="cb10-5"><a href="types-values-and-variables.html#cb10-5" tabindex="-1"></a></span>
+<span id="cb10-6"><a href="types-values-and-variables.html#cb10-6" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(a<span class="op">,</span> b<span class="op">,</span> c<span class="op">,</span> d)<span class="op">;</span></span>
+<span id="cb10-7"><a href="types-values-and-variables.html#cb10-7" tabindex="-1"></a></span>
+<span id="cb10-8"><a href="types-values-and-variables.html#cb10-8" tabindex="-1"></a><span class="kw">let</span> f <span class="op">=</span> (<span class="dv">2023</span>)<span class="op">.</span><span class="fu">toFixed</span>(<span class="dv">3</span>)     <span class="co">// Argument toFixed menunjukkan banyaknya angka di belakang titik</span></span>
+<span id="cb10-9"><a href="types-values-and-variables.html#cb10-9" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(f)<span class="op">;</span></span>
+<span id="cb10-10"><a href="types-values-and-variables.html#cb10-10" tabindex="-1"></a></span>
+<span id="cb10-11"><a href="types-values-and-variables.html#cb10-11" tabindex="-1"></a><span class="kw">let</span> g <span class="op">=</span> (<span class="fl">0.001</span>)<span class="op">.</span><span class="fu">toExponential</span>(<span class="dv">3</span>)    <span class="co">// Argument toExponential menunjukkan banyaknya angka di belakang titik</span></span>
+<span id="cb10-12"><a href="types-values-and-variables.html#cb10-12" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(g)<span class="op">;</span></span>
+<span id="cb10-13"><a href="types-values-and-variables.html#cb10-13" tabindex="-1"></a></span>
+<span id="cb10-14"><a href="types-values-and-variables.html#cb10-14" tabindex="-1"></a><span class="kw">let</span> h <span class="op">=</span> (<span class="dv">2023</span>)<span class="op">.</span><span class="fu">toPrecision</span>(<span class="dv">6</span>)<span class="op">;</span>    <span class="co">// Argument toPrecision menunjukkan banyaknya karakter yang ingin ditampilkan</span></span>
+<span id="cb10-15"><a href="types-values-and-variables.html#cb10-15" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(h)<span class="op">;</span></span></code></pre></div></li>
+<li><p>Untuk melakukan konversi string menuju numbers ada dua fungsi yang sering
+digunakan (<code>parseInt</code> dan <code>parseFloat</code>).</p>
+<p><strong>number-parsers.js</strong></p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb11-1"><a href="types-values-and-variables.html#cb11-1" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="pp">parseInt</span>(<span class="st">&quot;3 blind mice&quot;</span>))<span class="op">;</span>      <span class="co">// =&gt; 3</span></span>
+<span id="cb11-2"><a href="types-values-and-variables.html#cb11-2" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="pp">parseFloat</span>(<span class="st">&quot; 3.14 meters&quot;</span>))<span class="op">;</span>    <span class="co">// =&gt; 3.14</span></span>
+<span id="cb11-3"><a href="types-values-and-variables.html#cb11-3" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="pp">parseInt</span>(<span class="st">&quot;-12.34&quot;</span>))<span class="op">;</span>            <span class="co">// =&gt; -12</span></span>
+<span id="cb11-4"><a href="types-values-and-variables.html#cb11-4" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="pp">parseInt</span>(<span class="st">&quot;0xFF&quot;</span>))<span class="op">;</span>              <span class="co">// =&gt; 255</span></span>
+<span id="cb11-5"><a href="types-values-and-variables.html#cb11-5" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="pp">parseInt</span>(<span class="st">&quot;0xff&quot;</span>))<span class="op">;</span>              <span class="co">// =&gt; 255</span></span>
+<span id="cb11-6"><a href="types-values-and-variables.html#cb11-6" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="pp">parseInt</span>(<span class="st">&quot;-0XFF&quot;</span>))<span class="op">;</span>             <span class="co">// =&gt; -255</span></span>
+<span id="cb11-7"><a href="types-values-and-variables.html#cb11-7" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="pp">parseFloat</span>(<span class="st">&quot;.1&quot;</span>))<span class="op">;</span>              <span class="co">// =&gt; 0.1</span></span>
+<span id="cb11-8"><a href="types-values-and-variables.html#cb11-8" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="pp">parseInt</span>(<span class="st">&quot;0.1&quot;</span>))<span class="op">;</span>               <span class="co">// =&gt; 0</span></span>
+<span id="cb11-9"><a href="types-values-and-variables.html#cb11-9" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="pp">parseInt</span>(<span class="st">&quot;.1&quot;</span>))<span class="op">;</span>                <span class="co">// =&gt; NaN: integers can&#39;t start with &quot;.&quot;</span></span>
+<span id="cb11-10"><a href="types-values-and-variables.html#cb11-10" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="pp">parseFloat</span>(<span class="st">&quot;$72.47&quot;</span>))<span class="op">;</span>          <span class="co">// =&gt; NaN: numbers can&#39;t start with $</span></span>
+<span id="cb11-11"><a href="types-values-and-variables.html#cb11-11" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="pp">parseInt</span>(<span class="st">&quot;11&quot;</span><span class="op">,</span> <span class="dv">2</span>))<span class="op">;</span>             <span class="co">// =&gt; 3: (1*2 + 1)</span></span>
+<span id="cb11-12"><a href="types-values-and-variables.html#cb11-12" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="pp">parseInt</span>(<span class="st">&quot;ff&quot;</span><span class="op">,</span> <span class="dv">16</span>))<span class="op">;</span>            <span class="co">// =&gt; 255: (15*16 + 15)</span></span>
+<span id="cb11-13"><a href="types-values-and-variables.html#cb11-13" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="pp">parseInt</span>(<span class="st">&quot;zz&quot;</span><span class="op">,</span> <span class="dv">36</span>))<span class="op">;</span>            <span class="co">// =&gt; 1295: (35*36 + 35)</span></span>
+<span id="cb11-14"><a href="types-values-and-variables.html#cb11-14" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="pp">parseInt</span>(<span class="st">&quot;077&quot;</span><span class="op">,</span> <span class="dv">8</span>))<span class="op">;</span>            <span class="co">// =&gt; 63: (7*8 + 7)</span></span>
+<span id="cb11-15"><a href="types-values-and-variables.html#cb11-15" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="pp">parseInt</span>(<span class="st">&quot;077&quot;</span><span class="op">,</span> <span class="dv">10</span>))<span class="op">;</span>           <span class="co">// =&gt; 77: (7*10 + 7)</span></span></code></pre></div></li>
+<li><p>Beberapa trik konversi menggunakan operator (tentang operator akan
+dibahas di bab ke-5);</p>
+<p><strong>conversion-trick.js</strong></p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb12-1"><a href="types-values-and-variables.html#cb12-1" tabindex="-1"></a><span class="kw">let</span> a <span class="op">=</span> <span class="dv">5</span><span class="op">;</span></span>
+<span id="cb12-2"><a href="types-values-and-variables.html#cb12-2" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(a <span class="op">+</span> <span class="st">&quot;&quot;</span>)<span class="op">;</span>    <span class="co">// =&gt; String(5)</span></span>
+<span id="cb12-3"><a href="types-values-and-variables.html#cb12-3" tabindex="-1"></a></span>
+<span id="cb12-4"><a href="types-values-and-variables.html#cb12-4" tabindex="-1"></a><span class="kw">let</span> b <span class="op">=</span> <span class="st">&quot;32&quot;</span><span class="op">;</span> </span>
+<span id="cb12-5"><a href="types-values-and-variables.html#cb12-5" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="op">+</span>b)<span class="op">;</span>        <span class="co">// =&gt; Number(&quot;32&quot;);</span></span>
+<span id="cb12-6"><a href="types-values-and-variables.html#cb12-6" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(b <span class="op">-</span> <span class="dv">0</span>)<span class="op">;</span>     <span class="co">// =&gt; Number(&quot;32&quot;);</span></span>
+<span id="cb12-7"><a href="types-values-and-variables.html#cb12-7" tabindex="-1"></a></span>
+<span id="cb12-8"><a href="types-values-and-variables.html#cb12-8" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="op">!!</span>a)<span class="op">;</span>       <span class="co">// =&gt; Boolean(5);</span></span>
+<span id="cb12-9"><a href="types-values-and-variables.html#cb12-9" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="op">!!</span>b)<span class="op">;</span>       <span class="co">// =&gt; Boolean(5);</span></span></code></pre></div></li>
+</ul>
 </div>
 <div id="variable-declaration-and-assignment" class="section level2 hasAnchor" number="4.9">
 <h2><span class="header-section-number">4.9</span> Variable declaration and assignment<a href="types-values-and-variables.html#variable-declaration-and-assignment" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li><p>Suatu <em>identifier</em> yang dapat berubah-ubah nilainya disebut <em>variable</em>.
+Jika kita tidak dapat mengubahnya maka dinamakan <em>constant</em>.</p></li>
+<li><p>Umumnya di dalam JavaScript pendeklarasian variable dan konstanta menggunaka
+<code>let</code> dan <code>const</code>. Untuk membedakan variable identifier dan constant
+identifier, umumnya untuk constant identfier menggunakan aturan
+penamaan huruf besar, dan variable identifier menggunakan huruf kecil.</p></li>
+<li><p>Setelah mendeklarasikan kita boleh (tidak harus) memberikan nilai
+pada variable</p>
+<p><strong>declaration-example.js</strong></p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb13-1"><a href="types-values-and-variables.html#cb13-1" tabindex="-1"></a><span class="kw">let</span> i<span class="op">;</span>          <span class="co">// deklarasi tanpa inisialisasi nilai</span></span>
+<span id="cb13-2"><a href="types-values-and-variables.html#cb13-2" tabindex="-1"></a><span class="kw">let</span> j<span class="op">,</span> sum<span class="op">;</span>     <span class="co">// deklarasi dalam satu baris</span></span>
+<span id="cb13-3"><a href="types-values-and-variables.html#cb13-3" tabindex="-1"></a></span>
+<span id="cb13-4"><a href="types-values-and-variables.html#cb13-4" tabindex="-1"></a><span class="kw">let</span> message <span class="op">=</span> <span class="st">&quot;hello&quot;</span><span class="op">;</span>    <span class="co">// deklarasi dengan insialisasi nilai</span></span>
+<span id="cb13-5"><a href="types-values-and-variables.html#cb13-5" tabindex="-1"></a><span class="kw">let</span> k <span class="op">=</span> <span class="dv">0</span><span class="op">,</span> l <span class="op">=</span> <span class="dv">0</span><span class="op">,</span> m <span class="op">=</span> <span class="dv">1</span><span class="op">;</span>  <span class="co">// dekarasi dan inisialisasi dalam satu baris</span></span>
+<span id="cb13-6"><a href="types-values-and-variables.html#cb13-6" tabindex="-1"></a><span class="kw">let</span> x <span class="op">=</span> <span class="dv">2</span><span class="op">,</span> y <span class="op">=</span> x<span class="op">*</span>x<span class="op">;</span>       <span class="co">// Inisialisasi dapat mengunakan variable yang sudah didekalarsikan</span></span>
+<span id="cb13-7"><a href="types-values-and-variables.html#cb13-7" tabindex="-1"></a></span>
+<span id="cb13-8"><a href="types-values-and-variables.html#cb13-8" tabindex="-1"></a><span class="kw">const</span> H0 <span class="op">=</span> <span class="dv">75</span><span class="op">;</span>            <span class="co">// Hubble constant (km/s/Mpc)</span></span>
+<span id="cb13-9"><a href="types-values-and-variables.html#cb13-9" tabindex="-1"></a><span class="kw">const</span> C <span class="op">=</span> <span class="fl">299792.458</span><span class="op">;</span>     <span class="co">// Speed of light in a vacuum (km/&#39;s)</span></span>
+<span id="cb13-10"><a href="types-values-and-variables.html#cb13-10" tabindex="-1"></a><span class="kw">const</span> AU <span class="op">=</span> <span class="fl">1.496E8</span>        <span class="co">// Astronomical Unit: distance from the earth to the sun (km)</span></span></code></pre></div></li>
+<li><p>Perbedaan deklarasi variable dengan <code>var</code> dan <code>let</code> adalah pada
+perilaku mereka ketika didekalariskan dalam suatu <em>scope</em>.
+Kita akan kembali lagi ke <em>function-scoped</em> dan <em>block-scoped</em> di pertemuan
+tentang fungsi. Untuk menghindari <em>bug</em>, umumnya orang menggunakan
+<code>let</code> karena dia memiliki sifat <code>block-scoped</code>.</p></li>
+<li><p>Terdapat suatu teknik untuk melakukan <em>unpacking</em> data kedalam variable
+yang dideklarasikan. Teknik ini dikenal sebagai
+<em>destructuring assignment</em></p>
+<p><strong>destructuring-assign.js</strong></p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb14-1"><a href="types-values-and-variables.html#cb14-1" tabindex="-1"></a><span class="kw">let</span> [x<span class="op">,</span> y] <span class="op">=</span> [<span class="dv">1</span><span class="op">,</span> <span class="dv">2</span>]<span class="op">;</span>      <span class="co">// setara dengan  let x = 1, y = 2</span></span>
+<span id="cb14-2"><a href="types-values-and-variables.html#cb14-2" tabindex="-1"></a>[x<span class="op">,</span> y] <span class="op">=</span> [x <span class="op">+</span> <span class="dv">1</span><span class="op">,</span> y <span class="op">+</span> <span class="dv">1</span>]<span class="op">;</span>  <span class="co">// setara dengan  x = x + 1, y = y + 1;</span></span>
+<span id="cb14-3"><a href="types-values-and-variables.html#cb14-3" tabindex="-1"></a>[x<span class="op">,</span> y] <span class="op">=</span> [y<span class="op">,</span> x]<span class="op">;</span>          <span class="co">// menukar nilai dua variable x dan y </span></span>
+<span id="cb14-4"><a href="types-values-and-variables.html#cb14-4" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>([x<span class="op">,</span> y])<span class="op">;</span>      <span class="co">// =&gt; [3, 2]: </span></span></code></pre></div>
+<p>Pada contoh di atas kita menggunakan <em>array literal</em> yang akan kita bahas
+dalam pertemuan tentang <em>Array</em>.</p></li>
+</ul>
 </div>
 <div id="exercises-1" class="section level2 unnumbered hasAnchor">
 <h2>Exercises<a href="types-values-and-variables.html#exercises-1" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ol style="list-style-type: decimal">
+<li><p>Jelaskan yang membuat salah atau benar dari dari program berikut?</p>
+<div class="sourceCode" id="cb15"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb15-1"><a href="types-values-and-variables.html#cb15-1" tabindex="-1"></a><span class="kw">let</span> a <span class="op">=</span> <span class="fl">0.1</span></span>
+<span id="cb15-2"><a href="types-values-and-variables.html#cb15-2" tabindex="-1"></a><span class="kw">let</span> b <span class="op">=</span> <span class="fl">0.2</span><span class="op">;</span></span>
+<span id="cb15-3"><a href="types-values-and-variables.html#cb15-3" tabindex="-1"></a><span class="kw">let</span> large_numbers <span class="op">=</span> <span class="dv">9_007_199_254_740_992</span><span class="op">;</span></span>
+<span id="cb15-4"><a href="types-values-and-variables.html#cb15-4" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(a <span class="op">+</span> b <span class="op">===</span> <span class="fl">0.3</span>)<span class="op">;</span></span>
+<span id="cb15-5"><a href="types-values-and-variables.html#cb15-5" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(large_numbers <span class="op">+</span> <span class="dv">1</span> <span class="op">===</span> large_numbers)<span class="op">;</span></span>
+<span id="cb15-6"><a href="types-values-and-variables.html#cb15-6" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(large_numbers <span class="op">+</span> <span class="dv">2</span> <span class="op">===</span> <span class="dv">9_007_199_254_740_992</span>)<span class="op">;</span></span></code></pre></div></li>
+<li><p>Jelaskan perbedaan hasil dua baris terakhir dalam program berikut:</p>
+<div class="sourceCode" id="cb16"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb16-1"><a href="types-values-and-variables.html#cb16-1" tabindex="-1"></a><span class="kw">let</span> a1 <span class="op">=</span> <span class="st">&quot;banana&quot;</span><span class="op">;</span></span>
+<span id="cb16-2"><a href="types-values-and-variables.html#cb16-2" tabindex="-1"></a><span class="kw">let</span> a2 <span class="op">=</span> (<span class="st">&quot;b&quot;</span> <span class="op">+</span> <span class="st">&quot;a&quot;</span> <span class="op">+</span> <span class="op">+</span> <span class="st">&quot;a&quot;</span> <span class="op">+</span> <span class="st">&quot;a&quot;</span>)<span class="op">.</span><span class="fu">toLowerCase</span>()</span>
+<span id="cb16-3"><a href="types-values-and-variables.html#cb16-3" tabindex="-1"></a></span>
+<span id="cb16-4"><a href="types-values-and-variables.html#cb16-4" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="vs">`</span><span class="sc">${</span>a1<span class="sc">}</span><span class="vs">`</span>)<span class="op">;</span></span>
+<span id="cb16-5"><a href="types-values-and-variables.html#cb16-5" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="vs">`</span><span class="sc">${</span>a2<span class="sc">}</span><span class="vs">`</span>)<span class="op">;</span></span></code></pre></div>
+<p>Bagaimana hasil kedua baris tersebut? Mengapa hasilnya demikian? Jelaskan.
+Silahkan menggunakan chatGPT namun harus tetap dipahami prosesnya seperti apa.</p></li>
+</ol>
 
 </div>
 </div>
@@ -308,7 +688,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/USERNAME/REPO/edit/BRANCH/04-types-vals-vars.Rmd",
+"link": "https://github.com/LugoBlogger/struct-prog-js/edit/main/04-types-vals-vars.Rmd",
 "text": "Edit"
 },
 "history": {

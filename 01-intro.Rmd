@@ -24,13 +24,42 @@ ready to be an advanced JavaScript developer.
 
 ## Structured programming
 
-Classification of structured programming compare to another paradigm.
+Classification of structured programming compare to other paradigms
+is a bit rusty. This term is first coined by the famous
+Dutch computer scientist Edsger Wybe Dijkstra in his technical report
+*Notes on Structured Programming*^[https://www.cs.utexas.edu/~EWD/ewd02xx/EWD249.PDF] in 1970. We found two credible books that mentioning structured
+programming in [@sebesta2019] and [@gabbriellimartini2023].
+According them, structured programming is a new emergent paradigm
+from imperative language that used extensively GOTO statement, is changed
+into the use of control structures, subroutine and block statement.
+We will learn about these in the later chapter.
 
-## Motivation 
+And also structured programming paradigm is a precusor to the object-oriented
+programming language. In informal speaking they are are interchangeable, but
+actually if we look at Wikipedia, there is a clear distinction between 
+them as it is shown in Fig. \@ref(fig:programming-paradigm-wiki)
 
-Need for a new course plan. 
-The students in Information Systems needs a comprehensive book
-that mostly cover the fundamental of web programming.
+```{r, echo=FALSE, label="programming-paradigm-wiki", fig.cap="Structured and object-oriented programming paradigm are different families. Note: we could not find the source of this grouping, but we will try harder next time to find out", out.width='100%', fig.show='hold', fig.align="left"}
+knitr::include_graphics(rep("images/programming-paradigm-wiki.png", 1))
+```
+
+In this book, we will not explain all of the member of \"Structured programming\"
+from Fig. \@ref(fig:programming-paradigm-wiki).
+
+## The goal of this book
+
+To fill the missing gap between web programming and basic of programming.
+This book is written with the perspective of usage for the students in 
+Information Systems in Indonesia. Most of them are too afraid to learn 
+programming language. This book will build a brigge between that fear and confusion
+to the enjoyment of learning programming.
+
+We also published this book free of charge. Anyone can read, modify, and
+give suggestion or review to this book. Any comments are welcome.
+
+We are going to add some interactive widgets to this web version in the future.
+Stay tune.
+
 
 ## How to learn
 
@@ -56,10 +85,22 @@ that learn programming language is difficult, boring, and not rewarding.
 - It is never to be late to learn programming. JavaScript is not 
   a best programming language, but pick one master it and after
   that you can pick another programming language with ease. 
-  (except C or the family of low-level programming language, :D)
-- Please do not compare yourself to others, just compare yourself 
-  with your past time. Make a note, logbook, or any summary of your
+  (except C or the family of low-level programming language, 😀)
+
+- Mastering programming language takes a lot of time. 
+  Be patient and enjoy the process. Eventually at the end you will acquire the skill.
+  No skill happens in a single night of learning.
+  
+- Do not believe in genius or smart way. Believe in hard work and discipline
+  in learning. Every genius or smart way is happened after a lot of exposure
+  or the immersion to the materials. Do not feel so down if in the beginning
+  you feel stuck and not knowing anything.
+  
+- The last suggestion, please do not compare yourself to others, just compare yourself 
+  with your past time. I know it is easy to say than to do, but it is worth to 
+  try. Make a note, logbook, or any summary of your
   work or study. This will be enhance your writing skills and
   sharpen your mind to write something missing from the tutorial, books
-  or any resources. Your personal notes is your spell book.
-- 
+  or any resources. Your personal notes is your spell book. By doing that
+  you can evaluate your progress and see your past history easily compare
+  if you do not have any recorded activities.

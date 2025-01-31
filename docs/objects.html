@@ -12,7 +12,7 @@ set in the _output.yml file.</p>" />
 
   <meta property="og:title" content="7 Objects | Structured Programming with JavaScript" />
   <meta property="og:type" content="book" />
-  
+  <meta property="og:image" content="https://github.com/LugoBlogger/struct-prog-js/blob/main/images/cover.png" />
   <meta property="og:description" content="<p>This is a minimal example of using the bookdown package to write a book.
 The HTML output format for this example is bookdown::gitbook,
 set in the _output.yml file.</p>" />
@@ -24,7 +24,7 @@ set in the _output.yml file.</p>" />
   <meta name="twitter:description" content="<p>This is a minimal example of using the bookdown package to write a book.
 The HTML output format for this example is bookdown::gitbook,
 set in the _output.yml file.</p>" />
-  
+  <meta name="twitter:image" content="https://github.com/LugoBlogger/struct-prog-js/blob/main/images/cover.png" />
 
 <meta name="author" content="Henokh Lugo Hariyanto Arif Wicaksono Septyanto" />
 
@@ -59,6 +59,71 @@ set in the _output.yml file.</p>" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
+<style type="text/css">
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
 
 <style type="text/css">
   
@@ -83,13 +148,14 @@ set in the _output.yml file.</p>" />
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Prelude</a>
 <ul>
-<li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#intended-reader"><i class="fa fa-check"></i><b>0.1</b> Intended reader</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#intended-reader"><i class="fa fa-check"></i>Intended reader</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#how-to-read-and-code"><i class="fa fa-check"></i>How to read (and code)</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#colophon"><i class="fa fa-check"></i>Colophon</a></li>
 </ul></li>
 <li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
 <ul>
 <li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#structured-programming"><i class="fa fa-check"></i><b>1.1</b> Structured programming</a></li>
-<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#motivation"><i class="fa fa-check"></i><b>1.2</b> Motivation</a></li>
+<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#the-goal-of-this-book"><i class="fa fa-check"></i><b>1.2</b> The goal of this book</a></li>
 <li class="chapter" data-level="1.3" data-path="introduction.html"><a href="introduction.html#how-to-learn"><i class="fa fa-check"></i><b>1.3</b> How to learn</a></li>
 <li class="chapter" data-level="1.4" data-path="introduction.html"><a href="introduction.html#short-tips"><i class="fa fa-check"></i><b>1.4</b> Short tips</a></li>
 </ul></li>
@@ -130,10 +196,11 @@ set in the _output.yml file.</p>" />
 <ul>
 <li class="chapter" data-level="5.1" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#primary-expression"><i class="fa fa-check"></i><b>5.1</b> Primary expression</a></li>
 <li class="chapter" data-level="5.2" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#operators"><i class="fa fa-check"></i><b>5.2</b> Operators</a></li>
-<li class="chapter" data-level="5.3" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#relational-expression"><i class="fa fa-check"></i><b>5.3</b> Relational expression</a></li>
-<li class="chapter" data-level="5.4" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#logical-expression"><i class="fa fa-check"></i><b>5.4</b> Logical expression</a></li>
-<li class="chapter" data-level="5.5" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#assignment-expression"><i class="fa fa-check"></i><b>5.5</b> Assignment expression</a></li>
-<li class="chapter" data-level="5.6" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#miscellaneous-operators"><i class="fa fa-check"></i><b>5.6</b> Miscellaneous operators</a></li>
+<li class="chapter" data-level="5.3" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#arithmetic-expression"><i class="fa fa-check"></i><b>5.3</b> Arithmetic expression</a></li>
+<li class="chapter" data-level="5.4" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#relational-expression"><i class="fa fa-check"></i><b>5.4</b> Relational expression</a></li>
+<li class="chapter" data-level="5.5" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#logical-expression"><i class="fa fa-check"></i><b>5.5</b> Logical expression</a></li>
+<li class="chapter" data-level="5.6" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#assignment-expression"><i class="fa fa-check"></i><b>5.6</b> Assignment expression</a></li>
+<li class="chapter" data-level="5.7" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#miscellaneous-operators"><i class="fa fa-check"></i><b>5.7</b> Miscellaneous operators</a></li>
 <li class="chapter" data-level="" data-path="expressions-and-operators.html"><a href="expressions-and-operators.html#exercises-2"><i class="fa fa-check"></i>Exercises</a></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="statements.html"><a href="statements.html"><i class="fa fa-check"></i><b>6</b> Statements</a>
@@ -141,8 +208,9 @@ set in the _output.yml file.</p>" />
 <li class="chapter" data-level="6.1" data-path="statements.html"><a href="statements.html#expression-statements"><i class="fa fa-check"></i><b>6.1</b> Expression statements</a></li>
 <li class="chapter" data-level="6.2" data-path="statements.html"><a href="statements.html#compound-and-empty-statements"><i class="fa fa-check"></i><b>6.2</b> Compound and empty statements</a></li>
 <li class="chapter" data-level="6.3" data-path="statements.html"><a href="statements.html#conditionals"><i class="fa fa-check"></i><b>6.3</b> Conditionals</a></li>
-<li class="chapter" data-level="6.4" data-path="statements.html"><a href="statements.html#jumps"><i class="fa fa-check"></i><b>6.4</b> Jumps</a></li>
-<li class="chapter" data-level="6.5" data-path="statements.html"><a href="statements.html#miscellaneous-statements"><i class="fa fa-check"></i><b>6.5</b> Miscellaneous statements</a></li>
+<li class="chapter" data-level="6.4" data-path="statements.html"><a href="statements.html#iteration-loops"><i class="fa fa-check"></i><b>6.4</b> Iteration (loops)</a></li>
+<li class="chapter" data-level="6.5" data-path="statements.html"><a href="statements.html#jumps"><i class="fa fa-check"></i><b>6.5</b> Jumps</a></li>
+<li class="chapter" data-level="6.6" data-path="statements.html"><a href="statements.html#miscellaneous-statements"><i class="fa fa-check"></i><b>6.6</b> Miscellaneous statements</a></li>
 <li class="chapter" data-level="" data-path="statements.html"><a href="statements.html#exercises-3"><i class="fa fa-check"></i>Exercises</a></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="objects.html"><a href="objects.html"><i class="fa fa-check"></i><b>7</b> Objects</a>
@@ -217,9 +285,6 @@ set in the _output.yml file.</p>" />
 </ul></li>
 <li class="chapter" data-level="15" data-path="javascript-in-web-browser-learning-animation.html"><a href="javascript-in-web-browser-learning-animation.html"><i class="fa fa-check"></i><b>15</b> JavaScript in Web Browser: Learning animation</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
-<li class="divider"></li>
-<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-
 </ul>
 
       </nav>
@@ -239,35 +304,399 @@ set in the _output.yml file.</p>" />
             <section class="normal" id="section-">
 <div id="objects" class="section level1 hasAnchor" number="7">
 <h1><span class="header-section-number">7</span> Objects<a href="objects.html#objects" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<p><em>Object</em> adalah suatu tipe data dalam JavaScript yang merupakan kumpulan
+dari elemen yang disebut <em>property</em>. <em>Property</em> ini memiliki nama
+(disebut <em>property name</em>) dan nilai (disebut <em>property value</em>).
+Perlu kita tekankan bahwa <em>object</em> disini berbeda dengan istilah
+<em>object</em> dalam <em>object-oriented programming</em>, meskipun dalam beberapa
+hal tipe data <em>object</em> ini memiliki istilah-istilah yang serupa yang
+dimiliki oleh <em>object-oriented programming</em>, seperti <em>inheritance</em>, <em>prototype</em>,
+dsb.</p>
+<p>Beberapa sifat JavaScript <em>object</em> adalah sebagai berikut:
+- Prototypical inheritance: merupakan salah satu <em>key feature</em>
+dari JavaScript yaitu kemampuan <em>object</em> untuk
+mendapatkan warisan (<em>inherit</em>) <em>properties</em> dari <em>object</em> yang lebih umum.
+Object yang lebih umum ini disebut <em>prototype</em>.</p>
+<ul>
+<li><p>Dynamics: <em>properties</em> dapat ditambahkan ke dalam <em>object</em> atau dapat juga
+dihapus</p></li>
+<li><p>Mutable: nilai suatu <em>property</em> dapat kita ubah-ubah, sifat <em>dynamics</em>
+juga menjamin sifat <em>mutable</em> ini.</p></li>
+<li><p>Manipulated by reference: dua buah variable yang mengacu ke object yang
+sama akan saling mempengaruhi apabila salah satu property di salah satu
+variable tersebut kita ubah-ubah. Penggandaan object perlu cara khusus
+agar tidak mempengaruhi satu sama lain ketika dilakukan modifikasi.</p></li>
+<li><p>No duplicate property names</p></li>
+</ul>
+<p>Berikutnya akan kita bahas, teknik-teknik standar yang dapat dilakukan dengan
+<em>object</em>.</p>
 <div id="creating-an-object" class="section level2 hasAnchor" number="7.1">
 <h2><span class="header-section-number">7.1</span> Creating an object<a href="objects.html#creating-an-object" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Ada beberapa cara untuk membuat <em>object</em>:</p>
+<ul>
+<li><p>Menggunakan <em>object literals</em>:</p>
+<p><strong>object-literal-examples.js</strong></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb1-1"><a href="objects.html#cb1-1" tabindex="-1"></a><span class="kw">let</span> empty <span class="op">=</span> {}<span class="op">;</span>             <span class="co">// Suatu object tanpa property</span></span>
+<span id="cb1-2"><a href="objects.html#cb1-2" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;empty: &quot;</span><span class="op">,</span> empty)<span class="op">;</span></span>
+<span id="cb1-3"><a href="objects.html#cb1-3" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="objects.html#cb1-4" tabindex="-1"></a><span class="kw">let</span> point <span class="op">=</span> {<span class="dt">x</span><span class="op">:</span> <span class="dv">0</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="dv">0</span>}<span class="op">;</span>   <span class="co">// Suatu object dengan dua properties</span></span>
+<span id="cb1-5"><a href="objects.html#cb1-5" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;point: &quot;</span><span class="op">,</span> point)<span class="op">;</span></span>
+<span id="cb1-6"><a href="objects.html#cb1-6" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="objects.html#cb1-7" tabindex="-1"></a><span class="kw">let</span> p2 <span class="op">=</span> {                  <span class="co">// Contoh object dengan nilai property </span></span>
+<span id="cb1-8"><a href="objects.html#cb1-8" tabindex="-1"></a><span class="dt">x</span><span class="op">:</span> point<span class="op">.</span><span class="at">x</span><span class="op">,</span>               <span class="co">// yang lebih rumit</span></span>
+<span id="cb1-9"><a href="objects.html#cb1-9" tabindex="-1"></a><span class="dt">y</span><span class="op">:</span> point<span class="op">.</span><span class="at">y</span> <span class="op">+</span> <span class="dv">1</span>}<span class="op">;</span></span>
+<span id="cb1-10"><a href="objects.html#cb1-10" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;p2: &quot;</span><span class="op">,</span> p2)<span class="op">;</span></span>
+<span id="cb1-11"><a href="objects.html#cb1-11" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="objects.html#cb1-12" tabindex="-1"></a><span class="kw">let</span> student <span class="op">=</span> {</span>
+<span id="cb1-13"><a href="objects.html#cb1-13" tabindex="-1"></a><span class="st">&quot;name&quot;</span><span class="op">:</span> <span class="st">&quot;Anastashia&quot;</span><span class="op">,</span>         <span class="co">// Ketika di property name terdapat spasi</span></span>
+<span id="cb1-14"><a href="objects.html#cb1-14" tabindex="-1"></a><span class="st">&quot;student-id&quot;</span><span class="op">:</span> <span class="dv">10111047</span><span class="op">,</span>       <span class="co">// atau hypens gunakan string literal </span></span>
+<span id="cb1-15"><a href="objects.html#cb1-15" tabindex="-1"></a><span class="dt">interest</span><span class="op">:</span> {                   <span class="co">// object dapat berisi object juga</span></span>
+<span id="cb1-16"><a href="objects.html#cb1-16" tabindex="-1"></a>    <span class="dt">technical</span><span class="op">:</span> [<span class="st">&quot;C++&quot;</span><span class="op">,</span> <span class="st">&quot;Rust&quot;</span><span class="op">,</span> <span class="st">&quot;JavaScript&quot;</span>]<span class="op">,</span></span>
+<span id="cb1-17"><a href="objects.html#cb1-17" tabindex="-1"></a>    <span class="dt">non_technical</span><span class="op">:</span> [<span class="st">&quot;arts&quot;</span><span class="op">,</span> <span class="st">&quot;investing&quot;</span>]</span>
+<span id="cb1-18"><a href="objects.html#cb1-18" tabindex="-1"></a>}</span>
+<span id="cb1-19"><a href="objects.html#cb1-19" tabindex="-1"></a>}<span class="op">;</span></span>
+<span id="cb1-20"><a href="objects.html#cb1-20" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;student: &quot;</span><span class="op">,</span> student)<span class="op">;</span></span></code></pre></div></li>
+<li><p>Menggunakan <code>new Object_name</code>:</p>
+<p><strong>with-new-object.js</strong></p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb2-1"><a href="objects.html#cb2-1" tabindex="-1"></a><span class="kw">let</span> o <span class="op">=</span> <span class="kw">new</span> <span class="bu">Object</span>()<span class="op">;</span>   <span class="co">// Memuat suatu objek tanpa property: sama seperti {} </span></span>
+<span id="cb2-2"><a href="objects.html#cb2-2" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(o)<span class="op">;</span></span>
+<span id="cb2-3"><a href="objects.html#cb2-3" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="objects.html#cb2-4" tabindex="-1"></a><span class="kw">let</span> a <span class="op">=</span> <span class="kw">new</span> <span class="bu">Array</span>()<span class="op">;</span>    <span class="co">// Membuat suatu array tanpa elemen: sama seperti []</span></span>
+<span id="cb2-5"><a href="objects.html#cb2-5" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(a)<span class="op">;</span></span>
+<span id="cb2-6"><a href="objects.html#cb2-6" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="objects.html#cb2-7" tabindex="-1"></a><span class="kw">let</span> d <span class="op">=</span> <span class="kw">new</span> <span class="bu">Date</span>()<span class="op">;</span>     <span class="co">// Membuat objek Date yang memiliki nilai </span></span>
+<span id="cb2-8"><a href="objects.html#cb2-8" tabindex="-1"></a>                        <span class="co">// waktu saat ini</span></span>
+<span id="cb2-9"><a href="objects.html#cb2-9" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(d)<span class="op">;</span></span>
+<span id="cb2-10"><a href="objects.html#cb2-10" tabindex="-1"></a></span>
+<span id="cb2-11"><a href="objects.html#cb2-11" tabindex="-1"></a><span class="kw">let</span> r <span class="op">=</span> <span class="kw">new</span> <span class="bu">Map</span>()<span class="op">;</span>      <span class="co">// Membuat objek Map yang tersusun atas</span></span>
+<span id="cb2-12"><a href="objects.html#cb2-12" tabindex="-1"></a>                        <span class="co">// key dan value</span></span>
+<span id="cb2-13"><a href="objects.html#cb2-13" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(r)<span class="op">;</span></span></code></pre></div></li>
+<li><p>Menggunakan <code>Object.create()</code></p>
+<p><strong>with-object-create.js</strong></p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb3-1"><a href="objects.html#cb3-1" tabindex="-1"></a><span class="co">// Objek pertama dibuat yaitu objek literal ({x: 1, y: 1})</span></span>
+<span id="cb3-2"><a href="objects.html#cb3-2" tabindex="-1"></a><span class="co">// Lalu Object.create() membuat objek baru dari objek literal tersebut</span></span>
+<span id="cb3-3"><a href="objects.html#cb3-3" tabindex="-1"></a><span class="co">// sehingg semua property dalam objek literal tersebut akan di wariskan </span></span>
+<span id="cb3-4"><a href="objects.html#cb3-4" tabindex="-1"></a><span class="co">// ke o1</span></span>
+<span id="cb3-5"><a href="objects.html#cb3-5" tabindex="-1"></a><span class="kw">let</span> o1 <span class="op">=</span> <span class="bu">Object</span><span class="op">.</span><span class="fu">create</span>({<span class="dt">x</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="dv">1</span>})<span class="op">;</span> </span>
+<span id="cb3-6"><a href="objects.html#cb3-6" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(o1)<span class="op">;</span></span>
+<span id="cb3-7"><a href="objects.html#cb3-7" tabindex="-1"></a></span>
+<span id="cb3-8"><a href="objects.html#cb3-8" tabindex="-1"></a><span class="co">// Sama seperti objek o1, namun tidak memiliki property atau method</span></span>
+<span id="cb3-9"><a href="objects.html#cb3-9" tabindex="-1"></a><span class="kw">let</span> o2 <span class="op">=</span> <span class="bu">Object</span><span class="op">.</span><span class="fu">create</span>(<span class="kw">null</span>)<span class="op">;</span></span>
+<span id="cb3-10"><a href="objects.html#cb3-10" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(o2)<span class="op">;</span></span>
+<span id="cb3-11"><a href="objects.html#cb3-11" tabindex="-1"></a></span>
+<span id="cb3-12"><a href="objects.html#cb3-12" tabindex="-1"></a><span class="co">// Sama seperti menggunakan objek literal {} atau new Object()</span></span>
+<span id="cb3-13"><a href="objects.html#cb3-13" tabindex="-1"></a><span class="kw">let</span> o3 <span class="op">=</span> <span class="bu">Object</span><span class="op">.</span><span class="fu">create</span>(<span class="bu">Object</span><span class="op">.</span><span class="at">prototype</span>)<span class="op">;</span></span>
+<span id="cb3-14"><a href="objects.html#cb3-14" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(o3)<span class="op">;</span></span></code></pre></div></li>
+</ul>
 </div>
 <div id="querying-and-setting-of-a-property" class="section level2 hasAnchor" number="7.2">
 <h2><span class="header-section-number">7.2</span> Querying and setting of a property<a href="objects.html#querying-and-setting-of-a-property" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li><p>Pemanggilan dan pengaturan nilai property bisa menggunakan dua cara yaitu
+menggunakan titik (<code>.</code>) atau kurung siku (<code>[]</code>).</p>
+<p><strong>query-and-set-object.js</strong></p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb4-1"><a href="objects.html#cb4-1" tabindex="-1"></a><span class="kw">let</span> student <span class="op">=</span> {</span>
+<span id="cb4-2"><a href="objects.html#cb4-2" tabindex="-1"></a>  <span class="st">&quot;name&quot;</span><span class="op">:</span> <span class="st">&quot;Anastashia&quot;</span><span class="op">,</span>         <span class="co">// Ketika di property name terdapat spasi</span></span>
+<span id="cb4-3"><a href="objects.html#cb4-3" tabindex="-1"></a>  <span class="st">&quot;student-id&quot;</span><span class="op">:</span> <span class="dv">10111047</span><span class="op">,</span>       <span class="co">// atau hypens gunakan string literal </span></span>
+<span id="cb4-4"><a href="objects.html#cb4-4" tabindex="-1"></a>  <span class="dt">interest</span><span class="op">:</span> {                   <span class="co">// object dapat berisi object juga</span></span>
+<span id="cb4-5"><a href="objects.html#cb4-5" tabindex="-1"></a>      <span class="dt">technical</span><span class="op">:</span> [<span class="st">&quot;C++&quot;</span><span class="op">,</span> <span class="st">&quot;Rust&quot;</span><span class="op">,</span> <span class="st">&quot;JavaScript&quot;</span>]<span class="op">,</span></span>
+<span id="cb4-6"><a href="objects.html#cb4-6" tabindex="-1"></a>      <span class="dt">non_technical</span><span class="op">:</span> [<span class="st">&quot;arts&quot;</span><span class="op">,</span> <span class="st">&quot;investing&quot;</span>]</span>
+<span id="cb4-7"><a href="objects.html#cb4-7" tabindex="-1"></a>  }</span>
+<span id="cb4-8"><a href="objects.html#cb4-8" tabindex="-1"></a>}<span class="op">;</span> </span>
+<span id="cb4-9"><a href="objects.html#cb4-9" tabindex="-1"></a></span>
+<span id="cb4-10"><a href="objects.html#cb4-10" tabindex="-1"></a><span class="kw">let</span> name <span class="op">=</span> student<span class="op">.</span><span class="at">name</span><span class="op">;</span>            </span>
+<span id="cb4-11"><a href="objects.html#cb4-11" tabindex="-1"></a><span class="kw">let</span> student_id <span class="op">=</span> student[<span class="st">&quot;student-id&quot;</span>]<span class="op">;</span></span>
+<span id="cb4-12"><a href="objects.html#cb4-12" tabindex="-1"></a><span class="kw">let</span> interest_technical <span class="op">=</span> student<span class="op">.</span><span class="at">interest</span><span class="op">.</span><span class="at">technical</span><span class="op">;</span></span>
+<span id="cb4-13"><a href="objects.html#cb4-13" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(name<span class="op">,</span> student_id<span class="op">,</span> interest_technical)<span class="op">;</span></span>
+<span id="cb4-14"><a href="objects.html#cb4-14" tabindex="-1"></a></span>
+<span id="cb4-15"><a href="objects.html#cb4-15" tabindex="-1"></a>student<span class="op">.</span><span class="at">cumul_grade</span> <span class="op">=</span> <span class="fl">3.67</span><span class="op">;</span></span>
+<span id="cb4-16"><a href="objects.html#cb4-16" tabindex="-1"></a>student<span class="op">.</span><span class="at">interest</span><span class="op">.</span><span class="at">non_technical</span> <span class="op">=</span> [<span class="st">&quot;leadership&quot;</span><span class="op">,</span> <span class="st">&quot;cooking&quot;</span>]<span class="op">;</span></span>
+<span id="cb4-17"><a href="objects.html#cb4-17" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(student)<span class="op">;</span></span></code></pre></div></li>
+</ul>
 </div>
 <div id="deleting-a-property" class="section level2 hasAnchor" number="7.3">
 <h2><span class="header-section-number">7.3</span> Deleting a property<a href="objects.html#deleting-a-property" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Dengan menggunakan operator <code>delete</code>, kita dapat menghapus property suatu
+object.</p>
+<p>Beberapa sifat-sifat operator <code>delete</code> ketika dikenakan pada suatu object:
+- berlaku untuk menghapus property tidak hanya nilai dari property
+- proses penghapusan selalu memberikan output <code>true</code> (meskipun
+property ada atau tidak ada di suatu object)</p>
+<p><strong>delete-demo.js</strong></p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb5-1"><a href="objects.html#cb5-1" tabindex="-1"></a><span class="kw">let</span> student <span class="op">=</span> {</span>
+<span id="cb5-2"><a href="objects.html#cb5-2" tabindex="-1"></a>  <span class="st">&quot;name&quot;</span><span class="op">:</span> <span class="st">&quot;Anastashia&quot;</span><span class="op">,</span>         <span class="co">// Ketika di property name terdapat spasi</span></span>
+<span id="cb5-3"><a href="objects.html#cb5-3" tabindex="-1"></a>  <span class="st">&quot;student-id&quot;</span><span class="op">:</span> <span class="dv">10111047</span><span class="op">,</span>       <span class="co">// atau hypens gunakan string literal </span></span>
+<span id="cb5-4"><a href="objects.html#cb5-4" tabindex="-1"></a>  <span class="dt">interest</span><span class="op">:</span> {                   <span class="co">// object dapat berisi object juga</span></span>
+<span id="cb5-5"><a href="objects.html#cb5-5" tabindex="-1"></a>      <span class="dt">technical</span><span class="op">:</span> [<span class="st">&quot;C++&quot;</span><span class="op">,</span> <span class="st">&quot;Rust&quot;</span><span class="op">,</span> <span class="st">&quot;JavaScript&quot;</span>]<span class="op">,</span></span>
+<span id="cb5-6"><a href="objects.html#cb5-6" tabindex="-1"></a>      <span class="dt">non_technical</span><span class="op">:</span> [<span class="st">&quot;arts&quot;</span><span class="op">,</span> <span class="st">&quot;investing&quot;</span>]</span>
+<span id="cb5-7"><a href="objects.html#cb5-7" tabindex="-1"></a>  }</span>
+<span id="cb5-8"><a href="objects.html#cb5-8" tabindex="-1"></a>}<span class="op">;</span></span>
+<span id="cb5-9"><a href="objects.html#cb5-9" tabindex="-1"></a></span>
+<span id="cb5-10"><a href="objects.html#cb5-10" tabindex="-1"></a><span class="co">// objek student sekarang tidak memiliki property name</span></span>
+<span id="cb5-11"><a href="objects.html#cb5-11" tabindex="-1"></a><span class="kw">delete</span> student<span class="op">.</span><span class="at">name</span><span class="op">;</span></span>
+<span id="cb5-12"><a href="objects.html#cb5-12" tabindex="-1"></a></span>
+<span id="cb5-13"><a href="objects.html#cb5-13" tabindex="-1"></a><span class="co">// object student sekarang juga tidak memiliki property name student-id</span></span>
+<span id="cb5-14"><a href="objects.html#cb5-14" tabindex="-1"></a><span class="kw">delete</span> student[<span class="st">&quot;student-id&quot;</span>]<span class="op">;</span></span>
+<span id="cb5-15"><a href="objects.html#cb5-15" tabindex="-1"></a></span>
+<span id="cb5-16"><a href="objects.html#cb5-16" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(student)</span>
+<span id="cb5-17"><a href="objects.html#cb5-17" tabindex="-1"></a></span>
+<span id="cb5-18"><a href="objects.html#cb5-18" tabindex="-1"></a><span class="co">// menghapus property yang tidak ada akan memberikan output true</span></span>
+<span id="cb5-19"><a href="objects.html#cb5-19" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="kw">delete</span> student<span class="op">.</span><span class="at">name</span>)<span class="op">;</span></span>
+<span id="cb5-20"><a href="objects.html#cb5-20" tabindex="-1"></a></span></code></pre></div>
 </div>
 <div id="testing-the-existence-of-a-property" class="section level2 hasAnchor" number="7.4">
 <h2><span class="header-section-number">7.4</span> Testing the existence of a property<a href="objects.html#testing-the-existence-of-a-property" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Keberadaan suatu property dalam suatu object dapat diuji dengan empat cara:
+- menggunakan <code>in</code> operator
+- menggunakan method: <code>hasOwnProperty()</code>
+- menggunakan method: <code>propertyIsEnumerable()</code>
+- memanggil (querying) property (menggunakan titik atau kurung siku)</p>
+<p><strong>testing-properties.js</strong></p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb6-1"><a href="objects.html#cb6-1" tabindex="-1"></a><span class="kw">let</span> student <span class="op">=</span> {<span class="dt">name</span><span class="op">:</span> <span class="st">&quot;Anastashia&quot;</span>}<span class="op">;</span></span>
+<span id="cb6-2"><a href="objects.html#cb6-2" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;name&quot;</span> <span class="kw">in</span> student)<span class="op">;</span>   <span class="co">// =&gt; true: object student memiliki </span></span>
+<span id="cb6-3"><a href="objects.html#cb6-3" tabindex="-1"></a>                                  <span class="co">//    property name</span></span>
+<span id="cb6-4"><a href="objects.html#cb6-4" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;nim&quot;</span> <span class="kw">in</span> student)<span class="op">;</span>    <span class="co">// =&gt; false: object student tidak memiliki</span></span>
+<span id="cb6-5"><a href="objects.html#cb6-5" tabindex="-1"></a>                                  <span class="co">//    property nim</span></span>
+<span id="cb6-6"><a href="objects.html#cb6-6" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;toString&quot;</span> <span class="kw">in</span> student)<span class="op">;</span>   <span class="co">// true: object student mewarisi </span></span>
+<span id="cb6-7"><a href="objects.html#cb6-7" tabindex="-1"></a>                                      <span class="co">// property toString dari Object prototype</span></span>
+<span id="cb6-8"><a href="objects.html#cb6-8" tabindex="-1"></a></span>
+<span id="cb6-9"><a href="objects.html#cb6-9" tabindex="-1"></a></span>
+<span id="cb6-10"><a href="objects.html#cb6-10" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>()<span class="op">;</span></span>
+<span id="cb6-11"><a href="objects.html#cb6-11" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(student<span class="op">.</span><span class="fu">hasOwnProperty</span>(<span class="st">&quot;name&quot;</span>))<span class="op">;</span></span>
+<span id="cb6-12"><a href="objects.html#cb6-12" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(student<span class="op">.</span><span class="fu">hasOwnProperty</span>(<span class="st">&quot;nim&quot;</span>))<span class="op">;</span></span>
+<span id="cb6-13"><a href="objects.html#cb6-13" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(student<span class="op">.</span><span class="fu">hasOwnProperty</span>(<span class="st">&quot;toString&quot;</span>))<span class="op">;</span></span>
+<span id="cb6-14"><a href="objects.html#cb6-14" tabindex="-1"></a></span>
+<span id="cb6-15"><a href="objects.html#cb6-15" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>()<span class="op">;</span></span>
+<span id="cb6-16"><a href="objects.html#cb6-16" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(student<span class="op">.</span><span class="fu">propertyIsEnumerable</span>(<span class="st">&quot;name&quot;</span>))<span class="op">;</span></span>
+<span id="cb6-17"><a href="objects.html#cb6-17" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(student<span class="op">.</span><span class="fu">propertyIsEnumerable</span>(<span class="st">&quot;nim&quot;</span>))<span class="op">;</span></span>
+<span id="cb6-18"><a href="objects.html#cb6-18" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(student<span class="op">.</span><span class="fu">propertyIsEnumerable</span>(<span class="st">&quot;toString&quot;</span>))<span class="op">;</span></span>
+<span id="cb6-19"><a href="objects.html#cb6-19" tabindex="-1"></a></span>
+<span id="cb6-20"><a href="objects.html#cb6-20" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>()<span class="op">;</span></span>
+<span id="cb6-21"><a href="objects.html#cb6-21" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(student<span class="op">.</span><span class="at">name</span> <span class="op">!==</span> <span class="kw">undefined</span>)<span class="op">;</span></span>
+<span id="cb6-22"><a href="objects.html#cb6-22" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(student<span class="op">.</span><span class="at">nim</span> <span class="op">!==</span> <span class="kw">undefined</span>)<span class="op">;</span></span>
+<span id="cb6-23"><a href="objects.html#cb6-23" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(student<span class="op">.</span><span class="at">toString</span> <span class="op">!==</span> <span class="kw">undefined</span>)<span class="op">;</span></span></code></pre></div>
+<p>Untuk ekspresi <code>hasOwnProperty("toString")</code>
+dan <code>propertyIsEnumerable("toString")</code> memberikan hasil yang
+berbeda karena <code>toString()</code> bukan property yang dimiliki secara pribadi
+oleh object student, tetapi hasil warisan dari object prototype.</p>
 </div>
 <div id="enumerating-object" class="section level2 hasAnchor" number="7.5">
 <h2><span class="header-section-number">7.5</span> Enumerating object<a href="objects.html#enumerating-object" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Merupakan proses untuk meng-iterasi property suatu object menggunakan
+control structure: <code>for/in</code></p>
+<p><strong>enumerate-object.js</strong></p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb7-1"><a href="objects.html#cb7-1" tabindex="-1"></a><span class="kw">let</span> student <span class="op">=</span> {</span>
+<span id="cb7-2"><a href="objects.html#cb7-2" tabindex="-1"></a>  <span class="dt">name</span><span class="op">:</span> <span class="st">&quot;Anastashia&quot;</span><span class="op">,</span></span>
+<span id="cb7-3"><a href="objects.html#cb7-3" tabindex="-1"></a>  <span class="dt">nim</span><span class="op">:</span> <span class="dv">10111047</span><span class="op">,</span></span>
+<span id="cb7-4"><a href="objects.html#cb7-4" tabindex="-1"></a>  <span class="dt">age</span><span class="op">:</span> <span class="dv">22</span></span>
+<span id="cb7-5"><a href="objects.html#cb7-5" tabindex="-1"></a>}</span>
+<span id="cb7-6"><a href="objects.html#cb7-6" tabindex="-1"></a></span>
+<span id="cb7-7"><a href="objects.html#cb7-7" tabindex="-1"></a><span class="cf">for</span> (<span class="kw">let</span> p <span class="kw">in</span> student) {</span>
+<span id="cb7-8"><a href="objects.html#cb7-8" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(p<span class="op">,</span> student[p])<span class="op">;</span></span>
+<span id="cb7-9"><a href="objects.html#cb7-9" tabindex="-1"></a>}</span>
+<span id="cb7-10"><a href="objects.html#cb7-10" tabindex="-1"></a></span>
+<span id="cb7-11"><a href="objects.html#cb7-11" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>()<span class="op">;</span></span>
+<span id="cb7-12"><a href="objects.html#cb7-12" tabindex="-1"></a><span class="cf">for</span> (<span class="kw">let</span> p <span class="kw">in</span> <span class="bu">Object</span><span class="op">.</span><span class="fu">keys</span>(student)) {      <span class="co">// menggunakan Object.keys()</span></span>
+<span id="cb7-13"><a href="objects.html#cb7-13" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(p<span class="op">,</span> student[p])</span>
+<span id="cb7-14"><a href="objects.html#cb7-14" tabindex="-1"></a>}</span></code></pre></div>
 </div>
 <div id="extending-objects" class="section level2 hasAnchor" number="7.6">
 <h2><span class="header-section-number">7.6</span> Extending objects<a href="objects.html#extending-objects" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Untuk menggandakan property suatu objek ke property object lain dikenal
+dengan istilah <em>perluasan</em> (<em>extending</em>).</p>
+<p><strong>extend-manual.js</strong></p>
+<div class="sourceCode" id="cb8"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb8-1"><a href="objects.html#cb8-1" tabindex="-1"></a><span class="kw">let</span> target <span class="op">=</span> {<span class="dt">x</span><span class="op">:</span> <span class="dv">1</span>}<span class="op">;</span></span>
+<span id="cb8-2"><a href="objects.html#cb8-2" tabindex="-1"></a><span class="kw">let</span> source <span class="op">=</span> {<span class="dt">y</span><span class="op">:</span> <span class="dv">2</span><span class="op">,</span> <span class="dt">z</span><span class="op">:</span> <span class="dv">3</span>}<span class="op">;</span></span>
+<span id="cb8-3"><a href="objects.html#cb8-3" tabindex="-1"></a></span>
+<span id="cb8-4"><a href="objects.html#cb8-4" tabindex="-1"></a><span class="cf">for</span> (<span class="kw">let</span> prop_name <span class="kw">of</span> <span class="bu">Object</span><span class="op">.</span><span class="fu">keys</span>(source)) {</span>
+<span id="cb8-5"><a href="objects.html#cb8-5" tabindex="-1"></a>  target[prop_name] <span class="op">=</span> source[prop_name]<span class="op">;</span></span>
+<span id="cb8-6"><a href="objects.html#cb8-6" tabindex="-1"></a>}</span>
+<span id="cb8-7"><a href="objects.html#cb8-7" tabindex="-1"></a></span>
+<span id="cb8-8"><a href="objects.html#cb8-8" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(target)<span class="op">;</span></span></code></pre></div>
+<p>JavaScript menyediakan fungsi bawaan (<em>built-in function</em>) untuk melakukan
+proses <em>extending object</em> tanpa menggunakan <code>for/of</code>, yaitu menggunakan
+<code>Object.assign()</code>.</p>
+<p><strong>extend-object-assign.js</strong></p>
+<div class="sourceCode" id="cb9"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb9-1"><a href="objects.html#cb9-1" tabindex="-1"></a><span class="kw">let</span> target <span class="op">=</span> {<span class="dt">x</span><span class="op">:</span> <span class="dv">1</span>}<span class="op">;</span></span>
+<span id="cb9-2"><a href="objects.html#cb9-2" tabindex="-1"></a><span class="kw">let</span> source <span class="op">=</span> {<span class="dt">y</span><span class="op">:</span> <span class="dv">2</span><span class="op">,</span> <span class="dt">z</span><span class="op">:</span> <span class="dv">3</span>}<span class="op">;</span></span>
+<span id="cb9-3"><a href="objects.html#cb9-3" tabindex="-1"></a></span>
+<span id="cb9-4"><a href="objects.html#cb9-4" tabindex="-1"></a><span class="bu">Object</span><span class="op">.</span><span class="fu">assign</span>(target<span class="op">,</span> source)<span class="op">;</span></span>
+<span id="cb9-5"><a href="objects.html#cb9-5" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(target)<span class="op">;</span></span></code></pre></div>
+<p>Namun contoh di atas akan meng-<em>overwrite</em> (mengganti) nilai property
+<code>target</code> apabila property di <code>source</code> memiliki nama yang sama di <code>target</code>.
+Untuk itu diperlukan trik dengan cara membuat object kosong (<code>{}</code>) sebagai
+target dan menaruh object <code>target</code> sebaga argumen ke 3 dari <code>Object.assign()</code></p>
+<p><strong>extend-object-no-overwrite.js</strong></p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb10-1"><a href="objects.html#cb10-1" tabindex="-1"></a><span class="kw">let</span> target <span class="op">=</span> {<span class="dt">x</span><span class="op">:</span> <span class="dv">1</span>}<span class="op">;</span></span>
+<span id="cb10-2"><a href="objects.html#cb10-2" tabindex="-1"></a><span class="kw">let</span> source <span class="op">=</span> {<span class="dt">x</span><span class="op">:</span> <span class="dv">5</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="dv">2</span><span class="op">,</span> <span class="dt">z</span><span class="op">:</span> <span class="dv">3</span>}</span>
+<span id="cb10-3"><a href="objects.html#cb10-3" tabindex="-1"></a></span>
+<span id="cb10-4"><a href="objects.html#cb10-4" tabindex="-1"></a><span class="bu">Object</span><span class="op">.</span><span class="fu">assign</span>(target<span class="op">,</span> source)<span class="op">;</span>      <span class="co">// property x akan diganti nilainya dengan 5</span></span>
+<span id="cb10-5"><a href="objects.html#cb10-5" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(target)<span class="op">;</span></span>
+<span id="cb10-6"><a href="objects.html#cb10-6" tabindex="-1"></a></span>
+<span id="cb10-7"><a href="objects.html#cb10-7" tabindex="-1"></a>target <span class="op">=</span> {<span class="dt">x</span><span class="op">:</span> <span class="dv">1</span>}<span class="op">;</span></span>
+<span id="cb10-8"><a href="objects.html#cb10-8" tabindex="-1"></a>source <span class="op">=</span> {<span class="dt">x</span><span class="op">:</span> <span class="dv">5</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="dv">2</span><span class="op">,</span> <span class="dt">z</span><span class="op">:</span> <span class="dv">3</span>}</span>
+<span id="cb10-9"><a href="objects.html#cb10-9" tabindex="-1"></a>target <span class="op">=</span> <span class="bu">Object</span><span class="op">.</span><span class="fu">assign</span>({}<span class="op">,</span> source<span class="op">,</span> target)<span class="op">;</span>   <span class="co">// nilai x: 1 akan dipertahankan</span></span>
+<span id="cb10-10"><a href="objects.html#cb10-10" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(target)<span class="op">;</span></span></code></pre></div>
+<p>proses <em>extending object</em> sangat sering dilakukan yang biasanya digunakan
+untuk menggandakan <em>default property</em> ke object baru yang kita buat.</p>
 </div>
 <div id="serializing-objects" class="section level2 hasAnchor" number="7.7">
 <h2><span class="header-section-number">7.7</span> Serializing objects<a href="objects.html#serializing-objects" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Merupakan proses untuk mengubah suatu keadaan object (semua sisi kanan
+ketika kita mendeklarasikan nilai suatu object) menjadi suatu string panjang
+yang dapat kita simpan dan nantinya kita muat (<em>load</em>) ke dalam program.</p>
+<p>Proses untuk mengubah menjadi string panjang menggunakan <code>JSON.stringify()</code>
+dan untuk membacanya kembali menjadi nilai suatu object menggunakan
+<code>JSON.parse()</code> ke dalam program.</p>
+<p><strong>serializing-object.js</strong></p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb11-1"><a href="objects.html#cb11-1" tabindex="-1"></a><span class="kw">let</span> o <span class="op">=</span> {</span>
+<span id="cb11-2"><a href="objects.html#cb11-2" tabindex="-1"></a>  <span class="dt">x</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span> </span>
+<span id="cb11-3"><a href="objects.html#cb11-3" tabindex="-1"></a>  <span class="dt">y</span><span class="op">:</span> {</span>
+<span id="cb11-4"><a href="objects.html#cb11-4" tabindex="-1"></a>    <span class="dt">z</span><span class="op">:</span> [<span class="kw">false</span><span class="op">,</span> <span class="kw">null</span><span class="op">,</span> <span class="st">&quot;&quot;</span>]</span>
+<span id="cb11-5"><a href="objects.html#cb11-5" tabindex="-1"></a>  }}<span class="op">;</span></span>
+<span id="cb11-6"><a href="objects.html#cb11-6" tabindex="-1"></a><span class="kw">let</span> string_result <span class="op">=</span> <span class="bu">JSON</span><span class="op">.</span><span class="fu">stringify</span>(o)<span class="op">;</span></span>
+<span id="cb11-7"><a href="objects.html#cb11-7" tabindex="-1"></a><span class="kw">let</span> parse_result <span class="op">=</span> <span class="bu">JSON</span><span class="op">.</span><span class="fu">parse</span>(string_result)<span class="op">;</span></span>
+<span id="cb11-8"><a href="objects.html#cb11-8" tabindex="-1"></a></span>
+<span id="cb11-9"><a href="objects.html#cb11-9" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;string_result: &quot;</span><span class="op">,</span> string_result)<span class="op">;</span></span>
+<span id="cb11-10"><a href="objects.html#cb11-10" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;parse_result: &quot;</span><span class="op">,</span> parse_result)<span class="op">;</span></span></code></pre></div>
 </div>
 <div id="built-in-object-methods" class="section level2 hasAnchor" number="7.8">
 <h2><span class="header-section-number">7.8</span> Built-in object methods<a href="objects.html#built-in-object-methods" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Pada bagian ini kita akan membahas <em>methods</em> bawaan dari suatu object
+(<em>built-in object methods</em>). <code>Methods</code> adalah istilah lain untuk fungsi
+namun digunakan untuk fungsi yang secara khusus melekat pada suatu object.</p>
+<p>Di bagian ini hanya dijelaskan beberapa saja, lebih lengkap dapat dilihat
+di dokumentasi terkait object di
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object#static_methods">MDN Web Docs</a>.</p>
+<ul>
+<li><p><code>toString()</code> method<br />
+Merupakan <em>method</em> untuk memberi representasi dalam bentuk string
+suatu object. Umumnya <em>built-in method</em> <code>toString()</code> tidak memberikan hasil
+yang informatif, sehingga <em>programmer</em> sering mendefinisikan <em>method</em>
+<code>toString()</code> secara manual</p>
+<p><strong>to-string-demo.js</strong></p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb12-1"><a href="objects.html#cb12-1" tabindex="-1"></a><span class="kw">let</span> point_1 <span class="op">=</span> {</span>
+<span id="cb12-2"><a href="objects.html#cb12-2" tabindex="-1"></a>  <span class="dt">x</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span></span>
+<span id="cb12-3"><a href="objects.html#cb12-3" tabindex="-1"></a>  <span class="dt">y</span><span class="op">:</span> <span class="dv">2</span><span class="op">,</span></span>
+<span id="cb12-4"><a href="objects.html#cb12-4" tabindex="-1"></a>}</span>
+<span id="cb12-5"><a href="objects.html#cb12-5" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(point_1<span class="op">.</span><span class="fu">toString</span>())<span class="op">;</span>    <span class="co">// =&gt; [object Object]</span></span>
+<span id="cb12-6"><a href="objects.html#cb12-6" tabindex="-1"></a></span>
+<span id="cb12-7"><a href="objects.html#cb12-7" tabindex="-1"></a><span class="kw">let</span> point_2 <span class="op">=</span> {</span>
+<span id="cb12-8"><a href="objects.html#cb12-8" tabindex="-1"></a>  <span class="dt">x</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span> </span>
+<span id="cb12-9"><a href="objects.html#cb12-9" tabindex="-1"></a>  <span class="dt">y</span><span class="op">:</span> <span class="dv">2</span><span class="op">,</span></span>
+<span id="cb12-10"><a href="objects.html#cb12-10" tabindex="-1"></a>  <span class="dt">toString</span><span class="op">:</span> <span class="kw">function</span>() { <span class="cf">return</span> <span class="vs">`(</span><span class="sc">${</span><span class="kw">this</span><span class="op">.</span><span class="at">x</span><span class="sc">}</span><span class="vs">, </span><span class="sc">${</span><span class="kw">this</span><span class="op">.</span><span class="at">y</span><span class="sc">}</span><span class="vs">)`</span><span class="op">;</span> }</span>
+<span id="cb12-11"><a href="objects.html#cb12-11" tabindex="-1"></a>}</span>
+<span id="cb12-12"><a href="objects.html#cb12-12" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(point_2<span class="op">.</span><span class="fu">toString</span>())<span class="op">;</span>    <span class="co">// =&gt; (1, 2)</span></span></code></pre></div></li>
+<li><p><code>valueOf()</code> method<br />
+<em>Method</em> ini digunakan untuk melakukan konversi ke tipe data selain
+tipe data string, misalnya ketika object dioperasikan melalui operasi
+penjumlahan dengan tipe data lain selain string.
+Secara <em>default</em>, <em>method</em> <code>valueOf</code> memberikan hasil yang tidak terlalu
+informatif, namun kita dapat mendefinisikan ulang <em>method</em> <code>valueOf</code>
+seperti yang kita mau.</p>
+<p><strong>value-of-demo.js</strong></p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb13-1"><a href="objects.html#cb13-1" tabindex="-1"></a><span class="kw">let</span> point_1 <span class="op">=</span> {</span>
+<span id="cb13-2"><a href="objects.html#cb13-2" tabindex="-1"></a>  <span class="dt">x</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span></span>
+<span id="cb13-3"><a href="objects.html#cb13-3" tabindex="-1"></a>  <span class="dt">y</span><span class="op">:</span> <span class="dv">2</span><span class="op">,</span></span>
+<span id="cb13-4"><a href="objects.html#cb13-4" tabindex="-1"></a>}</span>
+<span id="cb13-5"><a href="objects.html#cb13-5" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(point_1<span class="op">.</span><span class="fu">valueOf</span>())<span class="op">;</span>  <span class="co">// =&gt; { x: 1, y: 2}</span></span>
+<span id="cb13-6"><a href="objects.html#cb13-6" tabindex="-1"></a></span>
+<span id="cb13-7"><a href="objects.html#cb13-7" tabindex="-1"></a><span class="kw">let</span> point_2 <span class="op">=</span> {</span>
+<span id="cb13-8"><a href="objects.html#cb13-8" tabindex="-1"></a>  <span class="dt">x</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span></span>
+<span id="cb13-9"><a href="objects.html#cb13-9" tabindex="-1"></a>  <span class="dt">y</span><span class="op">:</span> <span class="dv">2</span><span class="op">,</span></span>
+<span id="cb13-10"><a href="objects.html#cb13-10" tabindex="-1"></a>  <span class="dt">valueOf</span><span class="op">:</span> <span class="kw">function</span>() { <span class="cf">return</span> [<span class="kw">this</span><span class="op">.</span><span class="at">x</span><span class="op">,</span> <span class="kw">this</span><span class="op">.</span><span class="at">y</span>]<span class="op">;</span> }</span>
+<span id="cb13-11"><a href="objects.html#cb13-11" tabindex="-1"></a>}</span>
+<span id="cb13-12"><a href="objects.html#cb13-12" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(point_2<span class="op">.</span><span class="fu">valueOf</span>())<span class="op">;</span>   <span class="co">// =&gt; [1, 2]</span></span></code></pre></div></li>
+<li><p><code>toJSON()</code> method<br />
+Merupakan <em>method</em> yang digunakan oleh <code>JSON.stringify()</code>
+untuk melakukan konversi ke dalam bentuk string, nilai keadaan object.
+Dapat digunakan untuk melakukan modifikasi perintah <code>JSON.stringify</code>
+menjadi sesuai keinginan kita</p>
+<p><strong>to-json-demo.js</strong></p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb14-1"><a href="objects.html#cb14-1" tabindex="-1"></a><span class="kw">let</span> point_1 <span class="op">=</span> {</span>
+<span id="cb14-2"><a href="objects.html#cb14-2" tabindex="-1"></a>  <span class="dt">x</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span></span>
+<span id="cb14-3"><a href="objects.html#cb14-3" tabindex="-1"></a>  <span class="dt">y</span><span class="op">:</span> <span class="dv">2</span></span>
+<span id="cb14-4"><a href="objects.html#cb14-4" tabindex="-1"></a>}</span>
+<span id="cb14-5"><a href="objects.html#cb14-5" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="bu">JSON</span><span class="op">.</span><span class="fu">stringify</span>(point_1))<span class="op">;</span></span>
+<span id="cb14-6"><a href="objects.html#cb14-6" tabindex="-1"></a></span>
+<span id="cb14-7"><a href="objects.html#cb14-7" tabindex="-1"></a><span class="kw">let</span> point_2 <span class="op">=</span> {</span>
+<span id="cb14-8"><a href="objects.html#cb14-8" tabindex="-1"></a>  <span class="dt">x</span><span class="op">:</span> <span class="dv">1</span><span class="op">,</span> </span>
+<span id="cb14-9"><a href="objects.html#cb14-9" tabindex="-1"></a>  <span class="dt">y</span><span class="op">:</span> <span class="dv">2</span><span class="op">,</span></span>
+<span id="cb14-10"><a href="objects.html#cb14-10" tabindex="-1"></a>  <span class="dt">toString</span><span class="op">:</span> <span class="kw">function</span>() { <span class="cf">return</span> <span class="vs">`(</span><span class="sc">${</span><span class="kw">this</span><span class="op">.</span><span class="at">x</span><span class="sc">}</span><span class="vs">, </span><span class="sc">${</span><span class="kw">this</span><span class="op">.</span><span class="at">y</span><span class="sc">}</span><span class="vs">)`</span><span class="op">;</span> }<span class="op">,</span></span>
+<span id="cb14-11"><a href="objects.html#cb14-11" tabindex="-1"></a>  <span class="dt">toJSON</span><span class="op">:</span> <span class="kw">function</span>() { <span class="cf">return</span> <span class="kw">this</span><span class="op">.</span><span class="fu">toString</span>()<span class="op">;</span> }</span>
+<span id="cb14-12"><a href="objects.html#cb14-12" tabindex="-1"></a>}<span class="op">;</span></span>
+<span id="cb14-13"><a href="objects.html#cb14-13" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="bu">JSON</span><span class="op">.</span><span class="fu">stringify</span>(point_2))<span class="op">;</span></span></code></pre></div></li>
+</ul>
 </div>
 <div id="additional-syntaxes-for-literal-objects" class="section level2 hasAnchor" number="7.9">
 <h2><span class="header-section-number">7.9</span> Additional syntaxes for literal objects<a href="objects.html#additional-syntaxes-for-literal-objects" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ul>
+<li><p>Spread operator (<code>...</code>)<br />
+Merupakan sintaks yang digunakan untuk menggantikan perintah <code>Object.assign()</code></p>
+<p><strong>spread-op.js</strong></p>
+<div class="sourceCode" id="cb15"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb15-1"><a href="objects.html#cb15-1" tabindex="-1"></a><span class="kw">let</span> target <span class="op">=</span> {<span class="dt">x</span><span class="op">:</span> <span class="dv">1</span>}<span class="op">;</span></span>
+<span id="cb15-2"><a href="objects.html#cb15-2" tabindex="-1"></a><span class="kw">let</span> source <span class="op">=</span> {<span class="dt">x</span><span class="op">:</span> <span class="dv">5</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="dv">2</span><span class="op">,</span> <span class="dt">z</span><span class="op">:</span> <span class="dv">3</span>}</span>
+<span id="cb15-3"><a href="objects.html#cb15-3" tabindex="-1"></a></span>
+<span id="cb15-4"><a href="objects.html#cb15-4" tabindex="-1"></a>target <span class="op">=</span> {<span class="op">...</span>target<span class="op">,</span> <span class="op">...</span>source}<span class="op">;</span>  <span class="co">// property x akan diganti nilainya dengan 5</span></span>
+<span id="cb15-5"><a href="objects.html#cb15-5" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(target)<span class="op">;</span></span>
+<span id="cb15-6"><a href="objects.html#cb15-6" tabindex="-1"></a></span>
+<span id="cb15-7"><a href="objects.html#cb15-7" tabindex="-1"></a>target <span class="op">=</span> {<span class="dt">x</span><span class="op">:</span> <span class="dv">1</span>}<span class="op">;</span></span>
+<span id="cb15-8"><a href="objects.html#cb15-8" tabindex="-1"></a>source <span class="op">=</span> {<span class="dt">x</span><span class="op">:</span> <span class="dv">5</span><span class="op">,</span> <span class="dt">y</span><span class="op">:</span> <span class="dv">2</span><span class="op">,</span> <span class="dt">z</span><span class="op">:</span> <span class="dv">3</span>}</span>
+<span id="cb15-9"><a href="objects.html#cb15-9" tabindex="-1"></a>target <span class="op">=</span> {<span class="op">...</span>source<span class="op">,</span> <span class="op">...</span>target}<span class="op">;</span>   <span class="co">// nilai x: 1 akan dipertahankan</span></span>
+<span id="cb15-10"><a href="objects.html#cb15-10" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(target)<span class="op">;</span></span></code></pre></div></li>
+<li><p>Special methods (getter and setter)<br />
+Methods ini disediakan agar ketika dilakukan proses <em>querying</em> (pemanggilan
+property) dan pengaturan nilai property dapat dimodifikasi sesuai
+keinginan kita.</p>
+<p><strong>getter-and-setter.js</strong></p>
+<div class="sourceCode" id="cb16"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb16-1"><a href="objects.html#cb16-1" tabindex="-1"></a><span class="kw">let</span> student <span class="op">=</span> {</span>
+<span id="cb16-2"><a href="objects.html#cb16-2" tabindex="-1"></a>  <span class="dt">name</span><span class="op">:</span> <span class="st">&quot;Anastashia&quot;</span><span class="op">,</span></span>
+<span id="cb16-3"><a href="objects.html#cb16-3" tabindex="-1"></a>  <span class="dt">student_id</span><span class="op">:</span> <span class="dv">10111047</span><span class="op">,</span></span>
+<span id="cb16-4"><a href="objects.html#cb16-4" tabindex="-1"></a>  <span class="dt">age</span><span class="op">:</span> <span class="dv">22</span><span class="op">,</span></span>
+<span id="cb16-5"><a href="objects.html#cb16-5" tabindex="-1"></a></span>
+<span id="cb16-6"><a href="objects.html#cb16-6" tabindex="-1"></a>  <span class="kw">get</span> <span class="fu">name_str</span>() {<span class="cf">return</span> <span class="vs">`Student&#39;s name: </span><span class="sc">${</span><span class="kw">this</span><span class="op">.</span><span class="at">name</span><span class="sc">}</span><span class="vs">`</span>}<span class="op">,</span></span>
+<span id="cb16-7"><a href="objects.html#cb16-7" tabindex="-1"></a>  <span class="kw">get</span> <span class="fu">age_str</span>() { <span class="cf">return</span> <span class="vs">`</span><span class="sc">${</span><span class="kw">this</span><span class="op">.</span><span class="at">name</span><span class="sc">}</span><span class="vs">&#39;s age is </span><span class="sc">${</span><span class="kw">this</span><span class="op">.</span><span class="at">age</span><span class="sc">}</span><span class="vs">`</span>}<span class="op">,</span></span>
+<span id="cb16-8"><a href="objects.html#cb16-8" tabindex="-1"></a>  <span class="kw">get</span> <span class="fu">student_id_str</span>() { <span class="cf">return</span> <span class="vs">`</span><span class="sc">${</span><span class="kw">this</span><span class="op">.</span><span class="at">name</span><span class="sc">}</span><span class="vs">&#39;s student id is </span><span class="sc">${</span><span class="kw">this</span><span class="op">.</span><span class="at">student_id</span><span class="sc">}</span><span class="vs">`</span>}<span class="op">,</span></span>
+<span id="cb16-9"><a href="objects.html#cb16-9" tabindex="-1"></a></span>
+<span id="cb16-10"><a href="objects.html#cb16-10" tabindex="-1"></a>  <span class="kw">set</span> <span class="fu">prop_val</span>([new_name<span class="op">,</span> new_student_id<span class="op">,</span> new_age]) {</span>
+<span id="cb16-11"><a href="objects.html#cb16-11" tabindex="-1"></a>    <span class="kw">this</span><span class="op">.</span><span class="at">name</span> <span class="op">=</span> new_name<span class="op">;</span></span>
+<span id="cb16-12"><a href="objects.html#cb16-12" tabindex="-1"></a>    <span class="kw">this</span><span class="op">.</span><span class="at">student_id</span> <span class="op">=</span> new_student_id<span class="op">;</span></span>
+<span id="cb16-13"><a href="objects.html#cb16-13" tabindex="-1"></a>    <span class="kw">this</span><span class="op">.</span><span class="at">age</span> <span class="op">=</span> new_age<span class="op">;</span></span>
+<span id="cb16-14"><a href="objects.html#cb16-14" tabindex="-1"></a>  }</span>
+<span id="cb16-15"><a href="objects.html#cb16-15" tabindex="-1"></a>}</span>
+<span id="cb16-16"><a href="objects.html#cb16-16" tabindex="-1"></a></span>
+<span id="cb16-17"><a href="objects.html#cb16-17" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(student<span class="op">.</span><span class="at">name</span>)<span class="op">;</span></span>
+<span id="cb16-18"><a href="objects.html#cb16-18" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(student<span class="op">.</span><span class="at">name_str</span>)<span class="op">;</span></span>
+<span id="cb16-19"><a href="objects.html#cb16-19" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(student<span class="op">.</span><span class="at">student_id_str</span>)<span class="op">;</span></span>
+<span id="cb16-20"><a href="objects.html#cb16-20" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(student<span class="op">.</span><span class="at">age_str</span>)<span class="op">;</span></span>
+<span id="cb16-21"><a href="objects.html#cb16-21" tabindex="-1"></a></span>
+<span id="cb16-22"><a href="objects.html#cb16-22" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>()<span class="op">;</span></span>
+<span id="cb16-23"><a href="objects.html#cb16-23" tabindex="-1"></a>student<span class="op">.</span><span class="at">prop_val</span> <span class="op">=</span> [<span class="st">&quot;Kyrlov&quot;</span><span class="op">,</span> <span class="dv">10111051</span><span class="op">,</span> <span class="dv">23</span>]<span class="op">;</span></span>
+<span id="cb16-24"><a href="objects.html#cb16-24" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(student<span class="op">.</span><span class="at">name_str</span>)<span class="op">;</span></span>
+<span id="cb16-25"><a href="objects.html#cb16-25" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(student<span class="op">.</span><span class="at">student_id_str</span>)<span class="op">;</span></span>
+<span id="cb16-26"><a href="objects.html#cb16-26" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(student<span class="op">.</span><span class="at">age_str</span>)<span class="op">;</span></span></code></pre></div></li>
+</ul>
 </div>
 <div id="exercises-4" class="section level2 unnumbered hasAnchor">
 <h2>Exercises<a href="objects.html#exercises-4" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ol style="list-style-type: decimal">
+<li><p>[30 poin] Tuliskan pengalaman kalian selama seminggu eksplorasi terkait <em>object</em> type ini. Ceritakan dengan bahasa yang kalian pahami.</p></li>
+<li><p>[70 poin]</p>
+<ol style="list-style-type: decimal">
+<li>Buat suatu object kosong (tanpa property apapun)
+dengan nama <code>Person1</code>.<br />
+</li>
+<li>Cetak object <code>Person1</code> tersebut di console</li>
+<li>Tambahkan properties berikut:
+<code>name: "Anastashia",      height: "178 cm",      weight: "60 kg",      skill: "photography, cosplayer"</code></li>
+<li>Tampilkan nilai nya saja dari properties yang telah ditambahkan</li>
+<li>Gandakan <code>Person1</code> ke <code>Person2</code> dan gunakan data berikut:
+<code>name: "Kyrlov",      height: "188 cm",      weight: "78 kg",      skill: "game developer, procedural animation"</code></li>
+<li>Tukarkan data-data <code>Person1</code> ke <code>Person2</code> demikian pula sebaliknya.<br />
+<em>Petunjuk</em>: Gunakan <em>destructuring assignment</em>.</li>
+<li>Cetak object <code>Person1</code> dan <code>Person2</code> ke console.</li>
+</ol></li>
+</ol>
 
 </div>
 </div>
@@ -308,7 +737,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/USERNAME/REPO/edit/BRANCH/07-objects.Rmd",
+"link": "https://github.com/LugoBlogger/struct-prog-js/edit/main/07-objects.Rmd",
 "text": "Edit"
 },
 "history": {

@@ -12,7 +12,7 @@ set in the _output.yml file.</p>" />
 
   <meta property="og:title" content="2 Your first time with JavaScript | Structured Programming with JavaScript" />
   <meta property="og:type" content="book" />
-  
+  <meta property="og:image" content="https://github.com/LugoBlogger/struct-prog-js/blob/main/images/cover.png" />
   <meta property="og:description" content="<p>This is a minimal example of using the bookdown package to write a book.
 The HTML output format for this example is bookdown::gitbook,
 set in the _output.yml file.</p>" />
@@ -24,7 +24,7 @@ set in the _output.yml file.</p>" />
   <meta name="twitter:description" content="<p>This is a minimal example of using the bookdown package to write a book.
 The HTML output format for this example is bookdown::gitbook,
 set in the _output.yml file.</p>" />
-  
+  <meta name="twitter:image" content="https://github.com/LugoBlogger/struct-prog-js/blob/main/images/cover.png" />
 
 <meta name="author" content="Henokh Lugo Hariyanto Arif Wicaksono Septyanto" />
 
@@ -59,6 +59,71 @@ set in the _output.yml file.</p>" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
+<style type="text/css">
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
 
 <style type="text/css">
   
@@ -83,13 +148,14 @@ set in the _output.yml file.</p>" />
 <li class="divider"></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Prelude</a>
 <ul>
-<li class="chapter" data-level="0.1" data-path="index.html"><a href="index.html#intended-reader"><i class="fa fa-check"></i><b>0.1</b> Intended reader</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#intended-reader"><i class="fa fa-check"></i>Intended reader</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#how-to-read-and-code"><i class="fa fa-check"></i>How to read (and code)</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#colophon"><i class="fa fa-check"></i>Colophon</a></li>
 </ul></li>
 <li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
 <ul>
 <li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#structured-programming"><i class="fa fa-check"></i><b>1.1</b> Structured programming</a></li>
-<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#motivation"><i class="fa fa-check"></i><b>1.2</b> Motivation</a></li>
+<li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#the-goal-of-this-book"><i class="fa fa-check"></i><b>1.2</b> The goal of this book</a></li>
 <li class="chapter" data-level="1.3" data-path="introduction.html"><a href="introduction.html#how-to-learn"><i class="fa fa-check"></i><b>1.3</b> How to learn</a></li>
 <li class="chapter" data-level="1.4" data-path="introduction.html"><a href="introduction.html#short-tips"><i class="fa fa-check"></i><b>1.4</b> Short tips</a></li>
 </ul></li>
@@ -217,9 +283,6 @@ set in the _output.yml file.</p>" />
 </ul></li>
 <li class="chapter" data-level="15" data-path="javascript-in-web-browser-learning-animation.html"><a href="javascript-in-web-browser-learning-animation.html"><i class="fa fa-check"></i><b>15</b> JavaScript in Web Browser: Learning animation</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
-<li class="divider"></li>
-<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-
 </ul>
 
       </nav>
@@ -241,24 +304,153 @@ set in the _output.yml file.</p>" />
 <h1><span class="header-section-number">2</span> Your first time with JavaScript<a href="your-first-time-with-javascript.html#your-first-time-with-javascript" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <div id="a-brief-story-about-javascript" class="section level2 hasAnchor" number="2.1">
 <h2><span class="header-section-number">2.1</span> A brief story about JavaScript<a href="your-first-time-with-javascript.html#a-brief-story-about-javascript" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Bagian ini hanya menambahkan sedikit yang akan (sudah?) dijelaskan dalam kuliah.<br />
+JavaScript bermula dari pengembangan <em>web browser</em> Netscape Navigator.
+Dalam rilis Navigator tahun 1995, Brendan Eich mengembangkan bahasa pemrograman
+JavaScript. <em>Web browser</em> sebelumnya masih sangat statis (tidak dapat
+menampilkan hal yang bergerak / animasi). Berikut sedikit gambaran web statis
+sebelum JavaScript</p>
+<p><img src="images/ncsa-mosaic-1.0.jpg" width="600"></p>
+<p>Pada release perdana JavaScript di <em>web browser</em> Netscape Navigator 2.0, saat
+itu JavaScript hanya mampu menampilkan <em>dialog alert box</em>, belum seperti
+tampilan pada zaman sekarang</p>
+<p><img src="images/netscape2-first-release-javascript.png" width="600">”</p>
+<p>(video selengkapnya dapat dilihat <a href="https://cdn.auth0.com/blog/js-history/netscape2.mp4">disini</a>)</p>
+<p>Dibandingkan dengan kemampuan JavaScript di tahun 2022 yang mampu untuk melakukan
+<em>onlide coding</em> dan menampilkan hasilnya di <em>web browser</em> (sumber: <a href="https://codepen.io/jh3y/pen/GRBVNJE">CodePen: CSS Trigonometric function DNA strand 🤓</a>)</p>
+<p><img src="images/animation-using-javascript.png" width="600"></p>
+<p>Di bagian berikutnya kita akan membahas hal yang lebih sederhana yaitu
+cara untuk menjalankan kode JavaScript di <em>web browser</em>.</p>
 </div>
 <div id="how-to-run-javascript-in-the-web-browser" class="section level2 hasAnchor" number="2.2">
 <h2><span class="header-section-number">2.2</span> How to run JavaScript in the web browser<a href="your-first-time-with-javascript.html#how-to-run-javascript-in-the-web-browser" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Berikutnya kita akan mencoba menjalankan kode JavaScript berikut</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb1-1"><a href="your-first-time-with-javascript.html#cb1-1" tabindex="-1"></a>  <span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(<span class="st">&quot;Hello world!&quot;</span>)<span class="op">;</span></span></code></pre></div>
+<p>Untuk dapat menjalankan perintah tersebut kita akan melalui berbagai tahapan
+berikut:
+1. Kita siapkan terlebih dahulu direktori untuk menampung semua berkas
+JavaScript dan satu tambahan berkas HTML. Misal kita buat nama direktory
+<code>hello</code>. Di dalam direktori tersebut, kita isi berkas berekstensi
+JavaScript, <code>.js</code>, dengan nama <code>hello.js</code> yang berisikan kode
+JavaScript di atas. Untuk membuat kedua berkas tersebut dapat menggunakan
+<em>text editor</em> seperti Notepad, Notepad++, GEdit, atau VSCode (yang
+akan kita jelaskan di bagian berikutnya).</p>
+<ol start="2" style="list-style-type: decimal">
+<li><p>Berikutnya kita buat berkas HTML berekstensi <code>.html</code> dan berisi kode
+HTML berikut:
+<code>html     &lt;script src="hello.js"&gt;&lt;/script&gt;</code>
+Kita namakan berkas tersebut <code>hello.html</code>.</p></li>
+<li><p>Setelah kedua berkas dibuat, buka <em>web browser</em> favorit kalian.
+Pada contoh ini, kita akan menggunakan Google Chrome <em>web browser</em>
+yang terpasang pada sistem operasi Linux. Buka halaman baru,
+lalu tekan <code>Ctrl + O</code> untuk membuka berkas <code>hello.html</code>.
+Maka halaman baru tersebut hanya menampilkan halaman berwarna putih
+kosong<br />
+<img src="images/web-browser-open-hello-world-html.png" width="600"></p></li>
+<li><p>Selanjutnya, tekan tombol <code>F12</code> untuk masuk ke jendela <em>Developer Tools</em>
+dari Google Chrome <em>web browser</em>. Maka akan muncul keluaran dari program
+yaitu menuliskan <code>"Hello World!"</code> pada bagian <code>console</code><br />
+<img src="images/hello-world-output.png" width="600"></p></li>
+<li><p>Kita dapat mengubah-ubah isi dari <code>hello.js</code>, lalu kita perlu
+me-<em>refresh</em> halaman <code>hello.html</code> untuk melihat perubahan di jendela
+<em>console</em> Google Chrome. Pada tahap ini kita melihat bahwa sebenarnya
+<em>web browser</em> sudah memuat suatu program untuk menerjemahkan kode
+JavaScript tanpa perlu menginstal program tambahan
+<img src="images/three-windows-to-edit-refresh-update.png" width="600"></p></li>
+</ol>
 </div>
 <div id="vscode-installation" class="section level2 hasAnchor" number="2.3">
 <h2><span class="header-section-number">2.3</span> VSCode installation<a href="your-first-time-with-javascript.html#vscode-installation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Ada banyak tutorial di internet dan YouTube mengenai instalasi VSCode di
+Windows, Mac, dan Linux. Namun disini hanya disampaikan secara singkat
+instalasi VSCode.</p>
+<ol style="list-style-type: decimal">
+<li><p>Pertama-tama, unduh berkas <em>installer</em> di tautan berikut:
+<a href="https://code.visualstudio.com/download" class="uri">https://code.visualstudio.com/download</a>.<br />
+Pilih sesuai dengan jenis sistem operasi yang kita miliki.<br />
+<img src="images/download-vscode-installer.png" width="600"></p></li>
+<li><p>Setelah itu jalankan <em>installer</em> Windows dan ikuti perintah yang ditampilkan
+pada dialog instalasi.</p></li>
+<li><p>Jika telah selesai dilakukan instalasi, maka akan muncul tampilan jendela
+<em>Welcome page</em>
+<img src="images/welcome-page-vscode.png" width="600"><br />
+Berikutnya dapat dipilih <em>working directory</em> tempat menaruh berkas-berkas
+kode JavaScript yang akan dipelajari sepanjang sesi praktikum.
+Agar lebih tertata-rapi buat di dalamnya direktori tambahan yang memisahkan
+berkas-berkas untuk tiap pertemuan, misal: <code>week-01</code>, <code>week-02</code>, dst.</p></li>
+</ol>
 </div>
 <div id="node.js-installation" class="section level2 hasAnchor" number="2.4">
 <h2><span class="header-section-number">2.4</span> <code>Node.js</code> installation<a href="your-first-time-with-javascript.html#node.js-installation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Untuk <code>Node.js</code> yang digunakan adalah versi LTS (Long-Term Support) 20.11.0
+yang ter-<em>update</em> sampai bulan Januari 2024. Versi <code>Node.js</code> ini harus
+di-instal dengan versi NPM (Node Package Manager) yang bersesuaian
+yaitu versi 10.2.4.</p>
+<p>Agar bisa menggunakan berbagai versi <code>Node.js</code>, maka diperlukan NVM
+(Node Version Manager). Versi yang akan kita gunakan adalah versi 1.1.12
+yang ter-<em>update</em> hingga November 2023.</p>
+<p>Tahapan instalasi <code>Node.js</code> untuk Window tidak sederhana, namun panduannya bisa
+diikuti dari
+1. <a href="https://github.com/coreybutler/nvm-windows/wiki#manual-installation">NVM for Windows</a>.
+2. <a href="https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-windows">Install NodeJS on Windows</a></p>
+<p>Catatan: Setelah instalasi untuk dilakukan restart supaya dapat menjalankan
+perintah <code>node</code> di PowerShell.</p>
+<p>Perlu diingat NVM for Windows sangat berbeda dengan
+NVM yang ada untuk Mac dan Linux. Saya menyarankan untuk mengikuti panduan
+nomor 2, meskipun sebenarnya kedua panduan melakukan instalasi file yang sama.</p>
+<p>Untuk tahapan instalasi Linux atau Mac sangat mudah, tinggal mengetikan baris- baris perintah berikut di Terminal</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb2-1"><a href="your-first-time-with-javascript.html#cb2-1" tabindex="-1"></a><span class="co"># Unduh dan jalankan script untuk menginstall NVM versi 0.39.7</span></span>
+<span id="cb2-2"><a href="your-first-time-with-javascript.html#cb2-2" tabindex="-1"></a><span class="ex">curl</span> <span class="at">-o-</span> https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh <span class="kw">|</span> <span class="fu">bash</span></span>
+<span id="cb2-3"><a href="your-first-time-with-javascript.html#cb2-3" tabindex="-1"></a></span>
+<span id="cb2-4"><a href="your-first-time-with-javascript.html#cb2-4" tabindex="-1"></a><span class="co"># Untuk memverifikasi proses instalasi</span></span>
+<span id="cb2-5"><a href="your-first-time-with-javascript.html#cb2-5" tabindex="-1"></a><span class="ex">nvm</span> <span class="at">-v</span> </span>
+<span id="cb2-6"><a href="your-first-time-with-javascript.html#cb2-6" tabindex="-1"></a></span>
+<span id="cb2-7"><a href="your-first-time-with-javascript.html#cb2-7" tabindex="-1"></a><span class="co"># Install node.js dan NPM yang bersesuain dengan versi node js 20.11.0 </span></span>
+<span id="cb2-8"><a href="your-first-time-with-javascript.html#cb2-8" tabindex="-1"></a><span class="ex">nvm</span> install 20.11.0</span></code></pre></div>
 </div>
 <div id="running-javascript-program-in-node.js" class="section level2 hasAnchor" number="2.5">
 <h2><span class="header-section-number">2.5</span> Running Javascript program in <code>Node.js</code><a href="your-first-time-with-javascript.html#running-javascript-program-in-node.js" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Setelah proses instalasi VSCode dan Node.js telah berhasil dilakukan, maka
+kita dapat melakukan proses pembelajaran JavaScript lebih mudah.</p>
+<p>Dalam direktori yang telah dibuat di dalam VSCode, setelah membuat berkas <code>.js</code>
+kita dapat menjalankan kode JavaScript pada bagian terminal di VSCode (jika
+bagian terminal di VSCode belum muncul, klik menu “Terminal” dan pilih
+“New Terminal”).</p>
+<p>Arahkan direktory di tempat berkas JavaScript yang ingin dijalankan berada,
+lalu ketik perintah berikut di terminal VSCode.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="your-first-time-with-javascript.html#cb3-1" tabindex="-1"></a><span class="ex">node</span> nama_file.js</span></code></pre></div>
+<p>Berikut gambaran menggunakan <code>Node.js</code> dan VScode beserta penulisan kode
+JavaScript<br />
+<img src="images/nodejs-and-vscode.png" width="800"></p>
 </div>
 <div id="short-tutorial-of-using-markdown" class="section level2 hasAnchor" number="2.6">
 <h2><span class="header-section-number">2.6</span> Short tutorial of using Markdown<a href="your-first-time-with-javascript.html#short-tutorial-of-using-markdown" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p>Bisa mengikuti panduan berikut: <a href="https://www.markdownguide.org/basic-syntax/">Markdown Guide</a>.
+Di dalam panduan tersebut, kita bisa mencoba satu per satu sintaks yang
+dimiliki oleh Markdown. Namun kita bisa mencoba kode Markdown yang diberikan
+pada gambar di bawah ini</p>
+<p><img src="images/markdown-example.png" width="800"></p>
+<p>Untuk bisa menampilkan kode Markdown dalam bentuk seperti yang disebelah kanan,
+perlu di-install VSCode extension: <a href="https://marketplace.visualstudio.com/items?itemName=bierner.markdown-preview-github-styles"><strong>Markdown Preview Github Styling</strong></a>.</p>
 </div>
 <div id="exercise" class="section level2 unnumbered hasAnchor">
 <h2>Exercise<a href="your-first-time-with-javascript.html#exercise" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<ol style="list-style-type: decimal">
+<li><p>Write your summary or findings after reading this chapter.</p></li>
+<li><p>Berikan kelebihan dan kekurangan menggunakan <em>browser</em> dan <em>Node.js</em>.</p></li>
+<li><p>Jalankan program berikut melalui <em>Node.js</em>.</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode js"><code class="sourceCode javascript"><span id="cb4-1"><a href="your-first-time-with-javascript.html#cb4-1" tabindex="-1"></a><span class="kw">let</span> randomQuote<span class="op">;</span></span>
+<span id="cb4-2"><a href="your-first-time-with-javascript.html#cb4-2" tabindex="-1"></a><span class="kw">const</span> quotes <span class="op">=</span> [</span>
+<span id="cb4-3"><a href="your-first-time-with-javascript.html#cb4-3" tabindex="-1"></a>  <span class="st">&quot;The best way to predict the future is to create it.&quot;</span><span class="op">,</span></span>
+<span id="cb4-4"><a href="your-first-time-with-javascript.html#cb4-4" tabindex="-1"></a>  <span class="st">&quot;Be the change you wish to see in the world.&quot;</span><span class="op">,</span></span>
+<span id="cb4-5"><a href="your-first-time-with-javascript.html#cb4-5" tabindex="-1"></a>  <span class="st">&quot;Innovation distinguishes between a leader and a follower.&quot;</span><span class="op">,</span></span>
+<span id="cb4-6"><a href="your-first-time-with-javascript.html#cb4-6" tabindex="-1"></a>  <span class="st">&quot;Believe you can and you&#39;re halfway there.&quot;</span><span class="op">,</span></span>
+<span id="cb4-7"><a href="your-first-time-with-javascript.html#cb4-7" tabindex="-1"></a>  <span class="st">&quot;Your time is limited, don&#39;t waste it living someone else&#39;s life.&quot;</span>]<span class="op">;</span></span>
+<span id="cb4-8"><a href="your-first-time-with-javascript.html#cb4-8" tabindex="-1"></a></span>
+<span id="cb4-9"><a href="your-first-time-with-javascript.html#cb4-9" tabindex="-1"></a>randomQuote <span class="op">=</span> quotes[<span class="bu">Math</span><span class="op">.</span><span class="fu">floor</span>(<span class="bu">Math</span><span class="op">.</span><span class="fu">random</span>() <span class="op">*</span> quotes<span class="op">.</span><span class="at">length</span>)]<span class="op">;</span></span>
+<span id="cb4-10"><a href="your-first-time-with-javascript.html#cb4-10" tabindex="-1"></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(randomQuote)<span class="op">;</span></span></code></pre></div>
+<p>Selanjutnya apakah yang terjadi jika secara terus menerus hanya menjalankan dua baris terakhir?</p></li>
+</ol>
 
 </div>
 </div>
@@ -299,7 +491,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/USERNAME/REPO/edit/BRANCH/02-preparation.Rmd",
+"link": "https://github.com/LugoBlogger/struct-prog-js/edit/main/02-preparation.Rmd",
 "text": "Edit"
 },
 "history": {
