@@ -5,14 +5,22 @@ in a quick pace. For someone who wants to purse a career in
 digital world as a programmer or software developer in web application
 understanding about the mechanism of how the web is running is crucial.
 
-According to StackOverflow, JavaScript is the most used programming
-language for creating web applications
+All web application is building on the three languages: HTML, CSS, and
+JavaScript. Only JavaScript is the programming language. The two remaining
+are markup language.
 
-Salary
+According to 2024 Developer Survey by Stack Overflow, JavaScript is the most used programming language among the surveyed participants ^[https://survey.stackoverflow.co/2024/technology/#1-programming-scripting-and-markup-languages].
 
-The backbone of the webpage is HTML, CSS, and JavaScript
+But there is a catch. There are many contender that has better capabilities
+than Javascript, one of the example is TypeScript. This programming
+language is a superset of JavaScript. It has many intersting features
+like type annoations to make our code more consistent without worrying
+automatic type conversion when writing a program. In the far future when
+JavaScript will be replaced by TypeScript, we will update this book.
+For now, we stick to learn JavaScript. It is complicated and full of 
+unexpected results, but when we understand that nitty-grity, we are
+ready to be an advanced JavaScript developer.
 
-The future of Javascript will be replaced by TypeScript?
 
 ## Structured programming
 
